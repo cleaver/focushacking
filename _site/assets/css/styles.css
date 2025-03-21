@@ -1,0 +1,5 @@
+nav { display: flex; justify-content: flex-start; gap: 1rem; }
+
+nav .current { color: green; }
+
+/*# sourceMappingURL=styles.css.map */

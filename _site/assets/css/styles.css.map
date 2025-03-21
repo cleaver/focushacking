@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss"
+	],
+	"sourcesContent": [
+		"nav {\n    display: flex;\n    justify-content: flex-start;\n    gap: 1rem;\n    .current {\n        color: green;\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,GAAG,CAAC,EACA,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,UAAU,EAC3B,GAAG,EAAE,IAAI,GAIZ;;AAPD,AAII,GAJD,CAIC,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf"
+}
