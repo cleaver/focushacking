@@ -2,10 +2,36 @@ backend:
   name: github
   repo: cleaver/focushacking
   branch: main
+  auth_endpoint: auth
 media_folder: "assets/uploads"
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "_posts/"
-    fields:
-      - { name: Title }
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "home",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About Page"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      # Add more pages as needed
