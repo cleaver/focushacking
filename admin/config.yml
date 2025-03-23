@@ -3,6 +3,9 @@ backend:
   repo: cleaver/focushacking
   branch: main
   auth_endpoint: auth
+  media_folder: "assets/images/uploads"
+  public_folder: "/assets/images/uploads"
+
 media_folder: "assets/uploads"
 collections:
   - name: "pages"
