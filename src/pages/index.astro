@@ -26,6 +26,14 @@ const populations = [
 const grades = ["A", "B", "C", "D", "?"];
 const difficulties = ["beginner", "intermediate", "advanced"];
 
+const GRADE_INFO = {
+  A: { label: "Strong Evidence", desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect" },
+  B: { label: "Good Evidence", desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect" },
+  C: { label: "Limited Evidence", desc: "1–2 RCTs or mixed results, methodological limitations" },
+  D: { label: "Weak Evidence", desc: "Primarily observational, self-report, or single underpowered study" },
+  "?": { label: "Insufficient Evidence", desc: "No peer-reviewed evidence found" },
+};
+
 const jsonData = JSON.stringify(all.map((t) => ({
   id: t.id,
   slug: t.slug,
@@ -77,6 +85,30 @@ const jsonData = JSON.stringify(all.map((t) => ({
       <div>
         <div class="stat-value">100%</div>
         <div class="stat-label">Free</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grade legend -->
+  <div class="grade-legend">
+    <button id="grade-legend-toggle" type="button" class="grade-legend-toggle" aria-expanded="false">
+      📊 How grades work
+      <span class="grade-legend-arrow">▸</span>
+    </button>
+    <div id="grade-legend-body" class="grade-legend-body">
+      <div class="grade-legend-grid">
+        {grades.map((g) => {
+          const info = GRADE_INFO[g];
+          return (
+            <div class="grade-legend-row">
+              <span class={`grade-badge grade-${g}`}>{g}</span>
+              <div>
+                <div class="grade-legend-label">{info.label}</div>
+                <div class="grade-legend-desc">{info.desc}</div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   </div>
@@ -276,8 +308,17 @@ const jsonData = JSON.stringify(all.map((t) => ({
       btn.addEventListener("click", () => toggleFilter(btn));
     });
     document.getElementById("clear-filters").addEventListener("click", clearFilters);
+    document.getElementById("grade-legend-toggle").addEventListener("click", toggleGradeLegend);
     syncPressed();
   });
+
+  function toggleGradeLegend() {
+    const body = document.getElementById("grade-legend-body");
+    const toggle = document.getElementById("grade-legend-toggle");
+    const expanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", !expanded);
+    body.classList.toggle("open");
+  }
 </script>
 
 

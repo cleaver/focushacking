@@ -230,12 +230,12 @@ Consider expanding footer with methodology attribution + links.
 
 ### POC has that current site could adopt:
 - [x] Stats bar (techniques, categories, grades, free)
-- [ ] Evidence grade legend table
+- [x] Evidence grade legend table
 - [x] "X of Y techniques shown" counter
 - [x] "Clear all filters" action
 - [ ] Modal-enhanced navigation (page-first, modal routing)
 - [ ] Table view as alternative to card grid
-- [ ] Expanded footer with methodology
+- [x] Expanded footer with methodology
 
 ### Future possibilities (in FUTURE.md or new):
 - Per-outcome grading display
@@ -367,10 +367,10 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| L1 | Add grade legend table below stats bar or above filters | `index.astro` | Medium | [ ] |
-| L2 | Each row: color-coded badge + letter + short description | `index.astro` | Medium | [ ] |
-| L3 | Compact layout — single row or 2×2 grid | `global.css` | Low | [ ] |
-| L4 | Option: collapsible "How grades work" toggle | `index.astro` | Low | [ ] |
+| L1 | Add grade legend table below stats bar or above filters | `index.astro` | Medium | [x] |
+| L2 | Each row: color-coded badge + letter + short description | `index.astro` | Medium | [x] |
+| L3 | Compact layout — single row or 2×2 grid | `global.css` | Low | [x] |
+| L4 | Option: collapsible "How grades work" toggle | `index.astro` | Low | [x] |
 
 ### Filter Pills
 
@@ -417,9 +417,9 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| FT1 | Expand footer text with methodology attribution (adapted from Examine.com, A–D based on RCTs etc.) | `BaseLayout.astro` | Medium | [ ] |
-| FT2 | Add "Focus Hacking home" link | `BaseLayout.astro` | Low | [ ] |
-| FT3 | Add "EVIDENCE-GRADED · SCIENCE-BACKED · FREE" tagline from POC | `BaseLayout.astro` | Low | [ ] |
+| FT1 | Expand footer text with methodology attribution (adapted from Examine.com, A–D based on RCTs etc.) | `BaseLayout.astro` | Medium | [x] |
+| FT2 | Add "Focus Hacking home" link | `BaseLayout.astro` | Low | [x] |
+| FT3 | Add "EVIDENCE-GRADED · SCIENCE-BACKED · FREE" tagline from POC | `BaseLayout.astro` | Low | [x] |
 
 ### Color Tokens
 
