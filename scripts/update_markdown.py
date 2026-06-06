@@ -271,7 +271,10 @@ def main():
                         "populations_source": c.get("populations_reason", "text"),
                         "focus_facets": c.get("focus_facets_suggested", ["distraction_resistance"]),
                         "facets_source": c.get("facets_reason", "text"),
-                        "sample_size": 0,
+                        "sample_size": c.get("sample_size", 0),
+                        "effect_direction": c.get("effect_direction"),
+                        "effect_magnitude": c.get("effect_magnitude"),
+                        "effect_size_note": c.get("effect_size_note", ""),
                     }
                     new_papers_count += 1
                 else:

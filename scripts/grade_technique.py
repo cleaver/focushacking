@@ -19,6 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TECHNIQUES_DIR = os.path.join(BASE_DIR, "techniques")
 CONFIG_DIR = os.path.join(BASE_DIR, "config")
 DATA_DIR = os.path.join(BASE_DIR, "data")
+HERMES_DIR = os.path.join(BASE_DIR, ".hermes")
 
 
 def log(msg):
@@ -92,63 +93,161 @@ def get_study_type_priority(pubtypes, priority_list):
 
 
 def calculate_grade(papers, rules):
-    """Calculate the best grade for a set of papers."""
+    """Calculate the best grade for a set of papers using the PoC rubric.
+
+    Factors:
+    - Study type counts (with priority ordering)
+    - Total sample size per study type
+    - Effect size direction/magnitude (LLM-extracted from abstracts)
+    - Consistency (proportion of studies showing positive effects)
+    - Observational-only evidence capped at Grade C
+    """
     grades_config = rules.get("grades", {})
     priority_list = rules.get("study_type_priority", [])
     grade_order = ["A", "B", "C", "D", "?"]
 
-    # Count study types
+    # ── Aggregate paper data ──────────────────────────────────────
     type_counts = {}
-    total_sample = 0
+    type_samples = {}  # total sample per pubtype
+    effect_directions = []  # all effect directions across papers
+    has_observational_only = True  # becomes False if an RCT/meta is present
+    has_any_study = False
+    highest_type = None  # best study type seen
+
     for pid, paper in papers.items():
         if not isinstance(paper, dict):
             continue
         pubtypes = paper.get("pubtypes", [])
         sample = paper.get("sample_size", 0) or 0
-        total_sample += sample
 
         for pt in pubtypes:
             type_counts[pt] = type_counts.get(pt, 0) + 1
+            type_samples[pt] = type_samples.get(pt, 0) + sample
 
-        # Also track the highest-priority type
+        # Track highest-priority type for this paper
         best_type = get_study_type_priority(pubtypes, priority_list)
         type_counts[f"__best_{best_type}"] = type_counts.get(f"__best_{best_type}", 0) + 1
+        type_samples[f"__best_{best_type}"] = type_samples.get(f"__best_{best_type}", 0) + sample
 
-    log(f"  Study type counts: {type_counts}")
-    log(f"  Total sample size: {total_sample}")
+        # Track if any non-observational study exists
+        for high_type in ["Meta-Analysis", "Systematic Review",
+                          "Randomized Controlled Trial", "Controlled Clinical Trial"]:
+            if high_type in pubtypes:
+                has_observational_only = False
+                break
 
-    # Check each grade level (highest first)
+        # Track highest study type across all papers
+        pt_rank = get_study_type_priority(pubtypes, priority_list)
+        pt_idx = priority_list.index(pt_rank) if pt_rank in priority_list else 99
+        best_idx = priority_list.index(highest_type) if highest_type in priority_list else 99
+        if pt_idx < best_idx:
+            highest_type = pt_rank
+
+        has_any_study = True
+
+        # Collect effect direction
+        ed = paper.get("effect_direction")
+        if ed:
+            effect_directions.append(ed)
+
+    if not has_any_study:
+        return "?"
+
+    # ── Consistency: proportion of studies with positive effects ──
+    if effect_directions:
+        positive_count = sum(1 for d in effect_directions if d == "positive")
+        consistency = positive_count / len(effect_directions)
+    else:
+        consistency = None  # unknown
+
+    # ── Check each grade level (highest first) ────────────────────
     for grade in grade_order:
         if grade not in grades_config:
             continue
-        requirements = grades_config[grade].get("requires", [])
+        gcfg = grades_config[grade]
+        requirements = gcfg.get("requires", [])
         if not requirements:
+            continue
+
+        # Observational-only cap: if we only have obs studies and grade > C, cap
+        if has_observational_only and grade in ("A", "B"):
             continue
 
         satisfied = True
         for req in requirements:
             req_types = req.get("types", [])
             min_count = req.get("min_count", 1)
+            min_sample = req.get("min_total_sample", 0)
             or_alt = req.get("OR")
 
-            # Check primary requirement
-            count = sum(type_counts.get(t, 0) for t in req_types)
-            if count >= min_count:
-                continue
+            # Count matching types (both exact and __best_ prefix)
+            count = 0
+            sample_total = 0
+            for t in req_types:
+                count += type_counts.get(t, 0)
+                count += type_counts.get(f"__best_{t}", 0)
+                sample_total += type_samples.get(t, 0)
+                sample_total += type_samples.get(f"__best_{t}", 0)
 
-            # Check alternate (OR)
-            if or_alt:
+            # Check primary requirement
+            passed = count >= min_count and sample_total >= min_sample
+
+            # Check alternate (OR) if primary failed
+            if not passed and or_alt:
                 or_types = or_alt.get("types", [])
                 or_min = or_alt.get("min_count", 1)
-                or_count = sum(type_counts.get(t, 0) for t in or_types)
-                if or_count >= or_min:
-                    continue
+                or_sample = or_alt.get("min_total_sample", 0)
+                or_count = 0
+                or_sample_total = 0
+                for t in or_types:
+                    or_count += type_counts.get(t, 0)
+                    or_count += type_counts.get(f"__best_{t}", 0)
+                    or_sample_total += type_samples.get(t, 0)
+                    or_sample_total += type_samples.get(f"__best_{t}", 0)
+                if or_count >= or_min and or_sample_total >= or_sample:
+                    passed = True
 
-            satisfied = False
-            break
+            if not passed:
+                satisfied = False
+                break
 
-        if satisfied:
-            return grade
+        if not satisfied:
+            continue
+
+        # ── Effect size check ────────────────────────────────
+        effect_required = gcfg.get("effect_required")
+        if effect_required and effect_directions:
+            # Count positive-direction studies
+            pos = sum(1 for d in effect_directions if d == "positive")
+            # Check magnitude for A/B grades
+            if effect_required == "moderate_or_large":
+                # Need mostly moderate/large positive effects
+                mags = []
+                for pid, paper in papers.items():
+                    if not isinstance(paper, dict):
+                        continue
+                    mag = paper.get("effect_magnitude")
+                    if mag:
+                        mags.append(mag)
+                if mags:
+                    large_or_mod = sum(1 for m in mags if m in ("large", "moderate"))
+                    if large_or_mod / len(mags) < 0.5:
+                        satisfied = False
+            elif effect_required == "small_positive":
+                # Need mostly positive direction
+                if pos / len(effect_directions) < 0.5:
+                    satisfied = False
+
+        if not satisfied:
+            continue
+
+        # ── Consistency check ─────────────────────────────────
+        consistency_min = gcfg.get("consistency_min")
+        if consistency_min is not None and consistency is not None:
+            if consistency < consistency_min:
+                continue
+
+        return grade
 
     return "?"
 
@@ -169,6 +268,31 @@ def main():
     papers_index = load_papers_index()
     config = load_techniques_config()
     papers = papers_index.get("papers", {})
+
+    # Check if there are new candidates — only recalculate if yes
+    candidates_path = os.path.join(HERMES_DIR, "tagged_candidates.json")
+    raw_candidates_path = os.path.join(HERMES_DIR, "new_candidates.json")
+    has_new_papers = False
+    for p in [candidates_path, raw_candidates_path]:
+        if os.path.exists(p):
+            with open(p) as f:
+                cd = json.load(f)
+                if cd.get("candidates"):
+                    has_new_papers = True
+                    break
+
+    if not has_new_papers:
+        log("No new papers detected — preserving existing grades.")
+        # Still update timestamps in frontmatter
+        for technique in config.get("techniques", []):
+            slug = technique.get("slug", "")
+            path = os.path.join(TECHNIQUES_DIR, f"{slug}.md")
+            if not os.path.exists(path):
+                continue
+            frontmatter, body = get_markdown_frontmatter(path)
+            frontmatter["last_searched"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            write_markdown_frontmatter(path, frontmatter, body)
+        return
 
     changes = []
 
@@ -193,25 +317,25 @@ def main():
             log(f"  {name}: No papers found")
             continue
 
-        old_grade = technique.get("evidence_grade", technique.get("grade", "?"))
+        # Read existing frontmatter first (preserves PoC manual grades)
+        frontmatter, body = get_markdown_frontmatter(path)
+        old_grade = frontmatter.get("grade", "?")
         new_grade = calculate_grade(tech_papers, rules)
 
         log(f"  {name}: {old_grade} → {new_grade} ({len(tech_papers)} papers)")
 
-        # Update the markdown frontmatter
-        frontmatter, body = get_markdown_frontmatter(path)
-        frontmatter["grade"] = new_grade
-        frontmatter["total_papers"] = len(tech_papers)
-        frontmatter["last_searched"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-        # Update grade_detail with rationale
-        detail = rules.get("grades", {}).get(new_grade, {})
-        frontmatter["grade_detail"] = detail.get("description", "")
-
-        write_markdown_frontmatter(path, frontmatter, body)
-
+        # Only update if grade actually changes
         if new_grade != old_grade:
+            frontmatter["grade"] = new_grade
+            frontmatter["total_papers"] = len(tech_papers)
+            frontmatter["last_searched"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            write_markdown_frontmatter(path, frontmatter, body)
             changes.append(f"  {name}: {old_grade} → {new_grade}")
+        else:
+            # Still update timestamps
+            frontmatter["last_searched"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            frontmatter["total_papers"] = len(tech_papers)
+            write_markdown_frontmatter(path, frontmatter, body)
 
     # Summary
     if changes:

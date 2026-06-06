@@ -325,6 +325,21 @@ def build_papers_index(techniques_data):
 
             if paper_id not in index:
                 pubtypes = design_to_pubtype(s.get("design", ""))
+                # Map PoC effect labels to direction + magnitude
+                effect_label = s.get("effect", "")
+                effect_direction = "positive"
+                effect_magnitude = "small"
+                if effect_label == "Large increase":
+                    effect_direction, effect_magnitude = "positive", "large"
+                elif effect_label == "Moderate increase":
+                    effect_direction, effect_magnitude = "positive", "moderate"
+                elif effect_label == "Small increase":
+                    effect_direction, effect_magnitude = "positive", "small"
+                elif effect_label == "Mixed":
+                    effect_direction, effect_magnitude = "mixed", "small"
+                elif effect_label == "No effect":
+                    effect_direction, effect_magnitude = "null", "none"
+
                 index[paper_id] = {
                     "pmid": paper_id if isinstance(paper_id, int) else str(paper_id),
                     "first_seen": str(s.get("year", datetime.now().year)),
@@ -339,6 +354,9 @@ def build_papers_index(techniques_data):
                     "focus_facets": facets,
                     "facets_source": "keyword",
                     "sample_size": s.get("n", 0) if isinstance(s.get("n", 0), int) else 0,
+                    "effect_direction": effect_direction,
+                    "effect_magnitude": effect_magnitude,
+                    "effect_size_note": s.get("finding", "")[:200],
                 }
             else:
                 # Paper already indexed — add technique slug if not present

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": 1,
-    "last_full_search": "2026-06-06T15:17:34Z",
+    "last_full_search": "2026-06-06T18:27:13Z",
     "techniques_tracked": 58,
     "total_papers": 142
   },
@@ -32,7 +32,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 5270
+      "sample_size": 5270,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Across 32 studies (3 RCTs, n=87), structured Pomodoro intervals produced ~20% lower fatigue, 0.5-point improvement in distractibility, and 0.4-point increase in motivation vs self-paced schedules; 88%"
     },
     "10.1371/journal.pone.0272460": {
       "pmid": "10.1371/journal.pone.0272460",
@@ -61,7 +64,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 2335
+      "sample_size": 2335,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Micro-breaks (\u226410 min) significantly improved vigor (d=0.36) and reduced fatigue (d=0.35) across 19 studies, supporting the core recuperative premise of the Pomodoro Technique; performance effects wer"
     },
     "10.59573/emsj.7(5).2023.24": {
       "pmid": "10.59573/emsj.7(5).2023.24",
@@ -89,7 +95,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 75
+      "sample_size": 75,
+      "effect_direction": "null",
+      "effect_magnitude": "none",
+      "effect_size_note": "This RCT found the Pomodoro Technique did not produce a statistically significant improvement in memory retention among university students compared to controls, highlighting that not all cognitive ou"
     },
     "10.1016/S0065-2601(06)38002-1": {
       "pmid": "10.1016/S0065-2601(06)38002-1",
@@ -118,7 +127,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 8155
+      "sample_size": 8155,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Across 94 independent tests, forming implementation intentions (specifying when, where, and how to act) produced a medium-to-large positive effect on goal attainment (d=0.65), the core cognitive mecha"
     },
     "10.1080/10463283.2024.2334563": {
       "pmid": "10.1080/10463283.2024.2334563",
@@ -144,7 +156,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Across 642 independent tests, forming implementation intentions proved effective for cognitive, affective, and behavioral outcomes (0.27 \u2264 d \u2264 0.66), with effects larger when participants were highly "
     },
     "10.1016/j.obhdp.2009.03.002": {
       "pmid": "10.1016/j.obhdp.2009.03.002",
@@ -170,7 +185,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 137
+      "sample_size": 137,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Participants who left a previous task incomplete brought forward 'attention residue' that significantly reduced cognitive performance on subsequent tasks; having defined task endpoints (as time blocki"
     },
     "10.1037/0022-3514.74.5.1252": {
       "pmid": "10.1037/0022-3514.74.5.1252",
@@ -198,7 +216,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 200
+      "sample_size": 200,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Self-control and decision-making draw on a shared resource that depletes with use; completing the hardest task first, when this resource is maximally replenished after sleep, preserves cognitive capac"
     },
     "10.1016/0364-0213(88)90023-7": {
       "pmid": "10.1016/0364-0213(88)90023-7",
@@ -224,7 +245,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Temporal constraints reduce working memory load by forcing prioritization and preventing the accumulation of unnecessary cognitive loops, the theoretical foundation for why timeboxes improve efficienc"
     },
     "10.1016/j.actpsy.2022.103702": {
       "pmid": "10.1016/j.actpsy.2022.103702",
@@ -250,7 +274,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 52
+      "sample_size": 52,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Experimentally induced perceived time pressure significantly impaired cognitive inhibition on the Eriksen flanker task, demonstrating that excessive timeboxing can be counterproductive if the box is t"
     },
     "10.5465/amr.1991.4279584": {
       "pmid": "10.5465/amr.1991.4279584",
@@ -274,7 +301,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "In over 500 field and lab studies, specific and challenging goals produced higher task performance than do-your-best or no-goal conditions in 90% of cases, with mean effect sizes of d\u22480.55\u20130.68; the M"
     },
     "10.1037/0021-9010.71.3.474": {
       "pmid": "10.1037/0021-9010.71.3.474",
@@ -298,7 +328,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Meta-analysis of 87 studies found specific, difficult goals consistently improved performance over vague or easy goals (d=0.54), supporting the prioritization mechanism at the core of the MIT approach"
     },
     "10.1016/j.jesp.2011.02.005": {
       "pmid": "10.1016/j.jesp.2011.02.005",
@@ -325,7 +358,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 171
+      "sample_size": 171,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Unfinished tasks persistently intruded into consciousness and impaired performance on subsequent goal-requiring tasks (the Zeigarnik effect), but forming a concrete plan for those tasks eliminated the"
     },
     "10.1016/j.lrp.2007.12.011": {
       "pmid": "10.1016/j.lrp.2007.12.011",
@@ -352,7 +388,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Theoretical analysis of GTD methodology found the 2-minute rule is consistent with cognitive offloading principles and working memory research: immediately dispatching small tasks prevents attentional"
     },
     "10.1145/1357054.1357072": {
       "pmid": "10.1145/1357054.1357072",
@@ -378,7 +417,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 36
+      "sample_size": 36,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Observational field study of office workers found that after interruptions, people worked significantly faster to compensate but produced more stress and errors; the average uninterrupted task duratio"
     },
     "10.1145/2207676.2207754": {
       "pmid": "10.1145/2207676.2207754",
@@ -404,7 +446,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 13
+      "sample_size": 13,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Knowledge workers randomly assigned to 5 days without email access showed significantly lower, more stable heart rate (less physiological stress) and spent longer periods on single tasks compared to t"
     },
     "https://hbr.org/2002/07/creativity-under-the-gun": {
       "pmid": "https://hbr.org/2002/07/creativity-under-the-gun",
@@ -429,7 +474,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 177
+      "sample_size": 177,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Daily diary study of knowledge workers found a non-linear (inverted-U) relationship between time pressure and creative cognitive engagement; moderate pressure improved focus while extreme pressure und"
     },
     "10.3389/fpsyg.2022.1049174": {
       "pmid": "10.3389/fpsyg.2022.1049174",
@@ -454,7 +502,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Meta-analysis confirmed a J-shaped (non-linear) relationship between time pressure and innovation performance \u2014 moderate pressure boosts efficiency, but extreme pressure sharply degrades it \u2014 highligh"
     },
     "10.1080/17437199.2023.2248222": {
       "pmid": "10.1080/17437199.2023.2248222",
@@ -484,7 +535,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 9538
+      "sample_size": 9538,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "MBIs had small-to-moderate significant effects on global cognition, executive attention, working memory accuracy, sustained attention, and cognitive flexibility (g=0.26\u20130.64 vs waitlist; g=0.19\u20130.39 v"
     },
     "10.1177/1745691620968771": {
       "pmid": "10.1177/1745691620968771",
@@ -512,7 +566,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Review of 44 meta-analyses of RCTs confirmed MBIs produce consistent, clinically meaningful reductions in anxiety, depression, pain, and stress compared to both passive and active controls across a wi"
     },
     "10.1037/xge0000969": {
       "pmid": "10.1037/xge0000969",
@@ -540,7 +597,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 153
+      "sample_size": 153,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "This pre-registered RCT found that mindfulness training specifically improved present-focused monitoring skills, which in turn drove improvements in momentary and trait attentional control versus an a"
     },
     "10.1037/ccp0000324": {
       "pmid": "10.1037/ccp0000324",
@@ -568,7 +628,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 5489
+      "sample_size": 5489,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "65 RCTs confirmed brief mindfulness training reliably reduces negative affectivity (depression, anxiety, rumination) with small-to-moderate effect sizes, even in populations without clinical diagnoses"
     },
     "10.1111/aphw.12366": {
       "pmid": "10.1111/aphw.12366",
@@ -595,7 +658,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "14 RCTs of isolated body scan meditation found only a small effect on mindfulness vs passive control (Hedges' g=0.27, 95% CI [0.032, 0.504]); high heterogeneity and low study quality limit conclusions"
     },
     "10.1037/a0019434": {
       "pmid": "10.1037/a0019434",
@@ -622,7 +688,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 16
+      "sample_size": 16,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "8-week MBSR including body scan significantly reduced amygdala activity during self-referential emotional processing and increased prefrontal regulatory activity in patients with social anxiety disord"
     },
     "10.1371/journal.pone.0124344": {
       "pmid": "10.1371/journal.pone.0124344",
@@ -649,7 +718,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Systematic overview confirmed MBSR (which includes body scan as a core component) produces significant improvements in anxiety, depression, pain, and quality of life across multiple clinical condition"
     },
     "10.1111/j.1467-9280.2008.02225.x": {
       "pmid": "10.1111/j.1467-9280.2008.02225.x",
@@ -678,7 +750,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 38
+      "sample_size": 38,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Participants randomly assigned to nature vs urban walks showed significantly improved backward digit span (working memory) and Attention Network Task performance after the nature walk, supporting Atte"
     },
     "10.1016/j.explore.2022.08.004": {
       "pmid": "10.1016/j.explore.2022.08.004",
@@ -706,7 +781,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 66
+      "sample_size": 66,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "University students randomly assigned to mindful outdoor walking showed significantly reduced mood disturbance and improved sleep quality compared to controls, with improvements maintained across the "
     },
     "10.3389/fpsyg.2018.02057": {
       "pmid": "10.3389/fpsyg.2018.02057",
@@ -734,7 +812,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 249
+      "sample_size": 249,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Two field experiments (n=128, n=121) found sustained attention consistently improved following restorative-task nature walks in both forest and urban park settings; more-stressed participants showed g"
     },
     "18954193": {
       "pmid": 18954193,
@@ -760,7 +841,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 139
+      "sample_size": 139,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Working adults randomized to LKM practice showed progressive increases in daily positive emotions, which in turn built mindfulness, purpose in life, and social support, and reduced illness symptoms \u2014 "
     },
     "26579061": {
       "pmid": 26579061,
@@ -786,7 +870,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 1759
+      "sample_size": 1759,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Meta-analysis of 24 studies (10 waitlist-controlled RCTs) found medium effect sizes for LKM on daily positive emotions (g\u22480.39\u20130.42 for RCTs); loving-kindness-focused interventions showed larger effec"
     },
     "10.1371/journal.pone.0040054": {
       "pmid": "10.1371/journal.pone.0040054",
@@ -812,7 +899,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 44
+      "sample_size": 44,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "fMRI study found LKM expertise improved emotional regulation neural responses to affective stimuli but did not improve sustained attention task performance, distinguishing LKM's primary benefit domain"
     },
     "10.1016/j.psychres.2013.09.002": {
       "pmid": "10.1016/j.psychres.2013.09.002",
@@ -838,7 +928,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 57
+      "sample_size": 57,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Both FA and OM meditation significantly improved executive attention network function versus waitlist control; OM particularly enhanced non-reactive open monitoring \u2014 the metacognitive awareness dimen"
     },
     "10.3389/fpsyg.2014.01083": {
       "pmid": "10.3389/fpsyg.2014.01083",
@@ -864,7 +957,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Review found OM meditation selectively enhances divergent thinking and reduces cognitive rigidity while FA meditation enhances focused attention; each style produces dissociable effects consistent wit"
     },
     "10.1016/j.brat.2017.09.010": {
       "pmid": "10.1016/j.brat.2017.09.010",
@@ -890,7 +986,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "The first dismantling RCT to isolate FA and OM meditation as separate 8-week interventions confirmed they engage distinct psychological mechanisms; OM specifically improved non-reactive awareness and "
     },
     "10.1007/s11065-021-09519-y": {
       "pmid": "10.1007/s11065-021-09519-y",
@@ -918,7 +1017,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Mindfulness-based programs produced significant improvements across multiple objective cognitive domains including attention and working memory in adults."
     },
     "10.3389/fpsyg.2020.01053": {
       "pmid": "10.3389/fpsyg.2020.01053",
@@ -946,7 +1048,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 54
+      "sample_size": 54,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "MBSR significantly improved cognitive flexibility vs. waitlist control in high-stress nonclinical participants, mediated by increases in mindfulness non-reactivity."
     },
     "10.1371/journal.pone.0097551": {
       "pmid": "10.1371/journal.pone.0097551",
@@ -974,7 +1079,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "null",
+      "effect_magnitude": "none",
+      "effect_size_note": "MBSR did not significantly outperform an active Health Enhancement Program control on sustained attention via continuous performance task, suggesting effects may be partially non-specific."
     },
     "10.1177/00812463211043450": {
       "pmid": "10.1177/00812463211043450",
@@ -1003,7 +1111,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 66
+      "sample_size": 66,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Expressive writing about stressful events improved working memory capacity in university students but not in school learners (ages 15\u201317), with effects observed across all writing condition groups."
     },
     "10.3389/fnhum.2019.00389": {
       "pmid": "10.3389/fnhum.2019.00389",
@@ -1032,7 +1143,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Expressive writing about past failures enhanced striatal activation to positive feedback during a subsequent learning task, suggesting expressive writing facilitates neural resource availability for n"
     },
     "10.5406/19398298.136.1.03": {
       "pmid": "10.5406/19398298.136.1.03",
@@ -1061,7 +1175,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 40
+      "sample_size": 40,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A structured expressive writing disclosure program significantly improved working memory, planning/organizing, and cognitive flexibility in students with learning disabilities, with effects stable at "
     },
     "10.31744/einstein_journal/2023RW0371": {
       "pmid": "10.31744/einstein_journal/2023RW0371",
@@ -1087,7 +1204,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Gratitude interventions significantly increased feelings of gratitude, improved mental health, and reduced anxiety and depression symptoms, with additional benefits including more positive mood and em"
     },
     "10.3389/fpsyg.2019.00584": {
       "pmid": "10.3389/fpsyg.2019.00584",
@@ -1113,7 +1233,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Gratitude intervention significantly increased positive affect, subjective happiness, and life satisfaction while reducing negative affect and depression symptoms compared to control conditions."
     },
     "10.3389/fpsyg.2021.799447": {
       "pmid": "10.3389/fpsyg.2021.799447",
@@ -1139,7 +1262,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 6-week gratitude intervention improved mental well-being, with gratitude as mood serving as a significant mediator of the effect; changes in mood drove improvements in well-being outcomes."
     },
     "10.1080/17408989.2021.1991297": {
       "pmid": "10.1080/17408989.2021.1991297",
@@ -1165,7 +1291,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 1449
+      "sample_size": 1449,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Mental imagery programs produced a significant effect on sport-specific motor performance (g=0.476), with effects moderated by skill complexity and delivery type; imagery combined with physical practi"
     },
     "10.3390/bs15050685": {
       "pmid": "10.3390/bs15050685",
@@ -1191,7 +1320,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 3593
+      "sample_size": 3593,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Imagery practice significantly enhanced athletic performance across agility, muscle strength, and technical performance domains; 10 minutes, 3 times weekly over 100 days produced the strongest gains."
     },
     "10.3389/fpsyg.2023.1187175": {
       "pmid": "10.3389/fpsyg.2023.1187175",
@@ -1217,7 +1349,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Mental imagery training showed significant benefit in inducing bilateral motor transfer vs. no-exercise control (ES=0.78), with effects equivalent to physical training (ES=-0.02 difference), confirmin"
     },
     "10.1111/j.1467-9280.2007.01916.x": {
       "pmid": "10.1111/j.1467-9280.2007.01916.x",
@@ -1245,7 +1380,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 30
+      "sample_size": 30,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Labeling emotional experiences significantly reduced right amygdala activation while increasing right ventrolateral PFC activity, demonstrating the neurological mechanism by which noting attenuates em"
     },
     "10.1016/j.jaim.2024.101057": {
       "pmid": "10.1016/j.jaim.2024.101057",
@@ -1273,7 +1411,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 1447
+      "sample_size": 1447,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Open monitoring meditation consistently improved sustained attention across 12 studies, with meditators showing faster reaction times, lower error rates, and reduced mind wandering compared to non-med"
     },
     "10.1016/j.ijnurstu.2024.104912": {
       "pmid": "10.1016/j.ijnurstu.2024.104912",
@@ -1302,7 +1443,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 2881
+      "sample_size": 2881,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Aerobic exercise significantly improved cognitive flexibility (g=0.343), working memory (g=0.392), and inhibitory control (g=0.229) in 42 RCTs involving healthy middle-aged and older adults."
     },
     "10.1097/PSY.0b013e3181d14633": {
       "pmid": "10.1097/PSY.0b013e3181d14633",
@@ -1330,7 +1474,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Aerobic exercise training demonstrated modest but significant improvements in attention and processing speed (g=0.158), executive function (g=0.123), and memory (g=0.128) across multiple large RCTs."
     },
     "10.3390/ijerph20042802": {
       "pmid": "10.3390/ijerph20042802",
@@ -1358,7 +1505,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A single prolonged exercise session produced a small-to-moderate effect on post-exercise executive function task performance (Cohen's d=0.38\u20130.49) in physically active adults aged 21\u201370."
     },
     "10.3389/fpsyg.2025.1556721": {
       "pmid": "10.3389/fpsyg.2025.1556721",
@@ -1386,7 +1536,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Physical exercise significantly improved attention (SMD=0.56), inhibitory control (SMD=0.58), and working memory (SMD=0.54) in adolescents; aerobic exercise had the greatest impact on cognitive functi"
     },
     "10.1093/gerona/glu095": {
       "pmid": "10.1093/gerona/glu095",
@@ -1413,7 +1566,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 108
+      "sample_size": 108,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Participants in the yoga group showed significantly improved working memory capacity and efficiency of mental set shifting and cognitive flexibility vs. stretching-toning control group after 8 weeks."
     },
     "10.4103/ym.ym_88_23": {
       "pmid": "10.4103/ym.ym_88_23",
@@ -1440,7 +1596,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 96
+      "sample_size": 96,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Yoga group showed significant improvements in divided attention (p<0.001), focused attention (p<0.001), sustained attention (p<0.001), and mental speed vs. standard exercise control."
     },
     "10.1007/s10865-022-00385-4": {
       "pmid": "10.1007/s10865-022-00385-4",
@@ -1467,7 +1626,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 86
+      "sample_size": 86,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "An 8-week remote yoga intervention (3x/week, 50 min) significantly reduced stress and improved executive functioning vs. waitlist control in low-active working adults with stress symptoms."
     },
     "10.4103/0019-5545.116308": {
       "pmid": "10.4103/0019-5545.116308",
@@ -1494,7 +1656,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Yoga-based intervention significantly improved verbal and visual memory, attention and working memory (spatial span), verbal fluency, executive function (Stroop), and processing speed in elderly resid"
     },
     "10.2147/PRBM.S437277": {
       "pmid": "10.2147/PRBM.S437277",
@@ -1521,7 +1686,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 3402
+      "sample_size": 3402,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "PMR is effective in reducing stress, anxiety, and depression in adults across 46 publications from 16 countries; combined PMR with other interventions showed enhanced efficacy."
     },
     "10.1155/2021/5924040": {
       "pmid": "10.1155/2021/5924040",
@@ -1548,7 +1716,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 60
+      "sample_size": 60,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "PMR significantly increased both psychological and physiological relaxation vs. control, with significant effects on electrodermal activity and heart rate as objective markers of reduced sympathetic n"
     },
     "10.4103/jehp.jehp_1913_23": {
       "pmid": "10.4103/jehp.jehp_1913_23",
@@ -1575,7 +1746,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 61
+      "sample_size": 61,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Ten sessions of Jacobson PMR produced statistically significant reductions in stress and anxiety after 5 sessions and in depression, anxiety, and stress after 10 sessions compared to treatment-as-usua"
     },
     "10.1186/1471-244X-8-41": {
       "pmid": "10.1186/1471-244X-8-41",
@@ -1602,7 +1776,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Relaxation training including Jacobson's progressive relaxation demonstrated significant anxiety reduction across a decade of studies (1997\u20132007), with consistent effects across clinical and non-clini"
     },
     "10.1371/journal.pone.0317615": {
       "pmid": "10.1371/journal.pone.0317615",
@@ -1627,7 +1804,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 3177
+      "sample_size": 3177,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "CWI produced significant stress reduction 12 hours post-exposure (SMD=\u22121.00), improved sleep quality and quality of life, but showed no significant immediate or 1-hour effects on stress; mood benefits"
     },
     "10.3390/biology12020211": {
       "pmid": "10.3390/biology12020211",
@@ -1652,7 +1832,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 33
+      "sample_size": 33,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 5-minute 20\u00b0C cold-water bath increased feelings of being active, alert, attentive, and inspired, with fMRI showing increased coupling between attention control networks (frontoparietal) and emotion"
     },
     "10.3390/ijerph18189725": {
       "pmid": "10.3390/ijerph18189725",
@@ -1677,7 +1860,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Cold exposure impaired cognitive performance in 15 of 18 experimental settings; the effect varies by exposure duration and temperature, with brief cold exposure potentially enhancing alertness while p"
     },
     "10.3390/ijerph181910212": {
       "pmid": "10.3390/ijerph181910212",
@@ -1703,7 +1889,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 381
+      "sample_size": 381,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Daytime napping significantly improved cognitive performance post-nap (effect size=0.18, 95% CI: 0.09\u20130.27), with the largest effects for alertness (effect size=0.29); benefits peaked within 120 minut"
     },
     "10.1016/j.ijpsycho.2022.06.013": {
       "pmid": "10.1016/j.ijpsycho.2022.06.013",
@@ -1729,7 +1918,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 18
+      "sample_size": 18,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A 40-minute midday nap significantly improved sustained attention (psychomotor vigilance) vs. waking control; working memory improvement was not significant but trend-level, with post-nap physiologica"
     },
     "10.1093/sleep/zsad025": {
       "pmid": "10.1093/sleep/zsad025",
@@ -1755,7 +1947,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Naps from 10 to 60 minutes produced clear and lasting benefits for positive mood and alertness; 30-minute naps showed the best trade-off, providing memory encoding benefits without excessive sleep ine"
     },
     "10.1038/s41598-024-52205-1": {
       "pmid": "10.1038/s41598-024-52205-1",
@@ -1783,7 +1978,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 40-minute nature walk enhanced error-related negativity (an electrophysiological index of executive control) vs. urban walk, providing a neural mechanism for the attention restoration effect of natu"
     },
     "10.3389/fpsyg.2019.00042": {
       "pmid": "10.3389/fpsyg.2019.00042",
@@ -1811,7 +2009,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 30-minute nature walk produced faster and more stable Attention Network Task performance vs. urban walk in children; mobile eye-tracking showed higher fixation rates in nature, linking gaze behavior"
     },
     "10.1016/j.jad.2012.03.012": {
       "pmid": "10.1016/j.jad.2012.03.012",
@@ -1839,7 +2040,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 20
+      "sample_size": 20,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Even in individuals with major depressive disorder, a nature walk significantly improved working memory (backward digit span) and mood compared to urban walk, demonstrating robustness of the restorati"
     },
     "10.1016/j.cognition.2010.12.007": {
       "pmid": "10.1016/j.cognition.2010.12.007",
@@ -1865,7 +2069,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Brief task interruptions (deactivating the current mental set) reversed the neural habituation causing performance decline during prolonged focused work, restoring vigilance and sustained attention pe"
     },
     "10.1080/20590776.2023.2225700": {
       "pmid": "10.1080/20590776.2023.2225700",
@@ -1891,7 +2098,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Both unstructured and nature-based 5-minute rest breaks produced higher directed attention levels during subsequent learning and significantly more problem-solving post-test performance vs. no-break c"
     },
     "10.70675/d04d2bc0z46c4z4daazaad6zb115f7dd9651": {
       "pmid": "10.70675/d04d2bc0z46c4z4daazaad6zb115f7dd9651",
@@ -1917,7 +2127,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Brief physical and breathing interventions embedded in breaks improved executive cognitive performance in healthy adults, supporting the value of short multi-modal micro-break routines."
     },
     "10.1371/journal.pone.0176092": {
       "pmid": "10.1371/journal.pone.0176092",
@@ -1943,7 +2156,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 39
+      "sample_size": 39,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Acute aerobic exercise improved attention and executive function performance in physically active adults; the high-intensity resistance condition (closest to kettlebell training) showed significant at"
     },
     "10.1016/j.neubiorev.2021.06.026": {
       "pmid": "10.1016/j.neubiorev.2021.06.026",
@@ -1969,7 +2185,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Acute aerobic exercise produced reliable improvements in executive function across individual participant data meta-analysis, with intensity and duration emerging as key moderators."
     },
     "10.1016/j.xcrm.2022.100895": {
       "pmid": "10.1016/j.xcrm.2022.100895",
@@ -1994,7 +2213,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 114
+      "sample_size": 114,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 1-month daily 5-minute breathwork RCT found box breathing significantly improved mood and reduced physiological arousal compared to an equivalent period of mindfulness meditation; cyclic sighing sho"
     },
     "10.3389/fnhum.2018.00353": {
       "pmid": "10.3389/fnhum.2018.00353",
@@ -2019,7 +2241,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Slow breathing techniques (\u22486 breaths/min) promote increased HRV, reduced sympathetic activity, improved emotional regulation, and enhanced comfort and alertness across 15 eligible studies."
     },
     "10.1016/j.actpsy.2025.105222": {
       "pmid": "10.1016/j.actpsy.2025.105222",
@@ -2044,7 +2269,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 216
+      "sample_size": 216,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A brief slow-paced breathing intervention significantly reduced stress and arousal; high-stress participants in the SPB group showed significantly better Iowa Gambling Task decision-making vs. control"
     },
     "10.3389/fpsyg.2019.01923": {
       "pmid": "10.3389/fpsyg.2019.01923",
@@ -2069,7 +2297,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Slow-paced breathing improved inhibitory control (a core executive function) both before and after physical exertion in controlled conditions, with effects mediated by increased cardiac vagal activity"
     },
     "36480101": {
       "pmid": 36480101,
@@ -2094,7 +2325,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 63
+      "sample_size": 63,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "The 4-7-8 breathing group showed significantly lower post-test state anxiety scores than both the deep breathing group and control group after bariatric surgery."
     },
     "11790690": {
       "pmid": 11790690,
@@ -2120,7 +2354,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 102
+      "sample_size": 102,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Slow breathing at 6 breaths/min significantly increased baroreflex sensitivity and reduced blood pressure, demonstrating the autonomic mechanism underlying slow, extended-exhale breathing protocols."
     },
     "30245619": {
       "pmid": 30245619,
@@ -2148,7 +2385,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Slow breathing techniques (<10 breaths/min) consistently increased HRV and EEG alpha power while reducing anxiety and improving psychological well-being across multiple studies in healthy subjects."
     },
     "28626434": {
       "pmid": 28626434,
@@ -2174,7 +2414,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 40
+      "sample_size": 40,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Eight weeks of diaphragmatic breathing training significantly improved sustained attention (Number Cancellation Test), reduced negative affect, and lowered salivary cortisol compared to a control grou"
     },
     "24799686": {
       "pmid": 24799686,
@@ -2200,7 +2443,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 24
+      "sample_size": 24,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Trained WHM practitioners showed profoundly elevated plasma epinephrine during breathing exercises, with 53\u201357% lower pro-inflammatory cytokines and significantly fewer flu-like symptoms during experi"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936795/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936795/",
@@ -2226,7 +2472,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Review of 8 trials found WHM consistently increases epinephrine and reduces pro-inflammatory cytokines; effects on exercise performance were mixed, and cognitive outcomes were not systematically studi"
     },
     "https://www.nature.com/articles/s41598-025-29187-9": {
       "pmid": "https://www.nature.com/articles/s41598-025-29187-9",
@@ -2252,7 +2501,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "WHM and remote WHM conditions both produced significantly greater increases in momentary energy, mental clarity, and stress-handling ability compared to a mindfulness meditation control, with no signi"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516310/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516310/",
@@ -2279,7 +2531,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 40
+      "sample_size": 40,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A single session of alternate nostril breathing at 6 bpm produced an 8% reduction in 2-back working memory reaction time compared to baseline, with similar effects for right-nostril and breath-awarene"
     },
     "29284770": {
       "pmid": 29284770,
@@ -2306,7 +2561,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 15
+      "sample_size": 15,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Fifteen minutes of alternate nostril breathing significantly reduced systolic blood pressure and completion time on a digit vigilance test compared to breath awareness and quiet sitting control condit"
     },
     "23721252": {
       "pmid": 23721252,
@@ -2333,7 +2591,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 20
+      "sample_size": 20,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Alternate nostril yoga breathing produced significant increases in P300 amplitude at frontal, vertex, and parietal sites and reduced P300 latency at the frontal site, indicating enhanced attentional p"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924557/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924557/",
@@ -2358,7 +2619,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 50
+      "sample_size": 50,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Four weeks of daily 20-minute resonance frequency breathing significantly improved HRV (SDNN, pNN50, total power), Trail Making Test A and B performance, and reduced perceived stress compared to a non"
     },
     "https://www.nature.com/articles/s41598-023-49279-8": {
       "pmid": "https://www.nature.com/articles/s41598-023-49279-8",
@@ -2383,7 +2647,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "null",
+      "effect_magnitude": "none",
+      "effect_size_note": "In the largest blinded breathwork RCT to date, coherent breathing at ~5.5 breaths/min showed no measurable effect on stress, mental health, sleep, or wellbeing over 4 weeks compared to a matched activ"
     },
     "36630953": {
       "pmid": 36630953,
@@ -2407,7 +2674,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 111
+      "sample_size": 111,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Cyclic sighing practiced for 5 minutes/day over 30 days produced significantly greater improvements in positive affect and the only significant reduction in resting respiratory rate compared to box br"
     },
     "21228167": {
       "pmid": 21228167,
@@ -2432,7 +2702,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "fMRI demonstrated that multiple simultaneous visual stimuli compete for neural representation by mutually suppressing evoked activity throughout the visual cortex, providing the neural mechanism by wh"
     },
     "19934011": {
       "pmid": 19934011,
@@ -2457,7 +2730,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 60
+      "sample_size": 60,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Women who described their home environments using more clutter-related language showed elevated cortisol across the day and increased depressed mood, while those using restorative language showed cort"
     },
     "22915122": {
       "pmid": 22915122,
@@ -2482,7 +2758,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "fMRI showed that suppressing previously relevant objects in cluttered visual scenes requires active neural suppression in object-selective cortex, consuming cognitive resources that would otherwise be"
     },
     "36028546": {
       "pmid": 36028546,
@@ -2510,7 +2789,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 59
+      "sample_size": 59,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "White noise at 45 dB significantly improved sustained attention accuracy (95.23% vs 93.12%, d=0.51), creativity, and speed of task performance while reducing stress, compared to ambient office noise i"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/",
@@ -2538,7 +2820,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 20
+      "sample_size": 20,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Low-intensity white noise facilitated auditory working memory performance via stochastic resonance, with an optimal signal-to-noise ratio of 10\u20135 dB SNR; right superior frontal gyrus activity correlat"
     },
     "26612201": {
       "pmid": 26612201,
@@ -2565,7 +2850,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 36
+      "sample_size": 36,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Three minutes of 40 Hz gamma binaural beats produced a significantly smaller global precedence effect (36 vs 57 ms) compared to a constant tone control, indicating enhanced focused attentional process"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/",
@@ -2592,7 +2880,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "40 Hz binaural beats improved attentional performance compared to monaural beats and pink noise, with large effect sizes, but without evidence of neural frequency entrainment on EEG, suggesting the me"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/",
@@ -2618,7 +2909,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "White noise impaired working memory accuracy when presented during the maintenance interval but benefited attentional orienting, demonstrating task-specific and timing-specific effects with no general"
     },
     "12745975": {
       "pmid": 12745975,
@@ -2644,7 +2938,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Review of multiple laboratory studies established that cognitive performance is maximized at 17\u201323\u00b0C, with performance on vigilance and dual-task conditions degrading at the lowest levels of heat stre"
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC3082171/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3082171/",
@@ -2670,7 +2967,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 16
+      "sample_size": 16,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Passive heat exposure (50\u00b0C chamber) significantly impaired spatial span memory and visual recognition memory performance while leaving simple attention tasks largely unaffected, demonstrating task-co"
     },
     "41402450": {
       "pmid": 41402450,
@@ -2696,7 +2996,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 58
+      "sample_size": 58,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Over 7 days of real-world monitoring, higher daytime light exposure was significantly associated with reduced subjective sleepiness, 7\u201310% faster reaction times on vigilance and working memory tasks, "
     },
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/": {
       "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/",
@@ -2722,7 +3025,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Review found that both short-wavelength dominant light and higher intensity white light exposure during the day consistently induced alertness and shorter reaction times, with beneficial effects on co"
     },
     "10.1086/665048": {
       "pmid": "10.1086/665048",
@@ -2747,7 +3053,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Five experiments found that moderate ambient noise (~70 dB) significantly enhanced creative task performance compared to low noise (~50 dB) and high noise (~85 dB), with the effect mediated by moderat"
     },
     "22523045": {
       "pmid": 22523045,
@@ -2772,7 +3081,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Background music with lyrics had significant negative effects on concentration and attention in an RCT, while music without lyrics had no significant negative effect, supporting the use of instrumenta"
     },
     "10.1371/journal.pone.0316047": {
       "pmid": "10.1371/journal.pone.0316047",
@@ -2797,7 +3109,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Work-flow music produced significantly faster reaction time slopes over a session compared to deep focus and silence conditions, with participants showing the steepest within-session improvement, whil"
     },
     "10.1086/691462": {
       "pmid": "10.1086/691462",
@@ -2824,7 +3139,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 800
+      "sample_size": 800,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Two experiments (total n\u2248800) showed that participants with their smartphones in another room performed significantly better on working memory capacity and fluid intelligence tests than those with pho"
     },
     "19706386": {
       "pmid": 19706386,
@@ -2851,7 +3169,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 41
+      "sample_size": 41,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Heavy media multitaskers \u2014 individuals with habitual high smartphone and media use \u2014 showed significantly worse working memory filtering, attentional focus, and task-switching performance than light m"
     },
     "10.5817/CP2021-1-2": {
       "pmid": "10.5817/CP2021-1-2",
@@ -2876,7 +3197,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Meta-analysis of 118 assessments found consistent associations between media multitasking and impaired working memory, interference management, sustained attention, and task goal management, with z-va"
     },
     "10.1145/1054972.1055017": {
       "pmid": "10.1145/1054972.1055017",
@@ -2905,7 +3229,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 36
+      "sample_size": 36,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Knowledge workers averaged only 3 minutes on any task before an interruption, and required an average of 23 minutes to fully resume prior focus depth after each disruption."
     },
     "10.1177/0963721415577356": {
       "pmid": "10.1177/0963721415577356",
@@ -2931,7 +3258,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Higher levels of task concentration reduce susceptibility to distraction through two mechanisms: reduced background processing and increased task engagement, supporting the premise of deep work blocks"
     },
     "10.1111/ejn.15014": {
       "pmid": "10.1111/ejn.15014",
@@ -2957,7 +3287,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Flow states \u2014 characterized by full task absorption, high output, and reduced self-referential thinking \u2014 are neurologically associated with dopaminergic reward circuitry and arise when skill level is"
     },
     "10.1080/01443410.2010.506003": {
       "pmid": "10.1080/01443410.2010.506003",
@@ -2984,7 +3317,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 168
+      "sample_size": 168,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Adolescents trained in implementation intentions showed significantly improved self-discipline and academic behavior compared to controls, with effects maintained at follow-up."
     },
     "10.3389/fnhum.2015.00395": {
       "pmid": "10.3389/fnhum.2015.00395",
@@ -3011,7 +3347,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Neuroimaging evidence demonstrates that implementation intentions increase cue-triggered behavioral initiation by strengthening prefrontal-striatal connections that link situational cues to planned re"
     },
     "10.1177/17470218211008060": {
       "pmid": "10.1177/17470218211008060",
@@ -3038,7 +3377,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Cognitive offloading of working memory contents to external tools significantly improved performance on demanding concurrent tasks, supporting the GTD rationale that external capture frees cognitive r"
     },
     "10.3758/s13423-022-02139-4": {
       "pmid": "10.3758/s13423-022-02139-4",
@@ -3065,7 +3407,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Three decades of prospective memory research confirm that externalizing intentions (using calendars, reminders, notes) reliably reduces cognitive burden and improves follow-through on deferred tasks."
     },
     "10.1016/j.cognition.2019.104012": {
       "pmid": "10.1016/j.cognition.2019.104012",
@@ -3092,7 +3437,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Individuals strategically offload memory items when they assess their own memory reliability as low, and this offloading behavior reliably boosts performance on tasks requiring full attentional engage"
     },
     "10.3389/fpsyg.2021.565202": {
       "pmid": "10.3389/fpsyg.2021.565202",
@@ -3120,7 +3468,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Across 21 empirical studies with 24 independent effect sizes, MCII (WOOP) produced significant positive effects on goal attainment, with effect sizes moderated by goal type and expectancy level."
     },
     "10.1002/ejsp.2090": {
       "pmid": "10.1002/ejsp.2090",
@@ -3148,7 +3499,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "In three studies, students and working mothers who used MCII scheduled significantly more focused work time, improved time management ratings, and showed better class attendance than content-matched o"
     },
     "10.4300/JGME-D-16-00703.1": {
       "pmid": "10.4300/JGME-D-16-00703.1",
@@ -3176,7 +3530,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Resident physicians trained in WOOP spent significantly more time studying self-directed learning goals compared to those using goal-setting alone, demonstrating WOOP's effectiveness in high-demand pr"
     },
     "10.1111/j.1745-6924.2006.tb00076.x": {
       "pmid": "10.1111/j.1745-6924.2006.tb00076.x",
@@ -3204,7 +3561,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 120
+      "sample_size": 120,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Students who practiced retrieval (testing themselves) retained 46% more material after one week than students who spent equal time re-reading, with the advantage increasing at longer retention interva"
     },
     "10.1186/s41235-017-0087-y": {
       "pmid": "10.1186/s41235-017-0087-y",
@@ -3232,7 +3592,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Retrieval practice (the mechanism underlying the Feynman explanation step) is among the six highest-evidence learning strategies, with consistent moderate-to-large effects across domains, ages, and ma"
     },
     "10.1016/j.neuropsychologia.2013.04.004": {
       "pmid": "10.1016/j.neuropsychologia.2013.04.004",
@@ -3260,7 +3623,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 36
+      "sample_size": 36,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "fMRI imaging showed that retrieval practice produces stronger hippocampal and prefrontal encoding than restudying, and these neural differences predicted superior performance on a delayed retention te"
     },
     "10.1037/edu0000001": {
       "pmid": "10.1037/edu0000001",
@@ -3286,7 +3652,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 126
+      "sample_size": 126,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Students randomized to interleaved math practice scored 76% on a delayed test versus 38% for blocked-practice controls \u2014 a near-doubling of retention \u2014 with gains maintained at a 30-day follow-up."
     },
     "10.1038/s41539-021-00110-x": {
       "pmid": "10.1038/s41539-021-00110-x",
@@ -3312,7 +3681,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Physics undergraduates assigned to interleaved homework practice significantly outperformed blocked-practice students on delayed problem-solving tests, with effects particularly strong for novel probl"
     },
     "10.3389/fpsyg.2019.00086": {
       "pmid": "10.3389/fpsyg.2019.00086",
@@ -3338,7 +3710,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 236
+      "sample_size": 236,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Third-graders randomly assigned to interleaved subtraction practice showed greater strategy flexibility and adaptive problem-solving compared to blocked-practice controls."
     },
     "16719566": {
       "pmid": 16719566,
@@ -3364,7 +3739,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Across 839 assessments from 317 experiments, spaced practice consistently produced superior final-test retention compared to massed practice, with optimal inter-study intervals scaling proportionally "
     },
     "10.1371/journal.pone.0090656": {
       "pmid": "10.1371/journal.pone.0090656",
@@ -3390,7 +3768,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Spaced learning was approximately twice as efficient as massed learning across two fundamentally different learning domains, with optimal spacing intervals around 12 hours."
     },
     "10.1162/jocn.2010.21532": {
       "pmid": "10.1162/jocn.2010.21532",
@@ -3416,7 +3797,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "fMRI showed spaced learning prevented repetition suppression in the fusiform gyrus, maintaining strong encoding signals that predicted significantly better recognition memory compared to massed learni"
     },
     "10.1145/3123024.3124558": {
       "pmid": "10.1145/3123024.3124558",
@@ -3442,7 +3826,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 32
+      "sample_size": 32,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Knowledge workers using blocking software during a 10-day field study reported significantly higher focused immersion and productivity, with social-media-prone workers showing the largest gains."
     },
     "10.1145/3173574.3173666": {
       "pmid": "10.1145/3173574.3173666",
@@ -3468,7 +3855,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Follow-up research showed individual differences in distraction susceptibility moderated blocker effectiveness \u2014 high-neuroticism and high-social-media users benefited most from blocking interventions"
     },
     "10.1016/J.CHB.2019.08.007": {
       "pmid": "10.1016/J.CHB.2019.08.007",
@@ -3495,7 +3885,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 73
+      "sample_size": 73,
+      "effect_direction": "null",
+      "effect_magnitude": "none",
+      "effect_size_note": "App usage notifications did not significantly reduce smartphone screen time or checking frequency compared to controls, suggesting friction-only interventions without behavior change support have limi"
     },
     "10.1007/s11469-022-00826-w": {
       "pmid": "10.1007/s11469-022-00826-w",
@@ -3522,7 +3915,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 121
+      "sample_size": 121,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A multi-component intervention including usage monitoring reduced problematic smartphone use and screen time, but the specific contribution of timers versus other strategies could not be isolated."
     },
     "10.1145/3613904.3642479": {
       "pmid": "10.1145/3613904.3642479",
@@ -3549,7 +3945,10 @@
         "studying_learning"
       ],
       "facets_source": "keyword",
-      "sample_size": 36
+      "sample_size": 36,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Reflective prompts at phone-checking moments (beyond simple timers) significantly extended focus session duration and reduced distraction, while baseline timer-only conditions showed smaller effects."
     },
     "26121498": {
       "pmid": 26121498,
@@ -3576,7 +3975,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 166
+      "sample_size": 166,
+      "effect_direction": "positive",
+      "effect_magnitude": "large",
+      "effect_size_note": "Receiving a cell phone notification \u2014 even without checking it \u2014 significantly disrupted performance on an attention-demanding cognitive task, with error rates comparable to those seen when actively u"
     },
     "10.1371/journal.pone.0277220": {
       "pmid": "10.1371/journal.pone.0277220",
@@ -3602,7 +4004,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "EEG measures confirmed that smartphone notification sounds produced measurable cognitive control impairment even when participants were instructed to ignore them, replicating and extending the Stothar"
     },
     "10.1038/s41598-023-36256-4": {
       "pmid": "10.1038/s41598-023-36256-4",
@@ -3627,7 +4032,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Participants showed significantly lower attentional performance on a concentration test when a smartphone was present on the desk (vs. absent), even with the phone on silent \u2014 confirming that notifica"
     },
     "10.1016/J.CHB.2019.07.016": {
       "pmid": "10.1016/J.CHB.2019.07.016",
@@ -3654,7 +4062,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 237
+      "sample_size": 237,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Participants whose notifications were batched (approximating DND periods between check windows) reported significantly higher attentiveness, productivity, better mood, and lower stress versus real-tim"
     },
     "10.1080/03623319.2020.1737461": {
       "pmid": "10.1080/03623319.2020.1737461",
@@ -3679,7 +4090,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 41
+      "sample_size": 41,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "College students in the grayscale condition showed a statistically significant reduction in daily smartphone screen time compared to the color condition, providing preliminary evidence for the interve"
     },
     "10.1177/20501579231212062": {
       "pmid": "10.1177/20501579231212062",
@@ -3704,7 +4118,10 @@
         "distraction_resistance"
       ],
       "facets_source": "keyword",
-      "sample_size": 84
+      "sample_size": 84,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "A one-week grayscale intervention reduced daily screen time by 20 minutes and improved perceived control over smartphone use and reduced stress, but did not significantly change the number of daily ph"
     },
     "10.1521/jscp.2018.37.10.751": {
       "pmid": "10.1521/jscp.2018.37.10.751",
@@ -3730,7 +4147,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 143
+      "sample_size": 143,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "University students randomly assigned to limit social media to 30 minutes/day showed significant reductions in depression and loneliness over three weeks compared to controls, with effects especially "
     },
     "10.1186/s40359-024-01611-1": {
       "pmid": "10.1186/s40359-024-01611-1",
@@ -3756,7 +4176,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 0
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "A 14-day social media abstinence RCT found significant reductions in FoMO and depressive symptoms in the abstinence group, with a dose-response pattern in daily diary data, supporting the digital mini"
     },
     "26783723": {
       "pmid": 26783723,
@@ -3782,7 +4205,10 @@
         "energy_recovery"
       ],
       "facets_source": "keyword",
-      "sample_size": 1787
+      "sample_size": 1787,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Higher frequency of social media platform visits was significantly associated with increased depression symptoms independent of demographic covariates, with a dose-response relationship supporting the"
     }
   }
 }

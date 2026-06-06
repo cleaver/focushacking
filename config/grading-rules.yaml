@@ -1,40 +1,52 @@
 # Focus Hacking — Evidence Grading Rules
-# Determines how a technique's grade is calculated from its paper set.
+# Adapted from the PoC Grading Rubric (GRADING_RUBRIC.md)
+#
+# Factors:
+# - Study type count (meta-analysis > RCT > controlled > observational)
+# - Total sample size (larger = more weight)
+# - Effect size (large/moderate/small/none — extracted by LLM from abstracts)
+# - Consistency (proportion of studies showing positive effect)
+# - Observational studies capped at Grade C
 
 grades:
   A:
     label: "Strong Evidence"
-    description: ">=3 RCTs or large meta-analysis, consistent, moderate-to-large effect"
+    description: ">=3 RCTs or >=1 large meta-analysis (n>=500), consistent (>=70%), moderate-to-large effect (d>=0.5)"
     requires:
       - types: ["Meta-Analysis", "Systematic Review"]
         min_count: 1
+        min_total_sample: 500
       - types: ["Randomized Controlled Trial"]
         min_count: 2
-        OR:
-          types: ["Controlled Clinical Trial", "Randomized Controlled Trial"]
-          min_count: 3
+        min_total_sample: 200
+    effect_required: "moderate_or_large"
+    consistency_min: 0.7
 
   B:
     label: "Good Evidence"
-    description: ">=2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect"
+    description: ">=2 RCTs or 1 meta-analysis (n>=100), mostly consistent (>=60%), small-to-moderate effect (d>=0.3)"
     requires:
       - types: ["Randomized Controlled Trial"]
         min_count: 1
         OR:
           types: ["Controlled Clinical Trial", "Randomized Controlled Trial", "Meta-Analysis"]
           min_count: 2
+        min_total_sample: 100
+    effect_required: "small_positive"
+    consistency_min: 0.6
 
   C:
     label: "Limited Evidence"
-    description: "1-2 RCTs or mixed results, methodological limitations"
+    description: "1-2 RCTs or mixed results, methodological limitations, or observational only"
     requires:
       - types: ["Randomized Controlled Trial", "Controlled Clinical Trial", "Observational Study",
                  "Systematic Review", "Review", "Meta-Analysis"]
         min_count: 1
+    # Observational-only evidence caps here; effect size not required
 
   D:
     label: "Weak Evidence"
-    description: "Primarily observational, self-report, or single underpowered study"
+    description: "Primarily observational, self-report, or single underpowered study (n<30)"
     requires:
       - types: ["Observational Study", "Case Study", "Review", "Journal Article"]
         min_count: 1
@@ -43,6 +55,15 @@ grades:
     label: "Insufficient Evidence"
     description: "No peer-reviewed evidence found"
     requires: []
+
+# Effect magnitude values used in effect_required checks:
+#   "moderate_or_large"  — most studies show moderate or large positive effects
+#   "small_positive"     — most studies show at least small positive effects
+#   "any"                — no effect requirement
+#   null / missing       — skip check (no effect data available)
+
+# Consistency thresholds are fractions (0.0-1.0):
+# Proportion of technique's papers with effect_direction == "positive"
 
 study_type_priority:
   - "Meta-Analysis"
