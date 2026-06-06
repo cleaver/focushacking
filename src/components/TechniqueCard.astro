@@ -19,23 +19,20 @@ const { technique: t } = Astro.props;
 ---
 
 <a href={`/techniques/${t.slug || t.id.replace(/\.md$/, "")}/`}
-  class="card block rounded-xl border p-4 transition-all hover:shadow-md"
-  style="background: var(--color-surface); border-color: var(--color-border);">
+  class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
   <div class="flex items-start gap-3">
     <span class={`grade-badge grade-${t.grade}`}>{t.grade}</span>
     <div class="min-w-0 flex-1">
       <div class="font-semibold leading-snug">{t.title}</div>
-      <div class="mt-0.5 text-xs" style="color: var(--color-text-muted);">{t.category}</div>
-      <div class="mt-2 text-xs leading-relaxed" style="color: var(--color-text-muted);">
+      <div class="mt-0.5 text-xs text-muted">{t.category}</div>
+      <div class="mt-2 text-xs leading-relaxed text-muted">
         {(t.summary || "").substring(0, 150)}{(t.summary || "").length > 150 ? "…" : ""}
       </div>
       <div class="mt-2 flex flex-wrap gap-1.5">
-        <span class="rounded-full px-2 py-0.5 text-[10px] font-medium"
-          style="background: var(--color-accent-light); color: var(--color-accent);">
+        <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-accent-light text-accent">
           {({ beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" })[t.difficulty] || "Beginner"}
         </span>
-        <span class="rounded-full px-2 py-0.5 text-[10px]"
-          style="background: var(--color-border); color: var(--color-text-muted);">
+        <span class="rounded-full px-2 py-0.5 text-[10px] bg-border text-muted">
           {t.time_to_benefit || ""}
         </span>
       </div>

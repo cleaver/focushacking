@@ -43,10 +43,42 @@ const jsonData = JSON.stringify(all.map((t) => ({
 <BaseLayout title="Focus Hacking" description="Evidence-graded directory of 58 free focus and attention techniques. Each technique graded A–D based on peer-reviewed research.">
   <div class="mb-6">
     <h1 class="text-3xl font-bold tracking-tight">Focus Hacking</h1>
-    <p class="mt-1" style="color: var(--color-text-muted);">
+    <p class="mt-1 text-muted">
       Evidence-graded directory of {all.length} free focus techniques.
       Each grade links to real peer-reviewed studies.
     </p>
+  </div>
+
+  <!-- Stats bar -->
+  <div class="stats-bar">
+    <div class="stat-card">
+      <span class="stat-icon">📋</span>
+      <div>
+        <div class="stat-value">{all.length}</div>
+        <div class="stat-label">Techniques</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">🗂️</span>
+      <div>
+        <div class="stat-value">{categories.length}</div>
+        <div class="stat-label">Categories</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">📊</span>
+      <div>
+        <div class="stat-value">A–D</div>
+        <div class="stat-label">Evidence Grades</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">💯</span>
+      <div>
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Free</div>
+      </div>
+    </div>
   </div>
 
   <!-- Search + Controls -->
@@ -55,12 +87,10 @@ const jsonData = JSON.stringify(all.map((t) => ({
       id="search"
       type="search"
       placeholder="Search techniques..."
-      class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none"
-      style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
+      class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     />
     <select id="sort-select"
-      class="rounded-lg border px-3 py-2 text-sm outline-none"
-      style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
+      class="rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     >
       <option value="default">Default</option>
       <option value="grade-desc">Best evidence first</option>
@@ -74,7 +104,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
   </div>
 
   <!-- Filter pills -->
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">
+  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
     Filter by category
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
@@ -92,7 +122,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
     })}
   </div>
 
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">
+  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
     Filter by evidence grade
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
@@ -173,7 +203,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
 
     const grid = document.getElementById("grid");
     if (filtered.length === 0) {
-      grid.innerHTML = `<div class="col-span-full py-12 text-center" style="color: var(--color-text-muted);">No techniques match your filters.</div>`;
+      grid.innerHTML = `<div class="col-span-full py-12 text-center text-muted">No techniques match your filters.</div>`;
       return;
     }
 
@@ -181,18 +211,18 @@ const jsonData = JSON.stringify(all.map((t) => ({
     const diffs = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
     grid.innerHTML = filtered.map((t) => {
       const slug = t.slug || t.id.replace(/\.md$/, "");
-      return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md" style="background: var(--color-surface); border-color: var(--color-border);">
+      return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
         <div class="flex items-start gap-3">
           <span class="grade-badge grade-${t.grade}">${t.grade}</span>
           <div class="min-w-0 flex-1">
             <div class="font-semibold leading-snug">${t.title}</div>
-            <div class="mt-0.5 text-xs" style="color: var(--color-text-muted);">${t.category}</div>
-            <div class="mt-2 text-xs leading-relaxed" style="color: var(--color-text-muted);">
+            <div class="mt-0.5 text-xs text-muted">${t.category}</div>
+            <div class="mt-2 text-xs leading-relaxed text-muted">
               ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
             </div>
             <div class="mt-2 flex flex-wrap gap-1.5">
-              <span class="rounded-full px-2 py-0.5 text-[10px] font-medium" style="background: var(--color-accent-light); color: var(--color-accent);">${diffs[t.difficulty] || "Beginner"}</span>
-              <span class="rounded-full px-2 py-0.5 text-[10px]" style="background: var(--color-border); color: var(--color-text-muted);">${t.time_to_benefit || ""}</span>
+              <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
+              <span class="rounded-full px-2 py-0.5 text-[10px] bg-border text-muted">${t.time_to_benefit || ""}</span>
             </div>
           </div>
         </div>

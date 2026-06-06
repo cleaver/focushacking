@@ -35,20 +35,19 @@ const FACET_LABELS = {
 
 <BaseLayout title={t.title} description={t.summary || `${t.title} — ${gradeInfo.label}`}>
   <!-- Back link -->
-  <a href="/" class="mb-4 inline-flex items-center gap-1 text-sm font-medium"
-    style="color: var(--color-accent);">
+  <a href="/" class="mb-4 inline-flex items-center gap-1 text-sm font-medium text-accent">
     ← Back to all techniques
   </a>
 
   <!-- Header -->
-  <div class="mb-6 rounded-xl border p-6" style="background: var(--color-surface); border-color: var(--color-border);">
+  <div class="mb-6 rounded-xl border p-6 bg-surface border-default">
     <div class="flex flex-wrap items-start justify-between gap-4">
       <div>
         <div class="flex items-center gap-3">
           <span class={`grade-badge grade-${t.grade}`}>{t.grade}</span>
           <div>
             <h1 class="text-2xl font-bold">{t.title}</h1>
-            <p class="text-sm" style="color: var(--color-text-muted);">{t.category}</p>
+            <p class="text-sm text-muted">{t.category}</p>
           </div>
         </div>
         <p class="mt-2 text-sm leading-relaxed">{t.summary}</p>
@@ -57,22 +56,22 @@ const FACET_LABELS = {
 
     <!-- Grade detail + meta -->
     <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="rounded-lg p-3" style="background: var(--color-bg);">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Grade</div>
+      <div class="rounded-lg p-3 bg-bg">
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Grade</div>
         <div class="mt-1 text-sm"><strong class="text-lg">{t.grade}</strong> — {gradeInfo.label}</div>
-        <div class="mt-0.5 text-xs leading-relaxed" style="color: var(--color-text-muted);">{gradeInfo.desc}</div>
-        {t.grade_detail && <div class="mt-1.5 text-xs leading-relaxed" style="color: var(--color-text-muted); opacity: 0.75;">{t.grade_detail}</div>}
+        <div class="mt-0.5 text-xs leading-relaxed text-muted">{gradeInfo.desc}</div>
+        {t.grade_detail && <div class="mt-1.5 text-xs leading-relaxed text-muted opacity-75">{t.grade_detail}</div>}
       </div>
-      <div class="rounded-lg p-3" style="background: var(--color-bg);">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Difficulty</div>
+      <div class="rounded-lg p-3 bg-bg">
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Difficulty</div>
         <div class="mt-1 text-sm">{DIFF[t.difficulty] || "Beginner"}</div>
       </div>
-      <div class="rounded-lg p-3" style="background: var(--color-bg);">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Time to Benefit</div>
+      <div class="rounded-lg p-3 bg-bg">
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Time to Benefit</div>
         <div class="mt-1 text-sm">{t.time_to_benefit || "N/A"}</div>
       </div>
-      <div class="rounded-lg p-3" style="background: var(--color-bg);">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Papers</div>
+      <div class="rounded-lg p-3 bg-bg">
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Papers</div>
         <div class="mt-1 text-sm">{t.total_papers || 0} studies tracked</div>
       </div>
     </div>
@@ -80,11 +79,10 @@ const FACET_LABELS = {
     <!-- Populations -->
     {t.populations && t.populations.length > 0 && (
       <div class="mt-4">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Studied in</div>
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Studied in</div>
         <div class="mt-1 flex flex-wrap gap-1.5">
           {t.populations.map((p) => (
-            <span class="rounded-full px-2.5 py-0.5 text-xs"
-              style="background: var(--color-accent-light); color: var(--color-accent);">
+            <span class="rounded-full px-2.5 py-0.5 text-xs bg-accent-light text-accent">
               {p.replace(/_/g, " ")}
             </span>
           ))}
@@ -95,11 +93,10 @@ const FACET_LABELS = {
     <!-- Focus facets -->
     {t.focus_facets && t.focus_facets.length > 0 && (
       <div class="mt-3">
-        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Focus areas</div>
+        <div class="text-xs font-semibold uppercase tracking-wide text-muted">Focus areas</div>
         <div class="mt-1 flex flex-wrap gap-1.5">
           {t.focus_facets.map((f) => (
-            <span class="rounded-full px-2.5 py-0.5 text-xs"
-              style="background: var(--color-border); color: var(--color-text);">
+            <span class="rounded-full px-2.5 py-0.5 text-xs bg-border text-default">
               {FACET_LABELS[f] || f.replace(/_/g, " ")}
             </span>
           ))}
@@ -109,7 +106,7 @@ const FACET_LABELS = {
   </div>
 
   <!-- Rendered content from markdown (Papers section, etc.) -->
-  <div class="prose prose-sm max-w-none" style="color: var(--color-text);">
+  <div class="prose prose-sm max-w-none text-default">
     <div class="rendered-content" set:html={body.content} />
   </div>
 </BaseLayout>

@@ -50,16 +50,15 @@ const ogImage = image ?? `${siteUrl}favicon.svg`;
     </script>
   </head>
   <body class="min-h-screen">
-    <nav class="border-b" style="border-color: var(--color-border);">
+    <nav class="site-header">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="/" class="text-lg font-bold tracking-tight" style="color: var(--color-accent);">
+        <a href="/" class="site-header-logo">
           ⚡ Focus Hacking
         </a>
         <div class="flex items-center gap-4">
-          <a href="/" class="text-sm font-medium" style="color: var(--color-text-muted);">Techniques</a>
-          <a href="/rss.xml" class="text-sm font-medium" style="color: var(--color-text-muted);">RSS</a>
-          <button id="theme-toggle" class="cursor-pointer rounded-md p-1.5 text-sm" style="color: var(--color-text-muted);"
-            aria-label="Toggle dark mode">
+          <a href="/" class="site-header-link">Techniques</a>
+          <a href="/rss.xml" class="site-header-link">RSS</a>
+          <button id="theme-toggle" class="site-header-btn" aria-label="Toggle dark mode">
             <span id="theme-icon">🌙</span>
           </button>
         </div>
@@ -70,7 +69,7 @@ const ogImage = image ?? `${siteUrl}favicon.svg`;
       <slot />
     </main>
 
-    <footer class="border-t py-6 text-center text-xs" style="color: var(--color-text-muted); border-color: var(--color-border);">
+    <footer class="border-t border-default py-6 text-center text-xs text-muted">
       Evidence-graded directory of focus techniques. Updated weekly via PubMed.
     </footer>
 
