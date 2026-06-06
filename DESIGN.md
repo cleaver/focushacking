@@ -402,9 +402,9 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| T1 | Match POC card/row hover effect (subtle shadow or bg shift) | `global.css` | Low | [ ] |
-| T2 | Ensure consistent border-radius across all cards | `global.css` | Low | [ ] |
-| T3 | Consider "View details" link at bottom of card (like POC's "View" button) | `TechniqueCard.astro` | Low | [ ] |
+| T1 | Match POC card/row hover effect (subtle shadow or bg shift) | `global.css` | Low | [x] |
+| T2 | Ensure consistent border-radius across all cards | `global.css` | Low | [x] |
+| T3 | Consider "View details" link at bottom of card (like POC's "View" button) | `TechniqueCard.astro` | Low | [x] |
 
 ### Technique Detail Page
 
@@ -426,7 +426,7 @@ section above.
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
 | CL1 | Add CSS custom properties for each category pill color (light + dark) | `global.css` | Medium | [x] |
-| CL2 | Verify grade colors match POC exactly (green/blue/amber/red/gray) | `global.css` | Low | [ ] |
+| CL2 | Verify grade colors match POC exactly (green/blue/amber/red/gray) | `global.css` | Low | [x] |
 | CL3 | Add header-specific color tokens (light + dark) | `global.css` | High | [x] |
 
 ### Typography
@@ -457,8 +457,8 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| BP1 | Stats bar: 4-col → 2-col at `640px` → 1-col at `480px` | `global.css` | Medium | [ ] |
-| BP2 | Grade legend: inline on desktop, stacked on mobile | `global.css` | Low | [ ] |
+| BP1 | Stats bar: 4-col → 2-col at `640px` → 1-col at `480px` | `global.css` | Medium | [x] |
+| BP2 | Grade legend: inline on desktop, stacked on mobile | `global.css` | Low | [x] |
 | BP3 | Card grid: 3-col → 2-col → 1-col (already done) | — | — | [x] |
 
 ---
@@ -469,13 +469,13 @@ section above.
 
 | # | Requirement | WCAG | Status | Done |
 |---|-------------|------|--------|------|
-| A1 | Grade badges: white text on colored bg — verify contrast ≥ 4.5:1 against all grade colors | 1.4.3 AA | ⚠️ Verify A (green) and D (red) with white text | [ ] |
-| A2 | Dark mode grade badges: verify contrast against dark bg variants | 1.4.3 AA | ⚠️ Verify | [ ] |
-| A3 | Text on page bg: `--color-text` vs `--color-bg` ratio ≥ 4.5:1 | 1.4.3 AA | ✓ Likely OK (near-black on near-white) | [ ] |
-| A4 | Muted text (`--color-text-muted`): verify ≥ 4.5:1 for body text, 3:1 for decorative | 1.4.3 AA | ⚠️ Check light mode `#57534e` on `#fafaf9` | [ ] |
-| A5 | Link/active accent color: verify contrast against bg | 1.4.3 AA | ⚠️ Check | [ ] |
+| A1 | Grade badges: white text on colored bg — verify contrast ≥ 4.5:1 against all grade colors | 1.4.3 AA | ⚠️ Verify A (green) and D (red) with white text | [x] |
+| A2 | Dark mode grade badges: verify contrast against dark bg variants | 1.4.3 AA | ⚠️ Verify | [x] |
+| A3 | Text on page bg: `--color-text` vs `--color-bg` ratio ≥ 4.5:1 | 1.4.3 AA | ✓ Likely OK (near-black on near-white) | [x] |
+| A4 | Muted text (`--color-text-muted`): verify ≥ 4.5:1 for body text, 3:1 for decorative | 1.4.3 AA | ⚠️ Check light mode `#57534e` on `#fafaf9` | [x] |
+| A5 | Link/active accent color: verify contrast against bg | 1.4.3 AA | ⚠️ Check | [x] |
 | A6 | Focus indicators: all interactive elements must have visible focus ring | 2.4.7 AA | ❌ Missing — add `:focus-visible` outlines | [x] |
-| A7 | Dark mode: re-verify all contrast ratios with dark palette | 1.4.3 AA | ⚠️ Verify | [ ] |
+| A7 | Dark mode: re-verify all contrast ratios with dark palette | 1.4.3 AA | ⚠️ Verify | [x] |
 | A8 | Category pills with distinct colors: ensure color is not sole differentiator — pair with text label | 1.4.1 A | ✓ Already have text labels | [x] |
 
 ### Semantic HTML
@@ -534,7 +534,7 @@ section above.
 |---|-------------|------|--------|------|
 | G1 | Search input needs associated `<label>` — either visible or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Search techniques"` | [x] |
 | G2 | Sort select needs associated `<label>` or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Sort techniques by"` | [x] |
-| G3 | Error state: "No techniques match your filters" — ensure it's announced to screen readers | 4.1.3 AA | ❌ Use `aria-live="polite"` on grid container | [ ] |
+| G3 | Error state: "No techniques match your filters" — ensure it's announced to screen readers | 4.1.3 AA | ❌ Use `aria-live="polite"` on grid container | [x] |
 
 ### Zoom & Responsiveness
 

@@ -274,7 +274,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
 
     const grid = document.getElementById("grid");
     if (filtered.length === 0) {
-      grid.innerHTML = `<div class="col-span-full py-12 text-center text-muted">No techniques match your filters.</div>`;
+      grid.innerHTML = `<div class="col-span-full py-12 text-center text-muted" role="status">No techniques match your filters.</div>`;
       return;
     }
 
@@ -294,6 +294,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
               <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
               <span class="rounded-full px-2 py-0.5 text-[10px] bg-border text-muted">${t.time_to_benefit || ""}</span>
             </div>
+            <div class="mt-2 text-xs text-accent font-medium">View details →</div>
           </div>
         </div>
       </a>`;

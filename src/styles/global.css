@@ -7,9 +7,9 @@
   --color-border: #e7e5e4;
   --color-accent: #0c4a6e;
   --color-accent-light: #e0f2fe;
-  --color-grade-a: #16a34a;
+  --color-grade-a: #16863a;
   --color-grade-b: #2563eb;
-  --color-grade-c: #d97706;
+  --color-grade-c: #987006;
   --color-grade-d: #dc2626;
   --color-grade-na: #78716c;
   /* Header */
@@ -38,11 +38,11 @@
   --color-border: #292524;
   --color-accent: #7dd3fc;
   --color-accent-light: #0c4a6e;
-  --color-grade-a: #4ade80;
-  --color-grade-b: #60a5fa;
-  --color-grade-c: #fbbf24;
-  --color-grade-d: #f87171;
-  --color-grade-na: #a8a29e;
+  --color-grade-a: #22804e;
+  --color-grade-b: #1d4fa0;
+  --color-grade-c: #a16c0d;
+  --color-grade-d: #803030;
+  --color-grade-na: #737373;
   /* Header */
   --color-header-bg: #0a0a1a;
   --color-header-text: #ffffff;
@@ -719,6 +719,10 @@ body {
 }
 
 /* ── Technique cards ──────────────────────────────── */
+.card {
+  border-radius: 0.75rem;
+}
+
 .card:hover {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
