@@ -25,6 +25,19 @@ const populations = [
 ];
 const grades = ["A", "B", "C", "D", "?"];
 const difficulties = ["beginner", "intermediate", "advanced"];
+
+const jsonData = JSON.stringify(all.map((t) => ({
+  id: t.id,
+  slug: t.slug,
+  title: t.title,
+  category: t.category,
+  grade: t.grade,
+  summary: t.summary || "",
+  difficulty: t.difficulty || "beginner",
+  time_to_benefit: t.time_to_benefit || "",
+  populations: t.populations || [],
+  focus_facets: t.focus_facets || [],
+})));
 ---
 
 <BaseLayout title="Focus Hacking" description="Evidence-graded directory of 58 free focus and attention techniques. Each technique graded A–D based on peer-reviewed research.">
@@ -44,9 +57,8 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       placeholder="Search techniques..."
       class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none"
       style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
-      oninput="filter()"
     />
-    <select id="sort-select" onchange="filter()"
+    <select id="sort-select"
       class="rounded-lg border px-3 py-2 text-sm outline-none"
       style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
     >
@@ -66,16 +78,14 @@ const difficulties = ["beginner", "intermediate", "advanced"];
     Filter by category
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
-    <button class="filter-pill active" data-group="category" data-value="all"
-      onclick="toggleFilter(this)">
+    <button class="filter-pill active" data-group="category" data-value="all">
       All {all.length}
     </button>
     {categories.map((cat) => {
       const count = all.filter((t) => t.category === cat).length;
       const short = cat === "Time Management" ? "Time Mgmt" : cat;
       return (
-        <button class="filter-pill" data-group="category" data-value={cat}
-          onclick="toggleFilter(this)">
+        <button class="filter-pill" data-group="category" data-value={cat}>
           {short} ({count})
         </button>
       );
@@ -89,8 +99,7 @@ const difficulties = ["beginner", "intermediate", "advanced"];
     {grades.map((g) => {
       const count = all.filter((t) => t.grade === g).length;
       return (
-        <button class="filter-pill" data-group="grade" data-value={g}
-          onclick="toggleFilter(this)">
+        <button class="filter-pill" data-group="grade" data-value={g}>
           Grade {g} ({count})
         </button>
       );
@@ -102,6 +111,8 @@ const difficulties = ["beginner", "intermediate", "advanced"];
     {all.map((t) => <TechniqueCard technique={t} />)}
   </div>
 </BaseLayout>
+
+<div id="data-json" hidden set:html={jsonData}></div>
 
 <script>
   const ALL = JSON.parse(document.getElementById("data-json").textContent);
@@ -115,13 +126,11 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       siblings.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
     } else {
-      // Deactivate "all" in this group
       const allBtn = document.querySelector(`.filter-pill[data-group="${group}"][data-value="all"]`);
       if (allBtn) allBtn.classList.remove("active");
 
       if (btn.classList.contains("active")) {
         btn.classList.remove("active");
-        // If nothing active in group, reactivate "all"
         const active = document.querySelectorAll(`.filter-pill[data-group="${group}"].active`);
         if (active.length === 0 && allBtn) allBtn.classList.add("active");
       } else {
@@ -135,7 +144,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
     const query = (document.getElementById("search").value || "").toLowerCase();
     const sort = document.getElementById("sort-select").value;
 
-    // Read active filters
     const activeCategories = [...document.querySelectorAll('.filter-pill[data-group="category"].active')]
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
@@ -150,7 +158,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       return true;
     });
 
-    // Sort
     const gradeOrder = { A: 0, B: 1, C: 2, D: 3, "?": 4 };
     const diffOrder = { beginner: 0, intermediate: 1, advanced: 2 };
     const timeOrder = { Immediate: 0, "1 week": 1, "1–2 weeks": 2, "2–4 weeks": 3, "4–6 weeks": 4, "4–8 weeks": 5 };
@@ -170,7 +177,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       return;
     }
 
-    // Re-render cards from template
     const grades = { A: "A", B: "B", C: "C", D: "D", "?": "?" };
     const diffs = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
     grid.innerHTML = filtered.map((t) => {
@@ -193,23 +199,18 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       </a>`;
     }).join("");
   }
+
+  // Attach event listeners (Astro scripts are modules — inline handlers not global)
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("search").addEventListener("input", filter);
+    document.getElementById("sort-select").addEventListener("change", filter);
+    document.querySelectorAll(".filter-pill").forEach((btn) => {
+      btn.addEventListener("click", () => toggleFilter(btn));
+    });
+  });
 </script>
 
-<!-- Hidden JSON data for client-side filtering -->
-<script id="data-json" type="application/json">
-{JSON.stringify(all.map((t) => ({
-  id: t.id,
-  slug: t.slug,
-  title: t.title,
-  category: t.category,
-  grade: t.grade,
-  summary: t.summary || "",
-  difficulty: t.difficulty || "beginner",
-  time_to_benefit: t.time_to_benefit || "",
-  populations: t.populations || [],
-  focus_facets: t.focus_facets || [],
-})))}
-</script>
+
 
 <style>
   .filter-pill {
