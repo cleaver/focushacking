@@ -1,13 +1,13 @@
 ---
 title: "Phone-Free Zone"
-slug: phone-free-zone
+slug: "phone-free-zone"
 category: "Environment"
-grade: C
+grade: "D"
 grade_detail: "Ward et al. 2017 (n=800, two experiments) provides the strongest direct evidence, demonstrating a significant dose-response relationship between phone proximity and cognitive capacity reduction; however, effect sizes are small-to-moderate and the study uses a cross-sectional between-subjects design without a true RCT structure, warranting Grade C."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -16,12 +16,13 @@ focus_facets:
   - distraction_resistance
   - energy_recovery
   - studying_learning
-summary: "Physically removing the smartphone from the immediate work environment — placing it in another room or a drawer — during focused work sessions. Research shows the mere visible presence of a smartphone reduces cognitive capacity even when it is off and face-down."
+summary: "Physically removing the smartphone from the immediate work environment \u2014 placing it in another room or a drawer \u2014 during focused work sessions. Research shows the mere visible presence of a smartphone reduces cognitive capacity even when it is off and face-down."
 what_it_is: |
   Physically removing the smartphone from the immediate work environment —
   placing it in another room or a drawer — during focused work sessions.
   Research shows the mere visible presence of a smartphone reduces
   cognitive capacity even when it is off and face-down.
+  
 how_to_do_it: |
   1. Before each focus session, place your smartphone in another room or in a bag/drawer.
   2. If you need the phone for calls, use a physical timer or dedicated focus phone mode instead.
@@ -29,7 +30,8 @@ how_to_do_it: |
   4. Notice the initial urge to check — allow it to pass without acting on it.
   5. Gradually increase the duration of phone-free periods from 25 minutes to 2+ hours.
   6. Use a physical alarm clock for timers rather than your phone.
-mechanism: "The smartphone functions as a cue that activates its associated goal-state representations (checking messages, social comparison, entertainment) in prefrontal cortex via conditioned habit circuitry. Even when suppressed from conscious awareness, these activated goal states occupy limited-capacity attentional control resources through chronic inhibitory competition, leaving fewer resources available for the current cognitive task — a process analogous to the attentional cost of holding suppressed thoughts in mind."
+  
+mechanism: "The smartphone functions as a cue that activates its associated goal-state representations (checking messages, social comparison, entertainment) in prefrontal cortex via conditioned habit circuitry. Even when suppressed from conscious awareness, these activated goal states occupy limited-capacity attentional control resources through chronic inhibitory competition, leaving fewer resources available for the current cognitive task \u2014 a process analogous to the attentional cost of holding suppressed thoughts in mind."
 ---
 
 ## Phone-Free Zone

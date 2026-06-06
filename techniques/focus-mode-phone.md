@@ -1,13 +1,13 @@
 ---
 title: "Focus Mode (Phone)"
-slug: focus-mode-phone
+slug: "focus-mode-phone"
 category: "Technology"
-grade: B
+grade: "B"
 grade_detail: "The attentional cost of notifications is robustly demonstrated by Stothart et al. 2015 (RCT, Journal of Experimental Psychology) and replicated by Stevens et al. 2022, establishing that Focus Mode (which eliminates notification interruptions) has a mechanistically well-supported benefit. Indirect evidence from notification-cost research qualifies this for Grade B, as direct RCTs of Focus Mode as an OS feature are limited."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -21,6 +21,7 @@ what_it_is: |
   user-defined profiles blocking specific apps and notifications, active
   only during chosen time windows, while still allowing calls from
   designated contacts. A flexible, preset distraction-management tool.
+  
 how_to_do_it: |
   1. On iPhone: Settings → Focus → Work → Customize (allowed apps, allowed notifications).
   2. On Android: Settings → Digital Wellbeing → Focus Mode → add distracting apps → select schedule.
@@ -28,7 +29,8 @@ how_to_do_it: |
   4. Set it to activate automatically during your peak work hours.
   5. Create a separate 'Evening' profile that allows personal apps while blocking work notifications.
   6. Use Focus Mode every day for 2 weeks to evaluate productivity impact.
-mechanism: "Smartphone notifications trigger an automatic orienting response in the right prefrontal cortex — an evolved neural alarm system that diverts attentional resources toward novelty detection even when the notification is consciously ignored. Focus Mode eliminates these orienting triggers entirely during work sessions, allowing prefrontal resources to remain allocated to the current task rather than being continuously taxed by suppression of irrelevant alerts."
+  
+mechanism: "Smartphone notifications trigger an automatic orienting response in the right prefrontal cortex \u2014 an evolved neural alarm system that diverts attentional resources toward novelty detection even when the notification is consciously ignored. Focus Mode eliminates these orienting triggers entirely during work sessions, allowing prefrontal resources to remain allocated to the current task rather than being continuously taxed by suppression of irrelevant alerts."
 ---
 
 ## Focus Mode (Phone)

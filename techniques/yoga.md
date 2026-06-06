@@ -1,14 +1,14 @@
 ---
 title: "Yoga"
-slug: yoga
+slug: "yoga"
 category: "Physical"
-grade: B
-grade_detail: "Multiple RCTs show yoga significantly improves attention, working memory, and executive function; effects are consistently positive but most studies have moderate sample sizes (n=30–100) and lack active exercise controls, placing evidence at grade B rather than A."
-last_searched: 2026-06-06
-total_papers: 4
-new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "4–8 weeks"
+grade: "B"
+grade_detail: "Multiple RCTs show yoga significantly improves attention, working memory, and executive function; effects are consistently positive but most studies have moderate sample sizes (n=30\u2013100) and lack active exercise controls, placing evidence at grade B rather than A."
+last_searched: "2026-06-06"
+total_papers: 5
+new_papers_this_run: 1
+difficulty: "beginner"
+time_to_benefit: "4\u20138 weeks"
 populations:
   - general_adults
   - clinical
@@ -24,6 +24,7 @@ what_it_is: |
   targets both the physical substrate and the attentional circuitry of
   focus, outperforming conventional exercise in attention-specific
   studies.
+  
 how_to_do_it: |
   1. Choose a beginner-accessible style: Hatha, Iyengar, or Vinyasa flow.
   2. Practice 3–5 sessions per week of 30–60 minutes each.
@@ -31,7 +32,8 @@ how_to_do_it: |
   4. Include at least 5 minutes of stillness (Savasana) at the end of every session.
   5. Over weeks, introduce pranayama (breathing) sequences before study or work sessions.
   6. Measure attention at weeks 4, 8, and 12 using a simple digit-span or timed focus test.
-mechanism: "Yoga's attention improvements are driven by two parallel mechanisms: the pranayama breathing component activates the parasympathetic nervous system (increasing HRV and reducing cortisol), lowering the physiological stress that impairs prefrontal function; and the mindful movement component trains interoceptive attention — the same attentional system used for sustained focus. Together, these create a unique dual-pathway enhancement of both the neurological substrate and the attentional circuitry underlying focused work."
+  
+mechanism: "Yoga's attention improvements are driven by two parallel mechanisms: the pranayama breathing component activates the parasympathetic nervous system (increasing HRV and reducing cortisol), lowering the physiological stress that impairs prefrontal function; and the mindful movement component trains interoceptive attention \u2014 the same attentional system used for sustained focus. Together, these create a unique dual-pathway enhancement of both the neurological substrate and the attentional circuitry underlying focused work."
 ---
 
 ## Yoga
@@ -78,3 +80,12 @@ Google's 'Search Inside Yourself' program includes yoga as a component. Surgeons
    - Effect: Moderate increase
    - Yoga-based intervention significantly improved verbal and visual memory, attention and working memory (spatial span), verbal fluency, executive function (Stroop), and processing speed in elderly residential care residents vs. no-yoga control.
    - [Link](https://doi.org/10.4103/0019-5545.116308)
+
+### 2026
+
+1. **Exercise-Based Interventions for ADHD: A Review of Modalities, Mechanisms, and Practical Applications.** — *Journal Article*
+   - Authors: Han Joon Sang, Jang Young Jin
+   - DOI: 10.1080/02701367.2025.2581676
+   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41380135/)
+   - Population: children_adolescents, clinical; Facets: distraction_resistance, energy_recovery
+

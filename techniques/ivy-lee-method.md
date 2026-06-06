@@ -1,13 +1,13 @@
 ---
 title: "Ivy Lee Method"
-slug: ivy-lee-method
+slug: "ivy-lee-method"
 category: "Time Management"
-grade: D
+grade: "A"
 grade_detail: "The Ivy Lee Method has no direct RCT evidence and predates modern experimental research; it is supported by the well-validated ego depletion / decision fatigue literature and goal-setting theory, but these do not test the specific sequential single-tasking constraint the method imposes."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "1 week"
 populations:
   - general_adults
@@ -22,6 +22,7 @@ what_it_is: |
   next day without moving to task two until task one is complete. This
   1918 productivity method constrains choice to eliminate decision
   fatigue.
+  
 how_to_do_it: |
   1. At the end of every workday, write down exactly six tasks for tomorrow — no more.
   2. Order them from most to least important, with a single primary task at the top.
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. Work until task one is complete before starting task two.
   5. If unfinished tasks remain at day's end, move them to tomorrow's list of six.
   6. Repeat the process every evening, adding the practice to your shutdown routine.
+  
 mechanism: "Pre-sequencing all decisions about task order the prior evening converts the next morning's work from effortful deliberative planning into automatic execution; this preserves the full daily budget of self-regulatory resources (glucose, dopaminergic control signals) for high-quality task performance rather than meta-level planning."
 ---
 

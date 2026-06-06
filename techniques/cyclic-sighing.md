@@ -1,14 +1,14 @@
 ---
 title: "Cyclic Sighing"
-slug: cyclic-sighing
+slug: "cyclic-sighing"
 category: "Breathing"
-grade: B
-grade_detail: "A rigorous, pre-registered remote RCT (Balban et al. 2023, n=111, 30 days) directly compared cyclic sighing to three active controls including mindfulness meditation, finding significantly greater mood improvement and the only significant respiratory rate reduction — meeting Grade B criteria for mood/affect with a clear mechanism."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "A rigorous, pre-registered remote RCT (Balban et al. 2023, n=111, 30 days) directly compared cyclic sighing to three active controls including mindfulness meditation, finding significantly greater mood improvement and the only significant respiratory rate reduction \u2014 meeting Grade B criteria for mood/affect with a clear mechanism."
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "Immediate (single session); 2–4 weeks (lasting mood/arousal baseline shift)"
+difficulty: "beginner"
+time_to_benefit: "Immediate (single session); 2\u20134 weeks (lasting mood/arousal baseline shift)"
 populations:
   - general_adults
 focus_facets:
@@ -21,6 +21,7 @@ what_it_is: |
   inflate the lungs) followed by a long, complete exhale through the
   mouth. The extended exhale maximally activates the parasympathetic
   nervous system.
+  
 how_to_do_it: |
   1. Sit or lie comfortably and prepare to breathe deliberately.
   2. Take a full, deep inhale through the nose until the lungs are comfortably full.
@@ -28,7 +29,8 @@ how_to_do_it: |
   4. Release a slow, long exhale through the mouth until the lungs are completely empty.
   5. Pause briefly, then repeat the double inhale and extended exhale.
   6. Practice for 5 continuous minutes daily — effects accumulate over 30 days.
-mechanism: "The double inhale fully recruits collapsed alveoli (preventing atelectasis) to maximize lung surface area for CO₂ offloading; the subsequent long, complete exhale maximally stimulates vagal afferents and the baroreceptor reflex, producing a large parasympathetic surge that lowers heart rate, reduces circulating catecholamines, and shifts limbic arousal toward the calm-alert state conducive to focused work."
+  
+mechanism: "The double inhale fully recruits collapsed alveoli (preventing atelectasis) to maximize lung surface area for CO\u2082 offloading; the subsequent long, complete exhale maximally stimulates vagal afferents and the baroreceptor reflex, producing a large parasympathetic surge that lowers heart rate, reduces circulating catecholamines, and shifts limbic arousal toward the calm-alert state conducive to focused work."
 ---
 
 ## Cyclic Sighing

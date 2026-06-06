@@ -1,13 +1,13 @@
 ---
 title: "Box Breathing"
-slug: box-breathing
+slug: "box-breathing"
 category: "Breathing"
-grade: C
+grade: "B"
 grade_detail: "Slow-paced breathing (the category to which box breathing belongs) has consistent evidence for autonomic regulation and acute stress reduction; direct RCT evidence for box breathing specifically on sustained attention or cognitive performance tasks is limited to a small number of studies with mixed results."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 4
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate (within 1 minute)"
 populations:
   - general_adults
@@ -15,12 +15,13 @@ populations:
 focus_facets:
   - distraction_resistance
   - energy_recovery
-summary: "A four-phase breathing technique where each phase — inhale, hold, exhale, hold — lasts an equal number of seconds (typically 4). Used by Navy SEALs and elite performers to rapidly regulate the autonomic nervous system and restore calm-alert focus under stress."
+summary: "A four-phase breathing technique where each phase \u2014 inhale, hold, exhale, hold \u2014 lasts an equal number of seconds (typically 4). Used by Navy SEALs and elite performers to rapidly regulate the autonomic nervous system and restore calm-alert focus under stress."
 what_it_is: |
   A four-phase breathing technique where each phase — inhale, hold,
   exhale, hold — lasts an equal number of seconds (typically 4). Used by
   Navy SEALs and elite performers to rapidly regulate the autonomic
   nervous system and restore calm-alert focus under stress.
+  
 how_to_do_it: |
   1. Sit upright with spine neutral and feet flat on the floor.
   2. Exhale all air from your lungs through the mouth to start.
@@ -28,7 +29,8 @@ how_to_do_it: |
   4. Hold the breath in for 4 seconds.
   5. Exhale slowly through the mouth for 4 seconds.
   6. Hold the lungs empty for 4 seconds; repeat the cycle 4–6 times.
-mechanism: "Box breathing at ≈6 breaths/minute resonates with the natural Mayer wave frequency of blood pressure oscillation, maximally amplifying heart rate variability (HRV) through respiratory sinus arrhythmia. Elevated HRV increases vagal tone, which directly suppresses the amygdala's stress-driven interference with prefrontal cortex function — creating the calm-alert state optimal for executive function. The extended exhalation phases also trigger the dive reflex via carotid body mechanoreceptors, further reducing heart rate and sympathetic arousal within 60–90 seconds."
+  
+mechanism: "Box breathing at \u22486 breaths/minute resonates with the natural Mayer wave frequency of blood pressure oscillation, maximally amplifying heart rate variability (HRV) through respiratory sinus arrhythmia. Elevated HRV increases vagal tone, which directly suppresses the amygdala's stress-driven interference with prefrontal cortex function \u2014 creating the calm-alert state optimal for executive function. The extended exhalation phases also trigger the dive reflex via carotid body mechanoreceptors, further reducing heart rate and sympathetic arousal within 60\u201390 seconds."
 ---
 
 ## Box Breathing
