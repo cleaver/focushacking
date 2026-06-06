@@ -1,0 +1,411 @@
+# Focus Hacking — Technique Search Configuration
+# Each entry defines how the pipeline searches PubMed for new papers.
+# Auto-generated from PoC data on 2026-06-06
+
+techniques:
+
+  - name: "Pomodoro Technique"
+    slug: pomodoro-technique
+    pubmed_query: '"Pomodoro Technique"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Time Blocking"
+    slug: time-blocking
+    pubmed_query: '"Time Blocking"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Eat the Frog"
+    slug: eat-the-frog
+    pubmed_query: '"Eat the Frog"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "clinical", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Timeboxing"
+    slug: timeboxing
+    pubmed_query: '"Timeboxing"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "MIT (Most Important Tasks)"
+    slug: mit-most-important-tasks
+    pubmed_query: '"MIT (Most Important Tasks)"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["deep_work_flow", "distraction_resistance"]
+
+  - name: "2-Minute Rule"
+    slug: 2-minute-rule
+    pubmed_query: '"2-Minute Rule"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Weekly Review"
+    slug: weekly-review
+    pubmed_query: '"Weekly Review"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Task Batching"
+    slug: task-batching
+    pubmed_query: '"Task Batching"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Ivy Lee Method"
+    slug: ivy-lee-method
+    pubmed_query: '"Ivy Lee Method"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Parkinson's Law Application"
+    slug: parkinsons-law-application
+    pubmed_query: '"Parkinson''s Law Application"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Time Management", "Executive Function"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance"]
+
+  - name: "Mindfulness Meditation"
+    slug: mindfulness-meditation
+    pubmed_query: '"Mindfulness Meditation"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "clinical", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Body Scan Meditation"
+    slug: body-scan-meditation
+    pubmed_query: '"Body Scan Meditation"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "athletes", "clinical"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Mindful Walking"
+    slug: mindful-walking
+    pubmed_query: '"Mindful Walking"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "knowledge_workers", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Loving-Kindness Meditation (Metta)"
+    slug: loving-kindness-meditation-metta
+    pubmed_query: '"Loving-Kindness Meditation (Metta)"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Open Monitoring Meditation"
+    slug: open-monitoring-meditation
+    pubmed_query: '"Open Monitoring Meditation"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "MBSR (Mindfulness-Based Stress Reduction)"
+    slug: mbsr-mindfulness-based-stress-reduction
+    pubmed_query: '"MBSR (Mindfulness-Based Stress Reduction)"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "clinical", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Mindful Journaling"
+    slug: mindful-journaling
+    pubmed_query: '"Mindful Journaling"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "children_adolescents", "knowledge_workers", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Gratitude Practice"
+    slug: gratitude-practice
+    pubmed_query: '"Gratitude Practice"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "clinical"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Visualization (Mental Rehearsal)"
+    slug: visualization-mental-rehearsal
+    pubmed_query: '"Visualization (Mental Rehearsal)"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "athletes", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance"]
+
+  - name: "Noting Technique"
+    slug: noting-technique
+    pubmed_query: '"Noting Technique"[Title/Abstract] AND ("mindfulness"[MeSH] OR "meditation"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Mindfulness", "Attention", "Meditation"]
+    populations_hint: ["general_adults", "clinical", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Aerobic Exercise"
+    slug: aerobic-exercise
+    pubmed_query: '"Aerobic Exercise"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "children_adolescents", "knowledge_workers", "students"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Yoga"
+    slug: yoga
+    pubmed_query: '"Yoga"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "clinical", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Progressive Muscle Relaxation (PMR)"
+    slug: progressive-muscle-relaxation-pmr
+    pubmed_query: '"Progressive Muscle Relaxation (PMR)"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "athletes", "clinical"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Cold Shower"
+    slug: cold-shower
+    pubmed_query: '"Cold Shower"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Power Nap"
+    slug: power-nap
+    pubmed_query: '"Power Nap"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Walking in Nature"
+    slug: walking-in-nature
+    pubmed_query: '"Walking in Nature"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "children_adolescents", "clinical", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Desk Stretching Routine"
+    slug: desk-stretching-routine
+    pubmed_query: '"Desk Stretching Routine"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Kettlebell Training"
+    slug: kettlebell-training
+    pubmed_query: '"Kettlebell Training"[Title/Abstract] AND ("exercise"[MeSH] OR "physical activity"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Exercise", "Attention", " Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Box Breathing"
+    slug: box-breathing
+    pubmed_query: '"Box Breathing"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "4-7-8 Breathing"
+    slug: 4-7-8-breathing
+    pubmed_query: '"4-7-8 Breathing"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "clinical"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Diaphragmatic Breathing"
+    slug: diaphragmatic-breathing
+    pubmed_query: '"Diaphragmatic Breathing"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "clinical", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Wim Hof Method Breathing"
+    slug: wim-hof-method-breathing
+    pubmed_query: '"Wim Hof Method Breathing"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "athletes", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Alternate Nostril Breathing (Nadi Shodhana Pranayama)"
+    slug: alternate-nostril-breathing-nadi-shodhana-pranayama
+    pubmed_query: '"Alternate Nostril Breathing (Nadi Shodhana Pranayama)"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "children_adolescents", "students"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Coherent Breathing (Resonance Breathing)"
+    slug: coherent-breathing-resonance-breathing
+    pubmed_query: '"Coherent Breathing (Resonance Breathing)"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults", "athletes"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Cyclic Sighing"
+    slug: cyclic-sighing
+    pubmed_query: '"Cyclic Sighing"[Title/Abstract] AND ("breathing exercises"[MeSH] OR "respiratory therapy"[MeSH]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Breathing Exercises", "Attention", "Relaxation"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Clean Desk / Declutter"
+    slug: clean-desk-declutter
+    pubmed_query: '"Clean Desk / Declutter"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Noise-Cancelling Headphones"
+    slug: noise-cancelling-headphones
+    pubmed_query: '"Noise-Cancelling Headphones"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Binaural Beats"
+    slug: binaural-beats
+    pubmed_query: '"Binaural Beats"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers", "students"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "White Noise"
+    slug: white-noise
+    pubmed_query: '"White Noise"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Optimal Temperature"
+    slug: optimal-temperature
+    pubmed_query: '"Optimal Temperature"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Natural Light Optimization"
+    slug: natural-light-optimization
+    pubmed_query: '"Natural Light Optimization"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Focus Playlists"
+    slug: focus-playlists
+    pubmed_query: '"Focus Playlists"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Phone-Free Zone"
+    slug: phone-free-zone
+    pubmed_query: '"Phone-Free Zone"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Environment", "Attention", "Cognition"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Single-Tasking (Monotasking)"
+    slug: single-tasking-monotasking
+    pubmed_query: '"Single-Tasking (Monotasking)"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Deep Work (Cal Newport Protocol)"
+    slug: deep-work-cal-newport-protocol
+    pubmed_query: '"Deep Work (Cal Newport Protocol)"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Implementation Intentions (If-Then Planning)"
+    slug: implementation-intentions-if-then-planning
+    pubmed_query: '"Implementation Intentions (If-Then Planning)"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "children_adolescents", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Cognitive Offloading (GTD System)"
+    slug: cognitive-offloading-gtd-system
+    pubmed_query: '"Cognitive Offloading (GTD System)"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Mental Contrasting with WOOP"
+    slug: mental-contrasting-with-woop
+    pubmed_query: '"Mental Contrasting with WOOP"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "athletes", "knowledge_workers", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Diffuse vs. Focused Thinking (Feynman Technique)"
+    slug: diffuse-vs-focused-thinking-feynman-technique
+    pubmed_query: '"Diffuse vs. Focused Thinking (Feynman Technique)"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "children_adolescents", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery", "studying_learning"]
+
+  - name: "Interleaving Practice"
+    slug: interleaving-practice
+    pubmed_query: '"Interleaving Practice"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Spaced Repetition"
+    slug: spaced-repetition
+    pubmed_query: '"Spaced Repetition"[Title/Abstract] AND ("cognition"[MeSH] OR "cognitive training"[Title/Abstract]) AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Cognition", "Learning", "Memory"]
+    populations_hint: ["general_adults", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Website Blockers"
+    slug: website-blockers
+    pubmed_query: '"Website Blockers"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "App Timers"
+    slug: app-timers
+    pubmed_query: '"App Timers"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "athletes", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "studying_learning"]
+
+  - name: "Focus Mode (Phone)"
+    slug: focus-mode-phone
+    pubmed_query: '"Focus Mode (Phone)"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Do Not Disturb (DND)"
+    slug: do-not-disturb-dnd
+    pubmed_query: '"Do Not Disturb (DND)"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["deep_work_flow", "distraction_resistance", "energy_recovery"]
+
+  - name: "Grayscale Phone Trick"
+    slug: grayscale-phone-trick
+    pubmed_query: '"Grayscale Phone Trick"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "students"]
+    facets_hint: ["deep_work_flow", "distraction_resistance"]
+
+  - name: "Notification Batching"
+    slug: notification-batching
+    pubmed_query: '"Notification Batching"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "knowledge_workers"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]
+
+  - name: "Digital Minimalism"
+    slug: digital-minimalism
+    pubmed_query: '"Digital Minimalism"[Title/Abstract] AND ("attention"[MeSH] OR "focus"[Title/Abstract] OR "executive function"[MeSH])'
+    mesh_terms: ["Attention", "Cell Phone Use", "Technology"]
+    populations_hint: ["general_adults", "clinical", "students"]
+    facets_hint: ["distraction_resistance", "energy_recovery"]

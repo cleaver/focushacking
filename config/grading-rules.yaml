@@ -1,0 +1,56 @@
+# Focus Hacking — Evidence Grading Rules
+# Determines how a technique's grade is calculated from its paper set.
+
+grades:
+  A:
+    label: "Strong Evidence"
+    description: ">=3 RCTs or large meta-analysis, consistent, moderate-to-large effect"
+    requires:
+      - types: ["Meta-Analysis", "Systematic Review"]
+        min_count: 1
+      - types: ["Randomized Controlled Trial"]
+        min_count: 2
+        OR:
+          types: ["Controlled Clinical Trial", "Randomized Controlled Trial"]
+          min_count: 3
+
+  B:
+    label: "Good Evidence"
+    description: ">=2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect"
+    requires:
+      - types: ["Randomized Controlled Trial"]
+        min_count: 1
+        OR:
+          types: ["Controlled Clinical Trial", "Randomized Controlled Trial", "Meta-Analysis"]
+          min_count: 2
+
+  C:
+    label: "Limited Evidence"
+    description: "1-2 RCTs or mixed results, methodological limitations"
+    requires:
+      - types: ["Randomized Controlled Trial", "Controlled Clinical Trial", "Observational Study",
+                 "Systematic Review", "Review", "Meta-Analysis"]
+        min_count: 1
+
+  D:
+    label: "Weak Evidence"
+    description: "Primarily observational, self-report, or single underpowered study"
+    requires:
+      - types: ["Observational Study", "Case Study", "Review", "Journal Article"]
+        min_count: 1
+
+  "?":
+    label: "Insufficient Evidence"
+    description: "No peer-reviewed evidence found"
+    requires: []
+
+study_type_priority:
+  - "Meta-Analysis"
+  - "Systematic Review"
+  - "Randomized Controlled Trial"
+  - "Controlled Clinical Trial"
+  - "Observational Study"
+  - "Review"
+  - "Case Study"
+  - "Journal Article"
+  - "Unknown"

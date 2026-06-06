@@ -1,0 +1,3788 @@
+{
+  "metadata": {
+    "version": 1,
+    "last_full_search": "2026-06-06T15:17:34Z",
+    "techniques_tracked": 58,
+    "total_papers": 142
+  },
+  "papers": {
+    "10.1186/s12909-025-08001-0": {
+      "pmid": "10.1186/s12909-025-08001-0",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "pomodoro-technique"
+      ],
+      "title": "Assessing the efficacy of the Pomodoro technique in enhancing anatomy lesson retention during study sessions: a scoping review",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 5270
+    },
+    "10.1371/journal.pone.0272460": {
+      "pmid": "10.1371/journal.pone.0272460",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "pomodoro-technique",
+        "task-batching"
+      ],
+      "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 2335
+    },
+    "10.59573/emsj.7(5).2023.24": {
+      "pmid": "10.59573/emsj.7(5).2023.24",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "pomodoro-technique"
+      ],
+      "title": "Effectiveness of Pomodoro Technique on Memory Retention among Psychology Students",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 75
+    },
+    "10.1016/S0065-2601(06)38002-1": {
+      "pmid": "10.1016/S0065-2601(06)38002-1",
+      "first_seen": "2006",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "time-blocking",
+        "eat-the-frog",
+        "ivy-lee-method",
+        "implementation-intentions-if-then-planning"
+      ],
+      "title": "Implementation intentions and goal achievement: A meta-analysis of effects and processes",
+      "doi": null,
+      "year": 2006,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 8155
+    },
+    "10.1080/10463283.2024.2334563": {
+      "pmid": "10.1080/10463283.2024.2334563",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "time-blocking"
+      ],
+      "title": "The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.obhdp.2009.03.002": {
+      "pmid": "10.1016/j.obhdp.2009.03.002",
+      "first_seen": "2009",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "time-blocking"
+      ],
+      "title": "Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Work Tasks",
+      "doi": null,
+      "year": 2009,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 137
+    },
+    "10.1037/0022-3514.74.5.1252": {
+      "pmid": "10.1037/0022-3514.74.5.1252",
+      "first_seen": "1998",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "eat-the-frog",
+        "ivy-lee-method"
+      ],
+      "title": "Ego depletion: Is the active self a limited resource?",
+      "doi": null,
+      "year": 1998,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 200
+    },
+    "10.1016/0364-0213(88)90023-7": {
+      "pmid": "10.1016/0364-0213(88)90023-7",
+      "first_seen": "1988",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "timeboxing"
+      ],
+      "title": "Cognitive load theory",
+      "doi": null,
+      "year": 1988,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.actpsy.2022.103702": {
+      "pmid": "10.1016/j.actpsy.2022.103702",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "timeboxing"
+      ],
+      "title": "Feeling rushed? Perceived time pressure impacts executive function and stress",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 52
+    },
+    "10.5465/amr.1991.4279584": {
+      "pmid": "10.5465/amr.1991.4279584",
+      "first_seen": "1990",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mit-most-important-tasks"
+      ],
+      "title": "A theory of goal setting and task performance",
+      "doi": null,
+      "year": 1990,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1037/0021-9010.71.3.474": {
+      "pmid": "10.1037/0021-9010.71.3.474",
+      "first_seen": "1986",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mit-most-important-tasks"
+      ],
+      "title": "A Meta-Analytic Review of the Goal Setting Literature",
+      "doi": null,
+      "year": 1986,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.jesp.2011.02.005": {
+      "pmid": "10.1016/j.jesp.2011.02.005",
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "2-minute-rule",
+        "weekly-review"
+      ],
+      "title": "Unfulfilled goals interfere with tasks that require executive functions",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 171
+    },
+    "10.1016/j.lrp.2007.12.011": {
+      "pmid": "10.1016/j.lrp.2007.12.011",
+      "first_seen": "2008",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "2-minute-rule",
+        "weekly-review"
+      ],
+      "title": "Getting Things Done: The Science Behind Stress-Free Productivity",
+      "doi": null,
+      "year": 2008,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1145/1357054.1357072": {
+      "pmid": "10.1145/1357054.1357072",
+      "first_seen": "2008",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "task-batching"
+      ],
+      "title": "The Cost of Interrupted Work: More Speed and Stress",
+      "doi": null,
+      "year": 2008,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 36
+    },
+    "10.1145/2207676.2207754": {
+      "pmid": "10.1145/2207676.2207754",
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "task-batching"
+      ],
+      "title": "A pace not dictated by electrons: an empirical study of work without email",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 13
+    },
+    "https://hbr.org/2002/07/creativity-under-the-gun": {
+      "pmid": "https://hbr.org/2002/07/creativity-under-the-gun",
+      "first_seen": "2002",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "parkinsons-law-application"
+      ],
+      "title": "Creativity Under the Gun",
+      "doi": null,
+      "year": 2002,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 177
+    },
+    "10.3389/fpsyg.2022.1049174": {
+      "pmid": "10.3389/fpsyg.2022.1049174",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "parkinsons-law-application"
+      ],
+      "title": "The nonlinear effect of time pressure on innovation performance: New insights from a meta-analysis",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1080/17437199.2023.2248222": {
+      "pmid": "10.1080/17437199.2023.2248222",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation",
+        "mbsr-mindfulness-based-stress-reduction",
+        "noting-technique"
+      ],
+      "title": "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 9538
+    },
+    "10.1177/1745691620968771": {
+      "pmid": "10.1177/1745691620968771",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation"
+      ],
+      "title": "The Empirical Status of Mindfulness-Based Interventions: A Systematic Review of 44 Meta-Analyses of RCTs",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1037/xge0000969": {
+      "pmid": "10.1037/xge0000969",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation"
+      ],
+      "title": "Mindfulness interventions improve momentary and trait measures of attentional control",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 153
+    },
+    "10.1037/ccp0000324": {
+      "pmid": "10.1037/ccp0000324",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation"
+      ],
+      "title": "Brief Mindfulness Training for Negative Affectivity: A Systematic Review and Meta-Analysis",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 5489
+    },
+    "10.1111/aphw.12366": {
+      "pmid": "10.1111/aphw.12366",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "body-scan-meditation"
+      ],
+      "title": "The effects of body scan meditation: A systematic review and meta-analysis",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1037/a0019434": {
+      "pmid": "10.1037/a0019434",
+      "first_seen": "2010",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "body-scan-meditation"
+      ],
+      "title": "Effects of Mindfulness-Based Stress Reduction on Emotion Regulation in Social Anxiety Disorder",
+      "doi": null,
+      "year": 2010,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 16
+    },
+    "10.1371/journal.pone.0124344": {
+      "pmid": "10.1371/journal.pone.0124344",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "body-scan-meditation"
+      ],
+      "title": "Standardised Mindfulness-Based Interventions in Healthcare: An Overview of Systematic Reviews and Meta-Analyses of RCTs",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1111/j.1467-9280.2008.02225.x": {
+      "pmid": "10.1111/j.1467-9280.2008.02225.x",
+      "first_seen": "2008",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-walking",
+        "walking-in-nature"
+      ],
+      "title": "The Cognitive Benefits of Interacting with Nature",
+      "doi": null,
+      "year": 2008,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 38
+    },
+    "10.1016/j.explore.2022.08.004": {
+      "pmid": "10.1016/j.explore.2022.08.004",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-walking"
+      ],
+      "title": "Effectiveness of a mindful nature walking intervention on sleep quality and mood in university students during Covid-19: A randomised control study",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 66
+    },
+    "10.3389/fpsyg.2018.02057": {
+      "pmid": "10.3389/fpsyg.2018.02057",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-walking"
+      ],
+      "title": "Can Nature Walks With Psychological Tasks Improve Mood, Self-Reported Restoration, and Sustained Attention?",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 249
+    },
+    "18954193": {
+      "pmid": 18954193,
+      "first_seen": "2008",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "loving-kindness-meditation-metta"
+      ],
+      "title": "Open hearts build lives: positive emotions, induced through loving-kindness meditation, build consequential personal resources",
+      "doi": null,
+      "year": 2008,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 139
+    },
+    "26579061": {
+      "pmid": 26579061,
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "loving-kindness-meditation-metta"
+      ],
+      "title": "The effect of loving-kindness meditation on positive emotions: a meta-analytic review",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 1759
+    },
+    "10.1371/journal.pone.0040054": {
+      "pmid": "10.1371/journal.pone.0040054",
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "loving-kindness-meditation-metta"
+      ],
+      "title": "Distinct Neural Activity Associated with Focused-Attention Meditation and Loving-Kindness Meditation",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 44
+    },
+    "10.1016/j.psychres.2013.09.002": {
+      "pmid": "10.1016/j.psychres.2013.09.002",
+      "first_seen": "2013",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "open-monitoring-meditation"
+      ],
+      "title": "The effect of focused attention and open monitoring meditation on attention network function in healthy volunteers",
+      "doi": null,
+      "year": 2013,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 57
+    },
+    "10.3389/fpsyg.2014.01083": {
+      "pmid": "10.3389/fpsyg.2014.01083",
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "open-monitoring-meditation"
+      ],
+      "title": "Focused attention, open monitoring and loving kindness meditation: effects on attention, conflict monitoring, and creativity \u2014 A review",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.brat.2017.09.010": {
+      "pmid": "10.1016/j.brat.2017.09.010",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "open-monitoring-meditation"
+      ],
+      "title": "Dismantling Mindfulness-Based Cognitive Therapy: Creation and validation of 8-week focused attention and open monitoring interventions within a 3-armed RCT",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1007/s11065-021-09519-y": {
+      "pmid": "10.1007/s11065-021-09519-y",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mbsr-mindfulness-based-stress-reduction"
+      ],
+      "title": "The Effect of Mindfulness-based Programs on Cognitive Function in Adults: A Systematic Review and Meta-analysis",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2020.01053": {
+      "pmid": "10.3389/fpsyg.2020.01053",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mbsr-mindfulness-based-stress-reduction"
+      ],
+      "title": "The Mediating Role of Non-reactivity to Mindfulness Training and Cognitive Flexibility: A Randomized Controlled Trial",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 54
+    },
+    "10.1371/journal.pone.0097551": {
+      "pmid": "10.1371/journal.pone.0097551",
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mbsr-mindfulness-based-stress-reduction"
+      ],
+      "title": "No Sustained Attention Differences in a Longitudinal Randomized Trial Comparing Mindfulness Based Stress Reduction versus Active Control",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1177/00812463211043450": {
+      "pmid": "10.1177/00812463211043450",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-journaling"
+      ],
+      "title": "Investigating the influence of expressive writing exercises on the working memory of middle adolescents and young adults in South Africa",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 66
+    },
+    "10.3389/fnhum.2019.00389": {
+      "pmid": "10.3389/fnhum.2019.00389",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-journaling"
+      ],
+      "title": "Effects of Expressive Writing on Neural Processing During Learning",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.5406/19398298.136.1.03": {
+      "pmid": "10.5406/19398298.136.1.03",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindful-journaling"
+      ],
+      "title": "Improving the Executive Functions of Third to Fifth Graders With Learning Disabilities Through an Expressive Writing Program",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 40
+    },
+    "10.31744/einstein_journal/2023RW0371": {
+      "pmid": "10.31744/einstein_journal/2023RW0371",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "gratitude-practice"
+      ],
+      "title": "The effects of gratitude interventions: a systematic review and meta-analysis",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2019.00584": {
+      "pmid": "10.3389/fpsyg.2019.00584",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "gratitude-practice"
+      ],
+      "title": "Positive Psychology and Gratitude Interventions: A Randomized Clinical Trial",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2021.799447": {
+      "pmid": "10.3389/fpsyg.2021.799447",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "gratitude-practice"
+      ],
+      "title": "Gratitude as Mood Mediates the Effects of a 6-Weeks Gratitude Intervention on Mental Well-Being",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1080/17408989.2021.1991297": {
+      "pmid": "10.1080/17408989.2021.1991297",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "visualization-mental-rehearsal"
+      ],
+      "title": "Mental imagery training programs for developing sport-specific motor skills: a systematic review and meta-analysis",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 1449
+    },
+    "10.3390/bs15050685": {
+      "pmid": "10.3390/bs15050685",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "visualization-mental-rehearsal"
+      ],
+      "title": "The Effects of Imagery Practice on Athletes' Performance: A Multilevel Meta-Analysis with Systematic Review",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 3593
+    },
+    "10.3389/fpsyg.2023.1187175": {
+      "pmid": "10.3389/fpsyg.2023.1187175",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "visualization-mental-rehearsal"
+      ],
+      "title": "Bilateral transfer of motor performance as a function of motor imagery training: a systematic review and meta-analysis",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1111/j.1467-9280.2007.01916.x": {
+      "pmid": "10.1111/j.1467-9280.2007.01916.x",
+      "first_seen": "2007",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "noting-technique"
+      ],
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli",
+      "doi": null,
+      "year": 2007,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 30
+    },
+    "10.1016/j.jaim.2024.101057": {
+      "pmid": "10.1016/j.jaim.2024.101057",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "noting-technique"
+      ],
+      "title": "The impact of meditation on sustained attention in nonclinical population: An extensive review",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 1447
+    },
+    "10.1016/j.ijnurstu.2024.104912": {
+      "pmid": "10.1016/j.ijnurstu.2024.104912",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "aerobic-exercise",
+        "kettlebell-training"
+      ],
+      "title": "Effects of aerobic exercise on executive function of healthy middle-aged and older adults: A systematic review and meta-analysis",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 2881
+    },
+    "10.1097/PSY.0b013e3181d14633": {
+      "pmid": "10.1097/PSY.0b013e3181d14633",
+      "first_seen": "2010",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "aerobic-exercise"
+      ],
+      "title": "Aerobic Exercise and Neurocognitive Performance: A Meta-Analytic Review of Randomized Controlled Trials",
+      "doi": null,
+      "year": 2010,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3390/ijerph20042802": {
+      "pmid": "10.3390/ijerph20042802",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "aerobic-exercise"
+      ],
+      "title": "Effectiveness of a Single Prolonged Aerobic Exercise Session on Executive Function Task Performance in Physically Active Adults",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2025.1556721": {
+      "pmid": "10.3389/fpsyg.2025.1556721",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "aerobic-exercise"
+      ],
+      "title": "The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1093/gerona/glu095": {
+      "pmid": "10.1093/gerona/glu095",
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "yoga"
+      ],
+      "title": "The effects of an 8-week Hatha yoga intervention on executive function in older adults",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 108
+    },
+    "10.4103/ym.ym_88_23": {
+      "pmid": "10.4103/ym.ym_88_23",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "yoga"
+      ],
+      "title": "Integrated yoga changes attention, motor, and mental function in expecting mothers: A randomized controlled trial",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 96
+    },
+    "10.1007/s10865-022-00385-4": {
+      "pmid": "10.1007/s10865-022-00385-4",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "yoga"
+      ],
+      "title": "Feasibility and impact of a remote moderate-intensity yoga intervention on stress and executive functioning in working adults: a randomized controlled trial",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 86
+    },
+    "10.4103/0019-5545.116308": {
+      "pmid": "10.4103/0019-5545.116308",
+      "first_seen": "2013",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "yoga"
+      ],
+      "title": "Randomized clinical trial of yoga-based intervention in residents from elderly homes: Effects on cognitive function",
+      "doi": null,
+      "year": 2013,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.2147/PRBM.S437277": {
+      "pmid": "10.2147/PRBM.S437277",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "progressive-muscle-relaxation-pmr"
+      ],
+      "title": "Efficacy of Progressive Muscle Relaxation in Adults for Stress, Anxiety, and Depression: A Systematic Review",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 3402
+    },
+    "10.1155/2021/5924040": {
+      "pmid": "10.1155/2021/5924040",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "progressive-muscle-relaxation-pmr"
+      ],
+      "title": "Effectiveness of Progressive Muscle Relaxation, Deep Breathing, and Guided Imagery in Promoting Psychological and Physiological States of Relaxation",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 60
+    },
+    "10.4103/jehp.jehp_1913_23": {
+      "pmid": "10.4103/jehp.jehp_1913_23",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "progressive-muscle-relaxation-pmr"
+      ],
+      "title": "Effectiveness of nurse-led progressive muscle relaxation on stress, anxiety, and depression: A randomized controlled trial",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 61
+    },
+    "10.1186/1471-244X-8-41": {
+      "pmid": "10.1186/1471-244X-8-41",
+      "first_seen": "2008",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "progressive-muscle-relaxation-pmr"
+      ],
+      "title": "Relaxation training for anxiety: a ten-years systematic review with meta-analysis",
+      "doi": null,
+      "year": 2008,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1371/journal.pone.0317615": {
+      "pmid": "10.1371/journal.pone.0317615",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cold-shower"
+      ],
+      "title": "Effects of cold-water immersion on health and wellbeing: A systematic review and meta-analysis",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 3177
+    },
+    "10.3390/biology12020211": {
+      "pmid": "10.3390/biology12020211",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cold-shower"
+      ],
+      "title": "Short-Term Head-Out Whole-Body Cold-Water Immersion Facilitates Positive Affect and Increases Interaction between Large-Scale Brain Networks",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 33
+    },
+    "10.3390/ijerph18189725": {
+      "pmid": "10.3390/ijerph18189725",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cold-shower"
+      ],
+      "title": "The Effect of Cold Exposure on Cognitive Performance in Healthy Adults: A Systematic Review",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3390/ijerph181910212": {
+      "pmid": "10.3390/ijerph181910212",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "power-nap"
+      ],
+      "title": "Effects of a Short Daytime Nap on the Cognitive Performance: A Systematic Review and Meta-Analysis",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 381
+    },
+    "10.1016/j.ijpsycho.2022.06.013": {
+      "pmid": "10.1016/j.ijpsycho.2022.06.013",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "power-nap"
+      ],
+      "title": "Effects of an afternoon nap on sustained attention and working memory: The role of physiological arousal and sleep variables",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 18
+    },
+    "10.1093/sleep/zsad025": {
+      "pmid": "10.1093/sleep/zsad025",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "power-nap"
+      ],
+      "title": "Influence of mid-afternoon nap duration and sleep parameters on memory encoding, mood, processing speed, and vigilance",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1038/s41598-024-52205-1": {
+      "pmid": "10.1038/s41598-024-52205-1",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "walking-in-nature"
+      ],
+      "title": "Immersion in nature enhances neural indices of executive attention",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2019.00042": {
+      "pmid": "10.3389/fpsyg.2019.00042",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "walking-in-nature"
+      ],
+      "title": "Cognitive Restoration in Children Following Exposure to Nature: Evidence From the Attention Network Task and Mobile Eye Tracking",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.jad.2012.03.012": {
+      "pmid": "10.1016/j.jad.2012.03.012",
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "walking-in-nature"
+      ],
+      "title": "Interacting with nature improves cognition and affect for individuals with depression",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 20
+    },
+    "10.1016/j.cognition.2010.12.007": {
+      "pmid": "10.1016/j.cognition.2010.12.007",
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "desk-stretching-routine"
+      ],
+      "title": "Depletion without fatigue: temporary deactivation of a task representation as a mechanism behind short breaks and rest periods",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1080/20590776.2023.2225700": {
+      "pmid": "10.1080/20590776.2023.2225700",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "desk-stretching-routine"
+      ],
+      "title": "Rest breaks aid directed attention and learning",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.70675/d04d2bc0z46c4z4daazaad6zb115f7dd9651": {
+      "pmid": "10.70675/d04d2bc0z46c4z4daazaad6zb115f7dd9651",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "desk-stretching-routine"
+      ],
+      "title": "Slow-paced breathing and cardiac vagal activity: influence on stress regulation, sleep, and cognitive executive performance",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1371/journal.pone.0176092": {
+      "pmid": "10.1371/journal.pone.0176092",
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "kettlebell-training"
+      ],
+      "title": "The effects of a resistance vs. an aerobic single session on attention and executive functioning in adults",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 39
+    },
+    "10.1016/j.neubiorev.2021.06.026": {
+      "pmid": "10.1016/j.neubiorev.2021.06.026",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "kettlebell-training"
+      ],
+      "title": "The effects of acute aerobic exercise on executive function: A systematic review and meta-analysis of individual participant data",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.xcrm.2022.100895": {
+      "pmid": "10.1016/j.xcrm.2022.100895",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "box-breathing"
+      ],
+      "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 114
+    },
+    "10.3389/fnhum.2018.00353": {
+      "pmid": "10.3389/fnhum.2018.00353",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "box-breathing"
+      ],
+      "title": "How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.actpsy.2025.105222": {
+      "pmid": "10.1016/j.actpsy.2025.105222",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "box-breathing"
+      ],
+      "title": "A computational modeling approach to brief slow-paced breathing and mental health moderators of decision-making under uncertainty",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 216
+    },
+    "10.3389/fpsyg.2019.01923": {
+      "pmid": "10.3389/fpsyg.2019.01923",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "box-breathing"
+      ],
+      "title": "Influence of Slow-Paced Breathing on Inhibition After Physical Exertion",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "36480101": {
+      "pmid": 36480101,
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "4-7-8-breathing"
+      ],
+      "title": "The Effect of Deep Breathing Exercise and 4-7-8 Breathing Techniques Applied to Patients After Bariatric Surgery on Anxiety and Quality of Life",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 63
+    },
+    "11790690": {
+      "pmid": 11790690,
+      "first_seen": "2002",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "4-7-8-breathing",
+        "diaphragmatic-breathing"
+      ],
+      "title": "Slow breathing increases arterial baroreflex sensitivity in patients with chronic heart failure",
+      "doi": null,
+      "year": 2002,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 102
+    },
+    "30245619": {
+      "pmid": 30245619,
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "4-7-8-breathing",
+        "diaphragmatic-breathing",
+        "coherent-breathing-resonance-breathing",
+        "cyclic-sighing"
+      ],
+      "title": "How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "28626434": {
+      "pmid": 28626434,
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "diaphragmatic-breathing"
+      ],
+      "title": "The Effect of Diaphragmatic Breathing on Attention, Negative Affect and Stress in Healthy Adults",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 40
+    },
+    "24799686": {
+      "pmid": 24799686,
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "wim-hof-method-breathing"
+      ],
+      "title": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 24
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936795/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936795/",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "wim-hof-method-breathing"
+      ],
+      "title": "Does the Wim Hof Method have a beneficial impact on physiological and psychological outcomes? A systematic review",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "https://www.nature.com/articles/s41598-025-29187-9": {
+      "pmid": "https://www.nature.com/articles/s41598-025-29187-9",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "wim-hof-method-breathing"
+      ],
+      "title": "Psychophysiological effects of Wim Hof Method and cold exposure: a semi-randomised controlled trial",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516310/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516310/",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "alternate-nostril-breathing-nadi-shodhana-pranayama"
+      ],
+      "title": "Slow yoga breathing improves mental load in working memory: a randomized controlled trial",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 40
+    },
+    "29284770": {
+      "pmid": 29284770,
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "alternate-nostril-breathing-nadi-shodhana-pranayama"
+      ],
+      "title": "Alternate-Nostril Yoga Breathing Reduced Blood Pressure While Increasing Performance in a Vigilance Test",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 15
+    },
+    "23721252": {
+      "pmid": 23721252,
+      "first_seen": "2013",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "alternate-nostril-breathing-nadi-shodhana-pranayama"
+      ],
+      "title": "Changes in P300 following alternate nostril yoga breathing and breath awareness",
+      "doi": null,
+      "year": 2013,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 20
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924557/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924557/",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "coherent-breathing-resonance-breathing"
+      ],
+      "title": "Effect of Resonance Breathing on Heart Rate Variability and Cognitive Functions",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 50
+    },
+    "https://www.nature.com/articles/s41598-023-49279-8": {
+      "pmid": "https://www.nature.com/articles/s41598-023-49279-8",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "coherent-breathing-resonance-breathing"
+      ],
+      "title": "Effect of coherent breathing on mental health and wellbeing: a randomised placebo-controlled trial",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "36630953": {
+      "pmid": 36630953,
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cyclic-sighing"
+      ],
+      "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 111
+    },
+    "21228167": {
+      "pmid": 21228167,
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "clean-desk-declutter"
+      ],
+      "title": "Interactions of top-down and bottom-up mechanisms in human visual cortex",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "19934011": {
+      "pmid": 19934011,
+      "first_seen": "2010",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "clean-desk-declutter"
+      ],
+      "title": "No Place Like Home: Home Tours Correlate with Daily Patterns of Mood and Cortisol",
+      "doi": null,
+      "year": 2010,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 60
+    },
+    "22915122": {
+      "pmid": 22915122,
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "clean-desk-declutter"
+      ],
+      "title": "Neural evidence for distracter suppression during visual search in real-world scenes",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "36028546": {
+      "pmid": 36028546,
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "noise-cancelling-headphones",
+        "white-noise"
+      ],
+      "title": "Cognitive performance, creativity and stress levels of neurotypical young adults in office spaces with white noise",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 59
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "noise-cancelling-headphones",
+        "white-noise"
+      ],
+      "title": "Low intensity white noise improves performance in auditory working memory",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 20
+    },
+    "26612201": {
+      "pmid": 26612201,
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "binaural-beats"
+      ],
+      "title": "More attentional focusing through binaural beats: evidence from the global-local task",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 36
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "binaural-beats"
+      ],
+      "title": "Effects of binaural and monaural beat stimulation on attention and EEG",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "white-noise"
+      ],
+      "title": "Differential effects of white noise in cognitive and perceptual tasks",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "12745975": {
+      "pmid": 12745975,
+      "first_seen": "2003",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "optimal-temperature"
+      ],
+      "title": "Effects of heat stress on cognitive performance: the current state of knowledge",
+      "doi": null,
+      "year": 2003,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3082171/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3082171/",
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "optimal-temperature"
+      ],
+      "title": "Alterations in cognitive performance during passive hyperthermia and the effect of cooling of the head",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 16
+    },
+    "41402450": {
+      "pmid": 41402450,
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "natural-light-optimization"
+      ],
+      "title": "Relationships between light exposure and aspects of cognitive function in everyday life",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 58
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/": {
+      "pmid": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "natural-light-optimization"
+      ],
+      "title": "Effects of Daytime Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A Systematic Review",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1086/665048": {
+      "pmid": "10.1086/665048",
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-playlists"
+      ],
+      "title": "Is Noise Always Bad? Exploring the Effects of Ambient Noise on Creative Cognition",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "22523045": {
+      "pmid": 22523045,
+      "first_seen": "2012",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-playlists"
+      ],
+      "title": "Background music: effects on attention performance",
+      "doi": null,
+      "year": 2012,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1371/journal.pone.0316047": {
+      "pmid": "10.1371/journal.pone.0316047",
+      "first_seen": "2025",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-playlists"
+      ],
+      "title": "Effects of music advertised to support focus on mood and processing speed",
+      "doi": null,
+      "year": 2025,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1086/691462": {
+      "pmid": "10.1086/691462",
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "phone-free-zone",
+        "single-tasking-monotasking"
+      ],
+      "title": "Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 800
+    },
+    "19706386": {
+      "pmid": 19706386,
+      "first_seen": "2009",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "phone-free-zone",
+        "single-tasking-monotasking"
+      ],
+      "title": "Cognitive control in media multitaskers",
+      "doi": null,
+      "year": 2009,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 41
+    },
+    "10.5817/CP2021-1-2": {
+      "pmid": "10.5817/CP2021-1-2",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "single-tasking-monotasking"
+      ],
+      "title": "\"Cognitive control in media multitaskers\" ten years on: a meta-analysis",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1145/1054972.1055017": {
+      "pmid": "10.1145/1054972.1055017",
+      "first_seen": "2005",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "deep-work-cal-newport-protocol",
+        "website-blockers",
+        "do-not-disturb-dnd",
+        "notification-batching"
+      ],
+      "title": "Do Interruptions Affect Quality of Work?",
+      "doi": null,
+      "year": 2005,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 36
+    },
+    "10.1177/0963721415577356": {
+      "pmid": "10.1177/0963721415577356",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "deep-work-cal-newport-protocol"
+      ],
+      "title": "How Concentration Shields Against Distraction",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1111/ejn.15014": {
+      "pmid": "10.1111/ejn.15014",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "deep-work-cal-newport-protocol"
+      ],
+      "title": "Go with the flow: A neuroscientific view on being fully engaged",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1080/01443410.2010.506003": {
+      "pmid": "10.1080/01443410.2010.506003",
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "implementation-intentions-if-then-planning"
+      ],
+      "title": "Self-regulation strategies improve self-discipline in adolescents: benefits of mental contrasting and implementation intentions",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 168
+    },
+    "10.3389/fnhum.2015.00395": {
+      "pmid": "10.3389/fnhum.2015.00395",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "implementation-intentions-if-then-planning"
+      ],
+      "title": "Promoting the translation of intentions into action by implementation intentions: behavioral effects and physiological correlates",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1177/17470218211008060": {
+      "pmid": "10.1177/17470218211008060",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cognitive-offloading-gtd-system"
+      ],
+      "title": "Consequences of cognitive offloading: Boosting performance but diminishing memory",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3758/s13423-022-02139-4": {
+      "pmid": "10.3758/s13423-022-02139-4",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cognitive-offloading-gtd-system"
+      ],
+      "title": "Outsourcing Memory to External Tools: A Review of 'Intention Offloading'",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.cognition.2019.104012": {
+      "pmid": "10.1016/j.cognition.2019.104012",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "cognitive-offloading-gtd-system"
+      ],
+      "title": "A role for metamemory in cognitive offloading",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2021.565202": {
+      "pmid": "10.3389/fpsyg.2021.565202",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mental-contrasting-with-woop"
+      ],
+      "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1002/ejsp.2090": {
+      "pmid": "10.1002/ejsp.2090",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mental-contrasting-with-woop"
+      ],
+      "title": "Self-regulation of time management: mental contrasting with implementation intentions",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.4300/JGME-D-16-00703.1": {
+      "pmid": "10.4300/JGME-D-16-00703.1",
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mental-contrasting-with-woop"
+      ],
+      "title": "Changing Resident Physician Studying Behaviors: A Randomized, Comparative Effectiveness Trial of Goal Setting Versus Use of WOOP",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1111/j.1745-6924.2006.tb00076.x": {
+      "pmid": "10.1111/j.1745-6924.2006.tb00076.x",
+      "first_seen": "2006",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "diffuse-vs-focused-thinking-feynman-technique"
+      ],
+      "title": "The Power of Testing Memory: Basic Research and Implications for Educational Practice",
+      "doi": null,
+      "year": 2006,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 120
+    },
+    "10.1186/s41235-017-0087-y": {
+      "pmid": "10.1186/s41235-017-0087-y",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "diffuse-vs-focused-thinking-feynman-technique"
+      ],
+      "title": "Teaching the science of learning",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Systematic Review"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/j.neuropsychologia.2013.04.004": {
+      "pmid": "10.1016/j.neuropsychologia.2013.04.004",
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "diffuse-vs-focused-thinking-feynman-technique"
+      ],
+      "title": "Neural correlates of retrieval-based memory enhancement: An fMRI study of the testing effect",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "children_adolescents",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 36
+    },
+    "10.1037/edu0000001": {
+      "pmid": "10.1037/edu0000001",
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "interleaving-practice"
+      ],
+      "title": "Interleaved Practice Improves Mathematics Learning",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 126
+    },
+    "10.1038/s41539-021-00110-x": {
+      "pmid": "10.1038/s41539-021-00110-x",
+      "first_seen": "2021",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "interleaving-practice"
+      ],
+      "title": "Interleaved practice enhances memory and problem-solving ability in undergraduate physics",
+      "doi": null,
+      "year": 2021,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.3389/fpsyg.2019.00086": {
+      "pmid": "10.3389/fpsyg.2019.00086",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "interleaving-practice"
+      ],
+      "title": "Interleaved Learning in Elementary School Mathematics: Effects on the Flexible and Adaptive Use of Subtraction Strategies",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 236
+    },
+    "16719566": {
+      "pmid": 16719566,
+      "first_seen": "2006",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "spaced-repetition"
+      ],
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+      "doi": null,
+      "year": 2006,
+      "pubtypes": [
+        "Meta-Analysis"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1371/journal.pone.0090656": {
+      "pmid": "10.1371/journal.pone.0090656",
+      "first_seen": "2014",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "spaced-repetition"
+      ],
+      "title": "Very Similar Spacing-Effect Patterns in Very Different Learning/Practice Domains",
+      "doi": null,
+      "year": 2014,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1162/jocn.2010.21532": {
+      "pmid": "10.1162/jocn.2010.21532",
+      "first_seen": "2011",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "spaced-repetition"
+      ],
+      "title": "Spaced Learning Enhances Subsequent Recognition Memory by Reducing Neural Repetition Suppression",
+      "doi": null,
+      "year": 2011,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1145/3123024.3124558": {
+      "pmid": "10.1145/3123024.3124558",
+      "first_seen": "2017",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "website-blockers"
+      ],
+      "title": "How blocking distractions affects workplace focus and productivity",
+      "doi": null,
+      "year": 2017,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 32
+    },
+    "10.1145/3173574.3173666": {
+      "pmid": "10.1145/3173574.3173666",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "website-blockers"
+      ],
+      "title": "Effects of Individual Differences in Blocking Workplace Distractions",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/J.CHB.2019.08.007": {
+      "pmid": "10.1016/J.CHB.2019.08.007",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "app-timers"
+      ],
+      "title": "Do pop-up notifications regarding smartphone use decrease screen time, phone checking behavior, and self-reported problematic smartphone use?",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 73
+    },
+    "10.1007/s11469-022-00826-w": {
+      "pmid": "10.1007/s11469-022-00826-w",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "app-timers"
+      ],
+      "title": "A Nudge-Based Intervention to Reduce Problematic Smartphone Use: Randomised Controlled Trial",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 121
+    },
+    "10.1145/3613904.3642479": {
+      "pmid": "10.1145/3613904.3642479",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "app-timers"
+      ],
+      "title": "StayFocused: Examining the Effects of Reflective Prompts and Chatbot Support on Compulsive Smartphone Use",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "athletes",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "studying_learning"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 36
+    },
+    "26121498": {
+      "pmid": 26121498,
+      "first_seen": "2015",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-mode-phone",
+        "do-not-disturb-dnd",
+        "notification-batching"
+      ],
+      "title": "The attentional cost of receiving a cell phone notification",
+      "doi": null,
+      "year": 2015,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 166
+    },
+    "10.1371/journal.pone.0277220": {
+      "pmid": "10.1371/journal.pone.0277220",
+      "first_seen": "2022",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-mode-phone",
+        "grayscale-phone-trick"
+      ],
+      "title": "The hidden cost of a smartphone: The effects of smartphone notifications on cognitive control from a behavioral and electrophysiological perspective",
+      "doi": null,
+      "year": 2022,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1038/s41598-023-36256-4": {
+      "pmid": "10.1038/s41598-023-36256-4",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "focus-mode-phone"
+      ],
+      "title": "The mere presence of a smartphone reduces basal attentional performance",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "10.1016/J.CHB.2019.07.016": {
+      "pmid": "10.1016/J.CHB.2019.07.016",
+      "first_seen": "2019",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "do-not-disturb-dnd",
+        "notification-batching"
+      ],
+      "title": "Batching smartphone notifications can improve well-being",
+      "doi": null,
+      "year": 2019,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "knowledge_workers"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 237
+    },
+    "10.1080/03623319.2020.1737461": {
+      "pmid": "10.1080/03623319.2020.1737461",
+      "first_seen": "2020",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "grayscale-phone-trick"
+      ],
+      "title": "True colors: Grayscale setting reduces screen time in college students",
+      "doi": null,
+      "year": 2020,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 41
+    },
+    "10.1177/20501579231212062": {
+      "pmid": "10.1177/20501579231212062",
+      "first_seen": "2023",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "grayscale-phone-trick"
+      ],
+      "title": "Is life brighter when your phone is not? The efficacy of a grayscale smartphone intervention addressing digital well-being",
+      "doi": null,
+      "year": 2023,
+      "pubtypes": [
+        "Observational Study"
+      ],
+      "populations": [
+        "general_adults",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "deep_work_flow",
+        "distraction_resistance"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 84
+    },
+    "10.1521/jscp.2018.37.10.751": {
+      "pmid": "10.1521/jscp.2018.37.10.751",
+      "first_seen": "2018",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "digital-minimalism"
+      ],
+      "title": "No More FOMO: Limiting Social Media Decreases Loneliness and Depression",
+      "doi": null,
+      "year": 2018,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 143
+    },
+    "10.1186/s40359-024-01611-1": {
+      "pmid": "10.1186/s40359-024-01611-1",
+      "first_seen": "2024",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "digital-minimalism"
+      ],
+      "title": "Effects of a 14-day social media abstinence on mental health and well-being: results from an experimental study",
+      "doi": null,
+      "year": 2024,
+      "pubtypes": [
+        "Randomized Controlled Trial"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 0
+    },
+    "26783723": {
+      "pmid": 26783723,
+      "first_seen": "2016",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "digital-minimalism"
+      ],
+      "title": "ASSOCIATION BETWEEN SOCIAL MEDIA USE AND DEPRESSION AMONG U.S. YOUNG ADULTS",
+      "doi": null,
+      "year": 2016,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults",
+        "clinical",
+        "students"
+      ],
+      "populations_source": "keyword",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "keyword",
+      "sample_size": 1787
+    }
+  }
+}

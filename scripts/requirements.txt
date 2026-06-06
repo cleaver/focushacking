@@ -1,0 +1,3 @@
+# Focus Hacking — Research Pipeline Dependencies
+# Most scripts use only Python stdlib. pyyaml for config parsing.
+pyyaml>=6.0

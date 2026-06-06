@@ -1,0 +1,67 @@
+---
+title: "Clean Desk / Declutter"
+slug: clean-desk-declutter
+category: "Environment"
+grade: C
+grade_detail: "While the neuroscience of visual competition is well-established by fMRI (McMains & Kastner 2011) and a 2024 Yale Neuron study, there are no direct RCTs testing clean desk vs cluttered desk on focused cognitive work performance in adults; the evidence base is primarily neuroimaging and observational, capping the grade at C."
+last_searched: 2026-06-06
+total_papers: 3
+new_papers_this_run: 0
+difficulty: beginner
+time_to_benefit: "Immediate"
+populations:
+  - general_adults
+focus_facets:
+  - distraction_resistance
+  - energy_recovery
+  - studying_learning
+summary: "Maintaining a minimally cluttered physical workspace with only task-relevant materials visible. Visual clutter competes for attentional resources; a clean desk reduces peripheral distractions and primes the brain for focused single-task engagement."
+what_it_is: |
+  Maintaining a minimally cluttered physical workspace with only
+  task-relevant materials visible. Visual clutter competes for attentional
+  resources; a clean desk reduces peripheral distractions and primes the
+  brain for focused single-task engagement.
+how_to_do_it: |
+  1. Before each work session, spend 5 minutes clearing non-essential items from desk surface.
+  2. Remove all objects unrelated to the current task — put them in drawers or boxes.
+  3. Position only essential tools: computer, relevant documents, a notepad and pen.
+  4. Keep a 'dumping zone' (a single tray) for items needing decisions later, so nothing lingers on the main surface.
+  5. At the end of each day, restore the desk to its clean baseline (the 'reset').
+  6. Once a week, deep-clean and reorganize the whole workspace.
+mechanism: "Each visible object in the workspace activates competing bottom-up neural signals in the visual cortex that must be actively suppressed by top-down attentional control circuits (prefrontal, parietal). This suppression consumes limited-capacity cognitive resources in proportion to the number of irrelevant objects present, leaving fewer resources available for sustained task engagement — a process termed competitive suppression."
+---
+
+## Clean Desk / Declutter
+
+Maintaining a minimally cluttered physical workspace with only task-relevant materials visible. Visual clutter competes for attentional resources; a clean desk reduces peripheral distractions and primes the brain for focused single-task engagement.
+
+### Example
+
+Minimalist desk setups are standard among deep-work advocates including Cal Newport and programmer Paul Graham. Japanese management philosophy (5S methodology) treats workspace organization as a direct productivity intervention, applied by Toyota and lean manufacturing globally.
+
+## Papers
+
+### 2012
+
+1. **Neural evidence for distracter suppression during visual search in real-world scenes** — *Cross-sectional*
+   - Authors: Seidl KN, Peelen MV & Kastner S
+   - Effect: Small increase
+   - fMRI showed that suppressing previously relevant objects in cluttered visual scenes requires active neural suppression in object-selective cortex, consuming cognitive resources that would otherwise be available for task engagement.
+   - [Link](https://pubmed.ncbi.nlm.nih.gov/22915122/)
+
+### 2011
+
+1. **Interactions of top-down and bottom-up mechanisms in human visual cortex** — *Cross-sectional*
+   - Authors: McMains S & Kastner S
+   - Effect: Small increase
+   - fMRI demonstrated that multiple simultaneous visual stimuli compete for neural representation by mutually suppressing evoked activity throughout the visual cortex, providing the neural mechanism by which physical clutter reduces focused cognitive processing.
+   - [Link](https://pubmed.ncbi.nlm.nih.gov/21228167/)
+
+### 2010
+
+1. **No Place Like Home: Home Tours Correlate with Daily Patterns of Mood and Cortisol** — *Cross-sectional*
+   - Authors: Saxbe DE & Repetti R
+   - N=60
+   - Effect: Small increase
+   - Women who described their home environments using more clutter-related language showed elevated cortisol across the day and increased depressed mood, while those using restorative language showed cortisol decline, linking environmental clutter to chronic physiological stress.
+   - [Link](https://pubmed.ncbi.nlm.nih.gov/19934011/)

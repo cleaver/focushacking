@@ -1,0 +1,61 @@
+---
+title: "Binaural Beats"
+slug: binaural-beats
+category: "Environment"
+grade: C
+grade_detail: "Colzato et al. 2017 and supporting studies show a real but small effect of gamma binaural beats on attentional focus, but sample sizes are small (n=36), studies are mostly between-subjects, and a 2024 meta-analysis and 2021 EEG study show mixed results regarding neural entrainment — consistent with Grade C limited evidence."
+last_searched: 2026-06-06
+total_papers: 2
+new_papers_this_run: 0
+difficulty: beginner
+time_to_benefit: "Within session (3–5 min entrainment); effects improve with regular use"
+populations:
+  - general_adults
+  - knowledge_workers
+  - students
+focus_facets:
+  - distraction_resistance
+  - energy_recovery
+  - studying_learning
+summary: "Auditory illusions created when slightly different frequencies are played in each ear, causing the brain to perceive a third 'beat' at the difference frequency. Gamma-range binaural beats (40 Hz) show the strongest evidence for improving attentional focus."
+what_it_is: |
+  Auditory illusions created when slightly different frequencies are
+  played in each ear, causing the brain to perceive a third 'beat' at the
+  difference frequency. Gamma-range binaural beats (40 Hz) show the
+  strongest evidence for improving attentional focus.
+how_to_do_it: |
+  1. Use stereo headphones — binaural beats require separate audio to each ear to work.
+  2. Select gamma-frequency binaural beats (40 Hz carrier, ~300–400 Hz tone base) for focus.
+  3. Play the track at low-to-moderate volume as background audio during cognitive work.
+  4. Allow 3–5 minutes of listening before beginning the task for the entrainment effect to develop.
+  5. Use during complex cognitive tasks: writing, coding, analysis, studying.
+  6. Avoid during tasks requiring verbal creativity — some users find theta beats (4–8 Hz) better for creative states.
+mechanism: "Binaural beats at 40 Hz (gamma range) are proposed to entrain cortical gamma oscillations via the frequency-following response in the olivocochlear system, increasing gamma-band synchrony associated with attentional binding and focused processing. Alternatively, the auditory illusion may function as a steady-state arousal cue that modulates thalamocortical gating, biasing attention toward detailed (local) versus global stimulus processing."
+---
+
+## Binaural Beats
+
+Auditory illusions created when slightly different frequencies are played in each ear, causing the brain to perceive a third 'beat' at the difference frequency. Gamma-range binaural beats (40 Hz) show the strongest evidence for improving attentional focus.
+
+### Example
+
+Students and knowledge workers use Spotify playlists or Brain.fm's binaural programs during study sessions, reporting improved ability to sustain attention on single tasks for longer periods compared to silence or lyric-based music.
+
+## Papers
+
+### 2021
+
+1. **Effects of binaural and monaural beat stimulation on attention and EEG** — *Randomized crossover*
+   - Authors: Engelbregt H et al.
+   - Effect: Small increase
+   - 40 Hz binaural beats improved attentional performance compared to monaural beats and pink noise, with large effect sizes, but without evidence of neural frequency entrainment on EEG, suggesting the mechanism may involve arousal modulation rather than direct entrainment.
+   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/)
+
+### 2017
+
+1. **More attentional focusing through binaural beats: evidence from the global-local task** — *RCT*
+   - Authors: Colzato LS et al.
+   - N=36
+   - Effect: Small increase
+   - Three minutes of 40 Hz gamma binaural beats produced a significantly smaller global precedence effect (36 vs 57 ms) compared to a constant tone control, indicating enhanced focused attentional processing toward local stimulus features.
+   - [Link](https://pubmed.ncbi.nlm.nih.gov/26612201/)
