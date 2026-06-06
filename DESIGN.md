@@ -229,10 +229,10 @@ Consider expanding footer with methodology attribution + links.
 - [x] 404 page
 
 ### POC has that current site could adopt:
-- [ ] Stats bar (techniques, categories, grades, free)
+- [x] Stats bar (techniques, categories, grades, free)
 - [ ] Evidence grade legend table
-- [ ] "X of Y techniques shown" counter
-- [ ] "Clear all filters" action
+- [x] "X of Y techniques shown" counter
+- [x] "Clear all filters" action
 - [ ] Modal-enhanced navigation (page-first, modal routing)
 - [ ] Table view as alternative to card grid
 - [ ] Expanded footer with methodology
@@ -474,7 +474,7 @@ section above.
 | A3 | Text on page bg: `--color-text` vs `--color-bg` ratio ≥ 4.5:1 | 1.4.3 AA | ✓ Likely OK (near-black on near-white) | [ ] |
 | A4 | Muted text (`--color-text-muted`): verify ≥ 4.5:1 for body text, 3:1 for decorative | 1.4.3 AA | ⚠️ Check light mode `#57534e` on `#fafaf9` | [ ] |
 | A5 | Link/active accent color: verify contrast against bg | 1.4.3 AA | ⚠️ Check | [ ] |
-| A6 | Focus indicators: all interactive elements must have visible focus ring | 2.4.7 AA | ❌ Missing — add `:focus-visible` outlines | [ ] |
+| A6 | Focus indicators: all interactive elements must have visible focus ring | 2.4.7 AA | ❌ Missing — add `:focus-visible` outlines | [x] |
 | A7 | Dark mode: re-verify all contrast ratios with dark palette | 1.4.3 AA | ⚠️ Verify | [ ] |
 | A8 | Category pills with distinct colors: ensure color is not sole differentiator — pair with text label | 1.4.1 A | ✓ Already have text labels | [x] |
 
@@ -485,8 +485,8 @@ section above.
 | A9 | Page has one `<h1>` (already true — technique title or "Focus Hacking") | 1.3.1 A | ✓ | [x] |
 | A10 | Heading hierarchy: `h1` → `h2` → `h3`, no skips | 1.3.1 A | ✓ Technique detail uses h2/h3 correctly | [x] |
 | A11 | Filter pills are `<button>` elements (already true) | 4.1.2 A | ✓ | [x] |
-| A12 | Search input has associated `<label>` or `aria-label` | 1.3.1 A | ❌ Missing — add `aria-label="Search techniques"` | [ ] |
-| A13 | Sort select has associated `<label>` or `aria-label` | 1.3.1 A | ❌ Missing — add `aria-label="Sort by"` | [ ] |
+| A12 | Search input has associated `<label>` or `aria-label` | 1.3.1 A | ❌ Missing — add `aria-label="Search techniques"` | [x] |
+| A13 | Sort select has associated `<label>` or `aria-label` | 1.3.1 A | ❌ Missing — add `aria-label="Sort by"` | [x] |
 | A14 | Technique cards use `<a>` with valid `href` (already true) | 4.1.2 A | ✓ | [x] |
 | A15 | Nav `<nav>` element or `role="navigation"` | 1.3.1 A | ⚠️ Current `<nav>` tag exists — OK | [x] |
 | A16 | Main content in `<main>` (already true) | 1.3.1 A | ✓ | [x] |
@@ -512,9 +512,9 @@ section above.
 |---|-------------|------|--------|------|
 | S1 | Stats bar numbers announced correctly (use normal text, not CSS-generated) | 1.1.1 A | ⚠️ Ensure numbers are in HTML, not `::before`/`::after` | [x] |
 | S2 | Grade badges: include aria-label or screen reader text "Grade A" not just "A" | 1.1.1 A | ❌ Current `<span class="grade-badge">A</span>` — add `aria-label="Grade A"` | [ ] |
-| S3 | Filter pills: active state announced — use `aria-pressed` or `aria-current` | 4.1.2 AA | ❌ Currently only visual `.active` class — add `aria-pressed` | [ ] |
-| S4 | "X of Y techniques shown": use `aria-live="polite"` region for dynamic updates | 4.1.3 AA | ❌ Future — must implement | [ ] |
-| S5 | Clear filters button: descriptive text or `aria-label` | 2.4.4 A | ❌ Future — implement | [ ] |
+| S3 | Filter pills: active state announced — use `aria-pressed` or `aria-current` | 4.1.2 AA | ❌ Currently only visual `.active` class — add `aria-pressed` | [x] |
+| S4 | "X of Y techniques shown": use `aria-live="polite"` region for dynamic updates | 4.1.3 AA | ❌ Future — must implement | [x] |
+| S5 | Clear filters button: descriptive text or `aria-label` | 2.4.4 A | ❌ Future — implement | [x] |
 | S6 | Theme toggle has `aria-label="Toggle dark mode"` (already true) | 4.1.2 A | ✓ | [x] |
 | S7 | Images: no `<img>` elements currently, but if added, require `alt` text | 1.1.1 A | ✓ | [x] |
 | S8 | Modal (future): `role="dialog"`, `aria-modal="true"`, `aria-labelledby` | 4.1.2 AA | ❌ Future — planned | [ ] |
@@ -524,16 +524,16 @@ section above.
 
 | # | Requirement | WCAG | Status | Done |
 |---|-------------|------|--------|------|
-| M1 | Respect `prefers-reduced-motion` — disable CSS transitions for card hover, modal open/close | 2.3.3 AAA | ❌ Add `@media (prefers-reduced-motion: no-preference)` wrapper | [ ] |
-| M2 | Theme transition (`background 0.2s, color 0.2s`) — respect reduced motion | 2.3.3 AAA | ❌ Same fix | [ ] |
+| M1 | Respect `prefers-reduced-motion` — disable CSS transitions for card hover, modal open/close | 2.3.3 AAA | ❌ Add `@media (prefers-reduced-motion: no-preference)` wrapper | [x] |
+| M2 | Theme transition (`background 0.2s, color 0.2s`) — respect reduced motion | 2.3.3 AAA | ❌ Same fix | [x] |
 | M3 | Modal (future): add fade/scale animation only if motion allowed | 2.3.3 AAA | ❌ Future — planned | [ ] |
 
 ### Forms & Input
 
 | # | Requirement | WCAG | Status | Done |
 |---|-------------|------|--------|------|
-| G1 | Search input needs associated `<label>` — either visible or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Search techniques"` | [ ] |
-| G2 | Sort select needs associated `<label>` or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Sort techniques by"` | [ ] |
+| G1 | Search input needs associated `<label>` — either visible or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Search techniques"` | [x] |
+| G2 | Sort select needs associated `<label>` or `aria-label` | 1.3.1 A | ❌ Add `aria-label="Sort techniques by"` | [x] |
 | G3 | Error state: "No techniques match your filters" — ensure it's announced to screen readers | 4.1.3 AA | ❌ Use `aria-live="polite"` on grid container | [ ] |
 
 ### Zoom & Responsiveness
@@ -557,8 +557,8 @@ section above.
 
 | # | Requirement | WCAG | Status | Done |
 |---|-------------|------|--------|------|
-| V1 | Page validates as HTML5 (no duplicate IDs, unclosed tags, etc.) | 4.1.1 A | ⚠️ Run validator | [ ] |
-| V2 | Dynamic `grid.innerHTML` injections produce valid HTML | 4.1.1 A | ⚠️ Review template strings | [ ] |
+| V1 | Page validates as HTML5 (no duplicate IDs, unclosed tags, etc.) | 4.1.1 A | ⚠️ Run validator | [x] |
+| V2 | Dynamic `grid.innerHTML` injections produce valid HTML | 4.1.1 A | ⚠️ Review template strings | [x] |
 | V3 | No duplicate `id` attributes across pages | 4.1.1 A | ✓ (static pages, single instance each) | [x] |
 
 ### Quick Wins (Easy Fixes)
@@ -572,5 +572,5 @@ Items that can be fixed immediately with minimal effort:
 | Q3 | Add `aria-label="Grade {letter}"` to grade badges (SSR + JS `grid.innerHTML`) | [ ] |
 | Q4 | Add `aria-pressed` to filter pills — toggle with `.active` class in `toggleFilter()` | [x] |
 | Q5 | Add `aria-live="polite"` to grid container — so filter results are announced | [x] |
-| Q6 | Wrap CSS transitions in `@media (prefers-reduced-motion: no-preference)` | [ ] |
-| Q7 | Add `:focus-visible` outline to all interactive elements | [ ] |
+| Q6 | Wrap CSS transitions in `@media (prefers-reduced-motion: no-preference)` | [x] |
+| Q7 | Add `:focus-visible` outline to all interactive elements | [x] |

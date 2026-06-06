@@ -87,9 +87,11 @@ const jsonData = JSON.stringify(all.map((t) => ({
       id="search"
       type="search"
       placeholder="Search techniques..."
+      aria-label="Search techniques"
       class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     />
     <select id="sort-select"
+      aria-label="Sort techniques by"
       class="rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     >
       <option value="default">Default</option>
@@ -141,7 +143,7 @@ const jsonData = JSON.stringify(all.map((t) => ({
     <div id="result-count" class="text-xs text-muted">
       {all.length} of {all.length} techniques shown
     </div>
-    <button id="clear-filters" type="button" class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline">
+    <button id="clear-filters" type="button" class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline" aria-label="Clear all filters">
       Clear all filters
     </button>
   </div>
@@ -290,7 +292,11 @@ const jsonData = JSON.stringify(all.map((t) => ({
     font-size: 0.75rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.15s;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .filter-pill {
+      transition: all 0.15s;
+    }
   }
   .filter-pill.active {
     background: var(--color-accent-light);
