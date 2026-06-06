@@ -5,4 +5,9 @@ export default defineConfig({
   trailingSlash: "always",
   server: { host: "0.0.0.0" },
   devToolbar: { enabled: false },
+  vite: {
+    preview: {
+      allowedHosts: ["herman.localnet"],
+    },
+  },
 });
