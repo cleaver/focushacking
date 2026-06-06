@@ -1,14 +1,14 @@
 ---
 title: "Alternate Nostril Breathing (Nadi Shodhana Pranayama)"
-slug: alternate-nostril-breathing-nadi-shodhana-pranayama
+slug: "alternate-nostril-breathing-nadi-shodhana-pranayama"
 category: "Breathing"
-grade: C
-grade_detail: "Multiple small controlled studies (Telles et al. 2022, 2017, 2013) demonstrate improved attention and working memory with alternate nostril breathing, but samples are small (n=15–40), predominantly male, and mostly conducted at a single institution, limiting generalizability to a Grade C."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "Multiple small controlled studies (Telles et al. 2022, 2017, 2013) demonstrate improved attention and working memory with alternate nostril breathing, but samples are small (n=15\u201340), predominantly male, and mostly conducted at a single institution, limiting generalizability to a Grade C."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "Immediate (pre-task priming); 4–8 weeks (sustained cognitive benefits)"
+difficulty: "beginner"
+time_to_benefit: "Immediate (pre-task priming); 4\u20138 weeks (sustained cognitive benefits)"
 populations:
   - general_adults
   - children_adolescents
@@ -23,6 +23,7 @@ what_it_is: |
   and right nostrils using the fingers. Research suggests this practice
   modulates hemispheric brain activity, improves working memory, and
   reduces perceived stress.
+  
 how_to_do_it: |
   1. Sit comfortably with an upright spine; rest your left hand on your left knee.
   2. Raise your right hand to your nose; place your thumb on the right nostril and ring finger on the left.
@@ -30,6 +31,7 @@ how_to_do_it: |
   4. Close both nostrils, hold briefly (2 counts), then open the right nostril and exhale for 4 counts.
   5. Inhale through the right nostril for 4 counts, hold, then exhale through the left.
   6. This completes one round; practice 5–10 rounds before focused study or work.
+  
 mechanism: "Alternating airflow between nostrils differentially stimulates olfactory afferents projecting to the contralateral cerebral hemisphere via the olfactory bulb, producing alternating hemispheric EEG activation that may balance interhemispheric activity. Simultaneously, the practice reduces respiratory rate to ~6 breaths/min, maximizing HRV and vagal tone to support prefrontal executive function."
 ---
 

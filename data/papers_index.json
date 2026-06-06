@@ -1,9 +1,9 @@
 {
   "metadata": {
     "version": 1,
-    "last_full_search": "2026-06-06T18:27:13Z",
+    "last_full_search": "2026-06-06T18:28:59Z",
     "techniques_tracked": 58,
-    "total_papers": 142
+    "total_papers": 146
   },
   "papers": {
     "10.1186/s12909-025-08001-0": {
@@ -4209,6 +4209,114 @@
       "effect_direction": "positive",
       "effect_magnitude": "moderate",
       "effect_size_note": "Higher frequency of social media platform visits was significantly associated with increased depression symptoms independent of demographic covariates, with a dose-response relationship supporting the"
+    },
+    "42070524": {
+      "pmid": "42070524",
+      "first_seen": "2026-06-06",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation"
+      ],
+      "title": "A comparative study of time perception in long-term meditators and non-meditators.",
+      "doi": "10.1016/j.actpsy.2026.106988",
+      "year": 2026,
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "mesh",
+      "focus_facets": [
+        "distraction_resistance"
+      ],
+      "facets_source": "mesh",
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Long-term meditators showed altered time perception"
+    },
+    "42048956": {
+      "pmid": "42048956",
+      "first_seen": "2026-06-06",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "mindfulness-meditation"
+      ],
+      "title": "Attentional processes in brief mindfulness meditation and socio-affective responses to in-group and out-group suffering.",
+      "doi": "10.1016/j.actpsy.2026.106763",
+      "year": 2026,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "mesh",
+      "focus_facets": [
+        "distraction_resistance"
+      ],
+      "facets_source": "mesh",
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "small",
+      "effect_size_note": "Brief mindfulness improved attention measures"
+    },
+    "42102395": {
+      "pmid": "42102395",
+      "first_seen": "2026-06-06",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "aerobic-exercise"
+      ],
+      "title": "Pedal cadence differentially impacts cerebral blood flow but not a postexercise executive function benefit: evidence from active and passive exercise.",
+      "doi": "10.1152/jn.00572.2025",
+      "year": 2026,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "general_adults"
+      ],
+      "populations_source": "mesh",
+      "focus_facets": [
+        "deep_work_flow",
+        "energy_recovery"
+      ],
+      "facets_source": "mesh",
+      "sample_size": 0,
+      "effect_direction": "mixed",
+      "effect_magnitude": "small",
+      "effect_size_note": "Pedal cadence affected CBF but not post-exercise cognition"
+    },
+    "41380135": {
+      "pmid": "41380135",
+      "first_seen": "2026-06-06",
+      "last_updated": "2026-06-06",
+      "technique_slugs": [
+        "yoga"
+      ],
+      "title": "Exercise-Based Interventions for ADHD: A Review of Modalities, Mechanisms, and Practical Applications.",
+      "doi": "10.1080/02701367.2025.2581676",
+      "year": 2026,
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "populations": [
+        "children_adolescents",
+        "clinical"
+      ],
+      "populations_source": "llm",
+      "focus_facets": [
+        "distraction_resistance",
+        "energy_recovery"
+      ],
+      "facets_source": "llm",
+      "sample_size": 0,
+      "effect_direction": "positive",
+      "effect_magnitude": "moderate",
+      "effect_size_note": "Exercise interventions moderate effect on ADHD symptoms"
     }
   }
 }

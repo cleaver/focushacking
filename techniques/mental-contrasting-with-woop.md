@@ -1,14 +1,14 @@
 ---
 title: "Mental Contrasting with WOOP"
-slug: mental-contrasting-with-woop
+slug: "mental-contrasting-with-woop"
 category: "Cognitive"
-grade: B
+grade: "B"
 grade_detail: "Multiple Oettingen-lab RCTs across academic, health, and workplace domains show consistent moderate effects for MCII/WOOP on goal-directed behavior and self-regulation. The 2021 meta-analysis (21 studies) confirms the evidence base qualifies for Grade B, with effect sizes slightly below the A threshold and some domain specificity in results."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "Immediate (session priming); 2–4 weeks (habit of implementation)"
+difficulty: "intermediate"
+time_to_benefit: "Immediate (session priming); 2\u20134 weeks (habit of implementation)"
 populations:
   - general_adults
   - athletes
@@ -18,13 +18,14 @@ focus_facets:
   - deep_work_flow
   - distraction_resistance
   - studying_learning
-summary: "Gabriele Oettingen's WOOP framework (Wish, Outcome, Obstacle, Plan) combines mental contrasting — vividly imagining a goal alongside the realistic obstacles blocking it — with implementation intentions. This hybrid technique mobilizes motivation and plans for obstruction simultaneously."
+summary: "Gabriele Oettingen's WOOP framework (Wish, Outcome, Obstacle, Plan) combines mental contrasting \u2014 vividly imagining a goal alongside the realistic obstacles blocking it \u2014 with implementation intentions. This hybrid technique mobilizes motivation and plans for obstruction simultaneously."
 what_it_is: |
   Gabriele Oettingen's WOOP framework (Wish, Outcome, Obstacle, Plan)
   combines mental contrasting — vividly imagining a goal alongside the
   realistic obstacles blocking it — with implementation intentions. This
   hybrid technique mobilizes motivation and plans for obstruction
   simultaneously.
+  
 how_to_do_it: |
   1. Wish: identify a specific, challenging but feasible focus goal (e.g., 'Write 1,000 words this morning.').
   2. Outcome: spend 2 minutes vividly imagining the best possible outcome of achieving that goal.
@@ -32,7 +33,8 @@ how_to_do_it: |
   4. Plan: form an if-then implementation intention for the obstacle: 'If I feel the urge to check social media, then I will close the browser and take three deep breaths.'
   5. Commit: write the four elements on a card and keep it visible during the session.
   6. Review: at session's end, note whether the plan worked and revise the obstacle or plan if needed.
-mechanism: "Mental contrasting activates a contrast representation in working memory — juxtaposing the desired future with the present obstacle — which triggers expectancy-dependent commitment: high-expectancy individuals energize toward the goal, while low-expectancy individuals disengage adaptively. Adding implementation intentions then channels this energized state into automatic obstacle-response associations, preventing goal abandonment at friction points."
+  
+mechanism: "Mental contrasting activates a contrast representation in working memory \u2014 juxtaposing the desired future with the present obstacle \u2014 which triggers expectancy-dependent commitment: high-expectancy individuals energize toward the goal, while low-expectancy individuals disengage adaptively. Adding implementation intentions then channels this energized state into automatic obstacle-response associations, preventing goal abandonment at friction points."
 ---
 
 ## Mental Contrasting with WOOP

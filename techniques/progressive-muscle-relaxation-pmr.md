@@ -1,14 +1,14 @@
 ---
 title: "Progressive Muscle Relaxation (PMR)"
-slug: progressive-muscle-relaxation-pmr
+slug: "progressive-muscle-relaxation-pmr"
 category: "Physical"
-grade: B
+grade: "A"
 grade_detail: "A systematic review of 46 publications covering 3,402 adults confirms PMR consistently and significantly reduces stress, anxiety, and depression across multiple RCTs; evidence for direct cognitive performance or attention improvements specifically is more limited, warranting B rather than A."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 4
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "Immediate (session-by-session); 2–4 weeks (trait reduction in baseline tension)"
+difficulty: "beginner"
+time_to_benefit: "Immediate (session-by-session); 2\u20134 weeks (trait reduction in baseline tension)"
 populations:
   - general_adults
   - athletes
@@ -23,6 +23,7 @@ what_it_is: |
   major muscle group in sequence. By producing a deep physical relaxation
   state, PMR reduces the bodily tension and cortisol that impair
   prefrontal cortex function and sustained attention.
+  
 how_to_do_it: |
   1. Lie down or sit comfortably in a quiet space and close your eyes.
   2. Starting with the hands, make a tight fist and hold the tension for 5 seconds.
@@ -30,6 +31,7 @@ how_to_do_it: |
   4. Move systematically through the body: forearms, biceps, shoulders, face, neck, chest, abdomen, thighs, calves, feet.
   5. Breathe slowly and deeply throughout — inhale before tensing, exhale on release.
   6. After completing all muscle groups, rest in full body relaxation for 2–3 minutes before beginning work.
+  
 mechanism: "Progressive muscle relaxation works via the tension-relaxation contrast principle: deliberately tensing muscle groups activates proprioceptive awareness, and the subsequent release triggers a rebound parasympathetic response that lowers sympathetic nervous system activity, reducing cortisol and electrodermal arousal. This neurological shift from sympathetic to parasympathetic dominance relaxes the hypothalamic-pituitary-adrenal axis, directly improving prefrontal cortex availability for executive function and sustained attention."
 ---
 

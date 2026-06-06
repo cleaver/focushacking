@@ -1,14 +1,14 @@
 ---
 title: "Aerobic Exercise"
-slug: aerobic-exercise
+slug: "aerobic-exercise"
 category: "Physical"
-grade: A
-grade_detail: "Multiple large meta-analyses of RCTs consistently show aerobic exercise significantly improves executive function, working memory, and inhibitory control with small-to-moderate effect sizes (g=0.12–0.52) across healthy adults, older adults, and clinical populations; effects are among the most robustly replicated in behavioral neuroscience."
-last_searched: 2026-06-06
-total_papers: 4
-new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "Immediately (acute); 4–8 weeks (structural brain changes)"
+grade: "B"
+grade_detail: "Multiple large meta-analyses of RCTs consistently show aerobic exercise significantly improves executive function, working memory, and inhibitory control with small-to-moderate effect sizes (g=0.12\u20130.52) across healthy adults, older adults, and clinical populations; effects are among the most robustly replicated in behavioral neuroscience."
+last_searched: "2026-06-06"
+total_papers: 5
+new_papers_this_run: 1
+difficulty: "beginner"
+time_to_benefit: "Immediately (acute); 4\u20138 weeks (structural brain changes)"
 populations:
   - general_adults
   - children_adolescents
@@ -24,6 +24,7 @@ what_it_is: |
   swimming, brisk walking) that elevates heart rate for sustained periods.
   Exercise is one of the most evidence-backed tools for enhancing
   prefrontal cortex function, attention, and executive control.
+  
 how_to_do_it: |
   1. Choose an aerobic activity you enjoy: running, cycling, swimming, or brisk walking.
   2. Aim for 3–5 sessions per week at moderate intensity (60–75% maximum heart rate).
@@ -31,7 +32,8 @@ how_to_do_it: |
   4. Schedule workouts at consistent times — ideally morning, to prime the brain for the day's work.
   5. After exercise, allow 20–30 minutes before beginning your most demanding cognitive tasks (peak BDNF window).
   6. Track consistency over 6 weeks to observe cumulative focus improvements.
-mechanism: "Aerobic exercise triggers the release of brain-derived neurotrophic factor (BDNF), which promotes hippocampal neurogenesis and synaptic plasticity, directly enhancing learning and memory consolidation. Acutely, exercise elevates dopamine, norepinephrine, and serotonin in the prefrontal cortex, improving signal-to-noise ratio for attentional focus and executive control for 20–120 minutes post-exercise."
+  
+mechanism: "Aerobic exercise triggers the release of brain-derived neurotrophic factor (BDNF), which promotes hippocampal neurogenesis and synaptic plasticity, directly enhancing learning and memory consolidation. Acutely, exercise elevates dopamine, norepinephrine, and serotonin in the prefrontal cortex, improving signal-to-noise ratio for attentional focus and executive control for 20\u2013120 minutes post-exercise."
 ---
 
 ## Aerobic Exercise
@@ -76,3 +78,12 @@ Neuroscientist John Ratey documents in 'Spark' how Naperville, Illinois schools 
    - Effect: Small increase
    - Aerobic exercise training demonstrated modest but significant improvements in attention and processing speed (g=0.158), executive function (g=0.123), and memory (g=0.128) across multiple large RCTs.
    - [Link](https://doi.org/10.1097/PSY.0b013e3181d14633)
+
+### 2026
+
+1. **Pedal cadence differentially impacts cerebral blood flow but not a postexercise executive function benefit: evidence from active and passive exercise.** — *Journal Article*
+   - Authors: Tari Benjamin, Rahimi Alma, Buwadi Lian et al.
+   - DOI: 10.1152/jn.00572.2025
+   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/42102395/)
+   - Population: general_adults; Facets: deep_work_flow, energy_recovery
+

@@ -1,13 +1,13 @@
 ---
 title: "Parkinson's Law Application"
-slug: parkinsons-law-application
+slug: "parkinsons-law-application"
 category: "Time Management"
-grade: D
-grade_detail: "Parkinson's Law itself is an aphorism with no direct RCT evidence; supporting research on time pressure effects on performance exists but shows inconsistent results — moderate pressure helps, extreme pressure hurts — and no study has tested deliberate self-imposed deadline manipulation as a productivity strategy."
-last_searched: 2026-06-06
+grade: "C"
+grade_detail: "Parkinson's Law itself is an aphorism with no direct RCT evidence; supporting research on time pressure effects on performance exists but shows inconsistent results \u2014 moderate pressure helps, extreme pressure hurts \u2014 and no study has tested deliberate self-imposed deadline manipulation as a productivity strategy."
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: intermediate
+difficulty: "intermediate"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -21,6 +21,7 @@ what_it_is: |
   need, exploiting the principle that work expands to fill available time.
   By constraining the time budget, you force prioritization and prevent
   perfectionism.
+  
 how_to_do_it: |
   1. Estimate how long a task will take at your normal pace.
   2. Cut that estimate by 25–40% to create a challenging but achievable deadline.
@@ -28,6 +29,7 @@ how_to_do_it: |
   4. Begin work immediately and ignore non-essential refinements.
   5. When the deadline arrives, review quality — most outputs will be 80–90% as good.
   6. Use the saved time to tackle the next task or rest, not to polish endlessly.
+  
 mechanism: "Artificially shortened deadlines activate mild urgency signaling through the anterior cingulate cortex, which narrows attentional focus onto task-relevant information and suppresses perfectionist revision loops; the time constraint effectively raises the perceived cost of low-value refinements, forcing the brain to prioritize high-impact actions."
 ---
 

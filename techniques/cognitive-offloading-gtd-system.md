@@ -1,14 +1,14 @@
 ---
 title: "Cognitive Offloading (GTD System)"
-slug: cognitive-offloading-gtd-system
+slug: "cognitive-offloading-gtd-system"
 category: "Cognitive"
-grade: C
+grade: "B"
 grade_detail: "Cognitive offloading (externalizing tasks to reduce working memory load) has RCT-level support as a general phenomenon, but the specific GTD system has not been tested in RCTs. Studies confirm the Zeigarnik-based mechanism, but direct comparisons of GTD vs. control conditions are limited to observational data, capping this at Grade C."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "1–2 weeks (system setup); improving over months"
+difficulty: "intermediate"
+time_to_benefit: "1\u20132 weeks (system setup); improving over months"
 populations:
   - general_adults
   - knowledge_workers
@@ -24,6 +24,7 @@ what_it_is: |
   all open loops (commitments, ideas, tasks) into a trusted external
   system, working memory is freed for focused attention rather than
   constant task tracking.
+  
 how_to_do_it: |
   1. Create a capture system: a single inbox (physical tray, app, or notebook) where every open loop goes.
   2. Process the inbox at least once daily: for each item, decide delete, delegate, do now (2 min), defer (schedule), or reference.
@@ -31,7 +32,8 @@ how_to_do_it: |
   4. Maintain a projects list with each project's current next action defined.
   5. Do a weekly review (see separate technique) to ensure the system is current.
   6. Trust the system: when the mind wants to remember something, capture it immediately, then return to task.
-mechanism: "Uncaptured tasks create persistent Zeigarnik-effect intrusions — the brain repeatedly re-activates representations of unfinished goals to prevent forgetting, consuming working memory capacity that would otherwise be available for current tasks. Capturing tasks in a trusted external system signals the brain to suppress these intrusions, releasing attentional resources for the work at hand."
+  
+mechanism: "Uncaptured tasks create persistent Zeigarnik-effect intrusions \u2014 the brain repeatedly re-activates representations of unfinished goals to prevent forgetting, consuming working memory capacity that would otherwise be available for current tasks. Capturing tasks in a trusted external system signals the brain to suppress these intrusions, releasing attentional resources for the work at hand."
 ---
 
 ## Cognitive Offloading (GTD System)

@@ -1,14 +1,14 @@
 ---
 title: "Loving-Kindness Meditation (Metta)"
-slug: loving-kindness-meditation-metta
+slug: "loving-kindness-meditation-metta"
 category: "Mindfulness"
-grade: B
-grade_detail: "A meta-analysis of 24 studies (Zeng et al., 2015, n=1,759) found medium effect sizes for LKM on positive emotions in waitlist-controlled RCTs (g≈0.39–0.42), with consistent results across 10 RCTs specifically; the Fredrickson et al. (2008) foundational RCT (n=139) provides additional support, though effects on attention specifically remain limited."
-last_searched: 2026-06-06
+grade: "A"
+grade_detail: "A meta-analysis of 24 studies (Zeng et al., 2015, n=1,759) found medium effect sizes for LKM on positive emotions in waitlist-controlled RCTs (g\u22480.39\u20130.42), with consistent results across 10 RCTs specifically; the Fredrickson et al. (2008) foundational RCT (n=139) provides additional support, though effects on attention specifically remain limited."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "2–4 weeks"
+difficulty: "beginner"
+time_to_benefit: "2\u20134 weeks"
 populations:
   - general_adults
   - students
@@ -22,6 +22,7 @@ what_it_is: |
   attention by silently directing phrases of goodwill first to oneself,
   then to loved ones, neutral people, difficult people, and finally all
   beings. Builds the concentration capacity needed for deep work.
+  
 how_to_do_it: |
   1. Sit comfortably, close your eyes, and take several deep breaths to settle.
   2. Direct loving attention to yourself: silently repeat 'May I be happy. May I be healthy. May I be at peace.' for 3–5 minutes.
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. Extend the phrases to a neutral person (acquaintance), then a difficult person.
   5. Finally, expand awareness outward to all beings everywhere.
   6. Close with 2 minutes of open, resting awareness before gently opening your eyes.
+  
 mechanism: "LKM activates the broaden-and-build cycle: positive emotions induced by directing goodwill expand cognitive and emotional bandwidth, reduce threat vigilance mediated by the amygdala, and build durable personal resources (mindfulness, resilience) that improve the affective stability required for sustained attention and deep work."
 ---
 

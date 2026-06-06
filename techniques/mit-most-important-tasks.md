@@ -1,25 +1,26 @@
 ---
 title: "MIT (Most Important Tasks)"
-slug: mit-most-important-tasks
+slug: "mit-most-important-tasks"
 category: "Time Management"
-grade: C
-grade_detail: "The MIT technique lacks direct RCTs, but it is a practical application of well-validated goal-setting theory (Locke & Latham, 500+ studies, d≈0.55) and self-regulated learning principles; the three-task constraint reduces decision fatigue but has no unique controlled study evidence."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "The MIT technique lacks direct RCTs, but it is a practical application of well-validated goal-setting theory (Locke & Latham, 500+ studies, d\u22480.55) and self-regulated learning principles; the three-task constraint reduces decision fatigue but has no unique controlled study evidence."
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "1 week"
 populations:
   - general_adults
 focus_facets:
   - deep_work_flow
   - distraction_resistance
-summary: "Each morning, identify your three Most Important Tasks — those that will create the highest value — and complete them before attending to any other work. This framework, promoted by Leo Babauta, ensures meaningful progress is made daily regardless of interruptions."
+summary: "Each morning, identify your three Most Important Tasks \u2014 those that will create the highest value \u2014 and complete them before attending to any other work. This framework, promoted by Leo Babauta, ensures meaningful progress is made daily regardless of interruptions."
 what_it_is: |
   Each morning, identify your three Most Important Tasks — those that will
   create the highest value — and complete them before attending to any
   other work. This framework, promoted by Leo Babauta, ensures meaningful
   progress is made daily regardless of interruptions.
+  
 how_to_do_it: |
   1. Each morning (or the night before), write down exactly three tasks labeled as MITs.
   2. Apply a 'if I only accomplished these three things today, would I be satisfied?' filter.
@@ -27,6 +28,7 @@ how_to_do_it: |
   4. Protect a dedicated 2-hour focus block for MIT completion.
   5. Do not add any new tasks to the MIT list mid-day.
   6. At day's end, evaluate completion and carry unfinished MITs to the next morning list.
+  
 mechanism: "Pre-selecting three priorities the night before or morning reduces ongoing goal-conflict interference in working memory throughout the day; explicit prioritization engages dorsolateral prefrontal cortex in pre-task planning, lowering the attentional cost of deciding what to work on during execution."
 ---
 
