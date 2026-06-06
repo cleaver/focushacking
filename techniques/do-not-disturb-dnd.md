@@ -1,13 +1,13 @@
 ---
 title: "Do Not Disturb (DND)"
-slug: do-not-disturb-dnd
+slug: "do-not-disturb-dnd"
 category: "Technology"
-grade: B
+grade: "B"
 grade_detail: "The foundational evidence for DND comes from notification attentional cost research (Stothart 2015) and interruption-recovery research (Mark et al. 2005), both demonstrating large effects. While DND as a specific feature lacks dedicated RCTs, the well-replicated mechanism and the consistent direction of evidence across multiple high-quality studies qualifies for Grade B."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -16,12 +16,13 @@ focus_facets:
   - deep_work_flow
   - distraction_resistance
   - energy_recovery
-summary: "Enabling full Do Not Disturb on smartphones and computers to silence all notifications, alerts, calls, and buzzes during focus sessions. Unlike Focus Mode, DND is a blunt, total silence tool — maximum simplicity for maximum attentional protection."
+summary: "Enabling full Do Not Disturb on smartphones and computers to silence all notifications, alerts, calls, and buzzes during focus sessions. Unlike Focus Mode, DND is a blunt, total silence tool \u2014 maximum simplicity for maximum attentional protection."
 what_it_is: |
   Enabling full Do Not Disturb on smartphones and computers to silence all
   notifications, alerts, calls, and buzzes during focus sessions. Unlike
   Focus Mode, DND is a blunt, total silence tool — maximum simplicity for
   maximum attentional protection.
+  
 how_to_do_it: |
   1. Enable DND before every deep work or study session: swipe Control Center → moon icon (iOS) or pull notification shade (Android).
   2. Set DND to allow calls only from your 'Favorites' contacts list in case of emergency.
@@ -29,7 +30,8 @@ how_to_do_it: |
   4. Set DND to automatically activate during your scheduled work hours.
   5. Turn it off only at the start of planned communication windows (batch check).
   6. Inform close contacts of your DND schedule so they adjust expectations.
-mechanism: "DND prevents the automatic orienting reflex triggered by notification signals — an evolved attentional alarm system that diverts prefrontal resources regardless of conscious intent. Each prevented interruption saves an average 23 minutes of focus recovery time (the cognitive 'switch cost' of rebuilding a mental work context). Over a 4-hour DND session, this structurally prevents 80+ minutes of attentional fragmentation that would otherwise compound into sustained cognitive fatigue."
+  
+mechanism: "DND prevents the automatic orienting reflex triggered by notification signals \u2014 an evolved attentional alarm system that diverts prefrontal resources regardless of conscious intent. Each prevented interruption saves an average 23 minutes of focus recovery time (the cognitive 'switch cost' of rebuilding a mental work context). Over a 4-hour DND session, this structurally prevents 80+ minutes of attentional fragmentation that would otherwise compound into sustained cognitive fatigue."
 ---
 
 ## Do Not Disturb (DND)

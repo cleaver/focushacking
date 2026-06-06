@@ -1,13 +1,13 @@
 ---
 title: "White Noise"
-slug: white-noise
+slug: "white-noise"
 category: "Environment"
-grade: C
-grade_detail: "Cheng et al. 2022 directly tested white noise at 45 dB in an office context and found significant improvements in sustained attention and creativity versus ambient noise (d~0.5); however effects are highly dose-dependent (65 dB impairs some functions), individual differences are large, and replications are limited — consistent with Grade C."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "Cheng et al. 2022 directly tested white noise at 45 dB in an office context and found significant improvements in sustained attention and creativity versus ambient noise (d~0.5); however effects are highly dose-dependent (65 dB impairs some functions), individual differences are large, and replications are limited \u2014 consistent with Grade C."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -22,6 +22,7 @@ what_it_is: |
   moderate volume to mask unpredictable environmental sounds that cause
   attentional hijacking. Research shows 45 dB white noise improves
   sustained attention and creativity while reducing stress.
+  
 how_to_do_it: |
   1. Download a white noise app, use a fan, or play a white noise track on speakers or headphones.
   2. Set volume to approximately 45–50 dB (moderate background level, not loud).
@@ -29,7 +30,8 @@ how_to_do_it: |
   4. Choose consistent noise to avoid any rhythm or melody that might capture attention.
   5. If you find white noise harsh, try brown noise (lower frequencies, like deep rain) instead.
   6. Experiment over 1–2 weeks to determine if it improves your personal focus.
-mechanism: "White noise masks the unpredictable transient sounds that trigger involuntary attentional capture via the superior colliculus and orienting response circuitry. The moderate, constant broadband signal is proposed to operate via stochastic resonance — adding a background noise level that brings weak neural signals over detection threshold, slightly elevating dopaminergic tone in prefrontal cortex, which optimizes sustained attentional engagement."
+  
+mechanism: "White noise masks the unpredictable transient sounds that trigger involuntary attentional capture via the superior colliculus and orienting response circuitry. The moderate, constant broadband signal is proposed to operate via stochastic resonance \u2014 adding a background noise level that brings weak neural signals over detection threshold, slightly elevating dopaminergic tone in prefrontal cortex, which optimizes sustained attentional engagement."
 ---
 
 ## White Noise

@@ -1,14 +1,14 @@
 ---
 title: "Spaced Repetition"
-slug: spaced-repetition
+slug: "spaced-repetition"
 category: "Cognitive"
-grade: A
+grade: "B"
 grade_detail: "Cepeda et al.'s 2006 meta-analysis of 317 studies (839 assessments) provides overwhelming evidence for the spacing effect, with large and highly consistent effects across domains, ages, and material types. This comfortably meets the Grade A threshold and represents one of the most replicated effects in cognitive psychology."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "2–4 weeks (retention improvement); 8+ weeks (dramatic knowledge consolidation)"
+difficulty: "intermediate"
+time_to_benefit: "2\u20134 weeks (retention improvement); 8+ weeks (dramatic knowledge consolidation)"
 populations:
   - general_adults
   - students
@@ -16,12 +16,13 @@ focus_facets:
   - deep_work_flow
   - distraction_resistance
   - studying_learning
-summary: "A learning system where information is reviewed at progressively expanding intervals — just before you would forget it — exploiting the spacing effect first documented by Hermann Ebbinghaus. Transforms short-term study into long-term, focus-ready knowledge."
+summary: "A learning system where information is reviewed at progressively expanding intervals \u2014 just before you would forget it \u2014 exploiting the spacing effect first documented by Hermann Ebbinghaus. Transforms short-term study into long-term, focus-ready knowledge."
 what_it_is: |
   A learning system where information is reviewed at progressively
   expanding intervals — just before you would forget it — exploiting the
   spacing effect first documented by Hermann Ebbinghaus. Transforms
   short-term study into long-term, focus-ready knowledge.
+  
 how_to_do_it: |
   1. Create flashcards for each piece of information to be retained (apps: Anki, RemNote, or physical cards).
   2. Review new cards on day 1, then again on day 3, day 7, day 14, day 30, and so on.
@@ -29,7 +30,8 @@ how_to_do_it: |
   4. Study for 15–30 minutes daily consistently, rather than in marathon sessions.
   5. Prioritize 'hard' cards more frequently — they indicate genuine knowledge gaps.
   6. After 60–90 days of consistent use, test retention with a practice exam to validate progress.
-mechanism: "Spaced repetition exploits two reinforcing mechanisms: (1) the 'forgetting curve' — reviewing material just before forgetting maximizes the memory consolidation triggered by successful retrieval, requiring the hippocampus to actively reconstruct the trace; and (2) contextual variability — different retrieval contexts at each review create multiple retrieval cues, making the memory accessible across diverse contexts. Each review also triggers protein-synthesis-dependent reconsolidation that strengthens the synaptic trace."
+  
+mechanism: "Spaced repetition exploits two reinforcing mechanisms: (1) the 'forgetting curve' \u2014 reviewing material just before forgetting maximizes the memory consolidation triggered by successful retrieval, requiring the hippocampus to actively reconstruct the trace; and (2) contextual variability \u2014 different retrieval contexts at each review create multiple retrieval cues, making the memory accessible across diverse contexts. Each review also triggers protein-synthesis-dependent reconsolidation that strengthens the synaptic trace."
 ---
 
 ## Spaced Repetition

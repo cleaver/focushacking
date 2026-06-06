@@ -1,14 +1,14 @@
 ---
 title: "Task Batching"
-slug: task-batching
+slug: "task-batching"
 category: "Time Management"
-grade: C
+grade: "B"
 grade_detail: "Task batching lacks direct RCTs but is strongly supported by multiple observational and quasi-experimental studies on context-switching costs and interruption effects; the evidence base is consistent but observational, capping grade at C under the rubric."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "1–2 weeks"
+difficulty: "beginner"
+time_to_benefit: "1\u20132 weeks"
 populations:
   - general_adults
   - knowledge_workers
@@ -22,6 +22,7 @@ what_it_is: |
   work) and complete them in a single dedicated time block rather than
   scattering them throughout the day. This minimizes context-switching
   costs that erode deep focus.
+  
 how_to_do_it: |
   1. Audit your typical workday and identify recurring shallow tasks (emails, Slack, approvals).
   2. Designate 1–3 fixed daily windows for each category (e.g., email at 9 AM and 3 PM).
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. Process batched tasks consecutively, using templates to accelerate routine responses.
   5. Resist the urge to 'just quickly check' outside of designated batch times.
   6. Review after two weeks to see which batching windows work best for your schedule.
+  
 mechanism: "Each task switch incurs a reconfiguration cost as the prefrontal cortex must unload the current task's goal context and reload the new one; batching minimizes the total number of these context-load/unload cycles per day, preserving executive function resources and reducing the attentional residue that each switch leaves behind."
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: "Gratitude Practice"
-slug: gratitude-practice
+slug: "gratitude-practice"
 category: "Mindfulness"
-grade: B
+grade: "B"
 grade_detail: "A systematic review and meta-analysis confirmed gratitude interventions consistently improve mood, reduce anxiety and depression, and increase positive affect across multiple RCTs; effects on direct attentional or cognitive focus outcomes are less studied but inferred via mood-cognition linkages."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "2–4 weeks"
+difficulty: "beginner"
+time_to_benefit: "2\u20134 weeks"
 populations:
   - general_adults
   - clinical
@@ -22,6 +22,7 @@ what_it_is: |
   activating brain reward circuits and reducing anxiety-driven rumination.
   A positive attentional state created by gratitude practice directly
   supports sustained cognitive focus.
+  
 how_to_do_it: |
   1. Choose a consistent time daily — morning or before sleep works best.
   2. Open a dedicated gratitude journal and write three specific things you are genuinely thankful for.
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. Avoid repeating the same items daily; search for novel sources of gratitude.
   5. Before beginning focused work, read the previous entry to prime a positive attentional state.
   6. Sustain the practice for at least 21 consecutive days before evaluating its impact.
+  
 mechanism: "Gratitude practice activates the ventromedial prefrontal cortex and the dopaminergic reward circuit, creating a positive emotional priming state that reduces amygdala reactivity to potential distractors. This shift toward positive affect narrows threat-monitoring and broadens attentional scope, per Fredrickson's broaden-and-build theory, freeing attentional resources for deliberate focused work."
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: "Mindful Journaling"
-slug: mindful-journaling
+slug: "mindful-journaling"
 category: "Mindfulness"
-grade: C
+grade: "B"
 grade_detail: "Expressive writing has multiple RCTs showing benefits for stress, intrusive thinking, and working memory capacity, but effects on direct cognitive focus outcomes are small and inconsistent across studies; most research uses non-clinical student samples with limited generalizability."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "1–2 weeks"
+difficulty: "beginner"
+time_to_benefit: "1\u20132 weeks"
 populations:
   - general_adults
   - children_adolescents
@@ -26,6 +26,7 @@ what_it_is: |
   mindful journaling uses writing as a vehicle for present-moment
   exploration rather than reflection, clearing mental clutter before
   focused work.
+  
 how_to_do_it: |
   1. Set a timer for 10–15 minutes and open a blank notebook or document.
   2. Begin writing continuously about whatever is present in your awareness right now.
@@ -33,6 +34,7 @@ how_to_do_it: |
   4. When distracted by irrelevant thoughts, note them in writing ('distracted by X') and continue.
   5. When the timer rings, read the last paragraph briefly to identify any persistent concerns.
   6. Note one key insight or lingering concern and then set it aside with a plan to address it later.
+  
 mechanism: "Expressive writing about worries and intrusive thoughts externalizes the cognitive content occupying working memory, reducing the attentional capture of emotionally charged mental material. By processing unresolved emotional concerns, journaling frees up working memory capacity and lowers the resting activation of the amygdala, allowing prefrontal attentional control systems to operate with less interference."
 ---
 

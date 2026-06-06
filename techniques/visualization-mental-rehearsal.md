@@ -1,14 +1,14 @@
 ---
 title: "Visualization (Mental Rehearsal)"
-slug: visualization-mental-rehearsal
+slug: "visualization-mental-rehearsal"
 category: "Mindfulness"
-grade: B
-grade_detail: "Multiple meta-analyses confirm mental imagery training produces significant performance improvements (g≈0.48) across diverse motor and cognitive tasks; evidence for direct sustained-attention or executive function improvements in non-sport cognitive tasks is more limited and based on fewer RCTs."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "Multiple meta-analyses confirm mental imagery training produces significant performance improvements (g\u22480.48) across diverse motor and cognitive tasks; evidence for direct sustained-attention or executive function improvements in non-sport cognitive tasks is more limited and based on fewer RCTs."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "Immediate (priming); 2–4 weeks (skill transfer)"
+difficulty: "intermediate"
+time_to_benefit: "Immediate (priming); 2\u20134 weeks (skill transfer)"
 populations:
   - general_adults
   - athletes
@@ -23,6 +23,7 @@ what_it_is: |
   real. Used by athletes, surgeons, and executives to prime focused
   execution by clarifying what specific attention should be directed
   toward.
+  
 how_to_do_it: |
   1. Sit quietly and close your eyes; take five deep, slow breaths.
   2. Bring to mind the upcoming task or performance in vivid detail.
@@ -30,7 +31,8 @@ how_to_do_it: |
   4. Include sensory details: what you see, hear, and feel as you work through the task.
   5. If obstacles arise in the visualization, see yourself navigating them effectively.
   6. Open your eyes and begin the task within 5 minutes while the primed state is active.
-mechanism: "Mental imagery activates overlapping neural networks to physical execution — including motor cortex, premotor areas, and the anterior cingulate cortex — effectively priming neural circuits for focused task performance. First-person vivid visualization also reduces pre-task uncertainty and anxiety by pre-habituating the stress response to anticipated challenges."
+  
+mechanism: "Mental imagery activates overlapping neural networks to physical execution \u2014 including motor cortex, premotor areas, and the anterior cingulate cortex \u2014 effectively priming neural circuits for focused task performance. First-person vivid visualization also reduces pre-task uncertainty and anxiety by pre-habituating the stress response to anticipated challenges."
 ---
 
 ## Visualization (Mental Rehearsal)

@@ -1,13 +1,13 @@
 ---
 title: "Noise-Cancelling Headphones"
-slug: noise-cancelling-headphones
+slug: "noise-cancelling-headphones"
 category: "Environment"
-grade: C
-grade_detail: "ANC headphones are primarily a noise-elimination tool; the cognitive benefits evidence is drawn from white noise studies (Cheng et al. 2022) showing moderate sustained attention improvements at 45 dB — but the headphone-as-device has not been independently RCT-tested; the instrument-agnostic evidence is Grade C with consistent directional results."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "ANC headphones are primarily a noise-elimination tool; the cognitive benefits evidence is drawn from white noise studies (Cheng et al. 2022) showing moderate sustained attention improvements at 45 dB \u2014 but the headphone-as-device has not been independently RCT-tested; the instrument-agnostic evidence is Grade C with consistent directional results."
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -23,6 +23,7 @@ what_it_is: |
   ambient sound, creating a quieter acoustic environment that prevents
   auditory distractions from disrupting attentional engagement. Paired
   with focus audio, they create a controllable sonic workspace.
+  
 how_to_do_it: |
   1. Invest in quality ANC headphones (Sony WH-1000XM5, Bose QC45, or similar).
   2. Wear them at the start of each deep work session as a behavioral trigger for focus.
@@ -30,6 +31,7 @@ how_to_do_it: |
   4. Use them consistently to build a conditioned association: headphones on = deep work mode.
   5. Take a 5-minute headphone-free break every 90 minutes to rest auditory processing.
   6. Inform colleagues that headphones on = do not disturb.
+  
 mechanism: "ANC headphones eliminate unpredictable auditory transients (the primary cause of involuntary attentional capture) and when paired with steady-state noise create a consistent acoustic environment that reduces orienting response activation. This allows the prefrontal attentional control network to maintain a stable top-down focus set without the resource cost of suppressing unexpected sounds."
 ---
 
