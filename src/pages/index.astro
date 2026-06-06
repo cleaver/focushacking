@@ -67,7 +67,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
     <button class="filter-pill active" data-group="category" data-value="all"
-      style="background: var(--color-accent-light); color: var(--color-accent);"
       onclick="toggleFilter(this)">
       All {all.length}
     </button>
@@ -76,7 +75,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       const short = cat === "Time Management" ? "Time Mgmt" : cat;
       return (
         <button class="filter-pill" data-group="category" data-value={cat}
-          style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);"
           onclick="toggleFilter(this)">
           {short} ({count})
         </button>
@@ -92,7 +90,6 @@ const difficulties = ["beginner", "intermediate", "advanced"];
       const count = all.filter((t) => t.grade === g).length;
       return (
         <button class="filter-pill" data-group="grade" data-value={g}
-          style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);"
           onclick="toggleFilter(this)">
           Grade {g} ({count})
         </button>
@@ -216,6 +213,8 @@ const difficulties = ["beginner", "intermediate", "advanced"];
 
 <style>
   .filter-pill {
+    background: var(--color-surface);
+    color: var(--color-text-muted);
     border: 1px solid var(--color-border);
     border-radius: 9999px;
     padding: 0.25rem 0.75rem;
@@ -225,8 +224,8 @@ const difficulties = ["beginner", "intermediate", "advanced"];
     transition: all 0.15s;
   }
   .filter-pill.active {
-    background: var(--color-accent-light) !important;
-    color: var(--color-accent) !important;
-    border-color: var(--color-accent) !important;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    border-color: var(--color-accent);
   }
 </style>

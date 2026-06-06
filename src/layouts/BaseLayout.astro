@@ -4,9 +4,13 @@ import "../styles/global.css";
 export interface Props {
   title: string;
   description?: string;
+  image?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image } = Astro.props;
+const siteUrl = Astro.site?.href ?? "https://focushacking.com";
+const pageUrl = new URL(Astro.url.pathname, siteUrl).href;
+const ogImage = image ?? `${siteUrl}favicon.svg`;
 ---
 
 <!doctype html>
@@ -16,6 +20,19 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} — Focus Hacking</title>
     {description && <meta name="description" content={description} />}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={`${title} — Focus Hacking`} />
+    <meta property="og:description" content={description ?? "Evidence-graded directory of free focus and attention techniques."} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${title} — Focus Hacking`} />
+    <meta name="twitter:description" content={description ?? "Evidence-graded directory of free focus and attention techniques."} />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Focus Hacking — Research Digest" href="/rss.xml" />
   </head>

@@ -60,7 +60,8 @@ const FACET_LABELS = {
       <div class="rounded-lg p-3" style="background: var(--color-bg);">
         <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Grade</div>
         <div class="mt-1 text-sm"><strong class="text-lg">{t.grade}</strong> — {gradeInfo.label}</div>
-        <div class="mt-0.5 text-xs" style="color: var(--color-text-muted);">{t.grade_detail}</div>
+        <div class="mt-0.5 text-xs leading-relaxed" style="color: var(--color-text-muted);">{gradeInfo.desc}</div>
+        {t.grade_detail && <div class="mt-1.5 text-xs leading-relaxed" style="color: var(--color-text-muted); opacity: 0.75;">{t.grade_detail}</div>}
       </div>
       <div class="rounded-lg p-3" style="background: var(--color-bg);">
         <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Difficulty</div>

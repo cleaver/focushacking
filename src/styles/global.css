@@ -169,37 +169,4 @@ body {
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3), 0 2px 4px -2px rgba(0,0,0,0.3);
 }
 
-/* ── Prose content (technique pages) ──────────────── */
-.rendered-content h2 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
-}
-.rendered-content h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-.rendered-content p {
-  margin-bottom: 0.75rem;
-  line-height: 1.6;
-}
-.rendered-content ul, .rendered-content ol {
-  padding-left: 1.25rem;
-  margin-bottom: 0.75rem;
-}
-.rendered-content li {
-  margin-bottom: 0.25rem;
-}
-.rendered-content a {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.rendered-content blockquote {
-  border-left: 3px solid var(--color-accent);
-  padding-left: 1rem;
-  margin: 1rem 0;
-  opacity: 0.8;
-}
+
