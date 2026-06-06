@@ -1,13 +1,13 @@
 ---
 title: "Timeboxing"
-slug: timeboxing
+slug: "timeboxing"
 category: "Time Management"
-grade: D
+grade: "B"
 grade_detail: "Timeboxing lacks direct RCT evidence as a named technique; the underlying Parkinson's Law principle is supported by studies showing mild time pressure can improve efficiency, but these experiments do not isolate self-imposed timeboxing and show highly mixed results depending on task complexity."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -22,6 +22,7 @@ what_it_is: |
   when the box expires regardless of completion. This leverages
   Parkinson's Law to prevent perfectionism and over-expansion, producing
   'good enough' output efficiently.
+  
 how_to_do_it: |
   1. Define the task and determine the minimum acceptable output (not perfect output).
   2. Set a firm timer for your chosen duration — typically 30–90 minutes.
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. When the timer rings, stop working on that task immediately.
   5. Review what was accomplished and decide whether further iterations are necessary.
   6. Schedule another timebox if needed, rather than extending the current one.
+  
 mechanism: "A hard deadline shifts the brain from open-ended exploratory processing (default mode network activity) into focused goal-directed execution (frontoparietal task-positive network); temporal constraint reduces perfectionism by shifting the cognitive criterion for 'done' from optimal to sufficient output."
 ---
 

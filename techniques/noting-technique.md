@@ -1,14 +1,14 @@
 ---
 title: "Noting Technique"
-slug: noting-technique
+slug: "noting-technique"
 category: "Mindfulness"
-grade: B
-grade_detail: "The neurological mechanism (affect labeling → reduced amygdala activity → increased PFC control) is well-supported by fMRI RCT evidence; indirect evidence from broader mindfulness RCTs supports attention improvements; specific noting-technique RCTs for cognitive focus are limited but mechanistically strong."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "The neurological mechanism (affect labeling \u2192 reduced amygdala activity \u2192 increased PFC control) is well-supported by fMRI RCT evidence; indirect evidence from broader mindfulness RCTs supports attention improvements; specific noting-technique RCTs for cognitive focus are limited but mechanistically strong."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "1–2 weeks"
+difficulty: "intermediate"
+time_to_benefit: "1\u20132 weeks"
 populations:
   - general_adults
   - clinical
@@ -24,6 +24,7 @@ what_it_is: |
   word (e.g., 'thinking,' 'planning,' 'feeling,' 'hearing') as it occurs.
   This metacognitive labeling creates a slight distance from thoughts,
   reducing their power to pull attention away from the task at hand.
+  
 how_to_do_it: |
   1. Sit comfortably, close your eyes, and begin attending to the breath.
   2. When any thought, sound, or sensation arises, gently label it with one word: 'thinking,' 'planning,' 'feeling,' 'sound,' 'sensation.'
@@ -31,7 +32,8 @@ how_to_do_it: |
   4. After noting, return attention to the breath without elaborating on the noted content.
   5. Practice for 15–20 minutes, noting as frequently as experiences arise.
   6. Over time, transfer the noting skill into work sessions to quickly recognize and release distracting thoughts.
-mechanism: "Noting activates the right ventrolateral prefrontal cortex during affect labeling, which directly inhibits amygdala activity through top-down regulation — reducing the attentional capture power of emotionally charged thoughts. This metacognitive labeling practice also trains the observer stance of the meditator, strengthening the default mode network's capacity to disengage from spontaneous thoughts and return attention to the chosen task."
+  
+mechanism: "Noting activates the right ventrolateral prefrontal cortex during affect labeling, which directly inhibits amygdala activity through top-down regulation \u2014 reducing the attentional capture power of emotionally charged thoughts. This metacognitive labeling practice also trains the observer stance of the meditator, strengthening the default mode network's capacity to disengage from spontaneous thoughts and return attention to the chosen task."
 ---
 
 ## Noting Technique

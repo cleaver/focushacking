@@ -1,14 +1,14 @@
 ---
 title: "Mindfulness Meditation"
-slug: mindfulness-meditation
+slug: "mindfulness-meditation"
 category: "Mindfulness"
-grade: A
-grade_detail: "A 2023 meta-analysis of 111 RCTs (n=9,538) found small-to-moderate improvements in sustained attention, working memory, and executive attention from mindfulness-based interventions; results are consistent across studies and effect sizes (g=0.26–0.64) meet the threshold for grade A."
-last_searched: 2026-06-06
-total_papers: 4
-new_papers_this_run: 0
-difficulty: beginner
-time_to_benefit: "Immediate (cognitive); 4–8 weeks (structural brain changes)"
+grade: "B"
+grade_detail: "A 2023 meta-analysis of 111 RCTs (n=9,538) found small-to-moderate improvements in sustained attention, working memory, and executive attention from mindfulness-based interventions; results are consistent across studies and effect sizes (g=0.26\u20130.64) meet the threshold for grade A."
+last_searched: "2026-06-06"
+total_papers: 6
+new_papers_this_run: 2
+difficulty: "beginner"
+time_to_benefit: "Immediate (cognitive); 4\u20138 weeks (structural brain changes)"
 populations:
   - general_adults
   - clinical
@@ -24,6 +24,7 @@ what_it_is: |
   sensations, and sounds without judgment, repeatedly redirecting
   wandering attention back to the breath. Regular practice strengthens the
   neural circuitry of sustained focus.
+  
 how_to_do_it: |
   1. Sit in a comfortable, upright position and set a timer for 10–20 minutes.
   2. Close your eyes and direct attention to the physical sensation of breathing — the rise of the chest, air at the nostrils.
@@ -31,7 +32,8 @@ how_to_do_it: |
   4. Each time you return attention to the breath counts as a 'mental rep' — this is the practice.
   5. At the end of the session, take a moment to note any observations before opening your eyes.
   6. Practice daily, gradually increasing session length from 10 to 20 minutes over 4 weeks.
-mechanism: "Repeated attention-redirection practice strengthens the prefrontal cortex's top-down regulatory control over the default mode network (the brain's mind-wandering circuit), reducing spontaneous thought intrusions; over 4–8 weeks, structural changes in the anterior cingulate cortex and insula increase the brain's capacity for sustained, non-reactive attention."
+  
+mechanism: "Repeated attention-redirection practice strengthens the prefrontal cortex's top-down regulatory control over the default mode network (the brain's mind-wandering circuit), reducing spontaneous thought intrusions; over 4\u20138 weeks, structural changes in the anterior cingulate cortex and insula increase the brain's capacity for sustained, non-reactive attention."
 ---
 
 ## Mindfulness Meditation
@@ -78,3 +80,18 @@ A surgeon meditates for 15 minutes before complex procedures, reporting enhanced
    - Effect: Moderate increase
    - 65 RCTs confirmed brief mindfulness training reliably reduces negative affectivity (depression, anxiety, rumination) with small-to-moderate effect sizes, even in populations without clinical diagnoses.
    - [Link](https://doi.org/10.1037/ccp0000324)
+
+### 2026
+
+1. **A comparative study of time perception in long-term meditators and non-meditators.** — *Journal Article*
+   - Authors: Sankhla Aanchal, Pareek Samridhi, Jain Gagan
+   - DOI: 10.1016/j.actpsy.2026.106988
+   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/42070524/)
+   - Population: general_adults; Facets: distraction_resistance
+
+1. **Attentional processes in brief mindfulness meditation and socio-affective responses to in-group and out-group suffering.** — *Journal Article*
+   - Authors: Górska Gabriela, Holas Paweł
+   - DOI: 10.1016/j.actpsy.2026.106763
+   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/42048956/)
+   - Population: general_adults; Facets: distraction_resistance
+

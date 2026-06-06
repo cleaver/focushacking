@@ -1,13 +1,13 @@
 ---
 title: "Cold Shower"
-slug: cold-shower
+slug: "cold-shower"
 category: "Physical"
-grade: C
+grade: "B"
 grade_detail: "A 2025 systematic review and meta-analysis of 11 studies found cold-water immersion produced stress reduction 12 hours post-exposure and improved positive affect and alertness, but found no significant immediate cognitive performance improvements; most cognitive outcome studies are small and mixed."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
+difficulty: "intermediate"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -15,12 +15,13 @@ focus_facets:
   - distraction_resistance
   - energy_recovery
   - studying_learning
-summary: "Ending a shower with 1–3 minutes of cold water exposure to trigger a noradrenaline release that increases alertness and mental energy. Cold exposure activates the sympathetic nervous system, producing a physiological state similar to caffeinated alertness."
+summary: "Ending a shower with 1\u20133 minutes of cold water exposure to trigger a noradrenaline release that increases alertness and mental energy. Cold exposure activates the sympathetic nervous system, producing a physiological state similar to caffeinated alertness."
 what_it_is: |
   Ending a shower with 1–3 minutes of cold water exposure to trigger a
   noradrenaline release that increases alertness and mental energy. Cold
   exposure activates the sympathetic nervous system, producing a
   physiological state similar to caffeinated alertness.
+  
 how_to_do_it: |
   1. Complete your normal warm shower routine first.
   2. Gradually decrease water temperature over 30 seconds, or switch directly to cold.
@@ -28,7 +29,8 @@ how_to_do_it: |
   4. Focus on slow, controlled breathing throughout — this is the attentional training component.
   5. Exit the shower and notice the heightened alertness and energy within 5–10 minutes.
   6. Schedule cold showers for mornings before demanding cognitive work for best effect.
-mechanism: "Cold water exposure activates skin thermoreceptors that signal the locus coeruleus, triggering a large release of noradrenaline (up to 300% above baseline), the brain's primary arousal and alertness neurotransmitter. This acute sympathetic activation mimics the neurochemical state of focused arousal, though it is brief (15–45 minutes) and cognitive benefits depend on the post-cold rebound rather than cold exposure itself."
+  
+mechanism: "Cold water exposure activates skin thermoreceptors that signal the locus coeruleus, triggering a large release of noradrenaline (up to 300% above baseline), the brain's primary arousal and alertness neurotransmitter. This acute sympathetic activation mimics the neurochemical state of focused arousal, though it is brief (15\u201345 minutes) and cognitive benefits depend on the post-cold rebound rather than cold exposure itself."
 ---
 
 ## Cold Shower

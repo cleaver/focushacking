@@ -1,14 +1,14 @@
 ---
 title: "Kettlebell Training"
-slug: kettlebell-training
+slug: "kettlebell-training"
 category: "Physical"
-grade: B
+grade: "B"
 grade_detail: "High-intensity interval exercise (the closest RCT evidence base to kettlebell training) consistently produces greater BDNF elevation and executive function improvements than moderate-intensity exercise in multiple RCTs; kettlebell-specific cognitive RCTs are limited but the broader high-intensity exercise evidence base is strong."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: intermediate
-time_to_benefit: "Immediately post-exercise (BDNF spike); 4–6 weeks (structural)"
+difficulty: "intermediate"
+time_to_benefit: "Immediately post-exercise (BDNF spike); 4\u20136 weeks (structural)"
 populations:
   - general_adults
   - knowledge_workers
@@ -23,6 +23,7 @@ what_it_is: |
   simultaneously a physical and cognitive training tool. The combination
   of high-intensity exertion and required focus creates powerful
   post-exercise cognitive benefits
+  
 how_to_do_it: |
   1. Begin with a qualified kettlebell instructor or beginner video to master the swing and Turkish get-up form.
   2. Start with a light kettlebell (8–12 kg for men, 4–8 kg for women) to prioritize technique.
@@ -30,7 +31,8 @@ how_to_do_it: |
   4. Maintain deliberate focus on posture, breathing, and movement quality throughout.
   5. Complete 3 sessions per week, scheduling them before high-demand cognitive work periods.
   6. After each session, allow 20 minutes of recovery before sitting down to focused work.
-mechanism: "High-intensity kettlebell training triggers a large acute spike in BDNF (brain-derived neurotrophic factor), which enhances synaptic plasticity in the hippocampus and prefrontal cortex within 15–30 minutes post-exercise. Simultaneously, the intensity elevates dopamine and noradrenaline in the PFC to levels that significantly improve executive function signal-to-noise ratio; the technique-focused nature of kettlebell movements provides simultaneous dual-task training of motor coordination and attentional control."
+  
+mechanism: "High-intensity kettlebell training triggers a large acute spike in BDNF (brain-derived neurotrophic factor), which enhances synaptic plasticity in the hippocampus and prefrontal cortex within 15\u201330 minutes post-exercise. Simultaneously, the intensity elevates dopamine and noradrenaline in the PFC to levels that significantly improve executive function signal-to-noise ratio; the technique-focused nature of kettlebell movements provides simultaneous dual-task training of motor coordination and attentional control."
 ---
 
 ## Kettlebell Training

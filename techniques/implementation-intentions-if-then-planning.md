@@ -1,13 +1,13 @@
 ---
 title: "Implementation Intentions (If-Then Planning)"
-slug: implementation-intentions-if-then-planning
+slug: "implementation-intentions-if-then-planning"
 category: "Cognitive"
-grade: A
-grade_detail: "Gollwitzer & Sheeran's 2006 meta-analysis of 94 independent tests (d = 0.65) provides strong evidence for implementation intentions improving goal attainment, meeting the Grade A threshold of ≥1 large meta-analysis with consistent moderate-to-large effects."
-last_searched: 2026-06-06
+grade: "B"
+grade_detail: "Gollwitzer & Sheeran's 2006 meta-analysis of 94 independent tests (d = 0.65) provides strong evidence for implementation intentions improving goal attainment, meeting the Grade A threshold of \u22651 large meta-analysis with consistent moderate-to-large effects."
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -24,6 +24,7 @@ what_it_is: |
   linking the plan to environmental triggers. This dramatically increases
   the probability of initiating focused work when the planned situation
   arises.
+  
 how_to_do_it: |
   1. Identify the goal behavior you want to perform (e.g., 'work on the report').
   2. Identify a specific, reliable situational cue (time, location, or preceding event).
@@ -31,6 +32,7 @@ how_to_do_it: |
   4. Write the implementation intention down and review it the night before.
   5. Include contingency plans for likely obstacles: 'If I feel distracted, I will take 3 deep breaths and return to task.'
   6. Review completion at day's end and adjust the if-then formula if necessary.
+  
 mechanism: "Implementation intentions create prospective memory links between specific environmental cues and planned responses in the prefrontal cortex, making goal-directed behavior partially automatic. When the 'if' cue is encountered, the 'then' response is triggered with minimal deliberative effort, bypassing motivational depletion and the intention-action gap."
 ---
 

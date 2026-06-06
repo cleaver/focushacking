@@ -1,13 +1,13 @@
 ---
 title: "Clean Desk / Declutter"
-slug: clean-desk-declutter
+slug: "clean-desk-declutter"
 category: "Environment"
-grade: C
+grade: "D"
 grade_detail: "While the neuroscience of visual competition is well-established by fMRI (McMains & Kastner 2011) and a 2024 Yale Neuron study, there are no direct RCTs testing clean desk vs cluttered desk on focused cognitive work performance in adults; the evidence base is primarily neuroimaging and observational, capping the grade at C."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -21,6 +21,7 @@ what_it_is: |
   task-relevant materials visible. Visual clutter competes for attentional
   resources; a clean desk reduces peripheral distractions and primes the
   brain for focused single-task engagement.
+  
 how_to_do_it: |
   1. Before each work session, spend 5 minutes clearing non-essential items from desk surface.
   2. Remove all objects unrelated to the current task — put them in drawers or boxes.
@@ -28,7 +29,8 @@ how_to_do_it: |
   4. Keep a 'dumping zone' (a single tray) for items needing decisions later, so nothing lingers on the main surface.
   5. At the end of each day, restore the desk to its clean baseline (the 'reset').
   6. Once a week, deep-clean and reorganize the whole workspace.
-mechanism: "Each visible object in the workspace activates competing bottom-up neural signals in the visual cortex that must be actively suppressed by top-down attentional control circuits (prefrontal, parietal). This suppression consumes limited-capacity cognitive resources in proportion to the number of irrelevant objects present, leaving fewer resources available for sustained task engagement — a process termed competitive suppression."
+  
+mechanism: "Each visible object in the workspace activates competing bottom-up neural signals in the visual cortex that must be actively suppressed by top-down attentional control circuits (prefrontal, parietal). This suppression consumes limited-capacity cognitive resources in proportion to the number of irrelevant objects present, leaving fewer resources available for sustained task engagement \u2014 a process termed competitive suppression."
 ---
 
 ## Clean Desk / Declutter

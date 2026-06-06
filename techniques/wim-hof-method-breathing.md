@@ -1,14 +1,14 @@
 ---
 title: "Wim Hof Method Breathing"
-slug: wim-hof-method-breathing
+slug: "wim-hof-method-breathing"
 category: "Breathing"
-grade: C
+grade: "A"
 grade_detail: "There is strong physiological evidence for sympathetic activation and immune modulation (Kox et al. 2014 PNAS, Almahayni & Hammond 2024 systematic review), but direct evidence for cognitive focus improvement specifically is limited to small pilot studies and mixed findings; no RCT has used a focused cognitive attention outcome as its primary endpoint."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: advanced
-time_to_benefit: "Immediate (epinephrine spike); 2–4 weeks (stress threshold training)"
+difficulty: "advanced"
+time_to_benefit: "Immediate (epinephrine spike); 2\u20134 weeks (stress threshold training)"
 populations:
   - general_adults
   - athletes
@@ -16,13 +16,14 @@ populations:
 focus_facets:
   - distraction_resistance
   - energy_recovery
-summary: "A structured breathing protocol developed by Dutch extreme athlete Wim Hof involving 30–40 rapid, deep breaths followed by a breath hold, repeated for 3 cycles. It induces controlled hyperventilation and hypoxia, releasing epinephrine and training the autonomic nervous system's stress response."
+summary: "A structured breathing protocol developed by Dutch extreme athlete Wim Hof involving 30\u201340 rapid, deep breaths followed by a breath hold, repeated for 3 cycles. It induces controlled hyperventilation and hypoxia, releasing epinephrine and training the autonomic nervous system's stress response."
 what_it_is: |
   A structured breathing protocol developed by Dutch extreme athlete Wim
   Hof involving 30–40 rapid, deep breaths followed by a breath hold,
   repeated for 3 cycles. It induces controlled hyperventilation and
   hypoxia, releasing epinephrine and training the autonomic nervous
   system's stress response.
+  
 how_to_do_it: |
   1. Lie down flat on a bed or mat; do not practice near water or while driving.
   2. Take 30–40 deep, powerful breaths through the mouth — fully in, let out (not full exhale).
@@ -30,7 +31,8 @@ how_to_do_it: |
   4. When the urge peaks, take one full recovery breath and hold it for 15 seconds.
   5. Release and rest for 1–2 minutes, then repeat for 3 cycles total.
   6. Practice on an empty stomach in the morning; never use near water.
-mechanism: "Cyclic hyperventilation induces hypocapnia (reduced CO₂), leading to respiratory alkalosis and cerebral vasoconstriction, followed by compensatory vasodilation during breath-hold phases. This cycle acutely elevates plasma epinephrine and norepinephrine via the adrenal medulla, producing a transient high-alertness sympathetic state that may prime attentional readiness."
+  
+mechanism: "Cyclic hyperventilation induces hypocapnia (reduced CO\u2082), leading to respiratory alkalosis and cerebral vasoconstriction, followed by compensatory vasodilation during breath-hold phases. This cycle acutely elevates plasma epinephrine and norepinephrine via the adrenal medulla, producing a transient high-alertness sympathetic state that may prime attentional readiness."
 ---
 
 ## Wim Hof Method Breathing

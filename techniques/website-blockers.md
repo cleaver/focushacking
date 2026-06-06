@@ -1,13 +1,13 @@
 ---
 title: "Website Blockers"
-slug: website-blockers
+slug: "website-blockers"
 category: "Technology"
-grade: B
+grade: "C"
 grade_detail: "Mark et al. 2017 (UbiComp, n=32) provides in-situ field evidence with objective measurement, and effects align with the robust interruption-cost literature. Additional controlled evidence from distraction research qualifies this for Grade B, though larger pre-registered RCTs are lacking."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 3
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -22,6 +22,7 @@ what_it_is: |
   distracting websites and apps during predetermined work periods,
   removing willpower from the equation by making distraction
   technologically impossible rather than merely undesirable.
+  
 how_to_do_it: |
   1. Download Freedom, Cold Turkey, or a browser-based blocker (Chrome: uBlock Origin or StayFocusd).
   2. Create a 'block list' of your most common distraction sites (social media, news, YouTube).
@@ -29,6 +30,7 @@ how_to_do_it: |
   4. Enable the 'locked mode' or 'hardcore mode' to prevent mid-session overrides.
   5. Review your block list monthly and add newly discovered distraction sites.
   6. Use the freed attention to track productivity gains; this reinforces continued use.
+  
 mechanism: "Website blockers structurally remove the most common source of attention capture (variable-reward notification loops from social media and news) from the digital environment. By eliminating the possibility of impulsive task-switching, they prevent the 23-minute average recovery cost of each interruption and allow attentional resources to build sustained focus depth without depletion via self-regulatory resistance to temptation."
 ---
 

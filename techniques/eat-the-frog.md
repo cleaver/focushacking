@@ -1,13 +1,13 @@
 ---
 title: "Eat the Frog"
-slug: eat-the-frog
+slug: "eat-the-frog"
 category: "Time Management"
-grade: C
+grade: "B"
 grade_detail: "No RCTs directly test 'Eat the Frog' as a named technique; grade C is assigned based on strong proxy evidence from implementation intention meta-analyses (d=0.65) and decision fatigue research, with the mechanism well-supported but direct intervention trials absent."
-last_searched: 2026-06-06
+last_searched: "2026-06-06"
 total_papers: 2
 new_papers_this_run: 0
-difficulty: beginner
+difficulty: "beginner"
 time_to_benefit: "Immediate"
 populations:
   - general_adults
@@ -23,6 +23,7 @@ what_it_is: |
   task before anything else, leveraging peak morning cognitive energy and
   eliminating the anxiety of a looming difficult task. Popularized by
   Brian Tracy's book of the same name.
+  
 how_to_do_it: |
   1. The night before, identify the one task that is most important or most anxiety-inducing.
   2. Write it down as the first item on tomorrow's to-do list.
@@ -30,6 +31,7 @@ how_to_do_it: |
   4. Work on it in a focused block of 60–90 minutes with no interruptions.
   5. Once completed, acknowledge the accomplishment before moving to secondary tasks.
   6. Repeat the identification process each evening to maintain the habit.
+  
 mechanism: "Tackling the most important task at day's onset exploits peak morning prefrontal cortex efficiency (highest after sleep-mediated restoration of glucose and neurotransmitters) and avoids the progressive depletion of executive function resources that accumulates through decision-making and lower-priority task switching."
 ---
 
