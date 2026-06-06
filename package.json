@@ -12,5 +12,9 @@
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^6.4.0"
+  },
+  "devDependencies": {
+    "html-validate": "^11.0.0",
+    "hyperlink": "^5.0.4"
   }
 }

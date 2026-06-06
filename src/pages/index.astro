@@ -108,14 +108,14 @@ const jsonData = JSON.stringify(all.map((t) => ({
     Filter by category
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
-    <button class="filter-pill active" data-group="category" data-value="all">
+    <button type="button" class="filter-pill active" data-group="category" data-value="all">
       All {all.length}
     </button>
     {categories.map((cat) => {
       const count = all.filter((t) => t.category === cat).length;
       const short = cat === "Time Management" ? "Time Mgmt" : cat;
       return (
-        <button class="filter-pill" data-group="category" data-value={cat}>
+        <button type="button" class="filter-pill" data-group="category" data-value={cat}>
           {short} ({count})
         </button>
       );
@@ -129,15 +129,25 @@ const jsonData = JSON.stringify(all.map((t) => ({
     {grades.map((g) => {
       const count = all.filter((t) => t.grade === g).length;
       return (
-        <button class="filter-pill" data-group="grade" data-value={g}>
+        <button type="button" class="filter-pill" data-group="grade" data-value={g}>
           Grade {g} ({count})
         </button>
       );
     })}
   </div>
 
+  <!-- Results info + controls -->
+  <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+    <div id="result-count" class="text-xs text-muted">
+      {all.length} of {all.length} techniques shown
+    </div>
+    <button id="clear-filters" type="button" class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline">
+      Clear all filters
+    </button>
+  </div>
+
   <!-- Technique grid -->
-  <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+  <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-live="polite">
     {all.map((t) => <TechniqueCard technique={t} />)}
   </div>
 </BaseLayout>
@@ -146,6 +156,12 @@ const jsonData = JSON.stringify(all.map((t) => ({
 
 <script>
   const ALL = JSON.parse(document.getElementById("data-json").textContent);
+
+  function syncPressed() {
+    document.querySelectorAll(".filter-pill").forEach((b) => {
+      b.setAttribute("aria-pressed", b.classList.contains("active"));
+    });
+  }
 
   function toggleFilter(btn) {
     const group = btn.dataset.group;
@@ -167,7 +183,26 @@ const jsonData = JSON.stringify(all.map((t) => ({
         btn.classList.add("active");
       }
     }
+    syncPressed();
     filter();
+  }
+
+  function clearFilters() {
+    document.getElementById("search").value = "";
+    document.getElementById("sort-select").value = "default";
+    document.querySelectorAll('.filter-pill[data-group="category"]').forEach((b) => {
+      b.classList.toggle("active", b.dataset.value === "all");
+    });
+    document.querySelectorAll('.filter-pill[data-group="grade"]').forEach((b) => {
+      b.classList.toggle("active", b.dataset.value === "all");
+    });
+    syncPressed();
+    filter();
+  }
+
+  function updateResultCount(count, total) {
+    const el = document.getElementById("result-count");
+    if (el) el.textContent = count + " of " + total + " techniques shown";
   }
 
   function filter() {
@@ -201,13 +236,14 @@ const jsonData = JSON.stringify(all.map((t) => ({
       case "category": filtered.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title)); break;
     }
 
+    updateResultCount(filtered.length, ALL.length);
+
     const grid = document.getElementById("grid");
     if (filtered.length === 0) {
       grid.innerHTML = `<div class="col-span-full py-12 text-center text-muted">No techniques match your filters.</div>`;
       return;
     }
 
-    const grades = { A: "A", B: "B", C: "C", D: "D", "?": "?" };
     const diffs = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
     grid.innerHTML = filtered.map((t) => {
       const slug = t.slug || t.id.replace(/\.md$/, "");
@@ -237,6 +273,8 @@ const jsonData = JSON.stringify(all.map((t) => ({
     document.querySelectorAll(".filter-pill").forEach((btn) => {
       btn.addEventListener("click", () => toggleFilter(btn));
     });
+    document.getElementById("clear-filters").addEventListener("click", clearFilters);
+    syncPressed();
   });
 </script>
 
@@ -259,4 +297,36 @@ const jsonData = JSON.stringify(all.map((t) => ({
     color: var(--color-accent);
     border-color: var(--color-accent);
   }
+
+  /* Category pill colors — active */
+  .filter-pill[data-group="category"][data-value="Time Management"].active { background: var(--color-cat-time); color: #fff; border-color: var(--color-cat-time); }
+  .filter-pill[data-group="category"][data-value="Mindfulness"].active { background: var(--color-cat-mindfulness); color: #fff; border-color: var(--color-cat-mindfulness); }
+  .filter-pill[data-group="category"][data-value="Breathing"].active { background: var(--color-cat-breathing); color: #fff; border-color: var(--color-cat-breathing); }
+  .filter-pill[data-group="category"][data-value="Physical"].active { background: var(--color-cat-physical); color: #fff; border-color: var(--color-cat-physical); }
+  .filter-pill[data-group="category"][data-value="Environment"].active { background: var(--color-cat-environment); color: #fff; border-color: var(--color-cat-environment); }
+  .filter-pill[data-group="category"][data-value="Cognitive"].active { background: var(--color-cat-cognitive); color: #fff; border-color: var(--color-cat-cognitive); }
+  .filter-pill[data-group="category"][data-value="Technology"].active { background: var(--color-cat-technology); color: #fff; border-color: var(--color-cat-technology); }
+
+  /* Category pill colors — inactive (outlined) */
+  .filter-pill[data-group="category"][data-value="Time Management"]:not(.active) { border-color: var(--color-cat-time); color: var(--color-cat-time); }
+  .filter-pill[data-group="category"][data-value="Mindfulness"]:not(.active) { border-color: var(--color-cat-mindfulness); color: var(--color-cat-mindfulness); }
+  .filter-pill[data-group="category"][data-value="Breathing"]:not(.active) { border-color: var(--color-cat-breathing); color: var(--color-cat-breathing); }
+  .filter-pill[data-group="category"][data-value="Physical"]:not(.active) { border-color: var(--color-cat-physical); color: var(--color-cat-physical); }
+  .filter-pill[data-group="category"][data-value="Environment"]:not(.active) { border-color: var(--color-cat-environment); color: var(--color-cat-environment); }
+  .filter-pill[data-group="category"][data-value="Cognitive"]:not(.active) { border-color: var(--color-cat-cognitive); color: var(--color-cat-cognitive); }
+  .filter-pill[data-group="category"][data-value="Technology"]:not(.active) { border-color: var(--color-cat-technology); color: var(--color-cat-technology); }
+
+  /* Grade pills — active: filled with grade color */
+  .filter-pill[data-group="grade"][data-value="A"].active { background: var(--color-grade-a); color: #fff; border-color: var(--color-grade-a); }
+  .filter-pill[data-group="grade"][data-value="B"].active { background: var(--color-grade-b); color: #fff; border-color: var(--color-grade-b); }
+  .filter-pill[data-group="grade"][data-value="C"].active { background: var(--color-grade-c); color: #fff; border-color: var(--color-grade-c); }
+  .filter-pill[data-group="grade"][data-value="D"].active { background: var(--color-grade-d); color: #fff; border-color: var(--color-grade-d); }
+  .filter-pill[data-group="grade"][data-value="?"].active { background: var(--color-grade-na); color: #fff; border-color: var(--color-grade-na); }
+
+  /* Grade pills — inactive: outlined with grade color */
+  .filter-pill[data-group="grade"][data-value="A"]:not(.active) { border-color: var(--color-grade-a); color: var(--color-grade-a); }
+  .filter-pill[data-group="grade"][data-value="B"]:not(.active) { border-color: var(--color-grade-b); color: var(--color-grade-b); }
+  .filter-pill[data-group="grade"][data-value="C"]:not(.active) { border-color: var(--color-grade-c); color: var(--color-grade-c); }
+  .filter-pill[data-group="grade"][data-value="D"]:not(.active) { border-color: var(--color-grade-d); color: var(--color-grade-d); }
+  .filter-pill[data-group="grade"][data-value="?"]:not(.active) { border-color: var(--color-grade-na); color: var(--color-grade-na); }
 </style>

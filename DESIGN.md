@@ -376,20 +376,20 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| F1 | Distinct background colors per category pill (not just accent) | `index.astro`, `global.css` | Medium | [ ] |
-| F2 | Category colors: Time Mgmt=blue, Mindfulness=green, Breathing=teal, Physical=orange, Environment=amber, Cognitive=purple, Technology=slate | `global.css` | Medium | [ ] |
-| F3 | Active pill state: filled bg with white text (POC style) | `global.css` | Medium | [ ] |
-| F4 | Inactive pill state: outlined with muted text (POC style) | `global.css` | Low | [ ] |
-| F5 | Grade pills keep same style but use grade colors | `global.css` | Low | [ ] |
+| F1 | Distinct background colors per category pill (not just accent) | `index.astro`, `global.css` | Medium | [x] |
+| F2 | Category colors: Time Mgmt=blue, Mindfulness=green, Breathing=teal, Physical=orange, Environment=amber, Cognitive=purple, Technology=slate | `global.css` | Medium | [x] |
+| F3 | Active pill state: filled bg with white text (POC style) | `global.css` | Medium | [x] |
+| F4 | Inactive pill state: outlined with muted text (POC style) | `global.css` | Low | [x] |
+| F5 | Grade pills keep same style but use grade colors | `global.css` | Low | [x] |
 
 ### Result Counter & Clear Filters *(new)*
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| R1 | Add "X of 58 techniques shown" text below filter pills or above grid | `index.astro` | High | [ ] |
-| R2 | Update counter dynamically in `filter()` JS function | `index.astro` (script) | High | [ ] |
-| R3 | Add "Clear all filters" link/button next to counter | `index.astro` | Medium | [ ] |
-| R4 | Wire clear button to reset all pills + search + sort to defaults | `index.astro` (script) | Medium | [ ] |
+| R1 | Add "X of 58 techniques shown" text below filter pills or above grid | `index.astro` | High | [x] |
+| R2 | Update counter dynamically in `filter()` JS function | `index.astro` (script) | High | [x] |
+| R3 | Add "Clear all filters" link/button next to counter | `index.astro` | Medium | [x] |
+| R4 | Wire clear button to reset all pills + search + sort to defaults | `index.astro` (script) | Medium | [x] |
 
 ### Search & Sort Controls
 
@@ -433,7 +433,7 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| TY1 | Keep system font stack (POC uses same) — no change | — | — | [ ] |
+| TY1 | Keep system font stack (POC uses same) — no change | — | — | [x] |
 | TY2 | Verify heading sizes match POC proportions | `global.css` | Low | [ ] |
 | TY3 | Verify body text sizes match POC | `global.css` | Low | [ ] |
 
@@ -441,16 +441,16 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| I1 | Add emoji icons to stats bar (📋 🗂️ 📊 💯) | `index.astro` | High | [ ] |
-| I2 | Keep ⚡ for brand, 🌙/☀️ for theme toggle (current) | — | — | [ ] |
-| I3 | No icon library needed — emoji-only keeps bundle zero | — | — | [ ] |
+| I1 | Add emoji icons to stats bar (📋 🗂️ 📊 💯) | `index.astro` | High | [x] |
+| I2 | Keep ⚡ for brand, 🌙/☀️ for theme toggle (current) | — | — | [x] |
+| I3 | No icon library needed — emoji-only keeps bundle zero | — | — | [x] |
 
 ### Spacing & Radius
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| R1 | Verify card padding matches POC (`16px` — current uses `1rem` = `16px`, OK) | — | — | [ ] |
-| R2 | Verify filter pill border-radius matches POC (`9999px` — current matches) | — | — | [ ] |
+| R1 | Verify card padding matches POC (`16px` — current uses `1rem` = `16px`, OK) | — | — | [x] |
+| R2 | Verify filter pill border-radius matches POC (`9999px` — current matches) | — | — | [x] |
 | R3 | Verify gap between filter pills matches POC | `global.css` | Low | [ ] |
 
 ### Responsive Breakpoints
@@ -510,7 +510,7 @@ section above.
 
 | # | Requirement | WCAG | Status | Done |
 |---|-------------|------|--------|------|
-| S1 | Stats bar numbers announced correctly (use normal text, not CSS-generated) | 1.1.1 A | ⚠️ Ensure numbers are in HTML, not `::before`/`::after` | [ ] |
+| S1 | Stats bar numbers announced correctly (use normal text, not CSS-generated) | 1.1.1 A | ⚠️ Ensure numbers are in HTML, not `::before`/`::after` | [x] |
 | S2 | Grade badges: include aria-label or screen reader text "Grade A" not just "A" | 1.1.1 A | ❌ Current `<span class="grade-badge">A</span>` — add `aria-label="Grade A"` | [ ] |
 | S3 | Filter pills: active state announced — use `aria-pressed` or `aria-current` | 4.1.2 AA | ❌ Currently only visual `.active` class — add `aria-pressed` | [ ] |
 | S4 | "X of Y techniques shown": use `aria-live="polite"` region for dynamic updates | 4.1.3 AA | ❌ Future — must implement | [ ] |
@@ -567,10 +567,10 @@ Items that can be fixed immediately with minimal effort:
 
 | # | Task | Done |
 |---|------|------|
-| Q1 | Add `aria-label="Search techniques"` to search input | [ ] |
-| Q2 | Add `aria-label="Sort techniques by"` to sort select | [ ] |
+| Q1 | Add `aria-label="Search techniques"` to search input | [x] |
+| Q2 | Add `aria-label="Sort techniques by"` to sort select | [x] |
 | Q3 | Add `aria-label="Grade {letter}"` to grade badges (SSR + JS `grid.innerHTML`) | [ ] |
-| Q4 | Add `aria-pressed` to filter pills — toggle with `.active` class in `toggleFilter()` | [ ] |
-| Q5 | Add `aria-live="polite"` to grid container — so filter results are announced | [ ] |
+| Q4 | Add `aria-pressed` to filter pills — toggle with `.active` class in `toggleFilter()` | [x] |
+| Q5 | Add `aria-live="polite"` to grid container — so filter results are announced | [x] |
 | Q6 | Wrap CSS transitions in `@media (prefers-reduced-motion: no-preference)` | [ ] |
 | Q7 | Add `:focus-visible` outline to all interactive elements | [ ] |
