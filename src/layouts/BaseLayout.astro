@@ -1,0 +1,78 @@
+---
+import "../styles/global.css";
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Focus Hacking</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="Focus Hacking — Research Digest" href="/rss.xml" />
+  </head>
+  <body class="min-h-screen">
+    <nav class="border-b" style="border-color: var(--color-border);">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="/" class="text-lg font-bold tracking-tight" style="color: var(--color-accent);">
+          ⚡ Focus Hacking
+        </a>
+        <div class="flex items-center gap-4">
+          <a href="/" class="text-sm font-medium" style="color: var(--color-text-muted);">Techniques</a>
+          <a href="/rss.xml" class="text-sm font-medium" style="color: var(--color-text-muted);">RSS</a>
+          <button id="theme-toggle" class="cursor-pointer rounded-md p-1.5 text-sm" style="color: var(--color-text-muted);"
+            aria-label="Toggle dark mode">
+            <span id="theme-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="mx-auto max-w-6xl px-4 py-6">
+      <slot />
+    </main>
+
+    <footer class="border-t py-6 text-center text-xs" style="color: var(--color-text-muted); border-color: var(--color-border);">
+      Evidence-graded directory of focus techniques. Updated weekly via PubMed.
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("theme-toggle");
+      const icon = document.getElementById("theme-icon");
+      const html = document.documentElement;
+
+      function setTheme(theme) {
+        if (theme === "dark") {
+          html.classList.add("dark");
+          icon.textContent = "☀️";
+        } else {
+          html.classList.remove("dark");
+          icon.textContent = "🌙";
+        }
+        localStorage.setItem("theme", theme);
+      }
+
+      // Init: prefers-color-scheme → localStorage override
+      const stored = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (stored) {
+        setTheme(stored);
+      } else {
+        setTheme(prefersDark ? "dark" : "light");
+      }
+
+      toggle.addEventListener("click", () => {
+        const next = html.classList.contains("dark") ? "light" : "dark";
+        setTheme(next);
+      });
+    </script>
+  </body>
+</html>

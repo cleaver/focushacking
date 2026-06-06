@@ -1,0 +1,150 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const techniques = await getCollection("techniques");
+  return techniques.map((t) => ({
+    params: { slug: t.data.slug || t.id.replace(/\.md$/, "") },
+    props: { entry: t },
+  }));
+}
+
+const { entry } = Astro.props;
+const t = entry.data;
+const body = await render(entry);
+
+const GRADES = {
+  A: { label: "Strong Evidence", desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect" },
+  B: { label: "Good Evidence", desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect" },
+  C: { label: "Limited Evidence", desc: "1-2 RCTs or mixed results, methodological limitations" },
+  D: { label: "Weak Evidence", desc: "Primarily observational, self-report, or single underpowered study" },
+  "?": { label: "Insufficient Evidence", desc: "No peer-reviewed evidence found" },
+};
+const gradeInfo = GRADES[t.grade] || GRADES["?"];
+
+const DIFF = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
+
+const FACET_LABELS = {
+  distraction_resistance: "Distraction Resistance",
+  studying_learning: "Studying & Learning",
+  deep_work_flow: "Deep Work & Flow",
+  energy_recovery: "Energy & Recovery",
+};
+---
+
+<BaseLayout title={t.title} description={t.summary || `${t.title} — ${gradeInfo.label}`}>
+  <!-- Back link -->
+  <a href="/" class="mb-4 inline-flex items-center gap-1 text-sm font-medium"
+    style="color: var(--color-accent);">
+    ← Back to all techniques
+  </a>
+
+  <!-- Header -->
+  <div class="mb-6 rounded-xl border p-6" style="background: var(--color-surface); border-color: var(--color-border);">
+    <div class="flex flex-wrap items-start justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-3">
+          <span class={`grade-badge grade-${t.grade}`}>{t.grade}</span>
+          <div>
+            <h1 class="text-2xl font-bold">{t.title}</h1>
+            <p class="text-sm" style="color: var(--color-text-muted);">{t.category}</p>
+          </div>
+        </div>
+        <p class="mt-2 text-sm leading-relaxed">{t.summary}</p>
+      </div>
+    </div>
+
+    <!-- Grade detail + meta -->
+    <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-lg p-3" style="background: var(--color-bg);">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Grade</div>
+        <div class="mt-1 text-sm"><strong class="text-lg">{t.grade}</strong> — {gradeInfo.label}</div>
+        <div class="mt-0.5 text-xs" style="color: var(--color-text-muted);">{t.grade_detail}</div>
+      </div>
+      <div class="rounded-lg p-3" style="background: var(--color-bg);">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Difficulty</div>
+        <div class="mt-1 text-sm">{DIFF[t.difficulty] || "Beginner"}</div>
+      </div>
+      <div class="rounded-lg p-3" style="background: var(--color-bg);">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Time to Benefit</div>
+        <div class="mt-1 text-sm">{t.time_to_benefit || "N/A"}</div>
+      </div>
+      <div class="rounded-lg p-3" style="background: var(--color-bg);">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Papers</div>
+        <div class="mt-1 text-sm">{t.total_papers || 0} studies tracked</div>
+      </div>
+    </div>
+
+    <!-- Populations -->
+    {t.populations && t.populations.length > 0 && (
+      <div class="mt-4">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Studied in</div>
+        <div class="mt-1 flex flex-wrap gap-1.5">
+          {t.populations.map((p) => (
+            <span class="rounded-full px-2.5 py-0.5 text-xs"
+              style="background: var(--color-accent-light); color: var(--color-accent);">
+              {p.replace(/_/g, " ")}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Focus facets -->
+    {t.focus_facets && t.focus_facets.length > 0 && (
+      <div class="mt-3">
+        <div class="text-xs font-semibold uppercase tracking-wide" style="color: var(--color-text-muted);">Focus areas</div>
+        <div class="mt-1 flex flex-wrap gap-1.5">
+          {t.focus_facets.map((f) => (
+            <span class="rounded-full px-2.5 py-0.5 text-xs"
+              style="background: var(--color-border); color: var(--color-text);">
+              {FACET_LABELS[f] || f.replace(/_/g, " ")}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <!-- Rendered content from markdown (Papers section, etc.) -->
+  <div class="prose prose-sm max-w-none" style="color: var(--color-text);">
+    <div class="rendered-content" set:html={body.content} />
+  </div>
+</BaseLayout>
+
+<style>
+  .rendered-content h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .rendered-content h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .rendered-content p {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
+  .rendered-content ul, .rendered-content ol {
+    padding-left: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  .rendered-content li {
+    margin-bottom: 0.25rem;
+  }
+  .rendered-content a {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+  .rendered-content blockquote {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    opacity: 0.8;
+  }
+</style>

@@ -1,0 +1,232 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import TechniqueCard from "../components/TechniqueCard.astro";
+
+const techniques = await getCollection("techniques");
+const all = techniques
+  .map((t) => ({ id: t.id, slug: t.data.slug, ...t.data }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+
+const categories = [...new Set(all.map((t) => t.category))].sort();
+const facets = [
+  ["distraction_resistance", "Distraction Resistance"],
+  ["studying_learning", "Studying & Learning"],
+  ["deep_work_flow", "Deep Work & Flow"],
+  ["energy_recovery", "Energy & Recovery"],
+];
+const populations = [
+  ["general_adults", "General Adults"],
+  ["students", "Students"],
+  ["knowledge_workers", "Knowledge Workers"],
+  ["clinical", "Clinical"],
+  ["athletes", "Athletes"],
+  ["children_adolescents", "Children & Adolescents"],
+];
+const grades = ["A", "B", "C", "D", "?"];
+const difficulties = ["beginner", "intermediate", "advanced"];
+---
+
+<BaseLayout title="Focus Hacking" description="Evidence-graded directory of 58 free focus and attention techniques. Each technique graded A–D based on peer-reviewed research.">
+  <div class="mb-6">
+    <h1 class="text-3xl font-bold tracking-tight">Focus Hacking</h1>
+    <p class="mt-1" style="color: var(--color-text-muted);">
+      Evidence-graded directory of {all.length} free focus techniques.
+      Each grade links to real peer-reviewed studies.
+    </p>
+  </div>
+
+  <!-- Search + Controls -->
+  <div class="mb-6 flex flex-wrap items-center gap-3">
+    <input
+      id="search"
+      type="search"
+      placeholder="Search techniques..."
+      class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none"
+      style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
+      oninput="filter()"
+    />
+    <select id="sort-select" onchange="filter()"
+      class="rounded-lg border px-3 py-2 text-sm outline-none"
+      style="background: var(--color-surface); border-color: var(--color-border); color: var(--color-text);"
+    >
+      <option value="default">Default</option>
+      <option value="grade-desc">Best evidence first</option>
+      <option value="grade-asc">Weakest evidence first</option>
+      <option value="name">Name A–Z</option>
+      <option value="name-desc">Name Z–A</option>
+      <option value="difficulty">Easiest first</option>
+      <option value="time">Fastest benefit</option>
+      <option value="category">Category</option>
+    </select>
+  </div>
+
+  <!-- Filter pills -->
+  <div class="mb-2 text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">
+    Filter by category
+  </div>
+  <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
+    <button class="filter-pill active" data-group="category" data-value="all"
+      style="background: var(--color-accent-light); color: var(--color-accent);"
+      onclick="toggleFilter(this)">
+      All {all.length}
+    </button>
+    {categories.map((cat) => {
+      const count = all.filter((t) => t.category === cat).length;
+      const short = cat === "Time Management" ? "Time Mgmt" : cat;
+      return (
+        <button class="filter-pill" data-group="category" data-value={cat}
+          style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);"
+          onclick="toggleFilter(this)">
+          {short} ({count})
+        </button>
+      );
+    })}
+  </div>
+
+  <div class="mb-2 text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">
+    Filter by evidence grade
+  </div>
+  <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
+    {grades.map((g) => {
+      const count = all.filter((t) => t.grade === g).length;
+      return (
+        <button class="filter-pill" data-group="grade" data-value={g}
+          style="background: var(--color-surface); color: var(--color-text-muted); border-color: var(--color-border);"
+          onclick="toggleFilter(this)">
+          Grade {g} ({count})
+        </button>
+      );
+    })}
+  </div>
+
+  <!-- Technique grid -->
+  <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    {all.map((t) => <TechniqueCard technique={t} />)}
+  </div>
+</BaseLayout>
+
+<script>
+  const ALL = JSON.parse(document.getElementById("data-json").textContent);
+
+  function toggleFilter(btn) {
+    const group = btn.dataset.group;
+    const value = btn.dataset.value;
+    const siblings = document.querySelectorAll(`.filter-pill[data-group="${group}"]`);
+
+    if (value === "all") {
+      siblings.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+    } else {
+      // Deactivate "all" in this group
+      const allBtn = document.querySelector(`.filter-pill[data-group="${group}"][data-value="all"]`);
+      if (allBtn) allBtn.classList.remove("active");
+
+      if (btn.classList.contains("active")) {
+        btn.classList.remove("active");
+        // If nothing active in group, reactivate "all"
+        const active = document.querySelectorAll(`.filter-pill[data-group="${group}"].active`);
+        if (active.length === 0 && allBtn) allBtn.classList.add("active");
+      } else {
+        btn.classList.add("active");
+      }
+    }
+    filter();
+  }
+
+  function filter() {
+    const query = (document.getElementById("search").value || "").toLowerCase();
+    const sort = document.getElementById("sort-select").value;
+
+    // Read active filters
+    const activeCategories = [...document.querySelectorAll('.filter-pill[data-group="category"].active')]
+      .map((b) => b.dataset.value)
+      .filter((v) => v !== "all");
+    const activeGrades = [...document.querySelectorAll('.filter-pill[data-group="grade"].active')]
+      .map((b) => b.dataset.value)
+      .filter((v) => v !== "all");
+
+    let filtered = ALL.filter((t) => {
+      if (activeCategories.length && !activeCategories.includes(t.category)) return false;
+      if (activeGrades.length && !activeGrades.includes(t.grade)) return false;
+      if (query && !t.title.toLowerCase().includes(query) && !(t.summary || "").toLowerCase().includes(query)) return false;
+      return true;
+    });
+
+    // Sort
+    const gradeOrder = { A: 0, B: 1, C: 2, D: 3, "?": 4 };
+    const diffOrder = { beginner: 0, intermediate: 1, advanced: 2 };
+    const timeOrder = { Immediate: 0, "1 week": 1, "1–2 weeks": 2, "2–4 weeks": 3, "4–6 weeks": 4, "4–8 weeks": 5 };
+    switch (sort) {
+      case "grade-desc": filtered.sort((a, b) => (gradeOrder[a.grade] ?? 4) - (gradeOrder[b.grade] ?? 4)); break;
+      case "grade-asc": filtered.sort((a, b) => (gradeOrder[b.grade] ?? 4) - (gradeOrder[a.grade] ?? 4)); break;
+      case "name": filtered.sort((a, b) => a.title.localeCompare(b.title)); break;
+      case "name-desc": filtered.sort((a, b) => b.title.localeCompare(a.title)); break;
+      case "difficulty": filtered.sort((a, b) => (diffOrder[a.difficulty] ?? 0) - (diffOrder[b.difficulty] ?? 0)); break;
+      case "time": filtered.sort((a, b) => (timeOrder[a.time_to_benefit] ?? 99) - (timeOrder[b.time_to_benefit] ?? 99)); break;
+      case "category": filtered.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title)); break;
+    }
+
+    const grid = document.getElementById("grid");
+    if (filtered.length === 0) {
+      grid.innerHTML = `<div class="col-span-full py-12 text-center" style="color: var(--color-text-muted);">No techniques match your filters.</div>`;
+      return;
+    }
+
+    // Re-render cards from template
+    const grades = { A: "A", B: "B", C: "C", D: "D", "?": "?" };
+    const diffs = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
+    grid.innerHTML = filtered.map((t) => {
+      const slug = t.slug || t.id.replace(/\.md$/, "");
+      return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md" style="background: var(--color-surface); border-color: var(--color-border);">
+        <div class="flex items-start gap-3">
+          <span class="grade-badge grade-${t.grade}">${t.grade}</span>
+          <div class="min-w-0 flex-1">
+            <div class="font-semibold leading-snug">${t.title}</div>
+            <div class="mt-0.5 text-xs" style="color: var(--color-text-muted);">${t.category}</div>
+            <div class="mt-2 text-xs leading-relaxed" style="color: var(--color-text-muted);">
+              ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
+            </div>
+            <div class="mt-2 flex flex-wrap gap-1.5">
+              <span class="rounded-full px-2 py-0.5 text-[10px] font-medium" style="background: var(--color-accent-light); color: var(--color-accent);">${diffs[t.difficulty] || "Beginner"}</span>
+              <span class="rounded-full px-2 py-0.5 text-[10px]" style="background: var(--color-border); color: var(--color-text-muted);">${t.time_to_benefit || ""}</span>
+            </div>
+          </div>
+        </div>
+      </a>`;
+    }).join("");
+  }
+</script>
+
+<!-- Hidden JSON data for client-side filtering -->
+<script id="data-json" type="application/json">
+{JSON.stringify(all.map((t) => ({
+  id: t.id,
+  slug: t.slug,
+  title: t.title,
+  category: t.category,
+  grade: t.grade,
+  summary: t.summary || "",
+  difficulty: t.difficulty || "beginner",
+  time_to_benefit: t.time_to_benefit || "",
+  populations: t.populations || [],
+  focus_facets: t.focus_facets || [],
+})))}
+</script>
+
+<style>
+  .filter-pill {
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-pill.active {
+    background: var(--color-accent-light) !important;
+    color: var(--color-accent) !important;
+    border-color: var(--color-accent) !important;
+  }
+</style>
