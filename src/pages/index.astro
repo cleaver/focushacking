@@ -27,88 +27,110 @@ const grades = ["A", "B", "C", "D", "?"];
 const difficulties = ["beginner", "intermediate", "advanced"];
 
 const GRADE_INFO = {
-  A: { label: "Strong Evidence", desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect" },
-  B: { label: "Good Evidence", desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect" },
-  C: { label: "Limited Evidence", desc: "1–2 RCTs or mixed results, methodological limitations" },
-  D: { label: "Weak Evidence", desc: "Primarily observational, self-report, or single underpowered study" },
-  "?": { label: "Insufficient Evidence", desc: "No peer-reviewed evidence found" },
+  A: {
+    label: "Strong Evidence",
+    desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect",
+  },
+  B: {
+    label: "Good Evidence",
+    desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect",
+  },
+  C: {
+    label: "Limited Evidence",
+    desc: "1–2 RCTs or mixed results, methodological limitations",
+  },
+  D: {
+    label: "Weak Evidence",
+    desc: "Primarily observational, self-report, or single underpowered study",
+  },
+  "?": {
+    label: "Insufficient Evidence",
+    desc: "No peer-reviewed evidence found",
+  },
 };
 
-const jsonData = JSON.stringify(all.map((t) => ({
-  id: t.id,
-  slug: t.slug,
-  title: t.title,
-  category: t.category,
-  grade: t.grade,
-  summary: t.summary || "",
-  difficulty: t.difficulty || "beginner",
-  time_to_benefit: t.time_to_benefit || "",
-  populations: t.populations || [],
-  focus_facets: t.focus_facets || [],
-})));
+const jsonData = JSON.stringify(
+  all.map((t) => ({
+    id: t.id,
+    slug: t.slug,
+    title: t.title,
+    category: t.category,
+    grade: t.grade,
+    summary: t.summary || "",
+    difficulty: t.difficulty || "beginner",
+    time_to_benefit: t.time_to_benefit || "",
+    populations: t.populations || [],
+    focus_facets: t.focus_facets || [],
+  })),
+);
 ---
 
-<BaseLayout title="Focus Hacking" description="Evidence-graded directory of 58 free focus and attention techniques. Each technique graded A–D based on peer-reviewed research.">
-  <div class="mb-6">
-    <h1 class="text-3xl font-bold tracking-tight">Focus Hacking</h1>
-    <p class="mt-1 text-muted">
-      Evidence-graded directory of {all.length} free focus techniques.
-      Each grade links to real peer-reviewed studies.
-    </p>
-  </div>
-
-  <!-- Stats bar -->
-  <div class="stats-bar">
-    <div class="stat-card">
-      <span class="stat-icon">📋</span>
-      <div>
-        <div class="stat-value">{all.length}</div>
-        <div class="stat-label">Techniques</div>
+<BaseLayout
+  title="Focus Hacking"
+  description="Evidence-graded directory of 58 free focus and attention techniques. Each technique graded A–D based on peer-reviewed research."
+>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Evidence-graded · Science-backed · Free</div>
+      <h1 class="hero-title">
+        Your Complete<br /><span class="hero-accent">Focus Hacking</span><br
+        />Directory
+      </h1>
+      <p class="hero-sub">
+        {all.length} focus and cognitive performance techniques graded A–D by scientific
+        evidence strength. Every grade links to real peer-reviewed studies.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">{all.length}</span><span class="stat-label"
+            >Techniques</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">{categories.length}</span><span
+            class="stat-label">Categories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">A–D</span><span class="stat-label"
+            >Evidence Grades</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span><span class="stat-label">Free</span>
+        </div>
       </div>
     </div>
-    <div class="stat-card">
-      <span class="stat-icon">🗂️</span>
-      <div>
-        <div class="stat-value">{categories.length}</div>
-        <div class="stat-label">Categories</div>
-      </div>
-    </div>
-    <div class="stat-card">
-      <span class="stat-icon">📊</span>
-      <div>
-        <div class="stat-value">A–D</div>
-        <div class="stat-label">Evidence Grades</div>
-      </div>
-    </div>
-    <div class="stat-card">
-      <span class="stat-icon">💯</span>
-      <div>
-        <div class="stat-value">100%</div>
-        <div class="stat-label">Free</div>
-      </div>
-    </div>
-  </div>
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+  </section>
 
   <!-- Grade legend -->
   <div class="grade-legend">
-    <button id="grade-legend-toggle" type="button" class="grade-legend-toggle" aria-expanded="false">
-      📊 How grades work
+    <button
+      id="grade-legend-toggle"
+      type="button"
+      class="grade-legend-toggle"
+      aria-expanded="false"
+    >
+      How grades work
       <span class="grade-legend-arrow">▸</span>
     </button>
     <div id="grade-legend-body" class="grade-legend-body">
       <div class="grade-legend-grid">
-        {grades.map((g) => {
-          const info = GRADE_INFO[g];
-          return (
-            <div class="grade-legend-row">
-              <span class={`grade-badge grade-${g}`}>{g}</span>
-              <div>
-                <div class="grade-legend-label">{info.label}</div>
-                <div class="grade-legend-desc">{info.desc}</div>
+        {
+          grades.map((g) => {
+            const info = GRADE_INFO[g];
+            return (
+              <div class="grade-legend-row">
+                <span class={`grade-badge grade-${g}`}>{g}</span>
+                <div>
+                  <div class="grade-legend-label">{info.label}</div>
+                  <div class="grade-legend-desc">{info.desc}</div>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })
+        }
       </div>
     </div>
   </div>
@@ -122,7 +144,8 @@ const jsonData = JSON.stringify(all.map((t) => ({
       aria-label="Search techniques"
       class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     />
-    <select id="sort-select"
+    <select
+      id="sort-select"
       aria-label="Sort techniques by"
       class="rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
     >
@@ -142,32 +165,51 @@ const jsonData = JSON.stringify(all.map((t) => ({
     Filter by category
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
-    <button type="button" class="filter-pill active" data-group="category" data-value="all">
+    <button
+      type="button"
+      class="filter-pill active"
+      data-group="category"
+      data-value="all"
+    >
       All {all.length}
     </button>
-    {categories.map((cat) => {
-      const count = all.filter((t) => t.category === cat).length;
-      const short = cat === "Time Management" ? "Time Mgmt" : cat;
-      return (
-        <button type="button" class="filter-pill" data-group="category" data-value={cat}>
-          {short} ({count})
-        </button>
-      );
-    })}
+    {
+      categories.map((cat) => {
+        const count = all.filter((t) => t.category === cat).length;
+        const short = cat === "Time Management" ? "Time Mgmt" : cat;
+        return (
+          <button
+            type="button"
+            class="filter-pill"
+            data-group="category"
+            data-value={cat}
+          >
+            {short} ({count})
+          </button>
+        );
+      })
+    }
   </div>
 
   <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
     Filter by evidence grade
   </div>
   <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
-    {grades.map((g) => {
-      const count = all.filter((t) => t.grade === g).length;
-      return (
-        <button type="button" class="filter-pill" data-group="grade" data-value={g}>
-          Grade {g} ({count})
-        </button>
-      );
-    })}
+    {
+      grades.map((g) => {
+        const count = all.filter((t) => t.grade === g).length;
+        return (
+          <button
+            type="button"
+            class="filter-pill"
+            data-group="grade"
+            data-value={g}
+          >
+            Grade {g} ({count})
+          </button>
+        );
+      })
+    }
   </div>
 
   <!-- Results info + controls -->
@@ -175,18 +217,27 @@ const jsonData = JSON.stringify(all.map((t) => ({
     <div id="result-count" class="text-xs text-muted">
       {all.length} of {all.length} techniques shown
     </div>
-    <button id="clear-filters" type="button" class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline" aria-label="Clear all filters">
+    <button
+      id="clear-filters"
+      type="button"
+      class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
+      aria-label="Clear all filters"
+    >
       Clear all filters
     </button>
   </div>
 
   <!-- Technique grid -->
-  <div id="grid" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-live="polite">
+  <div
+    id="grid"
+    class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
+    aria-live="polite"
+  >
     {all.map((t) => <TechniqueCard technique={t} />)}
   </div>
 </BaseLayout>
 
-<div id="data-json" hidden set:html={jsonData}></div>
+<div id="data-json" hidden set:html={jsonData} />
 
 <script>
   const ALL = JSON.parse(document.getElementById("data-json").textContent);
@@ -200,18 +251,24 @@ const jsonData = JSON.stringify(all.map((t) => ({
   function toggleFilter(btn) {
     const group = btn.dataset.group;
     const value = btn.dataset.value;
-    const siblings = document.querySelectorAll(`.filter-pill[data-group="${group}"]`);
+    const siblings = document.querySelectorAll(
+      `.filter-pill[data-group="${group}"]`,
+    );
 
     if (value === "all") {
       siblings.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
     } else {
-      const allBtn = document.querySelector(`.filter-pill[data-group="${group}"][data-value="all"]`);
+      const allBtn = document.querySelector(
+        `.filter-pill[data-group="${group}"][data-value="all"]`,
+      );
       if (allBtn) allBtn.classList.remove("active");
 
       if (btn.classList.contains("active")) {
         btn.classList.remove("active");
-        const active = document.querySelectorAll(`.filter-pill[data-group="${group}"].active`);
+        const active = document.querySelectorAll(
+          `.filter-pill[data-group="${group}"].active`,
+        );
         if (active.length === 0 && allBtn) allBtn.classList.add("active");
       } else {
         btn.classList.add("active");
@@ -224,12 +281,16 @@ const jsonData = JSON.stringify(all.map((t) => ({
   function clearFilters() {
     document.getElementById("search").value = "";
     document.getElementById("sort-select").value = "default";
-    document.querySelectorAll('.filter-pill[data-group="category"]').forEach((b) => {
-      b.classList.toggle("active", b.dataset.value === "all");
-    });
-    document.querySelectorAll('.filter-pill[data-group="grade"]').forEach((b) => {
-      b.classList.toggle("active", b.dataset.value === "all");
-    });
+    document
+      .querySelectorAll('.filter-pill[data-group="category"]')
+      .forEach((b) => {
+        b.classList.toggle("active", b.dataset.value === "all");
+      });
+    document
+      .querySelectorAll('.filter-pill[data-group="grade"]')
+      .forEach((b) => {
+        b.classList.toggle("active", b.dataset.value === "all");
+      });
     syncPressed();
     filter();
   }
@@ -243,31 +304,79 @@ const jsonData = JSON.stringify(all.map((t) => ({
     const query = (document.getElementById("search").value || "").toLowerCase();
     const sort = document.getElementById("sort-select").value;
 
-    const activeCategories = [...document.querySelectorAll('.filter-pill[data-group="category"].active')]
+    const activeCategories = [
+      ...document.querySelectorAll(
+        '.filter-pill[data-group="category"].active',
+      ),
+    ]
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
-    const activeGrades = [...document.querySelectorAll('.filter-pill[data-group="grade"].active')]
+    const activeGrades = [
+      ...document.querySelectorAll('.filter-pill[data-group="grade"].active'),
+    ]
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
 
     let filtered = ALL.filter((t) => {
-      if (activeCategories.length && !activeCategories.includes(t.category)) return false;
+      if (activeCategories.length && !activeCategories.includes(t.category))
+        return false;
       if (activeGrades.length && !activeGrades.includes(t.grade)) return false;
-      if (query && !t.title.toLowerCase().includes(query) && !(t.summary || "").toLowerCase().includes(query)) return false;
+      if (
+        query &&
+        !t.title.toLowerCase().includes(query) &&
+        !(t.summary || "").toLowerCase().includes(query)
+      )
+        return false;
       return true;
     });
 
     const gradeOrder = { A: 0, B: 1, C: 2, D: 3, "?": 4 };
     const diffOrder = { beginner: 0, intermediate: 1, advanced: 2 };
-    const timeOrder = { Immediate: 0, "1 week": 1, "1–2 weeks": 2, "2–4 weeks": 3, "4–6 weeks": 4, "4–8 weeks": 5 };
+    const timeOrder = {
+      Immediate: 0,
+      "1 week": 1,
+      "1–2 weeks": 2,
+      "2–4 weeks": 3,
+      "4–6 weeks": 4,
+      "4–8 weeks": 5,
+    };
     switch (sort) {
-      case "grade-desc": filtered.sort((a, b) => (gradeOrder[a.grade] ?? 4) - (gradeOrder[b.grade] ?? 4)); break;
-      case "grade-asc": filtered.sort((a, b) => (gradeOrder[b.grade] ?? 4) - (gradeOrder[a.grade] ?? 4)); break;
-      case "name": filtered.sort((a, b) => a.title.localeCompare(b.title)); break;
-      case "name-desc": filtered.sort((a, b) => b.title.localeCompare(a.title)); break;
-      case "difficulty": filtered.sort((a, b) => (diffOrder[a.difficulty] ?? 0) - (diffOrder[b.difficulty] ?? 0)); break;
-      case "time": filtered.sort((a, b) => (timeOrder[a.time_to_benefit] ?? 99) - (timeOrder[b.time_to_benefit] ?? 99)); break;
-      case "category": filtered.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title)); break;
+      case "grade-desc":
+        filtered.sort(
+          (a, b) => (gradeOrder[a.grade] ?? 4) - (gradeOrder[b.grade] ?? 4),
+        );
+        break;
+      case "grade-asc":
+        filtered.sort(
+          (a, b) => (gradeOrder[b.grade] ?? 4) - (gradeOrder[a.grade] ?? 4),
+        );
+        break;
+      case "name":
+        filtered.sort((a, b) => a.title.localeCompare(b.title));
+        break;
+      case "name-desc":
+        filtered.sort((a, b) => b.title.localeCompare(a.title));
+        break;
+      case "difficulty":
+        filtered.sort(
+          (a, b) =>
+            (diffOrder[a.difficulty] ?? 0) - (diffOrder[b.difficulty] ?? 0),
+        );
+        break;
+      case "time":
+        filtered.sort(
+          (a, b) =>
+            (timeOrder[a.time_to_benefit] ?? 99) -
+            (timeOrder[b.time_to_benefit] ?? 99),
+        );
+        break;
+      case "category":
+        filtered.sort(
+          (a, b) =>
+            a.category.localeCompare(b.category) ||
+            a.title.localeCompare(b.title),
+        );
+        break;
     }
 
     updateResultCount(filtered.length, ALL.length);
@@ -278,10 +387,15 @@ const jsonData = JSON.stringify(all.map((t) => ({
       return;
     }
 
-    const diffs = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
-    grid.innerHTML = filtered.map((t) => {
-      const slug = t.slug || t.id.replace(/\.md$/, "");
-      return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
+    const diffs = {
+      beginner: "Beginner",
+      intermediate: "Intermediate",
+      advanced: "Advanced",
+    };
+    grid.innerHTML = filtered
+      .map((t) => {
+        const slug = t.slug || t.id.replace(/\.md$/, "");
+        return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
         <div class="flex items-start gap-3">
           <span class="grade-badge grade-${t.grade}">${t.grade}</span>
           <div class="min-w-0 flex-1">
@@ -291,14 +405,15 @@ const jsonData = JSON.stringify(all.map((t) => ({
               ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
             </div>
             <div class="mt-2 flex flex-wrap gap-1.5">
-              <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
-              <span class="rounded-full px-2 py-0.5 text-[10px] bg-border text-muted">${t.time_to_benefit || ""}</span>
+              <span class="rounded-full px-2 py-0.5 text-xs font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
+              <span class="rounded-full px-2 py-0.5 text-xs bg-border text-muted">${t.time_to_benefit || ""}</span>
             </div>
             <div class="mt-2 text-xs text-accent font-medium">View details →</div>
           </div>
         </div>
       </a>`;
-    }).join("");
+      })
+      .join("");
   }
 
   // Attach event listeners (Astro scripts are modules — inline handlers not global)
@@ -308,8 +423,12 @@ const jsonData = JSON.stringify(all.map((t) => ({
     document.querySelectorAll(".filter-pill").forEach((btn) => {
       btn.addEventListener("click", () => toggleFilter(btn));
     });
-    document.getElementById("clear-filters").addEventListener("click", clearFilters);
-    document.getElementById("grade-legend-toggle").addEventListener("click", toggleGradeLegend);
+    document
+      .getElementById("clear-filters")
+      .addEventListener("click", clearFilters);
+    document
+      .getElementById("grade-legend-toggle")
+      .addEventListener("click", toggleGradeLegend);
     syncPressed();
   });
 
@@ -321,8 +440,6 @@ const jsonData = JSON.stringify(all.map((t) => ({
     body.classList.toggle("open");
   }
 </script>
-
-
 
 <style>
   .filter-pill {
@@ -347,34 +464,120 @@ const jsonData = JSON.stringify(all.map((t) => ({
   }
 
   /* Category pill colors — active */
-  .filter-pill[data-group="category"][data-value="Time Management"].active { background: var(--color-cat-time); color: #fff; border-color: var(--color-cat-time); }
-  .filter-pill[data-group="category"][data-value="Mindfulness"].active { background: var(--color-cat-mindfulness); color: #fff; border-color: var(--color-cat-mindfulness); }
-  .filter-pill[data-group="category"][data-value="Breathing"].active { background: var(--color-cat-breathing); color: #fff; border-color: var(--color-cat-breathing); }
-  .filter-pill[data-group="category"][data-value="Physical"].active { background: var(--color-cat-physical); color: #fff; border-color: var(--color-cat-physical); }
-  .filter-pill[data-group="category"][data-value="Environment"].active { background: var(--color-cat-environment); color: #fff; border-color: var(--color-cat-environment); }
-  .filter-pill[data-group="category"][data-value="Cognitive"].active { background: var(--color-cat-cognitive); color: #fff; border-color: var(--color-cat-cognitive); }
-  .filter-pill[data-group="category"][data-value="Technology"].active { background: var(--color-cat-technology); color: #fff; border-color: var(--color-cat-technology); }
+  .filter-pill[data-group="category"][data-value="Time Management"].active {
+    background: var(--color-cat-time);
+    color: #fff;
+    border-color: var(--color-cat-time);
+  }
+  .filter-pill[data-group="category"][data-value="Mindfulness"].active {
+    background: var(--color-cat-mindfulness);
+    color: #fff;
+    border-color: var(--color-cat-mindfulness);
+  }
+  .filter-pill[data-group="category"][data-value="Breathing"].active {
+    background: var(--color-cat-breathing);
+    color: #fff;
+    border-color: var(--color-cat-breathing);
+  }
+  .filter-pill[data-group="category"][data-value="Physical"].active {
+    background: var(--color-cat-physical);
+    color: #fff;
+    border-color: var(--color-cat-physical);
+  }
+  .filter-pill[data-group="category"][data-value="Environment"].active {
+    background: var(--color-cat-environment);
+    color: #fff;
+    border-color: var(--color-cat-environment);
+  }
+  .filter-pill[data-group="category"][data-value="Cognitive"].active {
+    background: var(--color-cat-cognitive);
+    color: #fff;
+    border-color: var(--color-cat-cognitive);
+  }
+  .filter-pill[data-group="category"][data-value="Technology"].active {
+    background: var(--color-cat-technology);
+    color: #fff;
+    border-color: var(--color-cat-technology);
+  }
 
   /* Category pill colors — inactive (outlined) */
-  .filter-pill[data-group="category"][data-value="Time Management"]:not(.active) { border-color: var(--color-cat-time); color: var(--color-cat-time); }
-  .filter-pill[data-group="category"][data-value="Mindfulness"]:not(.active) { border-color: var(--color-cat-mindfulness); color: var(--color-cat-mindfulness); }
-  .filter-pill[data-group="category"][data-value="Breathing"]:not(.active) { border-color: var(--color-cat-breathing); color: var(--color-cat-breathing); }
-  .filter-pill[data-group="category"][data-value="Physical"]:not(.active) { border-color: var(--color-cat-physical); color: var(--color-cat-physical); }
-  .filter-pill[data-group="category"][data-value="Environment"]:not(.active) { border-color: var(--color-cat-environment); color: var(--color-cat-environment); }
-  .filter-pill[data-group="category"][data-value="Cognitive"]:not(.active) { border-color: var(--color-cat-cognitive); color: var(--color-cat-cognitive); }
-  .filter-pill[data-group="category"][data-value="Technology"]:not(.active) { border-color: var(--color-cat-technology); color: var(--color-cat-technology); }
+  .filter-pill[data-group="category"][data-value="Time Management"]:not(
+      .active
+    ) {
+    border-color: var(--color-cat-time);
+    color: var(--color-cat-time);
+  }
+  .filter-pill[data-group="category"][data-value="Mindfulness"]:not(.active) {
+    border-color: var(--color-cat-mindfulness);
+    color: var(--color-cat-mindfulness);
+  }
+  .filter-pill[data-group="category"][data-value="Breathing"]:not(.active) {
+    border-color: var(--color-cat-breathing);
+    color: var(--color-cat-breathing);
+  }
+  .filter-pill[data-group="category"][data-value="Physical"]:not(.active) {
+    border-color: var(--color-cat-physical);
+    color: var(--color-cat-physical);
+  }
+  .filter-pill[data-group="category"][data-value="Environment"]:not(.active) {
+    border-color: var(--color-cat-environment);
+    color: var(--color-cat-environment);
+  }
+  .filter-pill[data-group="category"][data-value="Cognitive"]:not(.active) {
+    border-color: var(--color-cat-cognitive);
+    color: var(--color-cat-cognitive);
+  }
+  .filter-pill[data-group="category"][data-value="Technology"]:not(.active) {
+    border-color: var(--color-cat-technology);
+    color: var(--color-cat-technology);
+  }
 
   /* Grade pills — active: filled with grade color */
-  .filter-pill[data-group="grade"][data-value="A"].active { background: var(--color-grade-a); color: #fff; border-color: var(--color-grade-a); }
-  .filter-pill[data-group="grade"][data-value="B"].active { background: var(--color-grade-b); color: #fff; border-color: var(--color-grade-b); }
-  .filter-pill[data-group="grade"][data-value="C"].active { background: var(--color-grade-c); color: #fff; border-color: var(--color-grade-c); }
-  .filter-pill[data-group="grade"][data-value="D"].active { background: var(--color-grade-d); color: #fff; border-color: var(--color-grade-d); }
-  .filter-pill[data-group="grade"][data-value="?"].active { background: var(--color-grade-na); color: #fff; border-color: var(--color-grade-na); }
+  .filter-pill[data-group="grade"][data-value="A"].active {
+    background: var(--color-grade-a);
+    color: #fff;
+    border-color: var(--color-grade-a);
+  }
+  .filter-pill[data-group="grade"][data-value="B"].active {
+    background: var(--color-grade-b);
+    color: #fff;
+    border-color: var(--color-grade-b);
+  }
+  .filter-pill[data-group="grade"][data-value="C"].active {
+    background: var(--color-grade-c);
+    color: #fff;
+    border-color: var(--color-grade-c);
+  }
+  .filter-pill[data-group="grade"][data-value="D"].active {
+    background: var(--color-grade-d);
+    color: #fff;
+    border-color: var(--color-grade-d);
+  }
+  .filter-pill[data-group="grade"][data-value="?"].active {
+    background: var(--color-grade-na);
+    color: #fff;
+    border-color: var(--color-grade-na);
+  }
 
   /* Grade pills — inactive: outlined with grade color */
-  .filter-pill[data-group="grade"][data-value="A"]:not(.active) { border-color: var(--color-grade-a); color: var(--color-grade-a); }
-  .filter-pill[data-group="grade"][data-value="B"]:not(.active) { border-color: var(--color-grade-b); color: var(--color-grade-b); }
-  .filter-pill[data-group="grade"][data-value="C"]:not(.active) { border-color: var(--color-grade-c); color: var(--color-grade-c); }
-  .filter-pill[data-group="grade"][data-value="D"]:not(.active) { border-color: var(--color-grade-d); color: var(--color-grade-d); }
-  .filter-pill[data-group="grade"][data-value="?"]:not(.active) { border-color: var(--color-grade-na); color: var(--color-grade-na); }
+  .filter-pill[data-group="grade"][data-value="A"]:not(.active) {
+    border-color: var(--color-grade-a);
+    color: var(--color-grade-a);
+  }
+  .filter-pill[data-group="grade"][data-value="B"]:not(.active) {
+    border-color: var(--color-grade-b);
+    color: var(--color-grade-b);
+  }
+  .filter-pill[data-group="grade"][data-value="C"]:not(.active) {
+    border-color: var(--color-grade-c);
+    color: var(--color-grade-c);
+  }
+  .filter-pill[data-group="grade"][data-value="D"]:not(.active) {
+    border-color: var(--color-grade-d);
+    color: var(--color-grade-d);
+  }
+  .filter-pill[data-group="grade"][data-value="?"]:not(.active) {
+    border-color: var(--color-grade-na);
+    color: var(--color-grade-na);
+  }
 </style>

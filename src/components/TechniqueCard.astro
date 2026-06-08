@@ -29,10 +29,10 @@ const { technique: t } = Astro.props;
         {(t.summary || "").substring(0, 150)}{(t.summary || "").length > 150 ? "…" : ""}
       </div>
       <div class="mt-2 flex flex-wrap gap-1.5">
-        <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-accent-light text-accent">
+        <span class="rounded-full px-2 py-0.5 text-xs font-medium bg-accent-light text-accent">
           {({ beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" })[t.difficulty] || "Beginner"}
         </span>
-        <span class="rounded-full px-2 py-0.5 text-[10px] bg-border text-muted">
+        <span class="rounded-full px-2 py-0.5 text-xs bg-border text-muted">
           {t.time_to_benefit || ""}
         </span>
       </div>
