@@ -83,17 +83,20 @@ const jsonData = JSON.stringify(
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-num">{all.length}</span><span class="stat-label"
-            >Techniques</span>
+            >Techniques</span
+          >
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-num">{categories.length}</span><span
-            class="stat-label">Categories</span>
+            class="stat-label">Categories</span
+          >
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-num">A–D</span><span class="stat-label"
-            >Evidence Grades</span>
+            >Evidence Grades</span
+          >
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
@@ -135,110 +138,169 @@ const jsonData = JSON.stringify(
     </div>
   </div>
 
-  <!-- Search + Controls -->
-  <div class="mb-6 flex flex-wrap items-center gap-3">
-    <input
-      id="search"
-      type="search"
-      placeholder="Search techniques..."
-      aria-label="Search techniques"
-      class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
-    />
-    <select
-      id="sort-select"
-      aria-label="Sort techniques by"
-      class="rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
-    >
-      <option value="default">Default</option>
-      <option value="grade-desc">Best evidence first</option>
-      <option value="grade-asc">Weakest evidence first</option>
-      <option value="name">Name A–Z</option>
-      <option value="name-desc">Name Z–A</option>
-      <option value="difficulty">Easiest first</option>
-      <option value="time">Fastest benefit</option>
-      <option value="category">Category</option>
-    </select>
-  </div>
-
-  <!-- Filter pills -->
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
-    Filter by category
-  </div>
-  <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
-    <button
-      type="button"
-      class="filter-pill active"
-      data-group="category"
-      data-value="all"
-    >
-      All {all.length}
-    </button>
-    {
-      categories.map((cat) => {
-        const count = all.filter((t) => t.category === cat).length;
-        const short = cat === "Time Management" ? "Time Mgmt" : cat;
-        return (
-          <button
-            type="button"
-            class="filter-pill"
-            data-group="category"
-            data-value={cat}
-          >
-            {short} ({count})
-          </button>
-        );
-      })
-    }
-  </div>
-
-  <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
-    Filter by evidence grade
-  </div>
-
-  <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
-    {grades.map((g) => {
-      return (
-        <button
-          type="button"
-          class="grade-filter-btn"
-          data-group="grade"
-          data-value={g}
-          data-grade={g}
-        >
-          <span class={`grade-mini grade-${g}`}>{g}</span>
-          Grade {g}
-        </button>
-      );
-    })}
-  </div>
-
-  <!-- Results info + controls -->
-  <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
-    <div id="result-count" class="text-xs text-muted">
-      {all.length} of {all.length} techniques shown
+  <div class="controls-sticky">
+    <!-- Search + Controls -->
+    <div class="flex flex-wrap items-center gap-3">
+      <input
+        id="search"
+        type="search"
+        placeholder="Search techniques..."
+        aria-label="Search techniques"
+        class="flex-1 min-w-[200px] rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
+      />
+      <select
+        id="sort-select"
+        aria-label="Sort techniques by"
+        class="rounded-lg border px-3 py-2 text-sm outline-none bg-surface border-default text-default"
+      >
+        <option value="default">Default</option>
+        <option value="grade-desc">Best evidence first</option>
+        <option value="grade-asc">Weakest evidence first</option>
+        <option value="name">Name A–Z</option>
+        <option value="name-desc">Name Z–A</option>
+        <option value="difficulty">Easiest first</option>
+        <option value="time">Fastest benefit</option>
+        <option value="category">Category</option>
+      </select>
     </div>
-    <div class="flex items-center gap-3">
-      <div class="flex items-center gap-0 rounded-lg border border-default p-0.5 bg-surface" role="group" aria-label="View mode">
-        <button id="view-list" type="button" class="view-toggle-btn active" aria-pressed="true" aria-label="List view">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="14" height="3" rx="1"/><rect x="1" y="6.5" width="14" height="3" rx="1"/><rect x="1" y="12" width="14" height="3" rx="1"/></svg>
-        </button>
-        <button id="view-grid" type="button" class="view-toggle-btn" aria-pressed="false" aria-label="Grid view">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+
+    <!-- Filter pills -->
+    <div
+      class="mt-4 mb-2 text-xs font-semibold uppercase tracking-wider text-muted"
+    >
+      Filter by category
+    </div>
+    <div class="mb-4 flex flex-wrap gap-2" id="category-filters">
+      <button
+        type="button"
+        class="filter-pill active"
+        data-group="category"
+        data-value="all"
+      >
+        All {all.length}
+      </button>
+      {
+        categories.map((cat) => {
+          const count = all.filter((t) => t.category === cat).length;
+          const short = cat === "Time Management" ? "Time Mgmt" : cat;
+          return (
+            <button
+              type="button"
+              class="filter-pill"
+              data-group="category"
+              data-value={cat}
+            >
+              {short} ({count})
+            </button>
+          );
+        })
+      }
+    </div>
+
+    <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
+      Filter by evidence grade
+    </div>
+
+    <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
+      {
+        grades.map((g) => {
+          return (
+            <button
+              type="button"
+              class="grade-filter-btn"
+              data-group="grade"
+              data-value={g}
+              data-grade={g}
+            >
+              <span class={`grade-mini grade-${g}`}>{g}</span>
+              Grade {g}
+            </button>
+          );
+        })
+      }
+    </div>
+
+    <!-- Results info + controls -->
+    <div class="flex flex-wrap items-center justify-between gap-2">
+      <div id="result-count" class="text-xs text-muted">
+        {all.length} of {all.length} techniques shown
+      </div>
+      <div class="flex items-center gap-3">
+        <div
+          class="flex items-center gap-0 rounded-lg border border-default p-0.5 bg-surface"
+          role="group"
+          aria-label="View mode"
+        >
+          <button
+            id="view-list"
+            type="button"
+            class="view-toggle-btn active"
+            aria-pressed="true"
+            aria-label="List view"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              aria-hidden="true"
+              ><rect x="1" y="1" width="14" height="3" rx="1"></rect><rect
+                x="1"
+                y="6.5"
+                width="14"
+                height="3"
+                rx="1"></rect><rect x="1" y="12" width="14" height="3" rx="1"
+              ></rect></svg
+            >
+          </button>
+          <button
+            id="view-grid"
+            type="button"
+            class="view-toggle-btn"
+            aria-pressed="false"
+            aria-label="Grid view"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              aria-hidden="true"
+              ><rect x="1" y="1" width="6" height="6" rx="1"></rect><rect
+                x="9"
+                y="1"
+                width="6"
+                height="6"
+                rx="1"></rect><rect x="1" y="9" width="6" height="6" rx="1"
+              ></rect><rect x="9" y="9" width="6" height="6" rx="1"></rect></svg
+            >
+          </button>
+        </div>
+        <button
+          id="clear-filters"
+          type="button"
+          class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
+          aria-label="Clear all filters"
+        >
+          Clear all filters
         </button>
       </div>
-      <button
-        id="clear-filters"
-        type="button"
-        class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
-        aria-label="Clear all filters"
-      >
-        Clear all filters
-      </button>
+    </div>
+
+    <!-- List column header (shown by JS in list view) -->
+    <div id="list-header" class="list-header pt-6" hidden>
+      <span class="list-header-cell">Grade</span>
+      <span class="list-header-cell">Technique</span>
+      <span class="list-header-cell">Category</span>
+      <span class="list-header-cell">Description</span>
+      <span class="list-header-cell">Difficulty</span>
+      <span class="list-header-cell">Time</span>
+      <span class="list-header-cell">Details</span>
     </div>
   </div>
 
   <!-- Technique container (populated by JS) -->
-  <div id="grid" aria-live="polite"></div>
+  <div id="grid" aria-live="polite" class="mt-3"></div>
 </BaseLayout>
 
 <div id="data-json" hidden set:html={jsonData} />
@@ -249,29 +311,35 @@ const jsonData = JSON.stringify(
 
   function getFilterBtns(group) {
     if (group === "grade") {
-      return document.querySelectorAll('.grade-filter-btn');
+      return document.querySelectorAll(".grade-filter-btn");
     }
     return document.querySelectorAll(`.filter-pill[data-group="${group}"]`);
   }
 
   function getActiveFilterBtns(group) {
     if (group === "grade") {
-      return document.querySelectorAll('.grade-filter-btn.active');
+      return document.querySelectorAll(".grade-filter-btn.active");
     }
-    return document.querySelectorAll(`.filter-pill[data-group="${group}"].active`);
+    return document.querySelectorAll(
+      `.filter-pill[data-group="${group}"].active`,
+    );
   }
 
   function getFilterBtn(group, value) {
     if (group === "grade") {
       return document.querySelector(`.grade-filter-btn[data-value="${value}"]`);
     }
-    return document.querySelector(`.filter-pill[data-group="${group}"][data-value="${value}"]`);
+    return document.querySelector(
+      `.filter-pill[data-group="${group}"][data-value="${value}"]`,
+    );
   }
 
   function syncPressed() {
-    document.querySelectorAll(".filter-pill, .grade-filter-btn").forEach((b) => {
-      b.setAttribute("aria-pressed", b.classList.contains("active"));
-    });
+    document
+      .querySelectorAll(".filter-pill, .grade-filter-btn")
+      .forEach((b) => {
+        b.setAttribute("aria-pressed", b.classList.contains("active"));
+      });
   }
 
   function toggleFilter(btn) {
@@ -314,11 +382,9 @@ const jsonData = JSON.stringify(
       .forEach((b) => {
         b.classList.toggle("active", b.dataset.value === "all");
       });
-    document
-      .querySelectorAll('.grade-filter-btn')
-      .forEach((b) => {
-        b.classList.remove("active");
-      });
+    document.querySelectorAll(".grade-filter-btn").forEach((b) => {
+      b.classList.remove("active");
+    });
     syncPressed();
     filter();
   }
@@ -327,6 +393,7 @@ const jsonData = JSON.stringify(
     viewMode = mode;
     const listBtn = document.getElementById("view-list");
     const gridBtn = document.getElementById("view-grid");
+    const listHeader = document.getElementById("list-header");
     if (listBtn) {
       listBtn.classList.toggle("active", mode === "list");
       listBtn.setAttribute("aria-pressed", mode === "list");
@@ -335,6 +402,7 @@ const jsonData = JSON.stringify(
       gridBtn.classList.toggle("active", mode === "grid");
       gridBtn.setAttribute("aria-pressed", mode === "grid");
     }
+    if (listHeader) listHeader.hidden = mode !== "list";
     filter();
   }
 
@@ -355,7 +423,7 @@ const jsonData = JSON.stringify(
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
     const activeGrades = [
-      ...document.querySelectorAll('.grade-filter-btn.active'),
+      ...document.querySelectorAll(".grade-filter-btn.active"),
     ]
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
@@ -484,17 +552,23 @@ const jsonData = JSON.stringify(
   document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("search").addEventListener("input", filter);
     document.getElementById("sort-select").addEventListener("change", filter);
-    document.querySelectorAll(".filter-pill, .grade-filter-btn").forEach((btn) => {
-      btn.addEventListener("click", () => toggleFilter(btn));
-    });
+    document
+      .querySelectorAll(".filter-pill, .grade-filter-btn")
+      .forEach((btn) => {
+        btn.addEventListener("click", () => toggleFilter(btn));
+      });
     document
       .getElementById("clear-filters")
       .addEventListener("click", clearFilters);
     document
       .getElementById("grade-legend-toggle")
       .addEventListener("click", toggleGradeLegend);
-    document.getElementById("view-list").addEventListener("click", () => setView("list"));
-    document.getElementById("view-grid").addEventListener("click", () => setView("grid"));
+    document
+      .getElementById("view-list")
+      .addEventListener("click", () => setView("list"));
+    document
+      .getElementById("view-grid")
+      .addEventListener("click", () => setView("grid"));
     syncPressed();
     setView(viewMode);
   });
@@ -635,25 +709,64 @@ const jsonData = JSON.stringify(
   }
 
   /* Inactive — grade tint per pill, mini badge shows grade */
-  .grade-filter-btn[data-value="A"] { background: var(--color-grade-a-hi); color: var(--color-grade-a); }
-  .grade-filter-btn[data-value="B"] { background: var(--color-grade-b-hi); color: var(--color-grade-b); }
-  .grade-filter-btn[data-value="C"] { background: var(--color-grade-c-hi); color: var(--color-grade-c); }
-  .grade-filter-btn[data-value="D"] { background: var(--color-grade-d-hi); color: var(--color-grade-d); }
-  .grade-filter-btn[data-value="?"] { background: var(--color-grade-na-hi); color: var(--color-grade-na); }
+  .grade-filter-btn[data-value="A"] {
+    background: var(--color-grade-a-hi);
+    color: var(--color-grade-a);
+  }
+  .grade-filter-btn[data-value="B"] {
+    background: var(--color-grade-b-hi);
+    color: var(--color-grade-b);
+  }
+  .grade-filter-btn[data-value="C"] {
+    background: var(--color-grade-c-hi);
+    color: var(--color-grade-c);
+  }
+  .grade-filter-btn[data-value="D"] {
+    background: var(--color-grade-d-hi);
+    color: var(--color-grade-d);
+  }
+  .grade-filter-btn[data-value="?"] {
+    background: var(--color-grade-na-hi);
+    color: var(--color-grade-na);
+  }
 
   /* Active — darker fill + ring for distinction */
-  .grade-filter-btn.active[data-value="A"] { background: var(--color-grade-a); color: white; }
-  .grade-filter-btn.active[data-value="B"] { background: var(--color-grade-b); color: white; }
-  .grade-filter-btn.active[data-value="C"] { background: var(--color-grade-c); color: white; }
-  .grade-filter-btn.active[data-value="D"] { background: var(--color-grade-d); color: white; border-color: var(--color-grade-d); }
-  .grade-filter-btn.active[data-value="?"] { background: var(--color-grade-na); color: white; }
-  .grade-filter-btn.active .grade-mini { background: white; color: inherit; }
+  .grade-filter-btn.active[data-value="A"] {
+    background: var(--color-grade-a);
+    color: white;
+  }
+  .grade-filter-btn.active[data-value="B"] {
+    background: var(--color-grade-b);
+    color: white;
+  }
+  .grade-filter-btn.active[data-value="C"] {
+    background: var(--color-grade-c);
+    color: white;
+  }
+  .grade-filter-btn.active[data-value="D"] {
+    background: var(--color-grade-d);
+    color: white;
+    border-color: var(--color-grade-d);
+  }
+  .grade-filter-btn.active[data-value="?"] {
+    background: var(--color-grade-na);
+    color: white;
+  }
+  .grade-filter-btn.active .grade-mini {
+    background: white;
+    color: inherit;
+  }
 
   /* Dark mode active — light grades need dark text for a11y */
   .dark .grade-filter-btn.active[data-value="A"],
   .dark .grade-filter-btn.active[data-value="B"],
   .dark .grade-filter-btn.active[data-value="C"],
   .dark .grade-filter-btn.active[data-value="D"],
-  .dark .grade-filter-btn.active[data-value="?"] { color: #0f0f1a; }
-  .dark .grade-filter-btn.active .grade-mini { background: #0f0f1a; color: white; }
+  .dark .grade-filter-btn.active[data-value="?"] {
+    color: #0f0f1a;
+  }
+  .dark .grade-filter-btn.active .grade-mini {
+    background: #0f0f1a;
+    color: white;
+  }
 </style>
