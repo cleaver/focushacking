@@ -976,23 +976,25 @@ body {
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
   padding-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  /* padding-bottom: 0.75rem; */
 }
 
-/* ── List column header (inside sticky controls) ─── */
+/* ── List column header (inside controls sticky group) ─── */
 .list-header {
   display: grid;
   grid-template-columns: 3.5rem 1.5fr 0.9fr 1.8fr 0.7fr 0.7fr 3.5rem;
   padding: 0.75rem 0 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   font-size: var(--text-xs);
   font-weight: 700;
   font-family: var(--font-display);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text-muted);
-  border-bottom: 1px solid var(--color-border);
   background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-bottom: 0;
+  border-radius: 0.75rem 0.75rem 0 0;
 }
 
 .list-header-cell {
@@ -1037,9 +1039,11 @@ body {
 /* ── List view ────────────────────────────────────── */
 .list-view {
   border: 1px solid var(--color-border);
-  border-radius: 0.75rem;
+  border-top: none;
+  border-radius: 0 0 0.75rem 0.75rem;
   overflow: hidden;
   background: var(--color-surface);
+  margin-bottom: 1.5rem;
 }
 
 .list-row {

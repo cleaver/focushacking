@@ -287,8 +287,8 @@ const jsonData = JSON.stringify(
       </div>
     </div>
 
-    <!-- List column header (shown by JS in list view) -->
-    <div id="list-header" class="list-header pt-6" hidden>
+    <!-- Sticky list column header (inside controls group) -->
+    <div id="list-header" class="list-header" hidden>
       <span class="list-header-cell">Grade</span>
       <span class="list-header-cell">Technique</span>
       <span class="list-header-cell">Category</span>
@@ -300,7 +300,7 @@ const jsonData = JSON.stringify(
   </div>
 
   <!-- Technique container (populated by JS) -->
-  <div id="grid" aria-live="polite" class="mt-3"></div>
+  <div id="grid" aria-live="polite"></div>
 </BaseLayout>
 
 <div id="data-json" hidden set:html={jsonData} />
