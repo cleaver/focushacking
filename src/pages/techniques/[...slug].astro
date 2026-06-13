@@ -15,15 +15,34 @@ const t = entry.data;
 const { Content } = await render(entry);
 
 const GRADES = {
-  A: { label: "Strong Evidence", desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect" },
-  B: { label: "Good Evidence", desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect" },
-  C: { label: "Limited Evidence", desc: "1-2 RCTs or mixed results, methodological limitations" },
-  D: { label: "Weak Evidence", desc: "Primarily observational, self-report, or single underpowered study" },
-  "?": { label: "Insufficient Evidence", desc: "No peer-reviewed evidence found" },
+  A: {
+    label: "Strong Evidence",
+    desc: "≥3 RCTs or large meta-analysis, consistent, moderate-to-large effect",
+  },
+  B: {
+    label: "Good Evidence",
+    desc: "≥2 RCTs or 1 meta-analysis, mostly consistent, small-to-moderate effect",
+  },
+  C: {
+    label: "Limited Evidence",
+    desc: "1-2 RCTs or mixed results, methodological limitations",
+  },
+  D: {
+    label: "Weak Evidence",
+    desc: "Primarily observational, self-report, or single underpowered study",
+  },
+  "?": {
+    label: "Insufficient Evidence",
+    desc: "No peer-reviewed evidence found",
+  },
 };
 const gradeInfo = GRADES[t.grade] || GRADES["?"];
 
-const DIFF = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
+const DIFF = {
+  beginner: "Beginner",
+  intermediate: "Intermediate",
+  advanced: "Advanced",
+};
 
 const FACET_LABELS = {
   distraction_resistance: "Distraction Resistance",
@@ -33,7 +52,10 @@ const FACET_LABELS = {
 };
 ---
 
-<BaseLayout title={t.title} description={t.summary || `${t.title} — ${gradeInfo.label}`}>
+<BaseLayout
+  title={t.title}
+  description={t.summary || `${t.title} — ${gradeInfo.label}`}
+>
   <div class="modal-card-wrap">
     <!-- Back link -->
     <a href="/" class="modal-back-link">← Back to all techniques</a>
@@ -43,9 +65,15 @@ const FACET_LABELS = {
       <!-- Header -->
       <div class="modal-header">
         <div class="modal-header-left">
-          <span class={`modal-grade-badge grade-badge-${t.grade}`}>{t.grade}</span>
+          <span class={`modal-grade-badge grade-badge-${t.grade}`}
+            >{t.grade}</span
+          >
           <div class="modal-title-group">
-            <span class="modal-category" data-category={t.category?.toLowerCase().replace(/\s+/g, "-")}>{t.category}</span>
+            <span
+              class="modal-category"
+              data-category={t.category?.toLowerCase().replace(/\s+/g, "-")}
+              >{t.category}</span
+            >
             <h1 class="modal-title">{t.title}</h1>
           </div>
         </div>
@@ -56,15 +84,55 @@ const FACET_LABELS = {
         <!-- Meta chips -->
         <div class="modal-meta">
           <span class="modal-meta-chip">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><circle cx="12" cy="12" r="10"></circle><polyline
+                points="12 6 12 12 16 14"></polyline></svg
+            >
             {t.time_to_benefit || "N/A"}
           </span>
           <span class="modal-meta-chip">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path d="M12 20h9"></path><path
+                d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"
+              ></path></svg
+            >
             {DIFF[t.difficulty] || "Beginner"}
           </span>
           <span class="modal-meta-chip">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+              ></path><polyline points="14 2 14 8 20 8"></polyline><line
+                x1="16"
+                y1="13"
+                x2="8"
+                y2="13"></line><line x1="16" y1="17" x2="8" y2="17"
+              ></line><polyline points="10 9 9 9 8 9"></polyline></svg
+            >
             {t.total_papers || 0} studies tracked
           </span>
         </div>
@@ -73,51 +141,107 @@ const FACET_LABELS = {
         {t.summary && <p class="modal-description">{t.summary}</p>}
 
         <!-- Grade detail -->
-        {t.grade_detail && (
-          <div class="modal-section">
-            <h3 class="modal-section-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Evidence Grade
-            </h3>
-            <div class="modal-grade-rationale">
-              <span class={`grade-rationale-badge grade-badge-${t.grade}`}>{t.grade}</span>
-              <div>
-                <div class="grade-rationale-label">{gradeInfo.label}</div>
-                <div class="grade-rationale-desc">{t.grade_detail}</div>
+        {
+          t.grade_detail && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </>
+                </svg>
+                Evidence Grade
+              </h3>
+              <div class="modal-grade-rationale">
+                <span class={`grade-rationale-badge grade-badge-${t.grade}`}>
+                  {t.grade}
+                </span>
+                <div>
+                  <div class="grade-rationale-label">{gradeInfo.label}</div>
+                  <div class="grade-rationale-desc">{t.grade_detail}</div>
+                </div>
               </div>
             </div>
-          </div>
-        )}
+          )
+        }
 
         <!-- Populations -->
-        {t.populations && t.populations.length > 0 && (
-          <div class="modal-section">
-            <h3 class="modal-section-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              Studied in
-            </h3>
-            <div class="modal-tags">
-              {t.populations.map((p) => (
-                <span class="modal-tag modal-tag-accent">{p.replace(/_/g, " ")}</span>
-              ))}
+        {
+          t.populations && t.populations.length > 0 && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </>
+                </svg>
+                Studied in
+              </h3>
+              <div class="modal-tags">
+                {t.populations.map((p) => (
+                  <span class="modal-tag modal-tag-accent">
+                    {p.replace(/_/g, " ")}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )
+        }
 
         <!-- Focus facets -->
-        {t.focus_facets && t.focus_facets.length > 0 && (
-          <div class="modal-section">
-            <h3 class="modal-section-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-              Focus areas
-            </h3>
-            <div class="modal-tags">
-              {t.focus_facets.map((f) => (
-                <span class="modal-tag modal-tag-default">{FACET_LABELS[f] || f.replace(/_/g, " ")}</span>
-              ))}
+        {
+          t.focus_facets && t.focus_facets.length > 0 && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <circle cx="12" cy="12" r="3" />
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                  </>
+                </svg>
+                Focus areas
+              </h3>
+              <div class="modal-tags">
+                {t.focus_facets.map((f) => (
+                  <span class="modal-tag modal-tag-default">
+                    {FACET_LABELS[f] || f.replace(/_/g, " ")}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )
+        }
 
         <!-- Rendered markdown content -->
         <div class="modal-rendered-content">
