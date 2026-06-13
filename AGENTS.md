@@ -1,5 +1,18 @@
 # Focus Hacking — Agent Guide
 
+## Repository Layout
+
+Project root at `/home/cleaver/Documents/projects/focushacking/` contains two sibling directories:
+
+| Path | Role |
+|------|------|
+| `focushacking/` | **Active development** — Astro website + PubMed pipeline (this directory) |
+| `fhweb1/` | **Proof of concept** (sibling) — static HTML/CSS prototype; read-only reference, will not be modified |
+
+Do not edit `../fhweb1/`. Treat it as reference material only. All new work goes in this directory.
+
+---
+
 Two systems share `techniques/` as source of truth:
 
 ```
