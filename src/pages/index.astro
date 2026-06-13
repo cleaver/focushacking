@@ -194,22 +194,22 @@ const jsonData = JSON.stringify(
   <div class="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">
     Filter by evidence grade
   </div>
+
   <div class="mb-4 flex flex-wrap gap-2" id="grade-filters">
-    {
-      grades.map((g) => {
-        const count = all.filter((t) => t.grade === g).length;
-        return (
-          <button
-            type="button"
-            class="filter-pill"
-            data-group="grade"
-            data-value={g}
-          >
-            Grade {g} ({count})
-          </button>
-        );
-      })
-    }
+    {grades.map((g) => {
+      return (
+        <button
+          type="button"
+          class="grade-filter-btn"
+          data-group="grade"
+          data-value={g}
+          data-grade={g}
+        >
+          <span class={`grade-mini grade-${g}`}>{g}</span>
+          Grade {g}
+        </button>
+      );
+    })}
   </div>
 
   <!-- Results info + controls -->
@@ -242,8 +242,29 @@ const jsonData = JSON.stringify(
 <script>
   const ALL = JSON.parse(document.getElementById("data-json").textContent);
 
+  function getFilterBtns(group) {
+    if (group === "grade") {
+      return document.querySelectorAll('.grade-filter-btn');
+    }
+    return document.querySelectorAll(`.filter-pill[data-group="${group}"]`);
+  }
+
+  function getActiveFilterBtns(group) {
+    if (group === "grade") {
+      return document.querySelectorAll('.grade-filter-btn.active');
+    }
+    return document.querySelectorAll(`.filter-pill[data-group="${group}"].active`);
+  }
+
+  function getFilterBtn(group, value) {
+    if (group === "grade") {
+      return document.querySelector(`.grade-filter-btn[data-value="${value}"]`);
+    }
+    return document.querySelector(`.filter-pill[data-group="${group}"][data-value="${value}"]`);
+  }
+
   function syncPressed() {
-    document.querySelectorAll(".filter-pill").forEach((b) => {
+    document.querySelectorAll(".filter-pill, .grade-filter-btn").forEach((b) => {
       b.setAttribute("aria-pressed", b.classList.contains("active"));
     });
   }
@@ -251,24 +272,26 @@ const jsonData = JSON.stringify(
   function toggleFilter(btn) {
     const group = btn.dataset.group;
     const value = btn.dataset.value;
-    const siblings = document.querySelectorAll(
-      `.filter-pill[data-group="${group}"]`,
-    );
+
+    if (group === "grade") {
+      btn.classList.toggle("active");
+      syncPressed();
+      filter();
+      return;
+    }
+
+    const siblings = getFilterBtns(group);
 
     if (value === "all") {
       siblings.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
     } else {
-      const allBtn = document.querySelector(
-        `.filter-pill[data-group="${group}"][data-value="all"]`,
-      );
+      const allBtn = getFilterBtn(group, "all");
       if (allBtn) allBtn.classList.remove("active");
 
       if (btn.classList.contains("active")) {
         btn.classList.remove("active");
-        const active = document.querySelectorAll(
-          `.filter-pill[data-group="${group}"].active`,
-        );
+        const active = getActiveFilterBtns(group);
         if (active.length === 0 && allBtn) allBtn.classList.add("active");
       } else {
         btn.classList.add("active");
@@ -287,9 +310,9 @@ const jsonData = JSON.stringify(
         b.classList.toggle("active", b.dataset.value === "all");
       });
     document
-      .querySelectorAll('.filter-pill[data-group="grade"]')
+      .querySelectorAll('.grade-filter-btn')
       .forEach((b) => {
-        b.classList.toggle("active", b.dataset.value === "all");
+        b.classList.remove("active");
       });
     syncPressed();
     filter();
@@ -312,7 +335,7 @@ const jsonData = JSON.stringify(
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
     const activeGrades = [
-      ...document.querySelectorAll('.filter-pill[data-group="grade"].active'),
+      ...document.querySelectorAll('.grade-filter-btn.active'),
     ]
       .map((b) => b.dataset.value)
       .filter((v) => v !== "all");
@@ -420,7 +443,7 @@ const jsonData = JSON.stringify(
   document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("search").addEventListener("input", filter);
     document.getElementById("sort-select").addEventListener("change", filter);
-    document.querySelectorAll(".filter-pill").forEach((btn) => {
+    document.querySelectorAll(".filter-pill, .grade-filter-btn").forEach((btn) => {
       btn.addEventListener("click", () => toggleFilter(btn));
     });
     document
@@ -532,52 +555,61 @@ const jsonData = JSON.stringify(
     color: var(--color-cat-technology);
   }
 
-  /* Grade pills — active: filled with grade color */
-  .filter-pill[data-group="grade"][data-value="A"].active {
-    background: var(--color-grade-a);
-    color: #fff;
-    border-color: var(--color-grade-a);
+  /* ── Grade filter pills (POC style) ────────────── */
+  .grade-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 3px 10px 3px 6px;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    font-family: var(--font-display);
+    white-space: nowrap;
+    cursor: pointer;
   }
-  .filter-pill[data-group="grade"][data-value="B"].active {
-    background: var(--color-grade-b);
-    color: #fff;
-    border-color: var(--color-grade-b);
+  @media (prefers-reduced-motion: no-preference) {
+    .grade-filter-btn {
+      transition: all 0.15s;
+    }
   }
-  .filter-pill[data-group="grade"][data-value="C"].active {
-    background: var(--color-grade-c);
-    color: #fff;
-    border-color: var(--color-grade-c);
-  }
-  .filter-pill[data-group="grade"][data-value="D"].active {
-    background: var(--color-grade-d);
-    color: #fff;
-    border-color: var(--color-grade-d);
-  }
-  .filter-pill[data-group="grade"][data-value="?"].active {
-    background: var(--color-grade-na);
-    color: #fff;
-    border-color: var(--color-grade-na);
+  .grade-filter-btn:hover {
+    opacity: 0.85;
   }
 
-  /* Grade pills — inactive: outlined with grade color */
-  .filter-pill[data-group="grade"][data-value="A"]:not(.active) {
-    border-color: var(--color-grade-a);
-    color: var(--color-grade-a);
+  .grade-mini {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 800;
+    font-family: var(--font-display);
   }
-  .filter-pill[data-group="grade"][data-value="B"]:not(.active) {
-    border-color: var(--color-grade-b);
-    color: var(--color-grade-b);
-  }
-  .filter-pill[data-group="grade"][data-value="C"]:not(.active) {
-    border-color: var(--color-grade-c);
-    color: var(--color-grade-c);
-  }
-  .filter-pill[data-group="grade"][data-value="D"]:not(.active) {
-    border-color: var(--color-grade-d);
-    color: var(--color-grade-d);
-  }
-  .filter-pill[data-group="grade"][data-value="?"]:not(.active) {
-    border-color: var(--color-grade-na);
-    color: var(--color-grade-na);
-  }
+
+  /* Inactive — grade tint per pill, mini badge shows grade */
+  .grade-filter-btn[data-value="A"] { background: var(--color-grade-a-hi); color: var(--color-grade-a); }
+  .grade-filter-btn[data-value="B"] { background: var(--color-grade-b-hi); color: var(--color-grade-b); }
+  .grade-filter-btn[data-value="C"] { background: var(--color-grade-c-hi); color: var(--color-grade-c); }
+  .grade-filter-btn[data-value="D"] { background: var(--color-grade-d-hi); color: var(--color-grade-d); }
+  .grade-filter-btn[data-value="?"] { background: var(--color-grade-na-hi); color: var(--color-grade-na); }
+
+  /* Active — darker fill + ring for distinction */
+  .grade-filter-btn.active[data-value="A"] { background: var(--color-grade-a); color: white; }
+  .grade-filter-btn.active[data-value="B"] { background: var(--color-grade-b); color: white; }
+  .grade-filter-btn.active[data-value="C"] { background: var(--color-grade-c); color: white; }
+  .grade-filter-btn.active[data-value="D"] { background: var(--color-grade-d); color: white; border-color: var(--color-grade-d); }
+  .grade-filter-btn.active[data-value="?"] { background: var(--color-grade-na); color: white; }
+  .grade-filter-btn.active .grade-mini { background: white; color: inherit; }
+
+  /* Dark mode active — light grades need dark text for a11y */
+  .dark .grade-filter-btn.active[data-value="A"],
+  .dark .grade-filter-btn.active[data-value="B"],
+  .dark .grade-filter-btn.active[data-value="C"],
+  .dark .grade-filter-btn.active[data-value="D"],
+  .dark .grade-filter-btn.active[data-value="?"] { color: #0f0f1a; }
+  .dark .grade-filter-btn.active .grade-mini { background: #0f0f1a; color: white; }
 </style>
