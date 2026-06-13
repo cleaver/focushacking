@@ -462,9 +462,9 @@ const jsonData = JSON.stringify(
           <div class="flex items-start gap-3">
             <span class="grade-badge grade-${t.grade}">${t.grade}</span>
             <div class="min-w-0 flex-1">
-              <div class="font-semibold leading-snug">${t.title}</div>
+              <div class="font-semibold leading-snug" style="font-family:var(--font-display)">${t.title}</div>
               <div class="mt-0.5 text-xs text-muted">${t.category}</div>
-              <div class="mt-2 text-xs leading-relaxed text-muted">
+              <div class="mt-2 text-sm leading-relaxed text-muted">
                 ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
               </div>
               <div class="mt-2 flex flex-wrap gap-1.5">
