@@ -217,30 +217,35 @@ const jsonData = JSON.stringify(
     <div id="result-count" class="text-xs text-muted">
       {all.length} of {all.length} techniques shown
     </div>
-    <button
-      id="clear-filters"
-      type="button"
-      class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
-      aria-label="Clear all filters"
-    >
-      Clear all filters
-    </button>
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-0 rounded-lg border border-default p-0.5 bg-surface" role="group" aria-label="View mode">
+        <button id="view-list" type="button" class="view-toggle-btn active" aria-pressed="true" aria-label="List view">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="14" height="3" rx="1"/><rect x="1" y="6.5" width="14" height="3" rx="1"/><rect x="1" y="12" width="14" height="3" rx="1"/></svg>
+        </button>
+        <button id="view-grid" type="button" class="view-toggle-btn" aria-pressed="false" aria-label="Grid view">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+        </button>
+      </div>
+      <button
+        id="clear-filters"
+        type="button"
+        class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
+        aria-label="Clear all filters"
+      >
+        Clear all filters
+      </button>
+    </div>
   </div>
 
-  <!-- Technique grid -->
-  <div
-    id="grid"
-    class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
-    aria-live="polite"
-  >
-    {all.map((t) => <TechniqueCard technique={t} />)}
-  </div>
+  <!-- Technique container (populated by JS) -->
+  <div id="grid" aria-live="polite"></div>
 </BaseLayout>
 
 <div id="data-json" hidden set:html={jsonData} />
 
 <script>
   const ALL = JSON.parse(document.getElementById("data-json").textContent);
+  let viewMode = window.innerWidth < 640 ? "grid" : "list";
 
   function getFilterBtns(group) {
     if (group === "grade") {
@@ -315,6 +320,21 @@ const jsonData = JSON.stringify(
         b.classList.remove("active");
       });
     syncPressed();
+    filter();
+  }
+
+  function setView(mode) {
+    viewMode = mode;
+    const listBtn = document.getElementById("view-list");
+    const gridBtn = document.getElementById("view-grid");
+    if (listBtn) {
+      listBtn.classList.toggle("active", mode === "list");
+      listBtn.setAttribute("aria-pressed", mode === "list");
+    }
+    if (gridBtn) {
+      gridBtn.classList.toggle("active", mode === "grid");
+      gridBtn.setAttribute("aria-pressed", mode === "grid");
+    }
     filter();
   }
 
@@ -415,28 +435,49 @@ const jsonData = JSON.stringify(
       intermediate: "Intermediate",
       advanced: "Advanced",
     };
-    grid.innerHTML = filtered
-      .map((t) => {
-        const slug = t.slug || t.id.replace(/\.md$/, "");
-        return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
-        <div class="flex items-start gap-3">
-          <span class="grade-badge grade-${t.grade}">${t.grade}</span>
-          <div class="min-w-0 flex-1">
-            <div class="font-semibold leading-snug">${t.title}</div>
-            <div class="mt-0.5 text-xs text-muted">${t.category}</div>
-            <div class="mt-2 text-xs leading-relaxed text-muted">
-              ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
+    if (viewMode === "list") {
+      grid.className = "list-view";
+      grid.innerHTML = filtered
+        .map((t) => {
+          const slug = t.slug || t.id.replace(/\.md$/, "");
+          const catClass = t.category.replace(/[^a-zA-Z0-9_-]/g, "_");
+          const diffClass = diffs[t.difficulty] || "Beginner";
+          return `<a href="/techniques/${slug}/" class="list-row" role="listitem">
+            <span class="list-cell list-cell-grade"><span class="grade-badge grade-${t.grade}">${t.grade}</span></span>
+            <span class="list-cell list-cell-name">${t.title}</span>
+            <span class="list-cell list-cell-category"><span class="list-cat-badge cat-${catClass}">${t.category}</span></span>
+            <span class="list-cell list-cell-desc">${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}</span>
+            <span class="list-cell list-cell-difficulty"><span class="list-diff-badge diff-${diffClass}">${diffClass}</span></span>
+            <span class="list-cell list-cell-benefit">${t.time_to_benefit || "—"}</span>
+            <span class="list-cell list-cell-details"><span class="list-details-link">View →</span></span>
+          </a>`;
+        })
+        .join("");
+    } else {
+      grid.className = "grid gap-3 sm:grid-cols-2 lg:grid-cols-3";
+      grid.innerHTML = filtered
+        .map((t) => {
+          const slug = t.slug || t.id.replace(/\.md$/, "");
+          return `<a href="/techniques/${slug}/" class="card block rounded-xl border p-4 transition-all hover:shadow-md bg-surface border-default">
+          <div class="flex items-start gap-3">
+            <span class="grade-badge grade-${t.grade}">${t.grade}</span>
+            <div class="min-w-0 flex-1">
+              <div class="font-semibold leading-snug">${t.title}</div>
+              <div class="mt-0.5 text-xs text-muted">${t.category}</div>
+              <div class="mt-2 text-xs leading-relaxed text-muted">
+                ${(t.summary || "").substring(0, 150)}${(t.summary || "").length > 150 ? "…" : ""}
+              </div>
+              <div class="mt-2 flex flex-wrap gap-1.5">
+                <span class="rounded-full px-2 py-0.5 text-xs font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
+                <span class="rounded-full px-2 py-0.5 text-xs bg-border text-muted">${t.time_to_benefit || ""}</span>
+              </div>
+              <div class="mt-2 text-xs text-accent font-medium">View details →</div>
             </div>
-            <div class="mt-2 flex flex-wrap gap-1.5">
-              <span class="rounded-full px-2 py-0.5 text-xs font-medium bg-accent-light text-accent">${diffs[t.difficulty] || "Beginner"}</span>
-              <span class="rounded-full px-2 py-0.5 text-xs bg-border text-muted">${t.time_to_benefit || ""}</span>
-            </div>
-            <div class="mt-2 text-xs text-accent font-medium">View details →</div>
           </div>
-        </div>
-      </a>`;
-      })
-      .join("");
+        </a>`;
+        })
+        .join("");
+    }
   }
 
   // Attach event listeners (Astro scripts are modules — inline handlers not global)
@@ -452,7 +493,10 @@ const jsonData = JSON.stringify(
     document
       .getElementById("grade-legend-toggle")
       .addEventListener("click", toggleGradeLegend);
+    document.getElementById("view-list").addEventListener("click", () => setView("list"));
+    document.getElementById("view-grid").addEventListener("click", () => setView("grid"));
     syncPressed();
+    setView(viewMode);
   });
 
   function toggleGradeLegend() {
