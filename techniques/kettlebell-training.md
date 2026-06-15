@@ -44,34 +44,6 @@ Full-body ballistic exercise using a cast-iron weight (kettlebell) that requires
 
 CrossFit founder Greg Glassman and coaches at organizations like the US military use kettlebell circuits as cognitive-physical integration tools. Special operations personnel train with kettlebells to improve both physical capacity and decision-making under stress.
 
-## Papers
-
-### 2024
-
-1. **Effects of aerobic exercise on executive function of healthy middle-aged and older adults: A systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Ye et al.
-   - N=2881
-   - Effect: Moderate increase
-   - Progressive-intensity exercise produced the largest effects on cognitive flexibility (g=0.343) and working memory (g=0.392) across 42 RCTs, supporting the dose-response relationship between exercise intensity and cognitive benefit.
-   - [Link](https://doi.org/10.1016/j.ijnurstu.2024.104912)
-
-### 2021
-
-1. **The effects of acute aerobic exercise on executive function: A systematic review and meta-analysis of individual participant data** — *Meta-analysis*
-   - Authors: Hillman et al.
-   - Effect: Moderate increase
-   - Acute aerobic exercise produced reliable improvements in executive function across individual participant data meta-analysis, with intensity and duration emerging as key moderators.
-   - [Link](https://doi.org/10.1016/j.neubiorev.2021.06.026)
-
-### 2017
-
-1. **The effects of a resistance vs. an aerobic single session on attention and executive functioning in adults** — *RCT*
-   - Authors: Dunsky et al.
-   - N=39
-   - Effect: Moderate increase
-   - Acute aerobic exercise improved attention and executive function performance in physically active adults; the high-intensity resistance condition (closest to kettlebell training) showed significant attention improvements on computerized cognitive testing.
-   - [Link](https://doi.org/10.1371/journal.pone.0176092)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: B · Effect: Moderate increase

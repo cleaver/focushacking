@@ -42,42 +42,6 @@ A four-phase breathing technique where each phase — inhale, hold, exhale, hold
 
 US Navy SEAL combat diver training includes mandatory box breathing instruction. Mark Divine, founder of SEALFIT, teaches it as a performance tool for high-stakes decision-making, and it is standard protocol for pilots and surgeons before critical procedures.
 
-## Papers
-
-### 2025
-
-1. **A computational modeling approach to brief slow-paced breathing and mental health moderators of decision-making under uncertainty** — *RCT*
-   - Authors: Byrne et al.
-   - N=216
-   - Effect: Small increase
-   - A brief slow-paced breathing intervention significantly reduced stress and arousal; high-stress participants in the SPB group showed significantly better Iowa Gambling Task decision-making vs. controls, demonstrating cognitive benefits under stress.
-   - [Link](https://doi.org/10.1016/j.actpsy.2025.105222)
-
-### 2023
-
-1. **Brief structured respiration practices enhance mood and reduce physiological arousal** — *RCT*
-   - Authors: Balban et al.
-   - N=114
-   - Effect: Moderate increase
-   - A 1-month daily 5-minute breathwork RCT found box breathing significantly improved mood and reduced physiological arousal compared to an equivalent period of mindfulness meditation; cyclic sighing showed the largest mood benefit.
-   - [Link](https://doi.org/10.1016/j.xcrm.2022.100895)
-
-### 2019
-
-1. **Influence of Slow-Paced Breathing on Inhibition After Physical Exertion** — *RCT*
-   - Authors: Laborde et al.
-   - Effect: Small increase
-   - Slow-paced breathing improved inhibitory control (a core executive function) both before and after physical exertion in controlled conditions, with effects mediated by increased cardiac vagal activity.
-   - [Link](https://doi.org/10.3389/fpsyg.2019.01923)
-
-### 2018
-
-1. **How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing** — *Systematic review*
-   - Authors: Zaccaro et al.
-   - Effect: Moderate increase
-   - Slow breathing techniques (≈6 breaths/min) promote increased HRV, reduced sympathetic activity, improved emotional regulation, and enhanced comfort and alertness across 15 eligible studies.
-   - [Link](https://doi.org/10.3389/fnhum.2018.00353)
-
 ## Outcomes
 
 - **Stress Reduction** · Evidence: B · Effect: Moderate increase

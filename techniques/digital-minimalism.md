@@ -43,34 +43,6 @@ Cal Newport's philosophy of drastically reducing optional digital tools in your 
 
 Cal Newport deleted all social media accounts in 2016 and has written three books and produced multiple courses since. Entrepreneur Paul Graham similarly avoids most social platforms, attributing his ability to write long-form essays to the absence of constant feed-checking.
 
-## Papers
-
-### 2024
-
-1. **Effects of a 14-day social media abstinence on mental health and well-being: results from an experimental study** — *RCT*
-   - Authors: Montag & de Hesselle
-   - Effect: Moderate increase
-   - A 14-day social media abstinence RCT found significant reductions in FoMO and depressive symptoms in the abstinence group, with a dose-response pattern in daily diary data, supporting the digital minimalism mechanism.
-   - [Link](https://doi.org/10.1186/s40359-024-01611-1)
-
-### 2018
-
-1. **No More FOMO: Limiting Social Media Decreases Loneliness and Depression** — *RCT*
-   - Authors: Hunt et al.
-   - N=143
-   - Effect: Moderate increase
-   - University students randomly assigned to limit social media to 30 minutes/day showed significant reductions in depression and loneliness over three weeks compared to controls, with effects especially pronounced for those with elevated baseline depression.
-   - [Link](https://doi.org/10.1521/jscp.2018.37.10.751)
-
-### 2016
-
-1. **ASSOCIATION BETWEEN SOCIAL MEDIA USE AND DEPRESSION AMONG U.S. YOUNG ADULTS** — *Cross-sectional*
-   - Authors: Lin et al.
-   - N=1787
-   - Effect: Moderate increase
-   - Higher frequency of social media platform visits was significantly associated with increased depression symptoms independent of demographic covariates, with a dose-response relationship supporting the digital minimalism rationale.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26783723/)
-
 ## Outcomes
 
 - **Mood / Affect** · Evidence: C · Effect: Moderate increase

@@ -42,33 +42,6 @@ Built-in smartphone modes (iOS Focus, Android Focus Mode) that allow user-define
 
 Apple's own product team and many journalists use scheduled Focus Modes to eliminate notification streams during writing sprints. Productivity coach David Allen uses a form of communication batching that mirrors the Focus Mode concept across all devices.
 
-## Papers
-
-### 2023
-
-1. **The mere presence of a smartphone reduces basal attentional performance** — *Randomized crossover*
-   - Authors: Seifert et al.
-   - Effect: Moderate increase
-   - Participants showed significantly lower attentional performance on a concentration test when a smartphone was present on the desk (vs. absent), even with the phone on silent — confirming that notification elimination contributes to attentional protection.
-   - [Link](https://doi.org/10.1038/s41598-023-36256-4)
-
-### 2022
-
-1. **The hidden cost of a smartphone: The effects of smartphone notifications on cognitive control from a behavioral and electrophysiological perspective** — *Randomized crossover*
-   - Authors: Stevens et al.
-   - Effect: Moderate increase
-   - EEG measures confirmed that smartphone notification sounds produced measurable cognitive control impairment even when participants were instructed to ignore them, replicating and extending the Stothart findings at a neural level.
-   - [Link](https://doi.org/10.1371/journal.pone.0277220)
-
-### 2015
-
-1. **The attentional cost of receiving a cell phone notification** — *RCT*
-   - Authors: Stothart et al.
-   - N=166
-   - Effect: Large increase
-   - Receiving a cell phone notification — even without checking it — significantly disrupted performance on an attention-demanding cognitive task, with error rates comparable to those seen when actively using the phone for calls or texts.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26121498/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

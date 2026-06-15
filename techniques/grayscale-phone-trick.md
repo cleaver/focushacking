@@ -42,34 +42,6 @@ Setting your smartphone display to black-and-white (grayscale) mode to remove th
 
 Former Google design ethicist Tristan Harris was among the first public advocates of the grayscale trick. The American Psychological Association cites grayscale among evidence-informed digital wellness strategies for reducing problematic smartphone use.
 
-## Papers
-
-### 2023
-
-1. **Is life brighter when your phone is not? The efficacy of a grayscale smartphone intervention addressing digital well-being** — *Cohort*
-   - Authors: Dekker & Baumgartner
-   - N=84
-   - Effect: Small increase
-   - A one-week grayscale intervention reduced daily screen time by 20 minutes and improved perceived control over smartphone use and reduced stress, but did not significantly change the number of daily phone unlocks.
-   - [Link](https://doi.org/10.1177/20501579231212062)
-
-### 2022
-
-1. **The hidden cost of a smartphone: The effects of smartphone notifications on cognitive control from a behavioral and electrophysiological perspective** — *Randomized crossover*
-   - Authors: Stevens et al.
-   - Effect: Small increase
-   - Color-coded notification icons produced greater attentional capture than neutral sounds in the Navon paradigm, providing mechanistic support for removing color salience cues via grayscale.
-   - [Link](https://doi.org/10.1371/journal.pone.0277220)
-
-### 2020
-
-1. **True colors: Grayscale setting reduces screen time in college students** — *Randomized crossover*
-   - Authors: Holte & Ferraro
-   - N=41
-   - Effect: Small increase
-   - College students in the grayscale condition showed a statistically significant reduction in daily smartphone screen time compared to the color condition, providing preliminary evidence for the intervention.
-   - [Link](https://doi.org/10.1080/03623319.2020.1737461)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: D · Effect: Small increase

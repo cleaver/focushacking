@@ -45,35 +45,6 @@ During meditation, silently label each arising experience with a single word (e.
 
 Insight meditation (Vipassana) teachers and therapists trained in ACT teach clients the noting technique as a practical off-the-cushion tool: when a distracting thought arises during deep work, noting 'planning' and returning to task takes under a second.
 
-## Papers
-
-### 2025
-
-1. **The impact of meditation on sustained attention in nonclinical population: An extensive review** — *Systematic review*
-   - Authors: Roy & Subramanya
-   - N=1447
-   - Effect: Moderate increase
-   - Open monitoring meditation consistently improved sustained attention across 12 studies, with meditators showing faster reaction times, lower error rates, and reduced mind wandering compared to non-meditators.
-   - [Link](https://doi.org/10.1016/j.jaim.2024.101057)
-
-### 2023
-
-1. **Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials** — *Meta-analysis*
-   - Authors: Newman & Zainal
-   - N=9538
-   - Effect: Moderate increase
-   - Mindfulness-based interventions that include open monitoring practices (of which noting is a primary technique) showed significant effects on sustained attention, executive attention, and working memory accuracy across 111 RCTs.
-   - [Link](https://doi.org/10.1080/17437199.2023.2248222)
-
-### 2007
-
-1. **Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli** — *RCT*
-   - Authors: Lieberman et al.
-   - N=30
-   - Effect: Moderate increase
-   - Labeling emotional experiences significantly reduced right amygdala activation while increasing right ventrolateral PFC activity, demonstrating the neurological mechanism by which noting attenuates emotional interference with attention.
-   - [Link](https://doi.org/10.1111/j.1467-9280.2007.01916.x)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

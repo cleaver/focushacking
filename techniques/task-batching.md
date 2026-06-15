@@ -43,35 +43,6 @@ Group similar low-cognitive tasks (emails, scheduling, administrative work) and 
 
 A journalist checks email only at 8 AM and 4 PM, batching all correspondence into two focused 30-minute windows, freeing the rest of the day for uninterrupted writing and research.
 
-## Papers
-
-### 2022
-
-1. **"Give me a break!" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance** — *Meta-analysis*
-   - Authors: Albulescu P. et al.
-   - N=2335
-   - Effect: Small increase
-   - This meta-analysis confirms that task interruptions and reactive context switching erode well-being (fatigue increases), providing quantified evidence supporting the protective rationale for batching shallow tasks into defined windows.
-   - [Link](https://doi.org/10.1371/journal.pone.0272460)
-
-### 2012
-
-1. **A pace not dictated by electrons: an empirical study of work without email** — *Randomized crossover*
-   - Authors: Mark G. et al.
-   - N=13
-   - Effect: Moderate increase
-   - Knowledge workers randomly assigned to 5 days without email access showed significantly lower, more stable heart rate (less physiological stress) and spent longer periods on single tasks compared to their normal email-on condition.
-   - [Link](https://doi.org/10.1145/2207676.2207754)
-
-### 2008
-
-1. **The Cost of Interrupted Work: More Speed and Stress** — *Cross-sectional*
-   - Authors: Mark G., Gudith D. & Klocke U.
-   - N=36
-   - Effect: Mixed
-   - Observational field study of office workers found that after interruptions, people worked significantly faster to compensate but produced more stress and errors; the average uninterrupted task duration was only 3 minutes before context switching.
-   - [Link](https://doi.org/10.1145/1357054.1357072)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Moderate increase

@@ -42,34 +42,6 @@ Deliberately performing one task at a time with complete attention, refusing to 
 
 Author Ryan Holiday writes one book at a time, with a single document open, no internet, for 3 hours each morning — a discipline he credits with producing consistently high-quality work on a prolific schedule.
 
-## Papers
-
-### 2021
-
-1. **"Cognitive control in media multitaskers" ten years on: a meta-analysis** — *Meta-analysis*
-   - Authors: Uncapher MR et al.
-   - Effect: Small increase
-   - Meta-analysis of 118 assessments found consistent associations between media multitasking and impaired working memory, interference management, sustained attention, and task goal management, with z-values of 0.16–0.22 across all four cognitive control domains.
-   - [Link](https://doi.org/10.5817/CP2021-1-2)
-
-### 2017
-
-1. **Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity** — *Cross-sectional*
-   - Authors: Ward AF et al.
-   - N=800
-   - Effect: Small increase
-   - Phone-absent participants significantly outperformed phone-present participants on working memory and fluid intelligence, complementing single-tasking evidence by showing that environmental triggers alone — not active use — drain the cognitive resources single-tasking conserves.
-   - [Link](https://doi.org/10.1086/691462)
-
-### 2009
-
-1. **Cognitive control in media multitaskers** — *Cross-sectional*
-   - Authors: Ophir E, Nass C & Wagner AD
-   - N=41
-   - Effect: Moderate increase
-   - Heavy media multitaskers performed significantly worse on distractor filtering (d=0.68), working memory filtering (d=0.84), and task-switching (d=0.96–0.97) compared to light multitaskers, demonstrating that habitual multitasking degrades the core cognitive abilities single-tasking preserves.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/19706386/)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: B · Effect: Moderate increase

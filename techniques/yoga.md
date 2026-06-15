@@ -45,51 +45,6 @@ A structured practice combining physical postures (asanas), controlled breathing
 
 Google's 'Search Inside Yourself' program includes yoga as a component. Surgeons at several hospitals report that regular yoga practice reduces hand tremor and improves intraoperative focus compared to non-practitioners.
 
-## Papers
-
-### 2024
-
-1. **Integrated yoga changes attention, motor, and mental function in expecting mothers: A randomized controlled trial** — *RCT*
-   - Authors: Maharana et al.
-   - N=96
-   - Effect: Moderate increase
-   - Yoga group showed significant improvements in divided attention (p<0.001), focused attention (p<0.001), sustained attention (p<0.001), and mental speed vs. standard exercise control.
-   - [Link](https://doi.org/10.4103/ym.ym_88_23)
-
-### 2023
-
-1. **Feasibility and impact of a remote moderate-intensity yoga intervention on stress and executive functioning in working adults: a randomized controlled trial** — *RCT*
-   - Authors: Phansikar et al.
-   - N=86
-   - Effect: Moderate increase
-   - An 8-week remote yoga intervention (3x/week, 50 min) significantly reduced stress and improved executive functioning vs. waitlist control in low-active working adults with stress symptoms.
-   - [Link](https://doi.org/10.1007/s10865-022-00385-4)
-
-### 2014
-
-1. **The effects of an 8-week Hatha yoga intervention on executive function in older adults** — *RCT*
-   - Authors: Gothe et al.
-   - N=108
-   - Effect: Moderate increase
-   - Participants in the yoga group showed significantly improved working memory capacity and efficiency of mental set shifting and cognitive flexibility vs. stretching-toning control group after 8 weeks.
-   - [Link](https://doi.org/10.1093/gerona/glu095)
-
-### 2013
-
-1. **Randomized clinical trial of yoga-based intervention in residents from elderly homes: Effects on cognitive function** — *RCT*
-   - Authors: Hariprasad et al.
-   - Effect: Moderate increase
-   - Yoga-based intervention significantly improved verbal and visual memory, attention and working memory (spatial span), verbal fluency, executive function (Stroop), and processing speed in elderly residential care residents vs. no-yoga control.
-   - [Link](https://doi.org/10.4103/0019-5545.116308)
-
-### 2026
-
-1. **Exercise-Based Interventions for ADHD: A Review of Modalities, Mechanisms, and Practical Applications.** — *Journal Article*
-   - Authors: Han Joon Sang, Jang Young Jin
-   - DOI: 10.1080/02701367.2025.2581676
-   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41380135/)
-   - Population: children_adolescents, clinical; Facets: distraction_resistance, energy_recovery
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

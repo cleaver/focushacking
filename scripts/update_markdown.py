@@ -218,15 +218,14 @@ def main():
             log(f"  WARNING: {slug}.md not found, skipping")
             continue
 
-        # Append papers to markdown
-        new_body = append_papers(body, years_dict)
-        if new_body != body:
-            # Update frontmatter counters
-            total_new = sum(len(papers_list) for year_papers in years_dict.values() for papers_list in [year_papers])
+        # Update frontmatter counters (papers live in papers_index.json, not in markdown body)
+        total_new = sum(len(papers_list) for year_papers in years_dict.values() for papers_list in [year_papers])
+        if total_new > 0:
             frontmatter["new_papers_this_run"] = frontmatter.get("new_papers_this_run", 0) + total_new
             frontmatter["total_papers"] = frontmatter.get("total_papers", 0) + total_new
+            frontmatter["last_searched"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-            # Rebuild with updated frontmatter
+            # Rebuild frontmatter only (body unchanged)
             fm_lines = ["---"]
             for key, value in frontmatter.items():
                 if isinstance(value, list):
@@ -244,10 +243,10 @@ def main():
                     fm_lines.append(f"{key}: {j.dumps(value)}")
             fm_lines.append("---")
 
-            new_content = "\n".join(fm_lines) + new_body
+            new_content = "\n".join(fm_lines) + body
             write_technique_md(slug, new_content)
             updated_slugs.add(slug)
-            log(f"  {slug}.md: +{total_new} papers")
+            log(f"  {slug}.md: +{total_new} papers (frontmatter only, index updated)")
 
         # Add to papers index
         for year, papers_list in years_dict.items():

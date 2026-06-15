@@ -44,33 +44,6 @@ A structured breathing protocol developed by Dutch extreme athlete Wim Hof invol
 
 Athletes, executives, and special operations soldiers use Wim Hof breathing as a pre-performance activation tool. Dutch extreme athlete Wim Hof has set multiple world records in cold endurance using this method.
 
-## Papers
-
-### 2025
-
-1. **Psychophysiological effects of Wim Hof Method and cold exposure: a semi-randomised controlled trial** — *RCT*
-   - Authors: Laubscher S et al.
-   - Effect: Moderate increase
-   - WHM and remote WHM conditions both produced significantly greater increases in momentary energy, mental clarity, and stress-handling ability compared to a mindfulness meditation control, with no significant difference between the two WHM conditions.
-   - [Link](https://www.nature.com/articles/s41598-025-29187-9)
-
-### 2024
-
-1. **Does the Wim Hof Method have a beneficial impact on physiological and psychological outcomes? A systematic review** — *Systematic review*
-   - Authors: Almahayni O & Hammond L
-   - Effect: Mixed
-   - Review of 8 trials found WHM consistently increases epinephrine and reduces pro-inflammatory cytokines; effects on exercise performance were mixed, and cognitive outcomes were not systematically studied.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936795/)
-
-### 2014
-
-1. **Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans** — *RCT*
-   - Authors: Kox M et al.
-   - N=24
-   - Effect: Large increase
-   - Trained WHM practitioners showed profoundly elevated plasma epinephrine during breathing exercises, with 53–57% lower pro-inflammatory cytokines and significantly fewer flu-like symptoms during experimental endotoxemia versus controls.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/24799686/)
-
 ## Outcomes
 
 - **Stress Reduction** · Evidence: C · Effect: Moderate increase

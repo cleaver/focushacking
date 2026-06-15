@@ -43,26 +43,6 @@ Physically removing the smartphone from the immediate work environment — placi
 
 Cal Newport does not own a smartphone. Tristan Harris (former Google design ethicist) keeps his phone in a separate room during work. Many knowledge workers use a 'phone basket' by the door — phone goes in, focus comes out.
 
-## Papers
-
-### 2017
-
-1. **Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity** — *Cross-sectional*
-   - Authors: Ward AF et al.
-   - N=800
-   - Effect: Small increase
-   - Two experiments (total n≈800) showed that participants with their smartphones in another room performed significantly better on working memory capacity and fluid intelligence tests than those with phones on the desk, regardless of phone visibility or power state.
-   - [Link](https://doi.org/10.1086/691462)
-
-### 2009
-
-1. **Cognitive control in media multitaskers** — *Cross-sectional*
-   - Authors: Ophir E, Nass C & Wagner AD
-   - N=41
-   - Effect: Moderate increase
-   - Heavy media multitaskers — individuals with habitual high smartphone and media use — showed significantly worse working memory filtering, attentional focus, and task-switching performance than light multitaskers, establishing the cognitive costs of chronic smartphone engagement.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/19706386/)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: C · Effect: Small increase

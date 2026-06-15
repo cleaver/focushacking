@@ -43,34 +43,6 @@ Breathing that uses the diaphragm — allowing the belly to expand on inhale rat
 
 Voice actors, broadcasters, and singers use diaphragmatic breathing as their primary professional focus tool. Yoga instructors teach it as the foundation of pranayama practice for cognitive enhancement.
 
-## Papers
-
-### 2018
-
-1. **How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing** — *Systematic review*
-   - Authors: Zaccaro A et al.
-   - Effect: Moderate increase
-   - Review of 15 qualifying studies found consistent links between slow breathing at ~6 breaths/min and increased HRV, increased EEG alpha power, reduced anxiety, and improved psychological well-being in healthy subjects.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/30245619/)
-
-### 2017
-
-1. **The Effect of Diaphragmatic Breathing on Attention, Negative Affect and Stress in Healthy Adults** — *RCT*
-   - Authors: Ma X et al.
-   - N=40
-   - Effect: Moderate increase
-   - Eight weeks of diaphragmatic breathing training significantly improved sustained attention (Number Cancellation Test), reduced negative affect, and lowered salivary cortisol compared to a control group of healthy adults.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/28626434/)
-
-### 2002
-
-1. **Slow breathing increases arterial baroreflex sensitivity in patients with chronic heart failure** — *Randomized crossover*
-   - Authors: Bernardi L et al.
-   - N=102
-   - Effect: Moderate increase
-   - Slow breathing at 6 breaths/min produced highly significant increases in baroreflex sensitivity in both healthy controls and CHF patients, demonstrating the autonomic substrate of diaphragmatic breathing's cognitive benefits.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/11790690/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

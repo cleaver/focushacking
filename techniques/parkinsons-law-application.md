@@ -42,25 +42,6 @@ Deliberately impose artificial deadlines shorter than you think you need, exploi
 
 An author sets a rule: any article under 2,000 words must be drafted in 90 minutes. What previously took an unfocused afternoon is now completed before lunch, freeing the afternoon for other work.
 
-## Papers
-
-### 2023
-
-1. **The nonlinear effect of time pressure on innovation performance: New insights from a meta-analysis** — *Meta-analysis*
-   - Authors: Song H. et al.
-   - Effect: Mixed
-   - Meta-analysis confirmed a J-shaped (non-linear) relationship between time pressure and innovation performance — moderate pressure boosts efficiency, but extreme pressure sharply degrades it — highlighting the need for calibrated self-imposed deadlines.
-   - [Link](https://doi.org/10.3389/fpsyg.2022.1049174)
-
-### 2002
-
-1. **Creativity Under the Gun** — *Cohort*
-   - Authors: Amabile T. M., Hadley C. N. & Kramer S. J.
-   - N=177
-   - Effect: Mixed
-   - Daily diary study of knowledge workers found a non-linear (inverted-U) relationship between time pressure and creative cognitive engagement; moderate pressure improved focus while extreme pressure undermined creativity.
-   - [Link](https://hbr.org/2002/07/creativity-under-the-gun)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: D · Effect: Small increase

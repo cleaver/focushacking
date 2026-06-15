@@ -45,49 +45,6 @@ Regular moderate-to-vigorous cardiovascular exercise (running, cycling, swimming
 
 Neuroscientist John Ratey documents in 'Spark' how Naperville, Illinois schools implemented mandatory morning PE; standardized test scores in science improved to rank #1 globally, demonstrating exercise's direct impact on cognitive performance.
 
-## Papers
-
-### 2025
-
-1. **The effects of physical exercise on cognitive function in adolescents: a systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Liu et al.
-   - Effect: Moderate increase
-   - Physical exercise significantly improved attention (SMD=0.56), inhibitory control (SMD=0.58), and working memory (SMD=0.54) in adolescents; aerobic exercise had the greatest impact on cognitive function among all exercise types.
-   - [Link](https://doi.org/10.3389/fpsyg.2025.1556721)
-
-### 2024
-
-1. **Effects of aerobic exercise on executive function of healthy middle-aged and older adults: A systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Ye et al.
-   - N=2881
-   - Effect: Moderate increase
-   - Aerobic exercise significantly improved cognitive flexibility (g=0.343), working memory (g=0.392), and inhibitory control (g=0.229) in 42 RCTs involving healthy middle-aged and older adults.
-   - [Link](https://doi.org/10.1016/j.ijnurstu.2024.104912)
-
-### 2023
-
-1. **Effectiveness of a Single Prolonged Aerobic Exercise Session on Executive Function Task Performance in Physically Active Adults** — *RCT*
-   - Authors: Orkaby et al.
-   - Effect: Small increase
-   - A single prolonged exercise session produced a small-to-moderate effect on post-exercise executive function task performance (Cohen's d=0.38–0.49) in physically active adults aged 21–70.
-   - [Link](https://doi.org/10.3390/ijerph20042802)
-
-### 2010
-
-1. **Aerobic Exercise and Neurocognitive Performance: A Meta-Analytic Review of Randomized Controlled Trials** — *Meta-analysis*
-   - Authors: Smith et al.
-   - Effect: Small increase
-   - Aerobic exercise training demonstrated modest but significant improvements in attention and processing speed (g=0.158), executive function (g=0.123), and memory (g=0.128) across multiple large RCTs.
-   - [Link](https://doi.org/10.1097/PSY.0b013e3181d14633)
-
-### 2026
-
-1. **Pedal cadence differentially impacts cerebral blood flow but not a postexercise executive function benefit: evidence from active and passive exercise.** — *Journal Article*
-   - Authors: Tari Benjamin, Rahimi Alma, Buwadi Lian et al.
-   - DOI: 10.1152/jn.00572.2025
-   - [PubMed](https://pubmed.ncbi.nlm.nih.gov/42102395/)
-   - Population: general_adults; Facets: deep_work_flow, energy_recovery
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: A · Effect: Moderate increase

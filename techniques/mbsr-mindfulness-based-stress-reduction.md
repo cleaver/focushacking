@@ -45,42 +45,6 @@ Jon Kabat-Zinn's structured 8-week program combining formal meditation, body sca
 
 Google, General Mills, and Aetna have implemented MBSR-based programs for employees. Aetna estimated the program saved approximately $2,000 per employee in healthcare costs and added $3,000 in productivity annually.
 
-## Papers
-
-### 2023
-
-1. **Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials** — *Meta-analysis*
-   - Authors: Newman & Zainal
-   - N=9538
-   - Effect: Moderate increase
-   - Mindfulness-based interventions showed small-to-moderate significant effects on global cognition, executive attention, working memory accuracy, inhibition, and sustained attention vs. waitlist or no-treatment controls (g = 0.257–0.45).
-   - [Link](https://doi.org/10.1080/17437199.2023.2248222)
-
-### 2022
-
-1. **The Effect of Mindfulness-based Programs on Cognitive Function in Adults: A Systematic Review and Meta-analysis** — *Meta-analysis*
-   - Authors: Whitfield et al.
-   - Effect: Moderate increase
-   - Mindfulness-based programs produced significant improvements across multiple objective cognitive domains including attention and working memory in adults.
-   - [Link](https://doi.org/10.1007/s11065-021-09519-y)
-
-### 2020
-
-1. **The Mediating Role of Non-reactivity to Mindfulness Training and Cognitive Flexibility: A Randomized Controlled Trial** — *RCT*
-   - Authors: Li et al.
-   - N=54
-   - Effect: Moderate increase
-   - MBSR significantly improved cognitive flexibility vs. waitlist control in high-stress nonclinical participants, mediated by increases in mindfulness non-reactivity.
-   - [Link](https://doi.org/10.3389/fpsyg.2020.01053)
-
-### 2014
-
-1. **No Sustained Attention Differences in a Longitudinal Randomized Trial Comparing Mindfulness Based Stress Reduction versus Active Control** — *RCT*
-   - Authors: MacLean et al.
-   - Effect: No effect
-   - MBSR did not significantly outperform an active Health Enhancement Program control on sustained attention via continuous performance task, suggesting effects may be partially non-specific.
-   - [Link](https://doi.org/10.1371/journal.pone.0097551)
-
 ## Outcomes
 
 - **Stress Reduction** · Evidence: A · Effect: Large increase

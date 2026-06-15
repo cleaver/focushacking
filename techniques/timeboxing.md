@@ -43,25 +43,6 @@ Assign a fixed, non-negotiable maximum time limit to a task, then stop when the 
 
 A UX designer uses 45-minute timeboxes for wireframe sketches, preventing perfectionist paralysis and generating five testable prototypes per day instead of laboring over one.
 
-## Papers
-
-### 2022
-
-1. **Feeling rushed? Perceived time pressure impacts executive function and stress** — *RCT*
-   - Authors: Sussman R. F. & Sekuler R.
-   - N=52
-   - Effect: Mixed
-   - Experimentally induced perceived time pressure significantly impaired cognitive inhibition on the Eriksen flanker task, demonstrating that excessive timeboxing can be counterproductive if the box is too short.
-   - [Link](https://doi.org/10.1016/j.actpsy.2022.103702)
-
-### 1988
-
-1. **Cognitive load theory** — *Systematic review*
-   - Authors: Sweller J.
-   - Effect: Small increase
-   - Temporal constraints reduce working memory load by forcing prioritization and preventing the accumulation of unnecessary cognitive loops, the theoretical foundation for why timeboxes improve efficiency.
-   - [Link](https://doi.org/10.1016/0364-0213(88)90023-7)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: D · Effect: Small increase

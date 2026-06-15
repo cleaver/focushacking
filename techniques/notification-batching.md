@@ -42,35 +42,6 @@ Configuring or manually restricting smartphone notifications to be delivered onl
 
 Writer and investor Kevin Kelly checks email three times per day on a schedule he publicly shares with correspondents. HBR research on 'email batching' found executives who checked email 3x/day reported 26% lower stress than those checking continuously.
 
-## Papers
-
-### 2019
-
-1. **Batching smartphone notifications can improve well-being** — *RCT*
-   - Authors: Fitz et al.
-   - N=237
-   - Effect: Moderate increase
-   - In a two-week randomized field experiment, participants whose notifications were batched three times daily reported significantly higher attentiveness, productivity, positive mood, and control over their phones, and significantly lower stress than real-time notification controls.
-   - [Link](https://doi.org/10.1016/J.CHB.2019.07.016)
-
-### 2015
-
-1. **The attentional cost of receiving a cell phone notification** — *RCT*
-   - Authors: Stothart et al.
-   - N=166
-   - Effect: Large increase
-   - Even unread notifications caused significant attentional disruption equivalent to active phone use, providing the mechanistic justification for batching notifications into discrete windows.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26121498/)
-
-### 2005
-
-1. **Do Interruptions Affect Quality of Work?** — *Cohort*
-   - Authors: Mark et al.
-   - N=36
-   - Effect: Large increase
-   - Real-time communication interruptions forced workers to switch tasks every 3 minutes on average, each requiring 23+ minutes of recovery — batching consolidates these costs into 3 predictable daily periods.
-   - [Link](https://doi.org/10.1145/1054972.1055017)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

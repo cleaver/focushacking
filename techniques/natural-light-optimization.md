@@ -43,25 +43,6 @@ Structuring your work position to maximize daytime natural light exposure (near 
 
 Apple Park's work campus is designed around natural light optimization in every workspace. Cornell research on workplace daylight found employees near windows slept 46 more minutes per night and had 84% fewer headaches, both major focus performance factors.
 
-## Papers
-
-### 2025
-
-1. **Relationships between light exposure and aspects of cognitive function in everyday life** — *Cohort*
-   - Authors: Didikoglu A et al.
-   - N=58
-   - Effect: Moderate increase
-   - Over 7 days of real-world monitoring, higher daytime light exposure was significantly associated with reduced subjective sleepiness, 7–10% faster reaction times on vigilance and working memory tasks, and enhanced visual search performance, with stable daily light patterns producing the strongest cognitive benefits.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/41402450/)
-
-### 2022
-
-1. **Effects of Daytime Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A Systematic Review** — *Systematic review*
-   - Authors: Sahin L & Figueiro MG
-   - Effect: Moderate increase
-   - Review found that both short-wavelength dominant light and higher intensity white light exposure during the day consistently induced alertness and shorter reaction times, with beneficial effects on complex cognitive tasks more pronounced in the afternoon, suggesting circadian and direct photostimulatory mechanisms.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

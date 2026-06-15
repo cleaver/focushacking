@@ -44,34 +44,6 @@ Deliberately mixing different (but related) topics or skills within a single stu
 
 Medical students at Johns Hopkins use interleaved spaced repetition cards mixing pharmacology, anatomy, and pathology — a direct application shown to improve USMLE board exam scores. Language learners using Duolingo experience interleaving by design.
 
-## Papers
-
-### 2021
-
-1. **Interleaved practice enhances memory and problem-solving ability in undergraduate physics** — *RCT*
-   - Authors: Samani & Pan
-   - Effect: Moderate increase
-   - Physics undergraduates assigned to interleaved homework practice significantly outperformed blocked-practice students on delayed problem-solving tests, with effects particularly strong for novel problem types.
-   - [Link](https://doi.org/10.1038/s41539-021-00110-x)
-
-### 2019
-
-1. **Interleaved Learning in Elementary School Mathematics: Effects on the Flexible and Adaptive Use of Subtraction Strategies** — *RCT*
-   - Authors: Lipowsky et al.
-   - N=236
-   - Effect: Moderate increase
-   - Third-graders randomly assigned to interleaved subtraction practice showed greater strategy flexibility and adaptive problem-solving compared to blocked-practice controls.
-   - [Link](https://doi.org/10.3389/fpsyg.2019.00086)
-
-### 2015
-
-1. **Interleaved Practice Improves Mathematics Learning** — *RCT*
-   - Authors: Rohrer et al.
-   - N=126
-   - Effect: Large increase
-   - Students randomized to interleaved math practice scored 76% on a delayed test versus 38% for blocked-practice controls — a near-doubling of retention — with gains maintained at a 30-day follow-up.
-   - [Link](https://doi.org/10.1037/edu0000001)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: B · Effect: Moderate increase

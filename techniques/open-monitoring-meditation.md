@@ -43,33 +43,6 @@ A meditation practice in which attention is kept wide and receptive — noting w
 
 Experienced Zen practitioners and researchers like John Dunne (UW-Madison) use open monitoring as a diagnostic tool: the quality of open awareness reveals habitual mental patterns that interfere with deep work.
 
-## Papers
-
-### 2018
-
-1. **Dismantling Mindfulness-Based Cognitive Therapy: Creation and validation of 8-week focused attention and open monitoring interventions within a 3-armed RCT** — *RCT*
-   - Authors: Britton W. B. et al.
-   - Effect: Moderate increase
-   - The first dismantling RCT to isolate FA and OM meditation as separate 8-week interventions confirmed they engage distinct psychological mechanisms; OM specifically improved non-reactive awareness and emotion regulation distinct from FA effects.
-   - [Link](https://doi.org/10.1016/j.brat.2017.09.010)
-
-### 2014
-
-1. **Focused attention, open monitoring and loving kindness meditation: effects on attention, conflict monitoring, and creativity — A review** — *Systematic review*
-   - Authors: Lippelt D., Hommel B. & Colzato L.
-   - Effect: Moderate increase
-   - Review found OM meditation selectively enhances divergent thinking and reduces cognitive rigidity while FA meditation enhances focused attention; each style produces dissociable effects consistent with their distinct attentional training demands.
-   - [Link](https://doi.org/10.3389/fpsyg.2014.01083)
-
-### 2013
-
-1. **The effect of focused attention and open monitoring meditation on attention network function in healthy volunteers** — *RCT*
-   - Authors: Ainsworth B. et al.
-   - N=57
-   - Effect: Moderate increase
-   - Both FA and OM meditation significantly improved executive attention network function versus waitlist control; OM particularly enhanced non-reactive open monitoring — the metacognitive awareness dimension most relevant to preventing distraction.
-   - [Link](https://doi.org/10.1016/j.psychres.2013.09.002)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

@@ -42,25 +42,6 @@ A Stanford-validated technique consisting of two inhales through the nose (a ful
 
 Stanford neurobiologist Andrew Huberman teaches cyclic sighing as the fastest real-time tool for restoring calm focus. First responders and combat controllers use the technique between high-intensity events to rapidly reset cognitive clarity.
 
-## Papers
-
-### 2023
-
-1. **Brief structured respiration practices enhance mood and reduce physiological arousal** — *RCT*
-   - Authors: Balban MY et al.
-   - N=111
-   - Effect: Moderate increase
-   - Cyclic sighing practiced for 5 minutes/day over 30 days produced significantly greater improvements in positive affect and the only significant reduction in resting respiratory rate compared to box breathing, cyclic hyperventilation, and mindfulness meditation.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/36630953/)
-
-### 2018
-
-1. **How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing** — *Systematic review*
-   - Authors: Zaccaro A et al.
-   - Effect: Moderate increase
-   - Extended exhalation relative to inhalation is the key driver of parasympathetic activation across slow breathing techniques, providing mechanistic context for why cyclic sighing's long exhale is uniquely effective.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/30245619/)
-
 ## Outcomes
 
 - **Mood / Affect** · Evidence: B · Effect: Moderate increase

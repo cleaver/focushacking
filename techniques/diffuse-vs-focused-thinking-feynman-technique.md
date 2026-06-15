@@ -45,34 +45,6 @@ Richard Feynman's learning method leverages the alternation between focused anal
 
 Richard Feynman used this method to master every physics topic from first principles. Physics educator Sal Khan (Khan Academy) reports using similar explain-as-you-go methods that reveal and fill gaps in his own understanding of material before teaching it.
 
-## Papers
-
-### 2018
-
-1. **Teaching the science of learning** — *Systematic review*
-   - Authors: Weinstein et al.
-   - Effect: Large increase
-   - Retrieval practice (the mechanism underlying the Feynman explanation step) is among the six highest-evidence learning strategies, with consistent moderate-to-large effects across domains, ages, and material types.
-   - [Link](https://doi.org/10.1186/s41235-017-0087-y)
-
-### 2014
-
-1. **Neural correlates of retrieval-based memory enhancement: An fMRI study of the testing effect** — *Randomized crossover*
-   - Authors: Marsh et al.
-   - N=36
-   - Effect: Moderate increase
-   - fMRI imaging showed that retrieval practice produces stronger hippocampal and prefrontal encoding than restudying, and these neural differences predicted superior performance on a delayed retention test.
-   - [Link](https://doi.org/10.1016/j.neuropsychologia.2013.04.004)
-
-### 2006
-
-1. **The Power of Testing Memory: Basic Research and Implications for Educational Practice** — *RCT*
-   - Authors: Roediger & Karpicke
-   - N=120
-   - Effect: Large increase
-   - Students who practiced retrieval (testing themselves) retained 46% more material after one week than students who spent equal time re-reading, with the advantage increasing at longer retention intervals.
-   - [Link](https://doi.org/10.1111/j.1745-6924.2006.tb00076.x)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: B · Effect: Moderate increase

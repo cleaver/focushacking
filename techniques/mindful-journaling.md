@@ -47,34 +47,6 @@ Writing freely about present thoughts, feelings, and experiences with deliberate
 
 Morning pages — three pages of longhand stream-of-consciousness writing popularized by Julia Cameron — are used by writers like Tim Ferriss and creatives worldwide as a pre-work mental clearing ritual.
 
-## Papers
-
-### 2023
-
-1. **Improving the Executive Functions of Third to Fifth Graders With Learning Disabilities Through an Expressive Writing Program** — *RCT*
-   - Authors: Kamran et al.
-   - N=40
-   - Effect: Moderate increase
-   - A structured expressive writing disclosure program significantly improved working memory, planning/organizing, and cognitive flexibility in students with learning disabilities, with effects stable at 2-month follow-up.
-   - [Link](https://doi.org/10.5406/19398298.136.1.03)
-
-### 2021
-
-1. **Investigating the influence of expressive writing exercises on the working memory of middle adolescents and young adults in South Africa** — *RCT*
-   - Authors: Swart & Janeke
-   - N=66
-   - Effect: Small increase
-   - Expressive writing about stressful events improved working memory capacity in university students but not in school learners (ages 15–17), with effects observed across all writing condition groups.
-   - [Link](https://doi.org/10.1177/00812463211043450)
-
-### 2019
-
-1. **Effects of Expressive Writing on Neural Processing During Learning** — *RCT*
-   - Authors: Ceceli et al.
-   - Effect: Small increase
-   - Expressive writing about past failures enhanced striatal activation to positive feedback during a subsequent learning task, suggesting expressive writing facilitates neural resource availability for new learning.
-   - [Link](https://doi.org/10.3389/fnhum.2019.00389)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: C · Effect: Small increase

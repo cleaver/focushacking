@@ -43,25 +43,6 @@ From David Allen's Getting Things Done system: if a task will take less than two
 
 An executive applies the 2-minute rule to email: replies that need a single sentence are answered immediately, while complex responses are scheduled. Inbox management drops from 45 minutes to 12 minutes daily.
 
-## Papers
-
-### 2011
-
-1. **Unfulfilled goals interfere with tasks that require executive functions** — *RCT*
-   - Authors: Masicampo E. J. & Baumeister R. F.
-   - N=171
-   - Effect: Small increase
-   - Unfinished tasks persistently intruded into consciousness and impaired performance on subsequent goal-requiring tasks (the Zeigarnik effect), but forming a concrete plan for those tasks eliminated the interference — supporting the cognitive benefits of immediately resolving or planning small tasks.
-   - [Link](https://doi.org/10.1016/j.jesp.2011.02.005)
-
-### 2008
-
-1. **Getting Things Done: The Science Behind Stress-Free Productivity** — *Systematic review*
-   - Authors: Heylighen F. & Vidal C.
-   - Effect: Small increase
-   - Theoretical analysis of GTD methodology found the 2-minute rule is consistent with cognitive offloading principles and working memory research: immediately dispatching small tasks prevents attentional capture by open loops.
-   - [Link](https://doi.org/10.1016/j.lrp.2007.12.011)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: D · Effect: Small increase

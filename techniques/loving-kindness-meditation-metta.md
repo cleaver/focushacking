@@ -43,35 +43,6 @@ A structured meditation practice that trains sustained positive attention by sil
 
 Teachers and therapists practice LKM before sessions involving difficult clients or students, reporting improved patience and attentional presence that allows them to listen and respond more skillfully.
 
-## Papers
-
-### 2015
-
-1. **The effect of loving-kindness meditation on positive emotions: a meta-analytic review** — *Meta-analysis*
-   - Authors: Zeng X. et al.
-   - N=1759
-   - Effect: Moderate increase
-   - Meta-analysis of 24 studies (10 waitlist-controlled RCTs) found medium effect sizes for LKM on daily positive emotions (g≈0.39–0.42 for RCTs); loving-kindness-focused interventions showed larger effects than compassion-focused ones.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26579061)
-
-### 2012
-
-1. **Distinct Neural Activity Associated with Focused-Attention Meditation and Loving-Kindness Meditation** — *Cross-sectional*
-   - Authors: Lee T. M. C. et al.
-   - N=44
-   - Effect: Small increase
-   - fMRI study found LKM expertise improved emotional regulation neural responses to affective stimuli but did not improve sustained attention task performance, distinguishing LKM's primary benefit domain (affect/prosocial orientation) from focused attention meditation.
-   - [Link](https://doi.org/10.1371/journal.pone.0040054)
-
-### 2008
-
-1. **Open hearts build lives: positive emotions, induced through loving-kindness meditation, build consequential personal resources** — *RCT*
-   - Authors: Fredrickson B. L. et al.
-   - N=139
-   - Effect: Moderate increase
-   - Working adults randomized to LKM practice showed progressive increases in daily positive emotions, which in turn built mindfulness, purpose in life, and social support, and reduced illness symptoms — all supporting resources for cognitive performance.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/18954193)
-
 ## Outcomes
 
 - **Mood / Affect** · Evidence: B · Effect: Moderate increase

@@ -44,34 +44,6 @@ The systematic mental rehearsal of the successful completion of a task or perfor
 
 Surgeon Tony Yuen visualizes the full surgical procedure the morning before complex operations, mentally rehearsing critical decision points. Olympic swimmer Michael Phelps visualized races in precise detail before competing.
 
-## Papers
-
-### 2025
-
-1. **The Effects of Imagery Practice on Athletes' Performance: A Multilevel Meta-Analysis with Systematic Review** — *Meta-analysis*
-   - Authors: Liu et al.
-   - N=3593
-   - Effect: Moderate increase
-   - Imagery practice significantly enhanced athletic performance across agility, muscle strength, and technical performance domains; 10 minutes, 3 times weekly over 100 days produced the strongest gains.
-   - [Link](https://doi.org/10.3390/bs15050685)
-
-### 2023
-
-1. **Bilateral transfer of motor performance as a function of motor imagery training: a systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Yao et al.
-   - Effect: Large increase
-   - Mental imagery training showed significant benefit in inducing bilateral motor transfer vs. no-exercise control (ES=0.78), with effects equivalent to physical training (ES=-0.02 difference), confirming neural pathway activation.
-   - [Link](https://doi.org/10.3389/fpsyg.2023.1187175)
-
-### 2021
-
-1. **Mental imagery training programs for developing sport-specific motor skills: a systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Lindsay et al.
-   - N=1449
-   - Effect: Moderate increase
-   - Mental imagery programs produced a significant effect on sport-specific motor performance (g=0.476), with effects moderated by skill complexity and delivery type; imagery combined with physical practice showed g=0.579.
-   - [Link](https://doi.org/10.1080/17408989.2021.1991297)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: B · Effect: Moderate increase

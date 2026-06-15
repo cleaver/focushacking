@@ -43,26 +43,6 @@ Each evening, write down the six most important tasks for tomorrow, prioritize t
 
 A business consultant adopted the Ivy Lee Method and reports completing more high-value client work than before, because pre-committing to a task sequence eliminates the daily 'what should I work on?' drain.
 
-## Papers
-
-### 2006
-
-1. **Implementation intentions and goal achievement: A meta-analysis of effects and processes** — *Meta-analysis*
-   - Authors: Gollwitzer P. M. & Sheeran P.
-   - N=8155
-   - Effect: Moderate increase
-   - Forming specific plans for when and how to begin a task (if-then planning) produced d=0.65 on goal attainment, the same principle the Ivy Lee Method operationalizes through evening task sequencing.
-   - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
-
-### 1998
-
-1. **Ego depletion: Is the active self a limited resource?** — *RCT*
-   - Authors: Baumeister R. F. et al.
-   - N=200
-   - Effect: Moderate increase
-   - Making choices and exercising self-control depleted a shared cognitive resource, resulting in poorer performance on subsequent self-regulation tasks; pre-ordering tasks the night before (Ivy Lee) converts morning planning from effortful decision-making into automatic execution.
-   - [Link](https://doi.org/10.1037/0022-3514.74.5.1252)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: D · Effect: Small increase

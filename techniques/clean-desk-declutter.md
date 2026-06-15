@@ -42,33 +42,6 @@ Maintaining a minimally cluttered physical workspace with only task-relevant mat
 
 Minimalist desk setups are standard among deep-work advocates including Cal Newport and programmer Paul Graham. Japanese management philosophy (5S methodology) treats workspace organization as a direct productivity intervention, applied by Toyota and lean manufacturing globally.
 
-## Papers
-
-### 2012
-
-1. **Neural evidence for distracter suppression during visual search in real-world scenes** — *Cross-sectional*
-   - Authors: Seidl KN, Peelen MV & Kastner S
-   - Effect: Small increase
-   - fMRI showed that suppressing previously relevant objects in cluttered visual scenes requires active neural suppression in object-selective cortex, consuming cognitive resources that would otherwise be available for task engagement.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/22915122/)
-
-### 2011
-
-1. **Interactions of top-down and bottom-up mechanisms in human visual cortex** — *Cross-sectional*
-   - Authors: McMains S & Kastner S
-   - Effect: Small increase
-   - fMRI demonstrated that multiple simultaneous visual stimuli compete for neural representation by mutually suppressing evoked activity throughout the visual cortex, providing the neural mechanism by which physical clutter reduces focused cognitive processing.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/21228167/)
-
-### 2010
-
-1. **No Place Like Home: Home Tours Correlate with Daily Patterns of Mood and Cortisol** — *Cross-sectional*
-   - Authors: Saxbe DE & Repetti R
-   - N=60
-   - Effect: Small increase
-   - Women who described their home environments using more clutter-related language showed elevated cortisol across the day and increased depressed mood, while those using restorative language showed cortisol decline, linking environmental clutter to chronic physiological stress.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/19934011/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

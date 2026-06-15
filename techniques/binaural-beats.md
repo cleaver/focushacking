@@ -44,25 +44,6 @@ Auditory illusions created when slightly different frequencies are played in eac
 
 Students and knowledge workers use Spotify playlists or Brain.fm's binaural programs during study sessions, reporting improved ability to sustain attention on single tasks for longer periods compared to silence or lyric-based music.
 
-## Papers
-
-### 2021
-
-1. **Effects of binaural and monaural beat stimulation on attention and EEG** — *Randomized crossover*
-   - Authors: Engelbregt H et al.
-   - Effect: Small increase
-   - 40 Hz binaural beats improved attentional performance compared to monaural beats and pink noise, with large effect sizes, but without evidence of neural frequency entrainment on EEG, suggesting the mechanism may involve arousal modulation rather than direct entrainment.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC8448709/)
-
-### 2017
-
-1. **More attentional focusing through binaural beats: evidence from the global-local task** — *RCT*
-   - Authors: Colzato LS et al.
-   - N=36
-   - Effect: Small increase
-   - Three minutes of 40 Hz gamma binaural beats produced a significantly smaller global precedence effect (36 vs 57 ms) compared to a constant tone control, indicating enhanced focused attentional processing toward local stimulus features.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26612201/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

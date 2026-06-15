@@ -44,25 +44,6 @@ A structured weekly ritual — drawn from David Allen's GTD — to process all o
 
 A product manager conducts a 90-minute review every Friday afternoon, clearing the week's open loops, so Monday begins with zero cognitive debt and a clear weekly plan.
 
-## Papers
-
-### 2011
-
-1. **Unfulfilled goals interfere with tasks that require executive functions** — *RCT*
-   - Authors: Masicampo E. J. & Baumeister R. F.
-   - N=171
-   - Effect: Small increase
-   - Unfinished tasks intruded into performance on unrelated demanding tasks, but participants who made a plan for the unfinished task showed complete elimination of this interference effect — the core mechanism the Weekly Review is designed to exploit.
-   - [Link](https://doi.org/10.1016/j.jesp.2011.02.005)
-
-### 2008
-
-1. **Getting Things Done: The Science Behind Stress-Free Productivity** — *Systematic review*
-   - Authors: Heylighen F. & Vidal C.
-   - Effect: Small increase
-   - Theoretical and empirical review found the Weekly Review component of GTD is supported by cognitive science: regularly externalizing and reviewing all open commitments reduces the persistent working memory load of unresolved intentions.
-   - [Link](https://doi.org/10.1016/j.lrp.2007.12.011)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: C · Effect: Small increase

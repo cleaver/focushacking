@@ -43,34 +43,6 @@ Broadband noise containing all frequencies in equal measure, played at moderate 
 
 Open-plan offices at companies like Basecamp use ambient sound masking systems based on white noise principles. Remote workers globally use apps like myNoise, Brain.fm, and Noisli to maintain consistent acoustic environments during deep work.
 
-## Papers
-
-### 2022
-
-1. **Cognitive performance, creativity and stress levels of neurotypical young adults in office spaces with white noise** — *Randomized crossover*
-   - Authors: Cheng T et al.
-   - N=59
-   - Effect: Small increase
-   - White noise at 45 dB significantly improved sustained attention (d=0.51), speed-accuracy performance, creativity, and reduced stress versus ambient noise; white noise at 65 dB improved working memory but increased stress.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/36028546/)
-
-### 2019
-
-1. **Low intensity white noise improves performance in auditory working memory** — *Randomized crossover*
-   - Authors: Othman MK et al.
-   - N=20
-   - Effect: Small increase
-   - Low-intensity white noise enhanced auditory working memory performance through stochastic resonance, with peak benefit at 10–5 dB SNR and significant correlation with right superior frontal gyrus activation.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/)
-
-### 2015
-
-1. **Differential effects of white noise in cognitive and perceptual tasks** — *Randomized crossover*
-   - Authors: Rausch VH et al.
-   - Effect: Mixed
-   - White noise impaired working memory accuracy when presented during the maintenance interval but benefited attentional orienting, demonstrating task-specific and timing-specific effects with no general cognitive benefit.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

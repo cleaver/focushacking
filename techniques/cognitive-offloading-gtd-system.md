@@ -45,32 +45,6 @@ David Allen's Getting Things Done (GTD) framework treats the human mind as a pro
 
 David Allen himself, engineers at IBM, and government officials in Europe have implemented GTD. Software developer Kent Beck describes GTD as responsible for recovering 2+ hours of daily focus by eliminating the mental overhead of tracking open commitments.
 
-## Papers
-
-### 2022
-
-1. **Outsourcing Memory to External Tools: A Review of 'Intention Offloading'** — *Systematic review*
-   - Authors: Boldt et al.
-   - Effect: Moderate increase
-   - Three decades of prospective memory research confirm that externalizing intentions (using calendars, reminders, notes) reliably reduces cognitive burden and improves follow-through on deferred tasks.
-   - [Link](https://doi.org/10.3758/s13423-022-02139-4)
-
-### 2020
-
-1. **Consequences of cognitive offloading: Boosting performance but diminishing memory** — *Randomized crossover*
-   - Authors: Papenmeier et al.
-   - Effect: Moderate increase
-   - Cognitive offloading of working memory contents to external tools significantly improved performance on demanding concurrent tasks, supporting the GTD rationale that external capture frees cognitive resources.
-   - [Link](https://doi.org/10.1177/17470218211008060)
-
-### 2019
-
-1. **A role for metamemory in cognitive offloading** — *Randomized crossover*
-   - Authors: Luo et al.
-   - Effect: Moderate increase
-   - Individuals strategically offload memory items when they assess their own memory reliability as low, and this offloading behavior reliably boosts performance on tasks requiring full attentional engagement.
-   - [Link](https://doi.org/10.1016/j.cognition.2019.104012)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: C · Effect: Moderate increase

@@ -43,32 +43,6 @@ Daily recording of three to five specific things you are grateful for, activatin
 
 Arianna Huffington writes in her gratitude journal each morning as part of a structured morning routine; she credits it with reducing anxiety and improving the quality of attention she brings to strategic decisions.
 
-## Papers
-
-### 2023
-
-1. **The effects of gratitude interventions: a systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Diniz et al.
-   - Effect: Moderate increase
-   - Gratitude interventions significantly increased feelings of gratitude, improved mental health, and reduced anxiety and depression symptoms, with additional benefits including more positive mood and emotions.
-   - [Link](https://doi.org/10.31744/einstein_journal/2023RW0371)
-
-### 2022
-
-1. **Gratitude as Mood Mediates the Effects of a 6-Weeks Gratitude Intervention on Mental Well-Being** — *RCT*
-   - Authors: Bohlmeijer et al.
-   - Effect: Moderate increase
-   - A 6-week gratitude intervention improved mental well-being, with gratitude as mood serving as a significant mediator of the effect; changes in mood drove improvements in well-being outcomes.
-   - [Link](https://doi.org/10.3389/fpsyg.2021.799447)
-
-### 2019
-
-1. **Positive Psychology and Gratitude Interventions: A Randomized Clinical Trial** — *RCT*
-   - Authors: Reppold et al.
-   - Effect: Moderate increase
-   - Gratitude intervention significantly increased positive affect, subjective happiness, and life satisfaction while reducing negative affect and depression symptoms compared to control conditions.
-   - [Link](https://doi.org/10.3389/fpsyg.2019.00584)
-
 ## Outcomes
 
 - **Mood / Affect** · Evidence: A · Effect: Moderate increase

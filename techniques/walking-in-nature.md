@@ -46,42 +46,6 @@ Taking a 20–40 minute walk in a natural environment (park, forest, riverside) 
 
 Charles Darwin walked the 'Thinking Path' (a sandwalk) around his garden daily to restore attentional clarity between long writing sessions. Steve Jobs was well known for walking meetings in nature to promote creative thinking.
 
-## Papers
-
-### 2024
-
-1. **Immersion in nature enhances neural indices of executive attention** — *RCT*
-   - Authors: McDonnell & Strayer
-   - Effect: Moderate increase
-   - A 40-minute nature walk enhanced error-related negativity (an electrophysiological index of executive control) vs. urban walk, providing a neural mechanism for the attention restoration effect of nature.
-   - [Link](https://doi.org/10.1038/s41598-024-52205-1)
-
-### 2019
-
-1. **Cognitive Restoration in Children Following Exposure to Nature: Evidence From the Attention Network Task and Mobile Eye Tracking** — *RCT*
-   - Authors: Stevenson et al.
-   - Effect: Moderate increase
-   - A 30-minute nature walk produced faster and more stable Attention Network Task performance vs. urban walk in children; mobile eye-tracking showed higher fixation rates in nature, linking gaze behavior to restoration.
-   - [Link](https://doi.org/10.3389/fpsyg.2019.00042)
-
-### 2012
-
-1. **Interacting with nature improves cognition and affect for individuals with depression** — *RCT*
-   - Authors: Berman et al.
-   - N=20
-   - Effect: Moderate increase
-   - Even in individuals with major depressive disorder, a nature walk significantly improved working memory (backward digit span) and mood compared to urban walk, demonstrating robustness of the restoration effect.
-   - [Link](https://doi.org/10.1016/j.jad.2012.03.012)
-
-### 2008
-
-1. **The Cognitive Benefits of Interacting with Nature** — *Randomized crossover*
-   - Authors: Berman et al.
-   - N=38
-   - Effect: Moderate increase
-   - Two experiments confirmed that a 50-minute walk in a natural arboretum significantly improved backward digit span and Attention Network Task performance compared to an urban downtown walk.
-   - [Link](https://doi.org/10.1111/j.1467-9280.2008.02225.x)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

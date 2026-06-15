@@ -43,30 +43,6 @@ Pre-curated playlists of instrumental music — specifically classical, lo-fi, a
 
 Spotify and YouTube offer dedicated 'Deep Focus' and 'Lo-Fi Beats' playlists with hundreds of millions of streams. Game composers like Austin Wintory and Jeremy Soule produce soundtracks specifically designed to support sustained mental engagement.
 
-## Papers
-
-### 2025
-
-1. **Effects of music advertised to support focus on mood and processing speed** — *Randomized crossover*
-   - Authors: Moran N et al.
-   - Effect: Small increase
-   - Work-flow music produced significantly faster reaction time slopes over a session compared to deep focus and silence conditions, with participants showing the steepest within-session improvement, while deep focus music showed no advantage over silence.
-   - [Link](https://doi.org/10.1371/journal.pone.0316047)
-
-### 2012
-
-1. **Is Noise Always Bad? Exploring the Effects of Ambient Noise on Creative Cognition** — *Randomized crossover*
-   - Authors: Mehta R, Zhu R & Cheema A
-   - Effect: Moderate increase
-   - Five experiments found that moderate ambient noise (~70 dB) significantly enhanced creative task performance compared to low noise (~50 dB) and high noise (~85 dB), with the effect mediated by moderate distraction inducing abstract processing.
-   - [Link](https://doi.org/10.1086/665048)
-
-2. **Background music: effects on attention performance** — *RCT*
-   - Authors: Shih YN, Huang RH & Chiang HY
-   - Effect: Mixed
-   - Background music with lyrics had significant negative effects on concentration and attention in an RCT, while music without lyrics had no significant negative effect, supporting the use of instrumental-only focus playlists.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/22523045/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

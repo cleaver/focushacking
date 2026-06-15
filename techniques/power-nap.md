@@ -43,34 +43,6 @@ A brief 10–20 minute sleep in the early afternoon that rapidly restores alertn
 
 NASA research on military pilots and astronauts showed 40-minute naps improved performance by 34% and alertness by 100%. Companies including Google (nap pods), Nike, and Ben & Jerry's provide designated napping spaces for employees.
 
-## Papers
-
-### 2023
-
-1. **Influence of mid-afternoon nap duration and sleep parameters on memory encoding, mood, processing speed, and vigilance** — *RCT*
-   - Authors: Leong et al.
-   - Effect: Moderate increase
-   - Naps from 10 to 60 minutes produced clear and lasting benefits for positive mood and alertness; 30-minute naps showed the best trade-off, providing memory encoding benefits without excessive sleep inertia.
-   - [Link](https://doi.org/10.1093/sleep/zsad025)
-
-### 2022
-
-1. **Effects of an afternoon nap on sustained attention and working memory: The role of physiological arousal and sleep variables** — *Randomized crossover*
-   - Authors: Ru et al.
-   - N=18
-   - Effect: Small increase
-   - A 40-minute midday nap significantly improved sustained attention (psychomotor vigilance) vs. waking control; working memory improvement was not significant but trend-level, with post-nap physiological arousal patterns mediating performance.
-   - [Link](https://doi.org/10.1016/j.ijpsycho.2022.06.013)
-
-### 2021
-
-1. **Effects of a Short Daytime Nap on the Cognitive Performance: A Systematic Review and Meta-Analysis** — *Meta-analysis*
-   - Authors: Dutheil et al.
-   - N=381
-   - Effect: Moderate increase
-   - Daytime napping significantly improved cognitive performance post-nap (effect size=0.18, 95% CI: 0.09–0.27), with the largest effects for alertness (effect size=0.29); benefits peaked within 120 minutes of waking and were independent of sex and age.
-   - [Link](https://doi.org/10.3390/ijerph181910212)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

@@ -43,34 +43,6 @@ Software applications (Freedom, Cold Turkey, SelfControl) that block distracting
 
 Writers including Michael Lewis and Dave Eggers use site-blocking tools as a professional practice. Freedom app reports that its average user recovers 2.5 hours of productive time per day previously lost to distracting websites.
 
-## Papers
-
-### 2018
-
-1. **Effects of Individual Differences in Blocking Workplace Distractions** — *Cohort*
-   - Authors: Mark et al.
-   - Effect: Moderate increase
-   - Follow-up research showed individual differences in distraction susceptibility moderated blocker effectiveness — high-neuroticism and high-social-media users benefited most from blocking interventions.
-   - [Link](https://doi.org/10.1145/3173574.3173666)
-
-### 2017
-
-1. **How blocking distractions affects workplace focus and productivity** — *Cohort*
-   - Authors: Mark et al.
-   - N=32
-   - Effect: Moderate increase
-   - Knowledge workers using blocking software during a 10-day field study reported significantly higher focused immersion and productivity, with social-media-prone workers showing the largest gains.
-   - [Link](https://doi.org/10.1145/3123024.3124558)
-
-### 2005
-
-1. **Do Interruptions Affect Quality of Work?** — *Cohort*
-   - Authors: Mark et al.
-   - N=36
-   - Effect: Large increase
-   - Each digital interruption required an average of 23 minutes and 15 seconds of recovery time, establishing the quantitative basis for why website blocking structurally improves focused work.
-   - [Link](https://doi.org/10.1145/1054972.1055017)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

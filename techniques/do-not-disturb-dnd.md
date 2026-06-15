@@ -43,35 +43,6 @@ Enabling full Do Not Disturb on smartphones and computers to silence all notific
 
 Deep Work author Cal Newport enables DND across all devices permanently, checking email only twice daily. Many CEOs, including Amazon's Andy Jassy, maintain DND profiles during morning strategic thinking sessions.
 
-## Papers
-
-### 2019
-
-1. **Batching smartphone notifications can improve well-being** — *RCT*
-   - Authors: Fitz et al.
-   - N=237
-   - Effect: Moderate increase
-   - Participants whose notifications were batched (approximating DND periods between check windows) reported significantly higher attentiveness, productivity, better mood, and lower stress versus real-time notification recipients.
-   - [Link](https://doi.org/10.1016/J.CHB.2019.07.016)
-
-### 2015
-
-1. **The attentional cost of receiving a cell phone notification** — *RCT*
-   - Authors: Stothart et al.
-   - N=166
-   - Effect: Large increase
-   - Notification alerts — even when unread — produced task error rates equivalent to active phone use, establishing the direct attentional benefit of DND-level notification silencing.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/26121498/)
-
-### 2005
-
-1. **Do Interruptions Affect Quality of Work?** — *Cohort*
-   - Authors: Mark et al.
-   - N=36
-   - Effect: Large increase
-   - Knowledge workers were interrupted or self-interrupted every 3 minutes on average, and required 23 minutes 15 seconds to fully recover prior focus depth — each protected DND session prevents dozens of such recovery costs.
-   - [Link](https://doi.org/10.1145/1054972.1055017)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

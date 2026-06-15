@@ -46,32 +46,6 @@ Gabriele Oettingen's WOOP framework (Wish, Outcome, Obstacle, Plan) combines men
 
 University of Pennsylvania researchers led by Angela Duckworth implemented WOOP with disadvantaged students, producing significant improvements in school attendance, grades, and conduct. Coaches in sports and business use WOOP as a pre-performance cognitive activation tool.
 
-## Papers
-
-### 2021
-
-1. **A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment** — *Meta-analysis*
-   - Authors: Wang et al.
-   - Effect: Moderate increase
-   - Across 21 empirical studies with 24 independent effect sizes, MCII (WOOP) produced significant positive effects on goal attainment, with effect sizes moderated by goal type and expectancy level.
-   - [Link](https://doi.org/10.3389/fpsyg.2021.565202)
-
-### 2017
-
-1. **Changing Resident Physician Studying Behaviors: A Randomized, Comparative Effectiveness Trial of Goal Setting Versus Use of WOOP** — *RCT*
-   - Authors: Guarino et al.
-   - Effect: Moderate increase
-   - Resident physicians trained in WOOP spent significantly more time studying self-directed learning goals compared to those using goal-setting alone, demonstrating WOOP's effectiveness in high-demand professional settings.
-   - [Link](https://doi.org/10.4300/JGME-D-16-00703.1)
-
-### 2015
-
-1. **Self-regulation of time management: mental contrasting with implementation intentions** — *RCT*
-   - Authors: Oettingen et al.
-   - Effect: Moderate increase
-   - In three studies, students and working mothers who used MCII scheduled significantly more focused work time, improved time management ratings, and showed better class attendance than content-matched or format-matched controls.
-   - [Link](https://doi.org/10.1002/ejsp.2090)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: B · Effect: Moderate increase

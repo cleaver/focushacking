@@ -43,33 +43,6 @@ Cal Newport's structured practice of scheduling regular, multi-hour blocks of di
 
 Cal Newport himself writes books and conducts research using deep work blocks before 9 AM. Mathematician Andrew Wiles worked in isolation for 7 years to prove Fermat's Last Theorem — the ultimate deep work example.
 
-## Papers
-
-### 2020
-
-1. **Go with the flow: A neuroscientific view on being fully engaged** — *Systematic review*
-   - Authors: Bakker et al.
-   - Effect: Large increase
-   - Flow states — characterized by full task absorption, high output, and reduced self-referential thinking — are neurologically associated with dopaminergic reward circuitry and arise when skill level is matched to task challenge.
-   - [Link](https://doi.org/10.1111/ejn.15014)
-
-### 2015
-
-1. **How Concentration Shields Against Distraction** — *Systematic review*
-   - Authors: Marsh & Sörqvist
-   - Effect: Moderate increase
-   - Higher levels of task concentration reduce susceptibility to distraction through two mechanisms: reduced background processing and increased task engagement, supporting the premise of deep work blocks.
-   - [Link](https://doi.org/10.1177/0963721415577356)
-
-### 2005
-
-1. **Do Interruptions Affect Quality of Work?** — *Cohort*
-   - Authors: Mark et al.
-   - N=36
-   - Effect: Large increase
-   - Knowledge workers averaged only 3 minutes on any task before an interruption, and required an average of 23 minutes to fully resume prior focus depth after each disruption.
-   - [Link](https://doi.org/10.1145/1054972.1055017)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Moderate increase

@@ -247,39 +247,8 @@ def generate_markdown(technique):
         lines.append(example)
         lines.append("")
 
-    lines.append("## Papers")
-    lines.append("")
-
-    # Group studies by year
-    by_year = {}
-    for s in studies:
-        y = s.get("year", 0)
-        by_year.setdefault(y, []).append(s)
-
-    for year in sorted(by_year.keys(), reverse=True):
-        lines.append(f"### {year}")
-        lines.append("")
-        for i, s in enumerate(by_year[year], 1):
-            title = s.get("title", "Untitled")
-            design = s.get("design", "Study")
-            authors = s.get("authors", "")
-            n = s.get("n", "")
-            finding = s.get("finding", "")
-            effect = s.get("effect", "")
-            url = s.get("pubmed_url", "")
-
-            lines.append(f"{i}. **{title}** — *{design}*")
-            if authors:
-                lines.append(f"   - Authors: {authors}")
-            if n:
-                lines.append(f"   - N={n}")
-            if effect:
-                lines.append(f"   - Effect: {effect}")
-            if finding:
-                lines.append(f"   - {finding}")
-            if url:
-                lines.append(f"   - [Link]({url})")
-            lines.append("")
+    # Papers are now stored in data/papers_index.json — not duplicated into markdown body.
+    # Use scripts/update_markdown.py to populate the index from POC studies.
 
     return "\n".join(lines), populations, facets
 

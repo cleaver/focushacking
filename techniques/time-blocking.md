@@ -43,34 +43,6 @@ Assign every hour of the workday to a specific task or category on a calendar, s
 
 Cal Newport, Georgetown computer science professor, uses daily time-block plans where every hour is assigned, allowing him to write multiple books while maintaining a full academic workload.
 
-## Papers
-
-### 2024
-
-1. **The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests** — *Meta-analysis*
-   - Authors: Sheeran P. et al.
-   - Effect: Moderate increase
-   - Across 642 independent tests, forming implementation intentions proved effective for cognitive, affective, and behavioral outcomes (0.27 ≤ d ≤ 0.66), with effects larger when participants were highly motivated and plans were rehearsed.
-   - [Link](https://doi.org/10.1080/10463283.2024.2334563)
-
-### 2009
-
-1. **Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Work Tasks** — *Randomized crossover*
-   - Authors: Leroy S.
-   - N=137
-   - Effect: Small increase
-   - Participants who left a previous task incomplete brought forward 'attention residue' that significantly reduced cognitive performance on subsequent tasks; having defined task endpoints (as time blocking provides) mitigated this performance cost.
-   - [Link](https://doi.org/10.1016/j.obhdp.2009.03.002)
-
-### 2006
-
-1. **Implementation intentions and goal achievement: A meta-analysis of effects and processes** — *Meta-analysis*
-   - Authors: Gollwitzer P. M. & Sheeran P.
-   - N=8155
-   - Effect: Moderate increase
-   - Across 94 independent tests, forming implementation intentions (specifying when, where, and how to act) produced a medium-to-large positive effect on goal attainment (d=0.65), the core cognitive mechanism that time blocking operationalizes.
-   - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: C · Effect: Moderate increase

@@ -41,24 +41,6 @@ Each morning, identify your three Most Important Tasks — those that will creat
 
 A startup founder uses MIT each morning to select the three most business-critical items, ensuring product development and investor communication advance daily even amid operational fires.
 
-## Papers
-
-### 1990
-
-1. **A theory of goal setting and task performance** — *Systematic review*
-   - Authors: Locke E. A. & Latham G. P.
-   - Effect: Moderate increase
-   - In over 500 field and lab studies, specific and challenging goals produced higher task performance than do-your-best or no-goal conditions in 90% of cases, with mean effect sizes of d≈0.55–0.68; the MIT technique operationalizes these principles daily.
-   - [Link](https://doi.org/10.5465/amr.1991.4279584)
-
-### 1986
-
-1. **A Meta-Analytic Review of the Goal Setting Literature** — *Meta-analysis*
-   - Authors: Tubbs M. E.
-   - Effect: Moderate increase
-   - Meta-analysis of 87 studies found specific, difficult goals consistently improved performance over vague or easy goals (d=0.54), supporting the prioritization mechanism at the core of the MIT approach.
-   - [Link](https://doi.org/10.1037/0021-9010.71.3.474)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: C · Effect: Moderate increase

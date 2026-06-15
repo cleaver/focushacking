@@ -45,33 +45,6 @@ A goal-pursuit strategy where you pre-specify the exact situational cue ('if') t
 
 Personal trainer and writer James Clear uses implementation intentions in his habit-formation framework: 'I will [behavior] at [time] in [location]' — a formula used by millions via his book Atomic Habits.
 
-## Papers
-
-### 2015
-
-1. **Promoting the translation of intentions into action by implementation intentions: behavioral effects and physiological correlates** — *Systematic review*
-   - Authors: Berkman et al.
-   - Effect: Moderate increase
-   - Neuroimaging evidence demonstrates that implementation intentions increase cue-triggered behavioral initiation by strengthening prefrontal-striatal connections that link situational cues to planned responses.
-   - [Link](https://doi.org/10.3389/fnhum.2015.00395)
-
-### 2011
-
-1. **Self-regulation strategies improve self-discipline in adolescents: benefits of mental contrasting and implementation intentions** — *RCT*
-   - Authors: Duckworth et al.
-   - N=168
-   - Effect: Moderate increase
-   - Adolescents trained in implementation intentions showed significantly improved self-discipline and academic behavior compared to controls, with effects maintained at follow-up.
-   - [Link](https://doi.org/10.1080/01443410.2010.506003)
-
-### 2006
-
-1. **Implementation intentions and goal achievement: A meta-analysis of effects and processes** — *Meta-analysis*
-   - Authors: Gollwitzer & Sheeran
-   - Effect: Large increase
-   - Across 94 independent tests, implementation intentions produced a medium-to-large positive effect on goal attainment (d = 0.65), operating through enhanced situational cue accessibility and automatized goal-directed responses.
-   - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: A · Effect: Large increase

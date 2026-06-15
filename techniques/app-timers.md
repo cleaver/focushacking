@@ -44,35 +44,6 @@ Built-in OS features (iOS Screen Time, Android Digital Wellbeing) or third-party
 
 Athletes in the Performance Program at the US Olympic Training Center use app timers to protect sleep and recovery time from social media. Many knowledge workers set 15-minute social media limits, finding this constraint alone recovers 60–90 minutes of daily focus time.
 
-## Papers
-
-### 2024
-
-1. **StayFocused: Examining the Effects of Reflective Prompts and Chatbot Support on Compulsive Smartphone Use** — *RCT*
-   - Authors: Li et al.
-   - N=36
-   - Effect: Small increase
-   - Reflective prompts at phone-checking moments (beyond simple timers) significantly extended focus session duration and reduced distraction, while baseline timer-only conditions showed smaller effects.
-   - [Link](https://doi.org/10.1145/3613904.3642479)
-
-### 2022
-
-1. **A Nudge-Based Intervention to Reduce Problematic Smartphone Use: Randomised Controlled Trial** — *RCT*
-   - Authors: Raz et al.
-   - N=121
-   - Effect: Small increase
-   - A multi-component intervention including usage monitoring reduced problematic smartphone use and screen time, but the specific contribution of timers versus other strategies could not be isolated.
-   - [Link](https://doi.org/10.1007/s11469-022-00826-w)
-
-### 2020
-
-1. **Do pop-up notifications regarding smartphone use decrease screen time, phone checking behavior, and self-reported problematic smartphone use?** — *RCT*
-   - Authors: Loid et al.
-   - N=73
-   - Effect: No effect
-   - App usage notifications did not significantly reduce smartphone screen time or checking frequency compared to controls, suggesting friction-only interventions without behavior change support have limited impact.
-   - [Link](https://doi.org/10.1016/J.CHB.2019.08.007)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: D · Effect: Small increase

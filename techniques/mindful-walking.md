@@ -45,35 +45,6 @@ Slow, deliberate walking in which full attention is placed on the physical sensa
 
 Jon Kabat-Zinn formally includes mindful walking in MBSR courses. Knowledge workers use 10-minute mindful walks between deep-work sessions to restore attentional capacity before returning to cognitively demanding tasks.
 
-## Papers
-
-### 2022
-
-1. **Effectiveness of a mindful nature walking intervention on sleep quality and mood in university students during Covid-19: A randomised control study** — *RCT*
-   - Authors: Ma J. et al.
-   - N=66
-   - Effect: Moderate increase
-   - University students randomly assigned to mindful outdoor walking showed significantly reduced mood disturbance and improved sleep quality compared to controls, with improvements maintained across the follow-up period.
-   - [Link](https://doi.org/10.1016/j.explore.2022.08.004)
-
-### 2018
-
-1. **Can Nature Walks With Psychological Tasks Improve Mood, Self-Reported Restoration, and Sustained Attention?** — *RCT*
-   - Authors: Pasanen T. P. et al.
-   - N=249
-   - Effect: Moderate increase
-   - Two field experiments (n=128, n=121) found sustained attention consistently improved following restorative-task nature walks in both forest and urban park settings; more-stressed participants showed greater gains.
-   - [Link](https://doi.org/10.3389/fpsyg.2018.02057)
-
-### 2008
-
-1. **The Cognitive Benefits of Interacting with Nature** — *Randomized crossover*
-   - Authors: Berman M. G., Jonides J. & Kaplan S.
-   - N=38
-   - Effect: Moderate increase
-   - Participants randomly assigned to nature vs urban walks showed significantly improved backward digit span (working memory) and Attention Network Task performance after the nature walk, supporting Attention Restoration Theory.
-   - [Link](https://doi.org/10.1111/j.1467-9280.2008.02225.x)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Moderate increase

@@ -43,32 +43,6 @@ A structured sequence of 5–10 minutes of targeted stretches performed every 60
 
 Software teams at Amazon and Spotify incorporate 'movement breaks' every 60 minutes into their engineering sprint culture, reporting fewer afternoon productivity crashes and lower rates of repetitive strain injury.
 
-## Papers
-
-### 2023
-
-1. **Rest breaks aid directed attention and learning** — *RCT*
-   - Authors: Ginns et al.
-   - Effect: Moderate increase
-   - Both unstructured and nature-based 5-minute rest breaks produced higher directed attention levels during subsequent learning and significantly more problem-solving post-test performance vs. no-break control.
-   - [Link](https://doi.org/10.1080/20590776.2023.2225700)
-
-### 2019
-
-1. **Slow-paced breathing and cardiac vagal activity: influence on stress regulation, sleep, and cognitive executive performance** — *Systematic review*
-   - Authors: Laborde
-   - Effect: Small increase
-   - Brief physical and breathing interventions embedded in breaks improved executive cognitive performance in healthy adults, supporting the value of short multi-modal micro-break routines.
-   - [Link](https://doi.org/10.70675/d04d2bc0z46c4z4daazaad6zb115f7dd9651)
-
-### 2011
-
-1. **Depletion without fatigue: temporary deactivation of a task representation as a mechanism behind short breaks and rest periods** — *RCT*
-   - Authors: Ariga & Lleras
-   - Effect: Moderate increase
-   - Brief task interruptions (deactivating the current mental set) reversed the neural habituation causing performance decline during prolonged focused work, restoring vigilance and sustained attention performance.
-   - [Link](https://doi.org/10.1016/j.cognition.2010.12.007)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Moderate increase

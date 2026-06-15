@@ -44,26 +44,6 @@ Begin each workday by completing your single most important or dreaded task befo
 
 A PhD student struggling to write dissertation chapters schedules 7–9 AM for writing before any email or meetings, completing a chapter draft in two weeks instead of two months.
 
-## Papers
-
-### 2006
-
-1. **Implementation intentions and goal achievement: A meta-analysis of effects and processes** — *Meta-analysis*
-   - Authors: Gollwitzer P. M. & Sheeran P.
-   - N=8155
-   - Effect: Moderate increase
-   - Specifying when, where, and how to act (implementation intentions) produced d=0.65 on goal attainment across 94 tests; identifying and committing to the first task the night before constitutes a prototypical implementation intention.
-   - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
-
-### 1998
-
-1. **Ego depletion: Is the active self a limited resource?** — *RCT*
-   - Authors: Baumeister R. F. et al.
-   - N=200
-   - Effect: Moderate increase
-   - Self-control and decision-making draw on a shared resource that depletes with use; completing the hardest task first, when this resource is maximally replenished after sleep, preserves cognitive capacity for the rest of the day.
-   - [Link](https://doi.org/10.1037/0022-3514.74.5.1252)
-
 ## Outcomes
 
 - **Task Completion** · Evidence: C · Effect: Moderate increase

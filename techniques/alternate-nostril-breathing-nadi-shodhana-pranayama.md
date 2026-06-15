@@ -44,35 +44,6 @@ A yogic breathing technique involving alternating airflow between left and right
 
 Students at Indian medical colleges practicing Nadi Shodhana pranayama for 15 minutes before examinations reported significantly lower perceived stress and improved exam performance. Many meditation teachers assign it before demanding intellectual work.
 
-## Papers
-
-### 2022
-
-1. **Slow yoga breathing improves mental load in working memory: a randomized controlled trial** — *Randomized crossover*
-   - Authors: Telles S et al.
-   - N=40
-   - Effect: Small increase
-   - A single session of alternate nostril breathing at 6 bpm produced an 8% reduction in 2-back working memory reaction time compared to baseline, with similar effects for right-nostril and breath-awareness conditions.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC9516310/)
-
-### 2017
-
-1. **Alternate-Nostril Yoga Breathing Reduced Blood Pressure While Increasing Performance in a Vigilance Test** — *Randomized crossover*
-   - Authors: Telles S et al.
-   - N=15
-   - Effect: Small increase
-   - Fifteen minutes of alternate nostril breathing significantly reduced systolic blood pressure and completion time on a digit vigilance test compared to breath awareness and quiet sitting control conditions.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/29284770/)
-
-### 2013
-
-1. **Changes in P300 following alternate nostril yoga breathing and breath awareness** — *Randomized crossover*
-   - Authors: Telles S & Singh N
-   - N=20
-   - Effect: Small increase
-   - Alternate nostril yoga breathing produced significant increases in P300 amplitude at frontal, vertex, and parietal sites and reduced P300 latency at the frontal site, indicating enhanced attentional processing speed and resource availability.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/23721252/)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: C · Effect: Small increase

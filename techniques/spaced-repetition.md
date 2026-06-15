@@ -43,32 +43,6 @@ A learning system where information is reviewed at progressively expanding inter
 
 Medical and law students using Anki flashcards report 15–25% higher board exam scores than non-users. A 2020 University of Leicester study found spaced repetition users scored 70% on exams versus 61% for non-users and 64% for massed learners.
 
-## Papers
-
-### 2014
-
-1. **Very Similar Spacing-Effect Patterns in Very Different Learning/Practice Domains** — *Randomized crossover*
-   - Authors: Kornmeier et al.
-   - Effect: Large increase
-   - Spaced learning was approximately twice as efficient as massed learning across two fundamentally different learning domains, with optimal spacing intervals around 12 hours.
-   - [Link](https://doi.org/10.1371/journal.pone.0090656)
-
-### 2011
-
-1. **Spaced Learning Enhances Subsequent Recognition Memory by Reducing Neural Repetition Suppression** — *Randomized crossover*
-   - Authors: Chen et al.
-   - Effect: Large increase
-   - fMRI showed spaced learning prevented repetition suppression in the fusiform gyrus, maintaining strong encoding signals that predicted significantly better recognition memory compared to massed learning.
-   - [Link](https://doi.org/10.1162/jocn.2010.21532)
-
-### 2006
-
-1. **Distributed practice in verbal recall tasks: A review and quantitative synthesis** — *Meta-analysis*
-   - Authors: Cepeda et al.
-   - Effect: Large increase
-   - Across 839 assessments from 317 experiments, spaced practice consistently produced superior final-test retention compared to massed practice, with optimal inter-study intervals scaling proportionally with the intended retention interval.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/16719566/)
-
 ## Outcomes
 
 - **Working Memory** · Evidence: A · Effect: Large increase

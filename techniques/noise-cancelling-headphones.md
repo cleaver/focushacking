@@ -44,26 +44,6 @@ Active noise-cancelling (ANC) headphones that electronically neutralize ambient 
 
 Programmers at Silicon Valley companies (including many at Apple and Google) routinely use ANC headphones as their primary focus management tool, signaling focused work to colleagues while blocking open-office ambient noise.
 
-## Papers
-
-### 2022
-
-1. **Cognitive performance, creativity and stress levels of neurotypical young adults in office spaces with white noise** — *Randomized crossover*
-   - Authors: Cheng T et al.
-   - N=59
-   - Effect: Small increase
-   - White noise at 45 dB significantly improved sustained attention accuracy (95.23% vs 93.12%, d=0.51), creativity, and speed of task performance while reducing stress, compared to ambient office noise in a private office space.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/36028546/)
-
-### 2019
-
-1. **Low intensity white noise improves performance in auditory working memory** — *Randomized crossover*
-   - Authors: Othman MK et al.
-   - N=20
-   - Effect: Small increase
-   - Low-intensity white noise facilitated auditory working memory performance via stochastic resonance, with an optimal signal-to-noise ratio of 10–5 dB SNR; right superior frontal gyrus activity correlated with performance enhancement.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

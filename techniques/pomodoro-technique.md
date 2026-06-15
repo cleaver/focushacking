@@ -45,35 +45,6 @@ Work in focused 25-minute intervals (pomodoros) separated by 5-minute breaks, wi
 
 A software developer uses Pomodoro to tackle coding sprints; each 25-minute block is dedicated to one feature, preventing context-switching and ensuring frequent mental recovery breaks.
 
-## Papers
-
-### 2025
-
-1. **Assessing the efficacy of the Pomodoro technique in enhancing anatomy lesson retention during study sessions: a scoping review** — *Systematic review*
-   - Authors: Ogut E.
-   - N=5270
-   - Effect: Small increase
-   - Across 32 studies (3 RCTs, n=87), structured Pomodoro intervals produced ~20% lower fatigue, 0.5-point improvement in distractibility, and 0.4-point increase in motivation vs self-paced schedules; 88% of all studies showed positive outcomes.
-   - [Link](https://doi.org/10.1186/s12909-025-08001-0)
-
-### 2023
-
-1. **Effectiveness of Pomodoro Technique on Memory Retention among Psychology Students** — *RCT*
-   - Authors: Que C. G. L. et al.
-   - N=75
-   - Effect: No effect
-   - This RCT found the Pomodoro Technique did not produce a statistically significant improvement in memory retention among university students compared to controls, highlighting that not all cognitive outcomes benefit equally.
-   - [Link](https://doi.org/10.59573/emsj.7(5).2023.24)
-
-### 2022
-
-1. **"Give me a break!" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance** — *Meta-analysis*
-   - Authors: Albulescu P. et al.
-   - N=2335
-   - Effect: Small increase
-   - Micro-breaks (≤10 min) significantly improved vigor (d=0.36) and reduced fatigue (d=0.35) across 19 studies, supporting the core recuperative premise of the Pomodoro Technique; performance effects were non-significant overall (d=0.16).
-   - [Link](https://doi.org/10.1371/journal.pone.0272460)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: C · Effect: Small increase

@@ -43,25 +43,6 @@ Maintaining workspace temperature in the 70–77°F (21–25°C) range — the e
 
 MIT Media Lab's environmental design research found that workers in temperature-controlled offices (22°C) outperformed those in warmer environments by measurable margins on sustained cognitive tasks. High-performance trading floors maintain strict temperature control for this reason.
 
-## Papers
-
-### 2011
-
-1. **Alterations in cognitive performance during passive hyperthermia and the effect of cooling of the head** — *Randomized crossover*
-   - Authors: Tucker R et al.
-   - N=16
-   - Effect: Moderate increase
-   - Passive heat exposure (50°C chamber) significantly impaired spatial span memory and visual recognition memory performance while leaving simple attention tasks largely unaffected, demonstrating task-complexity-dependent vulnerability of cognition to heat.
-   - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC3082171/)
-
-### 2003
-
-1. **Effects of heat stress on cognitive performance: the current state of knowledge** — *Systematic review*
-   - Authors: Hancock PA & Vasmatzidis I
-   - Effect: Large increase
-   - Review of multiple laboratory studies established that cognitive performance is maximized at 17–23°C, with performance on vigilance and dual-task conditions degrading at the lowest levels of heat stress, and simple mental tasks showing impairment only near physiological collapse threshold.
-   - [Link](https://pubmed.ncbi.nlm.nih.gov/12745975/)
-
 ## Outcomes
 
 - **Sustained Attention** · Evidence: B · Effect: Large increase

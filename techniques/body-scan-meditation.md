@@ -44,33 +44,6 @@ A systematic practice of moving attention deliberately through each region of th
 
 Athletes on the US Olympic team use body scan before competition to identify and release tension patterns in specific muscle groups, improving biomechanical efficiency and mental presence.
 
-## Papers
-
-### 2022
-
-1. **The effects of body scan meditation: A systematic review and meta-analysis** — *Meta-analysis*
-   - Authors: Gan R., Zhang L. & Chen S.
-   - Effect: Small increase
-   - 14 RCTs of isolated body scan meditation found only a small effect on mindfulness vs passive control (Hedges' g=0.27, 95% CI [0.032, 0.504]); high heterogeneity and low study quality limit conclusions — body scan alone is insufficient to improve most health outcomes.
-   - [Link](https://doi.org/10.1111/aphw.12366)
-
-### 2015
-
-1. **Standardised Mindfulness-Based Interventions in Healthcare: An Overview of Systematic Reviews and Meta-Analyses of RCTs** — *Systematic review*
-   - Authors: Gotink R. A. et al.
-   - Effect: Moderate increase
-   - Systematic overview confirmed MBSR (which includes body scan as a core component) produces significant improvements in anxiety, depression, pain, and quality of life across multiple clinical conditions, with moderate effect sizes.
-   - [Link](https://doi.org/10.1371/journal.pone.0124344)
-
-### 2010
-
-1. **Effects of Mindfulness-Based Stress Reduction on Emotion Regulation in Social Anxiety Disorder** — *RCT*
-   - Authors: Goldin P. R. & Gross J. J.
-   - N=16
-   - Effect: Moderate increase
-   - 8-week MBSR including body scan significantly reduced amygdala activity during self-referential emotional processing and increased prefrontal regulatory activity in patients with social anxiety disorder.
-   - [Link](https://doi.org/10.1037/a0019434)
-
 ## Outcomes
 
 - **Stress Reduction** · Evidence: C · Effect: Small increase
