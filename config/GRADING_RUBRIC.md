@@ -1,12 +1,5 @@
 # Focus Hacking Evidence Grading Rubric
 
-## Adaptation from Examine.com
-
-Examine.com grades supplements using RCTs only, per health outcome, on an A–F scale
-based on: (1) number of trials, (2) consistency of evidence, (3) effect strength.
-
-For Focus Hacking behavioural/cognitive techniques we adapt this as follows:
-
 ---
 
 ## Grade Scale: A → D (+ "Insufficient")
@@ -45,7 +38,7 @@ For behavioural/cognitive focus techniques we measure:
 Not all outcomes apply to all techniques. Each technique gets graded only on
 outcomes that have been directly studied.
 
-## Evidence Type Preference (like Examine.com)
+## Evidence Type Preference
 - Primary: Human RCTs only get full grade weight
 - Secondary: Meta-analyses of RCTs
 - Tertiary: Observational/correlational (noted, but capped at grade C)
@@ -61,12 +54,12 @@ outcomes that have been directly studied.
 - effect ("Large increase", "Moderate increase", "Small increase", "No effect", "Mixed")
 - pubmed_url OR doi_url (direct link)
 
-## Key Differences from Examine.com
+## Design Notes
 1. We grade BEHAVIOURAL interventions (not pills), so blinding is often impossible → we note this
 2. We include observational evidence but cap it at grade C and flag it
 3. We show 2–4 studies per technique (not 170) but make each one real and linked
-4. We add a "Mechanism" note explaining WHY it works (Examine doesn't focus on this for behavioural)
-5. We use the same A–D + NI scale but with adapted criteria for behavioural science
+4. We add a "Mechanism" note explaining WHY it works
+5. We use the A–D + NI scale with criteria calibrated for behavioural science
 
 ---
 

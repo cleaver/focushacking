@@ -15,7 +15,7 @@ focushacking/
 ├── config/
 │   ├── techniques.yaml       # PubMed search queries per technique
 │   ├── grading-rules.yaml    # A/B/C/D/? thresholds (machine-readable)
-│   └── GRADING_RUBRIC.md     # Human-readable methodology (adapted from Examine.com)
+│   └── GRADING_RUBRIC.md     # Human-readable grading methodology
 │
 ├── data/
 │   ├── papers_index.json     # Persistent paper database (146 papers, version-controlled)

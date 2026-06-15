@@ -205,9 +205,8 @@ Current: "Evidence-graded directory of focus techniques. Updated weekly via PubM
 POC has more detailed footer:
 ```
 FocusHacking.com
-Evidence grades follow a methodology adapted from Examine.com: A–D based on
-number of RCTs, consistency, and effect size. All study links go to PubMed or
-journal DOIs. Grades reflect evidence for cognitive focus outcomes specifically.
+Evidence grades follow our editorial methodology: A–D based on number of RCTs,
+consistency, and effect size. All study links go to PubMed or journal DOIs. Grades reflect evidence for cognitive focus outcomes specifically.
 ```
 
 Consider expanding footer with methodology attribution + links.
@@ -417,7 +416,7 @@ section above.
 
 | # | Change | File | Priority | Done |
 |---|--------|------|----------|------|
-| FT1 | Expand footer text with methodology attribution (adapted from Examine.com, A–D based on RCTs etc.) | `BaseLayout.astro` | Medium | [x] |
+| FT1 | Expand footer text with methodology attribution (A–D based on RCTs etc.) | `BaseLayout.astro` | Medium | [x] |
 | FT2 | Add "Focus Hacking home" link | `BaseLayout.astro` | Low | [x] |
 | FT3 | Add "EVIDENCE-GRADED · SCIENCE-BACKED · FREE" tagline from POC | `BaseLayout.astro` | Low | [x] |
 
