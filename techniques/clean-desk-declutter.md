@@ -4,7 +4,7 @@ slug: "clean-desk-declutter"
 category: "Environment"
 grade: "D"
 grade_detail: "While the neuroscience of visual competition is well-established by fMRI (McMains & Kastner 2011) and a 2024 Yale Neuron study, there are no direct RCTs testing clean desk vs cluttered desk on focused cognitive work performance in adults; the evidence base is primarily neuroimaging and observational, capping the grade at C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Once a week, deep-clean and reorganize the whole workspace.
   
 mechanism: "Each visible object in the workspace activates competing bottom-up neural signals in the visual cortex that must be actively suppressed by top-down attentional control circuits (prefrontal, parietal). This suppression consumes limited-capacity cognitive resources in proportion to the number of irrelevant objects present, leaving fewer resources available for sustained task engagement \u2014 a process termed competitive suppression."
+session_time: "5 min (daily reset)"
 ---
 
 ## Clean Desk / Declutter
@@ -67,3 +68,15 @@ Minimalist desk setups are standard among deep-work advocates including Cal Newp
    - Effect: Small increase
    - Women who described their home environments using more clutter-related language showed elevated cortisol across the day and increased depressed mood, while those using restorative language showed cortisol decline, linking environmental clutter to chronic physiological stress.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/19934011/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  McMains & Kastner 2011 fMRI showed that competing visual stimuli mutually suppress neural processing in visual cortex, with each additional object reducing signal strength for focused targets — directly impairing sustained attention.
+
+- **Stress Reduction** · Evidence: D · Effect: Small increase
+  Saxbe & Repetti 2010 found women describing their homes as cluttered had elevated cortisol across the day versus those describing them as restorative, suggesting clutter creates chronic low-level stress.
+
+- **Working Memory** · Evidence: D · Effect: Small increase
+  Observational and indirect evidence suggests visual clutter consumes working memory resources needed to suppress irrelevant information, but no direct RCT has measured this effect in an office context.
+

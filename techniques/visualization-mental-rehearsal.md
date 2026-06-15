@@ -4,7 +4,7 @@ slug: "visualization-mental-rehearsal"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "Multiple meta-analyses confirm mental imagery training produces significant performance improvements (g\u22480.48) across diverse motor and cognitive tasks; evidence for direct sustained-attention or executive function improvements in non-sport cognitive tasks is more limited and based on fewer RCTs."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Open your eyes and begin the task within 5 minutes while the primed state is active.
   
 mechanism: "Mental imagery activates overlapping neural networks to physical execution \u2014 including motor cortex, premotor areas, and the anterior cingulate cortex \u2014 effectively priming neural circuits for focused task performance. First-person vivid visualization also reduces pre-task uncertainty and anxiety by pre-habituating the stress response to anticipated challenges."
+session_time: "5\u201315 min"
 ---
 
 ## Visualization (Mental Rehearsal)
@@ -70,3 +71,18 @@ Surgeon Tony Yuen visualizes the full surgical procedure the morning before comp
    - Effect: Moderate increase
    - Mental imagery programs produced a significant effect on sport-specific motor performance (g=0.476), with effects moderated by skill complexity and delivery type; imagery combined with physical practice showed g=0.579.
    - [Link](https://doi.org/10.1080/17408989.2021.1991297)
+
+## Outcomes
+
+- **Task Completion** · Evidence: B · Effect: Moderate increase
+  A meta-analysis of 86 studies (n=3,593 athletes) found imagery practice significantly enhanced performance with moderate effect sizes across sport-specific tasks including accuracy, strength, and technical performance.
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Visualization primes attentional focus on task-relevant cues, but direct RCT evidence for improvements in objective sustained attention task performance in non-sport contexts is limited.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Mental rehearsal of successful performance reduces pre-task anxiety and improves confidence, with self-report benefits shown across multiple studies including RCTs.
+
+- **Cognitive Flexibility** · Evidence: D · Effect: Insufficient data
+  No RCTs have directly measured cognitive flexibility outcomes from visualization practice in cognitive (non-sport) task contexts.
+

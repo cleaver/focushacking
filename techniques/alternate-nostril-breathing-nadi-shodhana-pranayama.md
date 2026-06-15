@@ -4,7 +4,7 @@ slug: "alternate-nostril-breathing-nadi-shodhana-pranayama"
 category: "Breathing"
 grade: "B"
 grade_detail: "Multiple small controlled studies (Telles et al. 2022, 2017, 2013) demonstrate improved attention and working memory with alternate nostril breathing, but samples are small (n=15\u201340), predominantly male, and mostly conducted at a single institution, limiting generalizability to a Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. This completes one round; practice 5–10 rounds before focused study or work.
   
 mechanism: "Alternating airflow between nostrils differentially stimulates olfactory afferents projecting to the contralateral cerebral hemisphere via the olfactory bulb, producing alternating hemispheric EEG activation that may balance interhemispheric activity. Simultaneously, the practice reduces respiratory rate to ~6 breaths/min, maximizing HRV and vagal tone to support prefrontal executive function."
+session_time: "5\u201315 min"
 ---
 
 ## Alternate Nostril Breathing (Nadi Shodhana Pranayama)
@@ -71,3 +72,15 @@ Students at Indian medical colleges practicing Nadi Shodhana pranayama for 15 mi
    - Effect: Small increase
    - Alternate nostril yoga breathing produced significant increases in P300 amplitude at frontal, vertex, and parietal sites and reduced P300 latency at the frontal site, indicating enhanced attentional processing speed and resource availability.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/23721252/)
+
+## Outcomes
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  Telles et al. 2022 found an 8% reduction in 2-back reaction time after a single session of alternate nostril breathing at 6 breaths/min (n=40).
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Telles et al. 2013 found significant increases in P300 amplitude at frontal, vertex, and parietal sites after ANB practice, indicating enhanced attentional resource allocation.
+
+- **Stress Reduction** · Evidence: C · Effect: Moderate increase
+  Telles et al. 2017 found significantly reduced systolic blood pressure and faster digit vigilance test completion after 15 minutes of alternate nostril breathing compared to control conditions.
+

@@ -4,7 +4,7 @@ slug: "body-scan-meditation"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "A 2022 systematic review with meta-analysis of 14 RCTs specifically testing isolated body scan meditation found only a small effect on mindfulness (Hedges' g=0.27) with high heterogeneity and low study quality, insufficient for grade B; MBSR as a package (of which body scan is a component) has stronger evidence."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Complete the scan from head to toe, then spend 2 minutes in silent awareness before opening your eyes.
   
 mechanism: "Body scan trains interoceptive awareness by requiring sustained, systematic attention redirection between 20+ distinct body regions; this repeated controlled attention practice strengthens top-down prefrontal suppression of default-mode mind-wandering and increases insula-mediated body awareness, improving the brain's capacity to notice and recover from attentional lapses."
+session_time: "20\u201345 min"
 ---
 
 ## Body Scan Meditation
@@ -69,3 +70,15 @@ Athletes on the US Olympic team use body scan before competition to identify and
    - Effect: Moderate increase
    - 8-week MBSR including body scan significantly reduced amygdala activity during self-referential emotional processing and increased prefrontal regulatory activity in patients with social anxiety disorder.
    - [Link](https://doi.org/10.1037/a0019434)
+
+## Outcomes
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  Gan et al. (2022) meta-analysis of 14 body-scan-only RCTs found small effects on mindfulness but not consistently on stress; MBSR packages including body scan show moderate stress reduction (SMD≈0.3–0.74 in larger reviews).
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Goldin & Gross (2010) fMRI RCT (n=16) demonstrated that 8-week MBSR including body scan increased prefrontal attention-regulation activity and reduced amygdala reactivity, suggesting neural changes supportive of sustained attention.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Body scan alone shows small positive effects on mood in clinical samples; effects are stronger when embedded in full MBSR, suggesting synergistic rather than isolated benefits.
+

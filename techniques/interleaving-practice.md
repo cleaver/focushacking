@@ -4,7 +4,7 @@ slug: "interleaving-practice"
 category: "Cognitive"
 grade: "B"
 grade_detail: "Multiple RCTs in mathematics, physics, and language learning show consistent moderate-to-large benefits for interleaving over blocked practice on delayed tests. Rohrer et al. 2015 (Journal of Educational Psychology) and Samani & Pan 2021 provide strong controlled evidence, qualifying for Grade B. Short-term performance during learning is typically worse with interleaving ('desirable difficulty'), which introduces some methodological noise."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Review the session to identify which topics showed the most errors for next session's focus.
   
 mechanism: "Interleaving creates 'desirable difficulties' by forcing the retrieval of which strategy applies before applying it \u2014 a two-step process that strengthens category-discrimination and feature-based encoding more than blocked practice, which allows solution strategies to remain primed in working memory. The retrieval effort of identifying the correct approach on each switch trial produces deeper, more transferable memory representations."
+session_time: "45\u201390 min"
 ---
 
 ## Interleaving Practice
@@ -70,3 +71,15 @@ Medical students at Johns Hopkins use interleaved spaced repetition cards mixing
    - Effect: Large increase
    - Students randomized to interleaved math practice scored 76% on a delayed test versus 38% for blocked-practice controls — a near-doubling of retention — with gains maintained at a 30-day follow-up.
    - [Link](https://doi.org/10.1037/edu0000001)
+
+## Outcomes
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  Interleaving requires continuous category discrimination, strengthening discrimination ability and feature-based memory representations.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  RCTs show interleaved learners outperform blocked learners on novel problems requiring appropriate selection of problem-solving strategies.
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  The novelty-driven switching in interleaving maintains arousal and attention during study sessions, though this benefit is secondary to retention effects.
+

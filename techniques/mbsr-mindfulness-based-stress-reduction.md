@@ -4,7 +4,7 @@ slug: "mbsr-mindfulness-based-stress-reduction"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "A large meta-analysis of 111 RCTs (n=9,538) found small-to-moderate significant effects of mindfulness-based interventions on working memory accuracy, sustained attention, and executive attention (g=0.257\u20130.45). Stress reduction effects are very well-replicated across dozens of RCTs with consistent large effects."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 4
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. After completing the course, maintain practice with at least 20 minutes daily.
   
 mechanism: "MBSR strengthens the anterior cingulate cortex and prefrontal circuits that regulate attentional control and emotional reactivity, reducing amygdala-driven interruptions to task focus. Repeated practice of returning attention to the breath consolidates top-down attentional control pathways and reduces default mode network rumination."
+session_time: "45 min/day"
 ---
 
 ## MBSR (Mindfulness-Based Stress Reduction)
@@ -79,3 +80,21 @@ Google, General Mills, and Aetna have implemented MBSR-based programs for employ
    - Effect: No effect
    - MBSR did not significantly outperform an active Health Enhancement Program control on sustained attention via continuous performance task, suggesting effects may be partially non-specific.
    - [Link](https://doi.org/10.1371/journal.pone.0097551)
+
+## Outcomes
+
+- **Stress Reduction** · Evidence: A · Effect: Large increase
+  Multiple large RCTs and meta-analyses show MBSR consistently reduces perceived stress, cortisol, and anxiety with large effect sizes (Cohen's d > 0.5) vs. active controls.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Meta-analysis of 111 RCTs found small-to-moderate improvements in sustained attention (g≈0.26–0.45); one large RCT with active control found no significant difference, suggesting some specificity questions remain.
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  Meta-analytic evidence shows significant improvements in working memory accuracy (g≈0.26) from mindfulness-based programs vs. waitlist or active control groups.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  An RCT of 54 participants found MBSR significantly improved cognitive flexibility vs. waitlist control, mediated by increases in non-reactivity.
+
+- **Mood / Affect** · Evidence: A · Effect: Moderate increase
+  MBSR consistently reduces negative affect and depression symptoms across populations in well-powered RCTs.
+

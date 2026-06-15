@@ -4,7 +4,7 @@ slug: "focus-mode-phone"
 category: "Technology"
 grade: "B"
 grade_detail: "The attentional cost of notifications is robustly demonstrated by Stothart et al. 2015 (RCT, Journal of Experimental Psychology) and replicated by Stevens et al. 2022, establishing that Focus Mode (which eliminates notification interruptions) has a mechanistically well-supported benefit. Indirect evidence from notification-cost research qualifies this for Grade B, as direct RCTs of Focus Mode as an OS feature are limited."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Use Focus Mode every day for 2 weeks to evaluate productivity impact.
   
 mechanism: "Smartphone notifications trigger an automatic orienting response in the right prefrontal cortex \u2014 an evolved neural alarm system that diverts attentional resources toward novelty detection even when the notification is consciously ignored. Focus Mode eliminates these orienting triggers entirely during work sessions, allowing prefrontal resources to remain allocated to the current task rather than being continuously taxed by suppression of irrelevant alerts."
+session_time: "Ongoing (automated mode)"
 ---
 
 ## Focus Mode (Phone)
@@ -67,3 +68,15 @@ Apple's own product team and many journalists use scheduled Focus Modes to elimi
    - Effect: Large increase
    - Receiving a cell phone notification — even without checking it — significantly disrupted performance on an attention-demanding cognitive task, with error rates comparable to those seen when actively using the phone for calls or texts.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/26121498/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Eliminating notification alerts — even unread ones — removes a significant attentional disruption demonstrated to cause task errors equivalent to active phone use.
+
+- **Task Completion** · Evidence: B · Effect: Moderate increase
+  By preventing the 23-minute recovery cost of notification-triggered attention shifts, Focus Mode structurally preserves work session depth and output.
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  Scheduled notification elimination reduces the low-level vigilance arousal associated with anticipating interruptions, modestly lowering perceived cognitive load and stress.
+

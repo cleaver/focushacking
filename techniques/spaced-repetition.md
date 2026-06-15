@@ -4,7 +4,7 @@ slug: "spaced-repetition"
 category: "Cognitive"
 grade: "B"
 grade_detail: "Cepeda et al.'s 2006 meta-analysis of 317 studies (839 assessments) provides overwhelming evidence for the spacing effect, with large and highly consistent effects across domains, ages, and material types. This comfortably meets the Grade A threshold and represents one of the most replicated effects in cognitive psychology."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. After 60–90 days of consistent use, test retention with a practice exam to validate progress.
   
 mechanism: "Spaced repetition exploits two reinforcing mechanisms: (1) the 'forgetting curve' \u2014 reviewing material just before forgetting maximizes the memory consolidation triggered by successful retrieval, requiring the hippocampus to actively reconstruct the trace; and (2) contextual variability \u2014 different retrieval contexts at each review create multiple retrieval cues, making the memory accessible across diverse contexts. Each review also triggers protein-synthesis-dependent reconsolidation that strengthens the synaptic trace."
+session_time: "15\u201330 min/day"
 ---
 
 ## Spaced Repetition
@@ -67,3 +68,15 @@ Medical and law students using Anki flashcards report 15–25% higher board exam
    - Effect: Large increase
    - Across 839 assessments from 317 experiments, spaced practice consistently produced superior final-test retention compared to massed practice, with optimal inter-study intervals scaling proportionally with the intended retention interval.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/16719566/)
+
+## Outcomes
+
+- **Working Memory** · Evidence: A · Effect: Large increase
+  Meta-analytic evidence across 317 studies consistently shows spaced practice produces dramatically superior long-term retention compared to massed practice.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Short daily review sessions (15–30 min) exploit attention availability when it is fresh, and automatized knowledge reduces the cognitive load needed for focused performance.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  Spaced repetition over diverse material builds robust, context-independent knowledge representations that are more flexibly applied in novel problem contexts.
+

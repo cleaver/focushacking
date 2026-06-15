@@ -4,7 +4,7 @@ slug: "power-nap"
 category: "Physical"
 grade: "B"
 grade_detail: "A meta-analysis of 11 studies (n=381) confirmed daytime napping significantly improved cognitive performance, especially alertness, with the nap group outperforming controls on multiple tasks; effects on alertness are most robust (effect size=0.29) while effects on executive function are smaller and timing-dependent."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Avoid napping after 3 PM to prevent interference with nighttime sleep.
   
 mechanism: "Power naps clear the homeostatic sleep pressure (adenosine accumulation) that degrades attentional performance during the afternoon circadian dip, rapidly restoring prefrontal cortex availability for executive function. Brief naps preserve light sleep (N1/N2) that facilitates memory consolidation and alertness restoration without entering slow-wave sleep (N3), which would cause sleep inertia and grogginess upon waking."
+session_time: "10\u201320 min"
 ---
 
 ## Power Nap
@@ -69,3 +70,18 @@ NASA research on military pilots and astronauts showed 40-minute naps improved p
    - Effect: Moderate increase
    - Daytime napping significantly improved cognitive performance post-nap (effect size=0.18, 95% CI: 0.09–0.27), with the largest effects for alertness (effect size=0.29); benefits peaked within 120 minutes of waking and were independent of sex and age.
    - [Link](https://doi.org/10.3390/ijerph181910212)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Short midday naps (10–40 min) consistently improve sustained attention (psychomotor vigilance) over subsequent hours vs. no-nap controls in laboratory-based RCT-design studies.
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  Meta-analysis and individual studies found naps improved working memory, especially when combined with adequate slow-wave sleep; 30-min naps showed the clearest benefits for memory encoding.
+
+- **Reaction Time** · Evidence: B · Effect: Moderate increase
+  Meta-analysis (effect size=0.18–0.29) showed significant overall cognitive performance improvement post-nap, with alertness showing the largest effect and benefits peaking within 120 minutes of waking.
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Naps of 10–60 minutes consistently improve positive mood and subjective alertness, with clear benefits across multiple within-subjects studies.
+

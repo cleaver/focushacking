@@ -4,7 +4,7 @@ slug: "mindful-walking"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "Multiple RCTs support the combined benefits of walking in nature on attention (Berman et al., 2008; Pasanen et al., 2018) and sleep/mood (Ma et al., 2022 RCT), but studies rarely isolate the mindfulness component from the nature/movement component, limiting attributable effect certainty."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Walk for 10–20 minutes, then pause to observe how your mental state has shifted.
   
 mechanism: "Mindful walking in natural environments activates Attention Restoration Theory's 'soft fascination' \u2014 effortless bottom-up attention driven by gentle sensory novelty \u2014 which allows the directed attention system (prefrontal cortex) to recover from fatigue; simultaneous movement activates hippocampal neurogenesis pathways and increases BDNF, further supporting cognitive restoration."
+session_time: "10\u201320 min"
 ---
 
 ## Mindful Walking
@@ -72,3 +73,15 @@ Jon Kabat-Zinn formally includes mindful walking in MBSR courses. Knowledge work
    - Effect: Moderate increase
    - Participants randomly assigned to nature vs urban walks showed significantly improved backward digit span (working memory) and Attention Network Task performance after the nature walk, supporting Attention Restoration Theory.
    - [Link](https://doi.org/10.1111/j.1467-9280.2008.02225.x)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Moderate increase
+  Berman et al. (2008, n=38, RCT) found nature walks improved backward digit span and Attention Network Test performance significantly vs urban walks; two Finnish field experiments (n=128, n=121) also found sustained attention improved after nature walks.
+
+- **Mood / Affect** · Evidence: C · Effect: Moderate increase
+  Ma et al. (2022, n=66, RCT of mindful nature walking) found significantly improved mood and reduced mood disturbance vs control; nature walk studies consistently show positive affect improvements across multiple designs.
+
+- **Stress Reduction** · Evidence: C · Effect: Moderate increase
+  Mindful nature walking RCT (Ma et al., 2022) found improved sleep quality and reduced stress; Pasanen et al. (2018) studies found greater restoration in more-stressed participants, indicating stress-buffering effects.
+

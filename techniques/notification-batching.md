@@ -4,7 +4,7 @@ slug: "notification-batching"
 category: "Technology"
 grade: "B"
 grade_detail: "Fitz et al. 2019 (Computers in Human Behavior, n=237, RCT) provides strong single-study evidence with a well-designed two-week randomized field experiment showing consistent effects across multiple wellbeing and attention outcomes. The study's size, real-world design, and replication by related interruption-cost research qualifies this for Grade B."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. After 2 weeks, evaluate whether any critical notifications were missed, and create exceptions only for genuinely time-sensitive channels.
   
 mechanism: "Real-time notifications exploit variable-ratio reward schedules \u2014 the most powerful reinforcement pattern in behavioral psychology \u2014 producing compulsive checking behavior even during focused work. Batching converts this to a fixed-ratio schedule delivered at predictable times, eliminating the chronic anticipatory vigilance that keeps the brain partially allocated to checking. The result is that full attentional capacity is available for the primary task between batch windows."
+session_time: "Ongoing (scheduled check windows)"
 ---
 
 ## Notification Batching
@@ -69,3 +70,15 @@ Writer and investor Kevin Kelly checks email three times per day on a schedule h
    - Effect: Large increase
    - Real-time communication interruptions forced workers to switch tasks every 3 minutes on average, each requiring 23+ minutes of recovery — batching consolidates these costs into 3 predictable daily periods.
    - [Link](https://doi.org/10.1145/1054972.1055017)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  RCT participants in the batched condition reported significantly greater attentiveness during the two-week study period compared to real-time notification recipients.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  Batched notification participants reported significantly lower stress levels, consistent with elimination of unpredictable variable-reward notification loops.
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Fitz et al. found batching participants reported being in a better mood and feeling more in control of their phone, with improved productivity self-ratings.
+

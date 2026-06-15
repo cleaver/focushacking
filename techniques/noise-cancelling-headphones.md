@@ -4,7 +4,7 @@ slug: "noise-cancelling-headphones"
 category: "Environment"
 grade: "B"
 grade_detail: "ANC headphones are primarily a noise-elimination tool; the cognitive benefits evidence is drawn from white noise studies (Cheng et al. 2022) showing moderate sustained attention improvements at 45 dB \u2014 but the headphone-as-device has not been independently RCT-tested; the instrument-agnostic evidence is Grade C with consistent directional results."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Inform colleagues that headphones on = do not disturb.
   
 mechanism: "ANC headphones eliminate unpredictable auditory transients (the primary cause of involuntary attentional capture) and when paired with steady-state noise create a consistent acoustic environment that reduces orienting response activation. This allows the prefrontal attentional control network to maintain a stable top-down focus set without the resource cost of suppressing unexpected sounds."
+session_time: "Ongoing during work sessions"
 ---
 
 ## Noise-Cancelling Headphones
@@ -62,3 +63,15 @@ Programmers at Silicon Valley companies (including many at Apple and Google) rou
    - Effect: Small increase
    - Low-intensity white noise facilitated auditory working memory performance via stochastic resonance, with an optimal signal-to-noise ratio of 10–5 dB SNR; right superior frontal gyrus activity correlated with performance enhancement.
    - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC6819787/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Cheng et al. 2022 found 45 dB white noise (achievable via ANC headphones) significantly improved continuous performance test scores versus ambient noise (95.23% vs 93.12%, p=0.02, d=0.51).
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  The same study found lower physiological stress markers under 45 dB white noise versus ambient office noise and versus louder 65 dB noise conditions.
+
+- **Task Completion** · Evidence: C · Effect: Small increase
+  Participants made significantly fewer errors on accuracy tasks under 45 dB white noise than under 65 dB or ambient noise conditions, with improved speed-accuracy tradeoff.
+

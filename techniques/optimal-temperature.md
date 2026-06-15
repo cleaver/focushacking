@@ -4,7 +4,7 @@ slug: "optimal-temperature"
 category: "Environment"
 grade: "B"
 grade_detail: "Multiple controlled experimental studies and a 2003 systematic review (Hancock & Vasmatzidis) consistently establish a non-linear relationship between temperature and cognitive performance, with clear impairment above 30\u00b0C WBGT and optimal performance around 21\u201325\u00b0C, meeting Grade B criteria for the sustained attention and working memory outcomes."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Monitor whether your temperature preference shifts between morning and afternoon sessions.
   
 mechanism: "Elevated ambient temperature increases metabolic demand for thermoregulation, competing with prefrontal cortex for limited attentional resources according to the Maximal Adaptability Model. When dynamic core temperature rises above homeostatic thresholds, cortical neurons in the frontal and parietal lobes receive reduced perfusion and altered EEG activity, impairing the neural substrates of working memory and sustained attention."
+session_time: "Ongoing (ambient condition)"
 ---
 
 ## Optimal Temperature
@@ -60,3 +61,15 @@ MIT Media Lab's environmental design research found that workers in temperature-
    - Effect: Large increase
    - Review of multiple laboratory studies established that cognitive performance is maximized at 17–23°C, with performance on vigilance and dual-task conditions degrading at the lowest levels of heat stress, and simple mental tasks showing impairment only near physiological collapse threshold.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/12745975/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Large increase
+  Hancock & Vasmatzidis 2003 established that vigilance tasks — the most attentionally demanding — are the most sensitive to heat stress, with impairment beginning at the lowest dynamic body temperature rises (0.055°C/hr) compared to simpler cognitive tasks.
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  Passive hyperthermia (50°C chamber) significantly impaired spatial span and visual memory (p<0.05) in a controlled counterbalanced study, with no effects on simpler attention tasks, confirming task-complexity dependence.
+
+- **Reaction Time** · Evidence: C · Effect: Mixed
+  Effects on simple reaction time are inconsistent — brief heat exposure may improve simple RT via increased neural conduction speed, but sustained heat impairs complex choice reaction time, with large individual variation.
+

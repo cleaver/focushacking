@@ -4,7 +4,7 @@ slug: "focus-playlists"
 category: "Environment"
 grade: "B"
 grade_detail: "Evidence for instrumental background music improving focus is mixed: Mehta et al. 2012 shows moderate noise enhances creativity, and RCTs on background music find that instrumental (vs lyric) music has neutral-to-positive effects on attention; however, effects are highly individual and task-dependent, and no RCT has specifically validated 'focus playlists' as a distinct intervention \u2014 warranting Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Experiment with genres: classical (Mozart, Bach), lo-fi hip-hop, ambient (Eno), or video game soundtracks (notably relaxing).
   
 mechanism: "Familiar, low-to-moderate-complexity instrumental music occupies the brain's predictive processing system sufficiently to suppress intrusive mind-wandering and external auditory distraction without imposing the parallel semantic processing demands of lyrics. Consistent use of the same playlist creates a Pavlovian conditioned stimulus that signals the focused work state, facilitating rapid attentional engagement through the prefrontal dopaminergic modulation of the default mode network."
+session_time: "Ongoing (background during work)"
 ---
 
 ## Focus Playlists
@@ -65,3 +66,15 @@ Spotify and YouTube offer dedicated 'Deep Focus' and 'Lo-Fi Beats' playlists wit
    - Effect: Mixed
    - Background music with lyrics had significant negative effects on concentration and attention in an RCT, while music without lyrics had no significant negative effect, supporting the use of instrumental-only focus playlists.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/22523045/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Controlled studies show music without lyrics has neutral-to-positive effects on concentration versus music with lyrics (which impairs attention), with instrumental music being preferable for language-dependent tasks.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Work-flow music condition in a 2025 PLOS ONE RCT produced significantly faster reaction times over time versus deep focus and silence conditions, with participants in the work-flow condition showing the steepest improvement slope.
+
+- **Task Completion** · Evidence: C · Effect: Mixed
+  Effects vary substantially by task type: creativity tasks benefit from moderate-level background sound; focused analytical tasks may be impaired by music with complex melodies or fast tempos.
+

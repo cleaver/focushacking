@@ -4,7 +4,7 @@ slug: "ivy-lee-method"
 category: "Time Management"
 grade: "A"
 grade_detail: "The Ivy Lee Method has no direct RCT evidence and predates modern experimental research; it is supported by the well-validated ego depletion / decision fatigue literature and goal-setting theory, but these do not test the specific sequential single-tasking constraint the method imposes."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Repeat the process every evening, adding the practice to your shutdown routine.
   
 mechanism: "Pre-sequencing all decisions about task order the prior evening converts the next morning's work from effortful deliberative planning into automatic execution; this preserves the full daily budget of self-regulatory resources (glucose, dopaminergic control signals) for high-quality task performance rather than meta-level planning."
+session_time: "5 min (evening planning)"
 ---
 
 ## Ivy Lee Method
@@ -61,3 +62,12 @@ A business consultant adopted the Ivy Lee Method and reports completing more hig
    - Effect: Moderate increase
    - Making choices and exercising self-control depleted a shared cognitive resource, resulting in poorer performance on subsequent self-regulation tasks; pre-ordering tasks the night before (Ivy Lee) converts morning planning from effortful decision-making into automatic execution.
    - [Link](https://doi.org/10.1037/0022-3514.74.5.1252)
+
+## Outcomes
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  Pre-committing to task order the night before is an implementation intention; the Gollwitzer & Sheeran meta-analysis (d=0.65) supports its efficacy for follow-through, but the Ivy Lee Method specifically has not been studied.
+
+- **Working Memory** · Evidence: D · Effect: Small increase
+  By providing a pre-defined task sequence, the method eliminates moment-to-moment deliberation about what to work on next, conserving working memory and executive function for task execution rather than planning.
+

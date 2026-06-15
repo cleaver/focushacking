@@ -4,7 +4,7 @@ slug: "desk-stretching-routine"
 category: "Physical"
 grade: "B"
 grade_detail: "The micro-break literature consistently shows that periodic brief breaks prevent the vigilance decrement in sustained attention tasks; the specific value of physical movement (vs. non-physical breaks) is moderately supported across RCT-quality studies, though stretching-specific studies are fewer than break-in-general studies."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Finish with 5 deep diaphragmatic breaths before returning to work.
   
 mechanism: "Prolonged static posture reduces cerebral blood flow and accumulates physical tension that activates low-level sympathetic arousal, impeding prefrontal cortex function. Desk stretching counteracts this by stimulating baroreceptors, increasing venous return, and activating the parasympathetic nervous system \u2014 restoring prefrontal blood flow and breaking the neural habituation (task representation saturation) that underlies the vigilance decrement during sustained cognitive work."
+session_time: "5\u201310 min"
 ---
 
 ## Desk Stretching Routine
@@ -67,3 +68,18 @@ Software teams at Amazon and Spotify incorporate 'movement breaks' every 60 minu
    - Effect: Moderate increase
    - Brief task interruptions (deactivating the current mental set) reversed the neural habituation causing performance decline during prolonged focused work, restoring vigilance and sustained attention performance.
    - [Link](https://doi.org/10.1016/j.cognition.2010.12.007)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Ariga & Lleras (2011) in Cognition demonstrated that brief task disengagement (including physical breaks) prevents the habitual neural adaptation that degrades sustained attention during prolonged work.
+
+- **Mood / Affect** · Evidence: B · Effect: Small increase
+  Micro-movement breaks reduce physical discomfort and fatigue from prolonged sitting, which are known contributors to negative affect and reduced motivation for cognitive work.
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  Physical stretching activates the parasympathetic system and reduces muscle tension-related sympathetic arousal, but RCT data for this specific pathway on cognitive stress measures are limited.
+
+- **Reaction Time** · Evidence: C · Effect: Small increase
+  Physical movement breaks increase cerebral blood flow, which may improve processing speed, but direct RCT measurements of reaction time post-desk-stretching are scarce.
+

@@ -4,7 +4,7 @@ slug: "cognitive-offloading-gtd-system"
 category: "Cognitive"
 grade: "B"
 grade_detail: "Cognitive offloading (externalizing tasks to reduce working memory load) has RCT-level support as a general phenomenon, but the specific GTD system has not been tested in RCTs. Studies confirm the Zeigarnik-based mechanism, but direct comparisons of GTD vs. control conditions are limited to observational data, capping this at Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Trust the system: when the mind wants to remember something, capture it immediately, then return to task.
   
 mechanism: "Uncaptured tasks create persistent Zeigarnik-effect intrusions \u2014 the brain repeatedly re-activates representations of unfinished goals to prevent forgetting, consuming working memory capacity that would otherwise be available for current tasks. Capturing tasks in a trusted external system signals the brain to suppress these intrusions, releasing attentional resources for the work at hand."
+session_time: "Ongoing system; 30 min daily processing"
 ---
 
 ## Cognitive Offloading (GTD System)
@@ -69,3 +70,15 @@ David Allen himself, engineers at IBM, and government officials in Europe have i
    - Effect: Moderate increase
    - Individuals strategically offload memory items when they assess their own memory reliability as low, and this offloading behavior reliably boosts performance on tasks requiring full attentional engagement.
    - [Link](https://doi.org/10.1016/j.cognition.2019.104012)
+
+## Outcomes
+
+- **Working Memory** · Evidence: C · Effect: Moderate increase
+  Experimental studies confirm that externalizing to-do items frees working memory resources for current tasks, consistent with the GTD rationale.
+
+- **Sustained Attention** · Evidence: C · Effect: Moderate increase
+  Cognitive offloading research shows reduced intrusive thoughts about unfinished tasks when captured in an external system, allowing longer periods of uninterrupted focus.
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  Self-report studies of GTD practitioners show reduced cognitive load and stress, but controlled RCT evidence for GTD specifically is lacking.
+

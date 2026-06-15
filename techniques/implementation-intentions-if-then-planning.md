@@ -4,7 +4,7 @@ slug: "implementation-intentions-if-then-planning"
 category: "Cognitive"
 grade: "A"
 grade_detail: "Gollwitzer & Sheeran's 2006 meta-analysis of 94 independent tests (d = 0.65) provides strong evidence for implementation intentions improving goal attainment, meeting the Grade A threshold of \u22651 large meta-analysis with consistent moderate-to-large effects."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Review completion at day's end and adjust the if-then formula if necessary.
   
 mechanism: "Implementation intentions create prospective memory links between specific environmental cues and planned responses in the prefrontal cortex, making goal-directed behavior partially automatic. When the 'if' cue is encountered, the 'then' response is triggered with minimal deliberative effort, bypassing motivational depletion and the intention-action gap."
+session_time: "5 min (planning)"
 ---
 
 ## Implementation Intentions (If-Then Planning)
@@ -70,3 +71,15 @@ Personal trainer and writer James Clear uses implementation intentions in his ha
    - Effect: Large increase
    - Across 94 independent tests, implementation intentions produced a medium-to-large positive effect on goal attainment (d = 0.65), operating through enhanced situational cue accessibility and automatized goal-directed responses.
    - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
+
+## Outcomes
+
+- **Task Completion** · Evidence: A · Effect: Large increase
+  94-study meta-analysis found a medium-to-large effect (d = 0.65) on goal attainment across health, academic, and professional domains.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  If-then plans for managing distractions (e.g., 'If I feel the urge to check social media, then I will close the tab') show consistent improvement in task-focus maintenance across RCTs.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  Contingency implementation intentions help individuals navigate obstacle situations and redirect attention back to goal-relevant behavior, reducing cognitive perseveration on distractions.
+

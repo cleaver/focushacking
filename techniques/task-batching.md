@@ -4,7 +4,7 @@ slug: "task-batching"
 category: "Time Management"
 grade: "B"
 grade_detail: "Task batching lacks direct RCTs but is strongly supported by multiple observational and quasi-experimental studies on context-switching costs and interruption effects; the evidence base is consistent but observational, capping grade at C under the rubric."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Review after two weeks to see which batching windows work best for your schedule.
   
 mechanism: "Each task switch incurs a reconfiguration cost as the prefrontal cortex must unload the current task's goal context and reload the new one; batching minimizes the total number of these context-load/unload cycles per day, preserving executive function resources and reducing the attentional residue that each switch leaves behind."
+session_time: "Ongoing (dedicated batch windows)"
 ---
 
 ## Task Batching
@@ -70,3 +71,15 @@ A journalist checks email only at 8 AM and 4 PM, batching all correspondence int
    - Effect: Mixed
    - Observational field study of office workers found that after interruptions, people worked significantly faster to compensate but produced more stress and errors; the average uninterrupted task duration was only 3 minutes before context switching.
    - [Link](https://doi.org/10.1145/1357054.1357072)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Moderate increase
+  Mark et al. (2008, CHI) found workers averaged only 3 minutes per task before interruption, and interrupted workers worked faster but with more errors and stress; batching eliminates these micro-interruptions during deep work blocks.
+
+- **Stress Reduction** · Evidence: D · Effect: Small increase
+  The Mark et al. study found interruptions significantly increased reported stress and frustration; eliminating these through batching should reduce stress, but no RCT has directly tested stress outcomes of email batching specifically.
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  Self-report studies of email batching (2x daily vs continuous) show productivity improvements, but lack random assignment and validated objective productivity metrics.
+

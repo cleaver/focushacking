@@ -4,7 +4,7 @@ slug: "open-monitoring-meditation"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "Open monitoring meditation is supported by multiple RCTs showing improvements in executive attention and metacognitive monitoring; Ainsworth et al. (2013, n=57) and dismantling RCTs (Britton et al., 2018) directly test OM as an isolated condition, though effect sizes are moderate and sample sizes modest."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. After the session, journal briefly on any recurring thought patterns you noticed.
   
 mechanism: "Open monitoring trains metacognitive awareness by repeatedly practicing the recognition of mental events (thoughts, sensations, distractions) without engagement or suppression; this strengthens the prefrontal monitoring circuits that detect mind-wandering and enable rapid, low-cost redirection of attention without the emotional reactivity that typically hijacks focus."
+session_time: "15\u201320 min"
 ---
 
 ## Open Monitoring Meditation
@@ -68,3 +69,15 @@ Experienced Zen practitioners and researchers like John Dunne (UW-Madison) use o
    - Effect: Moderate increase
    - Both FA and OM meditation significantly improved executive attention network function versus waitlist control; OM particularly enhanced non-reactive open monitoring — the metacognitive awareness dimension most relevant to preventing distraction.
    - [Link](https://doi.org/10.1016/j.psychres.2013.09.002)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Ainsworth et al. (2013, n=57, RCT) found both FA and OM meditation improved executive attention network performance, with OM producing a non-reactive monitoring style that reduces distraction-driven attention failures.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  Lippelt, Hommel & Colzato (2014) review found OM meditation selectively improved divergent thinking and reduced cognitive rigidity compared to focused attention practices, reflecting enhanced flexible attentional monitoring.
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  Zainal & Newman (2023) meta-analysis found significant working memory accuracy improvements from MBIs overall (which include OM training); OM-specific effects on working memory have not been isolated in a large enough sample to confirm independently.
+

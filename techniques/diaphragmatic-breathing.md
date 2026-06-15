@@ -4,7 +4,7 @@ slug: "diaphragmatic-breathing"
 category: "Breathing"
 grade: "B"
 grade_detail: "A rigorous RCT (Ma et al. 2017, n=40) directly demonstrated significant improvement in sustained attention and reduced cortisol after 8 weeks of diaphragmatic breathing training; systematic reviews support the mechanism, yielding Grade B evidence for the attention and stress-reduction outcomes."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Practice 10–20 minutes daily for 8 weeks to produce lasting attention improvements.
   
 mechanism: "Diaphragmatic breathing at 4\u20138 breaths/min maximizes respiratory sinus arrhythmia and baroreflex gain, increasing parasympathetic tone via vagal efference. Reduced HPA axis activation lowers circulating cortisol, and increased prefrontal cortex\u2013hippocampus functional connectivity enhances the neural substrates of sustained attention."
+session_time: "10\u201320 min"
 ---
 
 ## Diaphragmatic Breathing
@@ -69,3 +70,15 @@ Voice actors, broadcasters, and singers use diaphragmatic breathing as their pri
    - Effect: Moderate increase
    - Slow breathing at 6 breaths/min produced highly significant increases in baroreflex sensitivity in both healthy controls and CHF patients, demonstrating the autonomic substrate of diaphragmatic breathing's cognitive benefits.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/11790690/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Ma et al. 2017 RCT found a significant group × time interaction on Number Cancellation Test scores (ηp²=0.21) after 8 weeks of training compared to controls.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  The same RCT showed a significant group × time interaction for salivary cortisol, with the breathing intervention group showing significantly lower post-training cortisol levels.
+
+- **Mood / Affect** · Evidence: B · Effect: Small increase
+  Negative Affect Schedule (PANAS) scores decreased significantly after intervention, while positive affect was unchanged, indicating specific anxiolytic benefit.
+

@@ -4,7 +4,7 @@ slug: "digital-minimalism"
 category: "Technology"
 grade: "B"
 grade_detail: "RCT evidence for social media restriction (Hunt et al. 2018; Montag et al. 2024) shows moderate effects on depression and loneliness when use is limited, and correlational evidence consistently links high discretionary app use to reduced wellbeing and attention. However, the Digital Minimalism protocol itself (30-day declutter + reintroduction) has not been tested in a pre-registered RCT, and available RCTs test social media abstinence rather than the curated minimalism approach, warranting Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "advanced"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Review and prune your digital tool set quarterly.
   
 mechanism: "Digital minimalism removes the structural conditions that produce attentional fragmentation \u2014 specifically, the variable-ratio reward loops of social media feeds that continuously redirect attention toward novelty-seeking rather than deep work. By eliminating non-essential apps from the device ecosystem entirely (rather than imposing limits on them), it prevents the dopaminergic habituation and checking automaticity that weak interventions (timers, willpower) fail to overcome."
+session_time: "Ongoing (lifestyle restructuring)"
 ---
 
 ## Digital Minimalism
@@ -69,3 +70,15 @@ Cal Newport deleted all social media accounts in 2016 and has written three book
    - Effect: Moderate increase
    - Higher frequency of social media platform visits was significantly associated with increased depression symptoms independent of demographic covariates, with a dose-response relationship supporting the digital minimalism rationale.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/26783723/)
+
+## Outcomes
+
+- **Mood / Affect** · Evidence: C · Effect: Moderate increase
+  RCT evidence shows limiting social media use to ~30 min/day significantly reduces depression and loneliness scores, which is the core mechanism of digital minimalism for wellbeing.
+
+- **Sustained Attention** · Evidence: C · Effect: Moderate increase
+  Observational data and theory suggest digital minimalism increases available daily attention by eliminating habitual app-checking routines, though direct RCT evidence on attention quality is lacking.
+
+- **Stress Reduction** · Evidence: C · Effect: Moderate increase
+  Social media restriction trials show reduced anxiety and FOMO symptoms, with effects strongest for those with baseline high depression or problematic use.
+

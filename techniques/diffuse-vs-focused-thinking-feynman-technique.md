@@ -4,7 +4,7 @@ slug: "diffuse-vs-focused-thinking-feynman-technique"
 category: "Cognitive"
 grade: "B"
 grade_detail: "The retrieval practice component (the core of the Feynman Technique) has strong RCT support across dozens of studies showing consistent moderate-to-large effects on retention and comprehension. The diffuse-thinking alternation component has weaker direct evidence. The combination justifies Grade B for the technique as a whole."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Return and re-explain the concept, incorporating the new understanding, then test yourself.
   
 mechanism: "Retrieval practice (explaining without notes) forces the hippocampus to reconstruct memory traces rather than passively re-encode them, producing stronger and more retrievable memory representations through reconsolidation. The subsequent diffuse-mode rest period allows default mode network activation, which supports memory integration and insight formation by connecting newly learned material to prior knowledge schemas."
+session_time: "45\u201390 min"
 ---
 
 ## Diffuse vs. Focused Thinking (Feynman Technique)
@@ -71,3 +72,15 @@ Richard Feynman used this method to master every physics topic from first princi
    - Effect: Large increase
    - Students who practiced retrieval (testing themselves) retained 46% more material after one week than students who spent equal time re-reading, with the advantage increasing at longer retention intervals.
    - [Link](https://doi.org/10.1111/j.1745-6924.2006.tb00076.x)
+
+## Outcomes
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  Active generation and retrieval strengthen memory traces more than passive re-reading, as demonstrated by the testing effect literature.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  The cyclic focused/diffuse structure prevents sustained attention fatigue by interspersing rest periods that support memory consolidation and creative insight.
+
+- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
+  Explaining material in simplified terms forces analogical reasoning and cross-domain connections, modestly improving cognitive flexibility for the studied domain.
+

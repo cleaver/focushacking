@@ -4,7 +4,7 @@ slug: "mindful-journaling"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "Expressive writing has multiple RCTs showing benefits for stress, intrusive thinking, and working memory capacity, but effects on direct cognitive focus outcomes are small and inconsistent across studies; most research uses non-clinical student samples with limited generalizability."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -36,6 +36,7 @@ how_to_do_it: |
   6. Note one key insight or lingering concern and then set it aside with a plan to address it later.
   
 mechanism: "Expressive writing about worries and intrusive thoughts externalizes the cognitive content occupying working memory, reducing the attentional capture of emotionally charged mental material. By processing unresolved emotional concerns, journaling frees up working memory capacity and lowers the resting activation of the amygdala, allowing prefrontal attentional control systems to operate with less interference."
+session_time: "10\u201315 min"
 ---
 
 ## Mindful Journaling
@@ -73,3 +74,18 @@ Morning pages — three pages of longhand stream-of-consciousness writing popula
    - Effect: Small increase
    - Expressive writing about past failures enhanced striatal activation to positive feedback during a subsequent learning task, suggesting expressive writing facilitates neural resource availability for new learning.
    - [Link](https://doi.org/10.3389/fnhum.2019.00389)
+
+## Outcomes
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  Two small experiments (n=28 and n=38) found expressive writing about stressful events increased working memory capacity in university students but not in younger adolescents, suggesting small and population-specific effects.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  Pennebaker's expressive writing paradigm has well-replicated evidence across RCTs for reducing perceived stress, intrusive thoughts, and physiological stress markers in diverse populations.
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Expressive writing about emotional experiences consistently reduces negative affect and improves psychological well-being across multiple controlled trials.
+
+- **Sustained Attention** · Evidence: D · Effect: Insufficient data
+  No direct RCTs have measured the effect of mindful journaling on sustained attention or vigilance task performance; effects on attention are inferred indirectly via working memory and stress reduction.
+

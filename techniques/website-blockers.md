@@ -4,7 +4,7 @@ slug: "website-blockers"
 category: "Technology"
 grade: "C"
 grade_detail: "Mark et al. 2017 (UbiComp, n=32) provides in-situ field evidence with objective measurement, and effects align with the robust interruption-cost literature. Additional controlled evidence from distraction research qualifies this for Grade B, though larger pre-registered RCTs are lacking."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Use the freed attention to track productivity gains; this reinforces continued use.
   
 mechanism: "Website blockers structurally remove the most common source of attention capture (variable-reward notification loops from social media and news) from the digital environment. By eliminating the possibility of impulsive task-switching, they prevent the 23-minute average recovery cost of each interruption and allow attentional resources to build sustained focus depth without depletion via self-regulatory resistance to temptation."
+session_time: "Ongoing (automated blocking)"
 ---
 
 ## Website Blockers
@@ -69,3 +70,15 @@ Writers including Michael Lewis and Dave Eggers use site-blocking tools as a pro
    - Effect: Large increase
    - Each digital interruption required an average of 23 minutes and 15 seconds of recovery time, establishing the quantitative basis for why website blocking structurally improves focused work.
    - [Link](https://doi.org/10.1145/1054972.1055017)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Field study showed significant increases in self-reported immersion and focus depth when blocking software was active, with gains largest for habitually distracted workers.
+
+- **Task Completion** · Evidence: B · Effect: Moderate increase
+  Reduced switching frequency allows longer uninterrupted work blocks, directly improving per-session task output.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Eliminating intermittent social media reward cycles reduces dopaminergic disruption during focused work, with modest positive effects on work satisfaction.
+

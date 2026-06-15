@@ -4,7 +4,7 @@ slug: "mit-most-important-tasks"
 category: "Time Management"
 grade: "B"
 grade_detail: "The MIT technique lacks direct RCTs, but it is a practical application of well-validated goal-setting theory (Locke & Latham, 500+ studies, d\u22480.55) and self-regulated learning principles; the three-task constraint reduces decision fatigue but has no unique controlled study evidence."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -30,6 +30,7 @@ how_to_do_it: |
   6. At day's end, evaluate completion and carry unfinished MITs to the next morning list.
   
 mechanism: "Pre-selecting three priorities the night before or morning reduces ongoing goal-conflict interference in working memory throughout the day; explicit prioritization engages dorsolateral prefrontal cortex in pre-task planning, lowering the attentional cost of deciding what to work on during execution."
+session_time: "5 min (planning) + dedicated work blocks"
 ---
 
 ## MIT (Most Important Tasks)
@@ -57,3 +58,12 @@ A startup founder uses MIT each morning to select the three most business-critic
    - Effect: Moderate increase
    - Meta-analysis of 87 studies found specific, difficult goals consistently improved performance over vague or easy goals (d=0.54), supporting the prioritization mechanism at the core of the MIT approach.
    - [Link](https://doi.org/10.1037/0021-9010.71.3.474)
+
+## Outcomes
+
+- **Task Completion** · Evidence: C · Effect: Moderate increase
+  Goal-setting research (Locke & Latham meta-analysis, 500+ studies) consistently shows that specific, challenging goals increase task completion rates by 16–20% compared to do-your-best conditions; MIT operationalizes this daily.
+
+- **Sustained Attention** · Evidence: D · Effect: Small increase
+  By pre-committing to three priorities, MIT reduces goal-conflict interference and may reduce mind-wandering, but this mechanism has not been tested with objective attention measures in the context of the MIT technique specifically.
+

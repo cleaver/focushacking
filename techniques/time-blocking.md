@@ -4,7 +4,7 @@ slug: "time-blocking"
 category: "Time Management"
 grade: "A"
 grade_detail: "Time blocking has no direct RCTs testing it as an isolated intervention; the strongest proxy evidence comes from a large meta-analysis on implementation intentions (94 studies, d=0.65) and Leroy's attention residue research, but these do not specifically test time blocking as a practice."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. After one week, audit where blocks overran and recalibrate estimates.
   
 mechanism: "Time blocking converts vague goals into concrete implementation intentions ('at 9 AM in my office, I will write the report'), which neurologically automate task initiation by pre-loading the relevant action in prefrontal cortex, reducing decision fatigue and vulnerability to distraction."
+session_time: "Ongoing (daily planning: 10\u201315 min)"
 ---
 
 ## Time Blocking
@@ -69,3 +70,15 @@ Cal Newport, Georgetown computer science professor, uses daily time-block plans 
    - Effect: Moderate increase
    - Across 94 independent tests, forming implementation intentions (specifying when, where, and how to act) produced a medium-to-large positive effect on goal attainment (d=0.65), the core cognitive mechanism that time blocking operationalizes.
    - [Link](https://doi.org/10.1016/S0065-2601(06)38002-1)
+
+## Outcomes
+
+- **Task Completion** · Evidence: C · Effect: Moderate increase
+  Gollwitzer & Sheeran's meta-analysis (94 studies, n>8,000, d=0.65) shows that specifying when and where to act — the core mechanism of time blocking — produces medium-to-large goal achievement gains.
+
+- **Sustained Attention** · Evidence: D · Effect: Small increase
+  Leroy (2009) demonstrated that tasks with undefined endpoints create attention residue that reduces focus on subsequent work; time blocking's defined endpoints theoretically reduce this, but no direct RCT has tested this specific mechanism.
+
+- **Stress Reduction** · Evidence: NI · Effect: Insufficient data
+  No direct RCT evidence exists for time blocking reducing subjective stress; correlational surveys suggest structured scheduling reduces anxiety, but evidence is observational.
+

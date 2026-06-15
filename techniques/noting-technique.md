@@ -4,7 +4,7 @@ slug: "noting-technique"
 category: "Mindfulness"
 grade: "B"
 grade_detail: "The neurological mechanism (affect labeling \u2192 reduced amygdala activity \u2192 increased PFC control) is well-supported by fMRI RCT evidence; indirect evidence from broader mindfulness RCTs supports attention improvements; specific noting-technique RCTs for cognitive focus are limited but mechanistically strong."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Over time, transfer the noting skill into work sessions to quickly recognize and release distracting thoughts.
   
 mechanism: "Noting activates the right ventrolateral prefrontal cortex during affect labeling, which directly inhibits amygdala activity through top-down regulation \u2014 reducing the attentional capture power of emotionally charged thoughts. This metacognitive labeling practice also trains the observer stance of the meditator, strengthening the default mode network's capacity to disengage from spontaneous thoughts and return attention to the chosen task."
+session_time: "15\u201320 min"
 ---
 
 ## Noting Technique
@@ -72,3 +73,18 @@ Insight meditation (Vipassana) teachers and therapists trained in ACT teach clie
    - Effect: Moderate increase
    - Labeling emotional experiences significantly reduced right amygdala activation while increasing right ventrolateral PFC activity, demonstrating the neurological mechanism by which noting attenuates emotional interference with attention.
    - [Link](https://doi.org/10.1111/j.1467-9280.2007.01916.x)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Broad meta-analytic evidence from mindfulness RCTs supports improvements in sustained attention; noting is a core component of open-monitoring meditation, which has specific evidence for reduced mind wandering and improved attention task performance.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  Affect labeling (the cognitive mechanism of noting) is shown in RCT-grade neuroimaging studies to reduce amygdala hyperactivation, directly lowering physiological stress response.
+
+- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
+  Open monitoring meditation — which noting exemplifies — has emerging evidence for improving cognitive flexibility via training attentional set-shifting, though specific noting-only RCTs are scarce.
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Affect labeling consistently reduces emotional arousal and negative affect intensity, as demonstrated in multiple fMRI and behavioral RCTs studying the naming/labeling of emotional states.
+

@@ -4,7 +4,7 @@ slug: "phone-free-zone"
 category: "Environment"
 grade: "D"
 grade_detail: "Ward et al. 2017 (n=800, two experiments) provides the strongest direct evidence, demonstrating a significant dose-response relationship between phone proximity and cognitive capacity reduction; however, effect sizes are small-to-moderate and the study uses a cross-sectional between-subjects design without a true RCT structure, warranting Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Use a physical alarm clock for timers rather than your phone.
   
 mechanism: "The smartphone functions as a cue that activates its associated goal-state representations (checking messages, social comparison, entertainment) in prefrontal cortex via conditioned habit circuitry. Even when suppressed from conscious awareness, these activated goal states occupy limited-capacity attentional control resources through chronic inhibitory competition, leaving fewer resources available for the current cognitive task \u2014 a process analogous to the attentional cost of holding suppressed thoughts in mind."
+session_time: "Ongoing (environmental constraint)"
 ---
 
 ## Phone-Free Zone
@@ -61,3 +62,15 @@ Cal Newport does not own a smartphone. Tristan Harris (former Google design ethi
    - Effect: Moderate increase
    - Heavy media multitaskers — individuals with habitual high smartphone and media use — showed significantly worse working memory filtering, attentional focus, and task-switching performance than light multitaskers, establishing the cognitive costs of chronic smartphone engagement.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/19706386/)
+
+## Outcomes
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  Ward et al. 2017 Experiment 1 showed phone-in-another-room participants scored significantly higher on working memory capacity tests than phone-on-desk participants (even when face-down and off).
+
+- **Sustained Attention** · Evidence: C · Effect: No effect
+  Experiment 2 found no significant effect on a behavioral measure of sustained attention (Sustained Attention to Response Task), suggesting the drain is primarily on working memory/fluid intelligence rather than raw attentional vigilance.
+
+- **Cognitive Flexibility** · Evidence: D · Effect: Small increase
+  Fluid intelligence (Gf) — which supports flexible problem-solving — was significantly reduced by phone presence, consistent with the attentional resource depletion mechanism, but this was only measured once with no replication.
+

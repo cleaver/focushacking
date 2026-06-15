@@ -4,7 +4,7 @@ slug: "app-timers"
 category: "Technology"
 grade: "B"
 grade_detail: "Studies show app timers increase awareness of usage patterns but have limited evidence for durable reduction in compulsive checking or improvement in focused work quality. Most evidence is self-report, small-n, or shows effects only for highly motivated users. No published RCTs specifically test app timers' effect on focus outcomes, warranting Grade D."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Review weekly usage reports to track improvement and adjust limits.
   
 mechanism: "App timers leverage metacognitive awareness \u2014 surfacing habitual, unconscious phone-checking behavior into conscious evaluation \u2014 which can interrupt automatic checking routines. However, because the behavior is driven by variable-reward dopaminergic loops, a soft timer override option preserves the compulsive pull and limits the structural behavior change that harder blocking approaches (website blockers) achieve."
+session_time: "Ongoing (passive monitoring + brief weekly review)"
 ---
 
 ## App Timers
@@ -71,3 +72,15 @@ Athletes in the Performance Program at the US Olympic Training Center use app ti
    - Effect: No effect
    - App usage notifications did not significantly reduce smartphone screen time or checking frequency compared to controls, suggesting friction-only interventions without behavior change support have limited impact.
    - [Link](https://doi.org/10.1016/J.CHB.2019.08.007)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: D · Effect: Small increase
+  App timers create friction around compulsive checking, but highly motivated users can override them, limiting effectiveness in real-world focus protection.
+
+- **Mood / Affect** · Evidence: D · Effect: Mixed
+  Some users report reduced anxiety from awareness of use patterns; others experience frustration from arbitrary limits, with highly variable individual outcomes.
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  Observational data suggests awareness of daily app limits modestly reduces social media checking during work hours for users who do not override limits.
+

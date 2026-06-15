@@ -4,7 +4,7 @@ slug: "loving-kindness-meditation-metta"
 category: "Mindfulness"
 grade: "A"
 grade_detail: "A meta-analysis of 24 studies (Zeng et al., 2015, n=1,759) found medium effect sizes for LKM on positive emotions in waitlist-controlled RCTs (g\u22480.39\u20130.42), with consistent results across 10 RCTs specifically; the Fredrickson et al. (2008) foundational RCT (n=139) provides additional support, though effects on attention specifically remain limited."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Close with 2 minutes of open, resting awareness before gently opening your eyes.
   
 mechanism: "LKM activates the broaden-and-build cycle: positive emotions induced by directing goodwill expand cognitive and emotional bandwidth, reduce threat vigilance mediated by the amygdala, and build durable personal resources (mindfulness, resilience) that improve the affective stability required for sustained attention and deep work."
+session_time: "15\u201320 min"
 ---
 
 ## Loving-Kindness Meditation (Metta)
@@ -70,3 +71,15 @@ Teachers and therapists practice LKM before sessions involving difficult clients
    - Effect: Moderate increase
    - Working adults randomized to LKM practice showed progressive increases in daily positive emotions, which in turn built mindfulness, purpose in life, and social support, and reduced illness symptoms — all supporting resources for cognitive performance.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/18954193)
+
+## Outcomes
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Zeng et al. (2015) meta-analysis of 10 waitlist-controlled RCTs found medium effect sizes for LKM on high-arousal positive emotions (g=0.40) and low-arousal positive emotions (g=0.39), with consistent results.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  Fredrickson et al. (2008, n=139, RCT) found LKM reduced illness symptoms and built psychological resilience resources; meta-analytic evidence confirms LKM reduces self-reported stress and increases well-being moderately.
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Unlike focused-attention meditation, LKM does not primarily train sustained attention; Lee et al. (2012) fMRI study found LKM expertise did not improve attention task performance, though it enhanced emotional regulation relevant to attentional presence.
+

@@ -4,7 +4,7 @@ slug: "eat-the-frog"
 category: "Time Management"
 grade: "A"
 grade_detail: "No RCTs directly test 'Eat the Frog' as a named technique; grade C is assigned based on strong proxy evidence from implementation intention meta-analyses (d=0.65) and decision fatigue research, with the mechanism well-supported but direct intervention trials absent."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Repeat the identification process each evening to maintain the habit.
   
 mechanism: "Tackling the most important task at day's onset exploits peak morning prefrontal cortex efficiency (highest after sleep-mediated restoration of glucose and neurotransmitters) and avoids the progressive depletion of executive function resources that accumulates through decision-making and lower-priority task switching."
+session_time: "60\u201390 min (first thing in the morning)"
 ---
 
 ## Eat the Frog
@@ -62,3 +63,15 @@ A PhD student struggling to write dissertation chapters schedules 7–9 AM for w
    - Effect: Moderate increase
    - Self-control and decision-making draw on a shared resource that depletes with use; completing the hardest task first, when this resource is maximally replenished after sleep, preserves cognitive capacity for the rest of the day.
    - [Link](https://doi.org/10.1037/0022-3514.74.5.1252)
+
+## Outcomes
+
+- **Task Completion** · Evidence: C · Effect: Moderate increase
+  Implementation intention meta-analyses (Gollwitzer & Sheeran, 2006; n>8,000) show that pre-specifying the first task of the day is the strongest predictor of follow-through, directly supporting the core mechanism of Eat the Frog.
+
+- **Stress Reduction** · Evidence: D · Effect: Small increase
+  Completing the most aversive task first theoretically reduces anticipatory anxiety throughout the day, supported by research on the psychological benefits of task completion, but no RCT has measured cortisol or validated stress instruments before vs after adopting this practice.
+
+- **Sustained Attention** · Evidence: D · Effect: Small increase
+  Morning prioritization aligns high-demand tasks with peak circadian cortisol and alertness, but the 'morning is best for cognition' claim varies considerably by chronotype and lacks large-scale validation.
+

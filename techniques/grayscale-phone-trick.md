@@ -4,7 +4,7 @@ slug: "grayscale-phone-trick"
 category: "Technology"
 grade: "B"
 grade_detail: "Two small experimental studies (Holte & Ferraro 2020; Dekker & Baumgartner 2023) show modest screen-time reductions (~15\u201320 minutes/day), but sample sizes are small (n=41 and n=84), effects are inconsistent across outcomes, and no study shows improvement in focused work quality. Evidence is insufficient for Grade C, warranting Grade D."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Use color mode only for specific tasks where color information is necessary (photo editing, navigation).
   
 mechanism: "Smartphone app interfaces use high-saturation colors (red badges, notification dots, vibrant icons) to exploit the visual system's preferential attention allocation toward color-salient stimuli, triggering dopaminergic curiosity responses. Grayscale mode reduces the visual salience of these cues, theoretically lowering their reward prediction value and reducing the frequency of stimulus-driven (vs. intention-driven) app access \u2014 though the effect appears modest and habituates over time."
+session_time: "Ongoing (permanent mode change)"
 ---
 
 ## Grayscale Phone Trick
@@ -68,3 +69,15 @@ Former Google design ethicist Tristan Harris was among the first public advocate
    - Effect: Small increase
    - College students in the grayscale condition showed a statistically significant reduction in daily smartphone screen time compared to the color condition, providing preliminary evidence for the intervention.
    - [Link](https://doi.org/10.1080/03623319.2020.1737461)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: D · Effect: Small increase
+  Reduced screen time from grayscale may indirectly increase available focus time, but no study has directly measured attention quality improvements.
+
+- **Mood / Affect** · Evidence: D · Effect: Mixed
+  Dekker & Baumgartner (2023) found reduced stress and perceived overuse, but no significant productivity or sleep quality improvements.
+
+- **Task Completion** · Evidence: NI · Effect: Insufficient data
+  No published study has measured the effect of grayscale mode specifically on task completion or focused work output.
+

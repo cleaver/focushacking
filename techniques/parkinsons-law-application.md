@@ -4,7 +4,7 @@ slug: "parkinsons-law-application"
 category: "Time Management"
 grade: "C"
 grade_detail: "Parkinson's Law itself is an aphorism with no direct RCT evidence; supporting research on time pressure effects on performance exists but shows inconsistent results \u2014 moderate pressure helps, extreme pressure hurts \u2014 and no study has tested deliberate self-imposed deadline manipulation as a productivity strategy."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Use the saved time to tackle the next task or rest, not to polish endlessly.
   
 mechanism: "Artificially shortened deadlines activate mild urgency signaling through the anterior cingulate cortex, which narrows attentional focus onto task-relevant information and suppresses perfectionist revision loops; the time constraint effectively raises the perceived cost of low-value refinements, forcing the brain to prioritize high-impact actions."
+session_time: "Varies per task"
 ---
 
 ## Parkinson's Law Application
@@ -59,3 +60,12 @@ An author sets a rule: any article under 2,000 words must be drafted in 90 minut
    - Effect: Mixed
    - Daily diary study of knowledge workers found a non-linear (inverted-U) relationship between time pressure and creative cognitive engagement; moderate pressure improved focus while extreme pressure undermined creativity.
    - [Link](https://hbr.org/2002/07/creativity-under-the-gun)
+
+## Outcomes
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  Amabile et al. (2002) found a non-linear relationship between time pressure and creative output in diary studies of 177 employees; moderate pressure was associated with higher focus, but this was observational and self-reported.
+
+- **Sustained Attention** · Evidence: D · Effect: Mixed
+  Research on time pressure shows it narrows attentional focus (tunneling), which can improve single-task efficiency but impairs broader creative or multi-step problem solving depending on task type.
+

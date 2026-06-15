@@ -4,7 +4,7 @@ slug: "2-minute-rule"
 category: "Time Management"
 grade: "B"
 grade_detail: "The 2-Minute Rule has no direct RCT evidence; supporting evidence comes from cognitive offloading theory and Zeigarnik effect research (observational), which are consistent with the mechanism but cannot confer a grade above D under the rubric."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Use captured two-minute completions as momentum-builders at the start of a work session.
   
 mechanism: "Every unresolved task creates a persisting subgoal representation in working memory (the Zeigarnik effect) that periodically competes for attentional resources; the 2-minute rule resolves these representations on intake, preventing accumulation of cognitive background load in the prefrontal working memory buffer."
+session_time: "Ongoing"
 ---
 
 ## 2-Minute Rule
@@ -60,3 +61,12 @@ An executive applies the 2-minute rule to email: replies that need a single sent
    - Effect: Small increase
    - Theoretical analysis of GTD methodology found the 2-minute rule is consistent with cognitive offloading principles and working memory research: immediately dispatching small tasks prevents attentional capture by open loops.
    - [Link](https://doi.org/10.1016/j.lrp.2007.12.011)
+
+## Outcomes
+
+- **Working Memory** · Evidence: D · Effect: Small increase
+  The Zeigarnik effect demonstrates that incomplete tasks persistently intrude into working memory; immediately completing sub-2-minute tasks theoretically reduces this attentional burden, but no RCT measures this specific intervention.
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  GTD system surveys report reduced open-loop anxiety and improved closure rates, but these are self-report cross-sectional studies without control conditions or validated measures of task completion.
+

@@ -4,7 +4,7 @@ slug: "coherent-breathing-resonance-breathing"
 category: "Breathing"
 grade: "B"
 grade_detail: "A 4-week RCT (Bharati et al. 2022, n=50) found significant improvements in Trail Making Test cognition scores and HRV, supporting Grade C\u2013B; however, a larger blinded RCT (Nature 2023) found no measurable effect on mental health outcomes versus an active placebo, introducing inconsistency that caps this at Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Practice daily for 4 weeks to produce lasting HRV and cognitive benefits.
   
 mechanism: "Breathing at an individual's resonance frequency (~0.1 Hz) creates temporal coherence between respiratory, blood pressure, and heart rate oscillations, maximally amplifying baroreflex-mediated HRV. Sustained high-amplitude cardiac oscillations upregulate vagal tone, which in turn modulates the central autonomic network \u2014 including prefrontal cortex, amygdala, and anterior cingulate \u2014 supporting cognitive control and emotional regulation."
+session_time: "10\u201320 min"
 ---
 
 ## Coherent Breathing (Resonance Breathing)
@@ -67,3 +68,15 @@ Elite athletes and military personnel use coherent breathing as part of HRV biof
    - Effect: Moderate increase
    - Breathing at resonance frequency (~0.1 Hz, ~6 breaths/min) consistently and specifically maximized HRV amplitude and baroreflex sensitivity compared to other breathing rates, with downstream psychological flexibility benefits.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/30245619/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Bharati et al. 2022 found significant improvement in Trail Making Test Part A (visual attention/processing speed) after 4 weeks of resonance breathing in the intervention group versus controls.
+
+- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
+  Trail Making Test Part B (executive function/cognitive flexibility) also improved significantly in the RB group, indicating benefits for set-shifting ability.
+
+- **Stress Reduction** · Evidence: C · Effect: Moderate increase
+  Perceived Stress Scale scores decreased significantly in the resonance breathing group after 4 weeks compared to both baseline and controls.
+

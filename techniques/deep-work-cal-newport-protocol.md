@@ -4,7 +4,7 @@ slug: "deep-work-cal-newport-protocol"
 category: "Cognitive"
 grade: "C"
 grade_detail: "Deep Work as a structured protocol lacks direct RCTs; the underlying construct (sustained uninterrupted focus) is supported by flow-state research and interruption-cost studies, but these test components rather than the protocol itself. Observational and framework-level evidence dominates, capping this at Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "advanced"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Follow each deep work session with a complete cognitive shutdown (walk, eat, rest) to allow incubation.
   
 mechanism: "Sustained uninterrupted work allows prefrontal cortex resources to be allocated fully to the task at hand, enabling entry into flow states via dopaminergic reinforcement. Each interruption triggers an attentional switch cost requiring significant prefrontal engagement to rebuild the task context ('working memory reloading'), which Deep Work structurally prevents."
+session_time: "2\u20134 hours"
 ---
 
 ## Deep Work (Cal Newport Protocol)
@@ -68,3 +69,15 @@ Cal Newport himself writes books and conducts research using deep work blocks be
    - Effect: Large increase
    - Knowledge workers averaged only 3 minutes on any task before an interruption, and required an average of 23 minutes to fully resume prior focus depth after each disruption.
    - [Link](https://doi.org/10.1145/1054972.1055017)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Moderate increase
+  Interruption research consistently shows that uninterrupted work blocks improve task depth and reduce resumption lag, supporting the mechanism but not the protocol directly.
+
+- **Task Completion** · Evidence: C · Effect: Moderate increase
+  Field studies of knowledge workers show that extended distraction-free blocks correlate with higher-quality output, though effect sizes are not RCT-confirmed for the Deep Work protocol specifically.
+
+- **Mood / Affect** · Evidence: C · Effect: Moderate increase
+  Flow-state research links deep concentration on skill-matched tasks with elevated positive affect and intrinsic motivation.
+

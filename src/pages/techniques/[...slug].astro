@@ -135,10 +135,99 @@ const FACET_LABELS = {
             >
             {t.total_papers || 0} studies tracked
           </span>
+          {
+            t.session_time && (
+              <span class="modal-meta-chip">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </>
+                </svg>
+                {t.session_time}
+              </span>
+            )
+          }
         </div>
 
         <!-- Summary / description -->
         {t.summary && <p class="modal-description">{t.summary}</p>}
+
+        <!-- How to Implement -->
+        {
+          t.how_to_do_it && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <polyline points="9 11 12 14 22 4" />
+                    <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                  </>
+                </svg>
+                How to Implement
+              </h3>
+              <ol class="modal-steps">
+                {t.how_to_do_it
+                  .split("\n")
+                  .filter(Boolean)
+                  .map((step: string) => {
+                    const cleaned = step.replace(/^\d+\.\s*/, "").trim();
+                    if (!cleaned) return null;
+                    return <li>{cleaned}</li>;
+                  })}
+              </ol>
+            </div>
+          )
+        }
+
+        <!-- Mechanism -->
+        {
+          t.mechanism && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
+                  </>
+                </svg>
+                Mechanism
+              </h3>
+              <div class="modal-mechanism">
+                <p>{t.mechanism}</p>
+              </div>
+            </div>
+          )
+        }
 
         <!-- Grade detail -->
         {
@@ -568,14 +657,12 @@ const FACET_LABELS = {
   }
 
   /* ── Paper cards (rendered from markdown) ─────────── */
-  :global(.modal-rendered-content > ol),
-  :global(.modal-rendered-content > ul) {
+  :global(.modal-rendered-content > ol) {
     list-style: none;
     padding-left: 0;
   }
 
-  :global(.modal-rendered-content > ol > li),
-  :global(.modal-rendered-content > ul > li) {
+  :global(.modal-rendered-content > ol > li) {
     background: var(--color-surface-2);
     border: 1px solid var(--color-border);
     border-radius: 0.75rem;
@@ -585,8 +672,7 @@ const FACET_LABELS = {
     line-height: 1.65;
   }
 
-  :global(.modal-rendered-content > ol > li > strong),
-  :global(.modal-rendered-content > ul > li > strong) {
+  :global(.modal-rendered-content > ol > li > strong) {
     display: block;
     font-family: var(--font-display);
     font-weight: 700;
@@ -594,15 +680,13 @@ const FACET_LABELS = {
     margin-bottom: 0.25rem;
   }
 
-  :global(.modal-rendered-content > ol > li ul),
-  :global(.modal-rendered-content > ul > li ul) {
+  :global(.modal-rendered-content > ol > li ul) {
     list-style: none;
     padding: 0.5rem 0 0;
     margin: 0;
   }
 
-  :global(.modal-rendered-content > ol > li ul li),
-  :global(.modal-rendered-content > ul > li ul li) {
+  :global(.modal-rendered-content > ol > li ul li) {
     background: none;
     border: none;
     border-radius: 0;
@@ -612,16 +696,14 @@ const FACET_LABELS = {
     color: var(--color-text-muted);
   }
 
-  :global(.modal-rendered-content > ol > li ul li a),
-  :global(.modal-rendered-content > ul > li ul li a) {
+  :global(.modal-rendered-content > ol > li ul li a) {
     font-weight: 600;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
 
-  :global(.modal-rendered-content > ol > li > em),
-  :global(.modal-rendered-content > ul > li > em) {
+  :global(.modal-rendered-content > ol > li > em) {
     display: inline-flex;
     align-items: center;
     padding: 2px 8px;
@@ -637,6 +719,31 @@ const FACET_LABELS = {
     margin-left: 0.25rem;
   }
 
+  /* ── Outcomes list (rendered from markdown) ───────── */
+  :global(.modal-rendered-content > ul) {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  :global(.modal-rendered-content > ul > li) {
+    background: var(--color-surface-2);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    padding: 0.875rem 1rem;
+    margin-bottom: 0.5rem;
+    font-size: var(--text-sm);
+    line-height: 1.6;
+  }
+
+  :global(.modal-rendered-content > ul > li > strong) {
+    display: block;
+    font-weight: 700;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    margin-bottom: 0.125rem;
+  }
+
   :global(.modal-rendered-content h3) {
     font-family: var(--font-display);
     font-size: var(--text-base);
@@ -644,6 +751,58 @@ const FACET_LABELS = {
     color: var(--color-text);
     margin: 1.5rem 0 0.75rem;
     padding: 0;
+  }
+
+  /* ── How to Implement (steps) ────────────────────── */
+  .modal-steps {
+    list-style: none;
+    counter-reset: step;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .modal-steps li {
+    counter-increment: step;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    color: var(--color-text);
+    padding: 0;
+  }
+
+  .modal-steps li::before {
+    content: counter(step);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 9999px;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  /* ── Mechanism ───────────────────────────────────── */
+  .modal-mechanism {
+    padding: 1rem;
+    background: var(--color-surface-2);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+  }
+
+  .modal-mechanism p {
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--color-text);
+    margin: 0;
   }
 
   /* ── Responsive ──────────────────────────────────── */

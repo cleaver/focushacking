@@ -4,7 +4,7 @@ slug: "4-7-8-breathing"
 category: "Breathing"
 grade: "B"
 grade_detail: "Direct RCTs on 4-7-8 specifically are limited; the best evidence comes from a 2023 RCT showing reduced anxiety in post-surgical patients (n=63) and broader slow-breathing research. Effects on cognitive focus are mechanistically plausible but not yet independently established in healthy adults performing cognitive tasks."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Repeat the cycle 3–4 times; do not perform more than 4 repetitions initially.
   
 mechanism: "Extended exhalation stimulates vagal efferents via pulmonary stretch receptors and the baroreceptor reflex arc, shifting sympathovagal balance toward parasympathetic dominance and lowering circulating cortisol and epinephrine. The resultant reduction in limbic system hyperactivation frees prefrontal cortical resources for attentional engagement."
+session_time: "3\u20135 min"
 ---
 
 ## 4-7-8 Breathing
@@ -68,3 +69,15 @@ Dr. Andrew Weil recommends 4-7-8 breathing before high-pressure presentations or
    - Effect: Moderate increase
    - Slow breathing at 6 breaths/min significantly increased baroreflex sensitivity and reduced blood pressure, demonstrating the autonomic mechanism underlying slow, extended-exhale breathing protocols.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/11790690/)
+
+## Outcomes
+
+- **Stress Reduction** · Evidence: C · Effect: Moderate increase
+  A 2023 RCT found 4-7-8 breathing significantly reduced state anxiety versus control after bariatric surgery, with a small-to-moderate effect size.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Slow breathing systematic reviews consistently link extended-exhale patterns to improved positive affect, though specific 4-7-8 RCTs are lacking.
+
+- **Sustained Attention** · Evidence: NI · Effect: Insufficient data
+  No RCTs have directly measured sustained attention as an outcome of 4-7-8 breathing specifically; evidence is mechanistically inferred from parasympathetic activation studies.
+

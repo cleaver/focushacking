@@ -4,7 +4,7 @@ slug: "kettlebell-training"
 category: "Physical"
 grade: "B"
 grade_detail: "High-intensity interval exercise (the closest RCT evidence base to kettlebell training) consistently produces greater BDNF elevation and executive function improvements than moderate-intensity exercise in multiple RCTs; kettlebell-specific cognitive RCTs are limited but the broader high-intensity exercise evidence base is strong."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. After each session, allow 20 minutes of recovery before sitting down to focused work.
   
 mechanism: "High-intensity kettlebell training triggers a large acute spike in BDNF (brain-derived neurotrophic factor), which enhances synaptic plasticity in the hippocampus and prefrontal cortex within 15\u201330 minutes post-exercise. Simultaneously, the intensity elevates dopamine and noradrenaline in the PFC to levels that significantly improve executive function signal-to-noise ratio; the technique-focused nature of kettlebell movements provides simultaneous dual-task training of motor coordination and attentional control."
+session_time: "20\u201330 min"
 ---
 
 ## Kettlebell Training
@@ -70,3 +71,18 @@ CrossFit founder Greg Glassman and coaches at organizations like the US military
    - Effect: Moderate increase
    - Acute aerobic exercise improved attention and executive function performance in physically active adults; the high-intensity resistance condition (closest to kettlebell training) showed significant attention improvements on computerized cognitive testing.
    - [Link](https://doi.org/10.1371/journal.pone.0176092)
+
+## Outcomes
+
+- **Working Memory** · Evidence: B · Effect: Moderate increase
+  High-intensity exercise produces significantly greater BDNF elevation and working memory improvements than moderate intensity in controlled studies, with effects measurable 20–30 minutes post-exercise.
+
+- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
+  High-intensity interval exercise consistently improves cognitive flexibility (Trail Making Test, task switching) compared to moderate-intensity exercise and no-exercise controls across multiple RCTs.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  The acute post-exercise catecholamine surge from high-intensity training improves prefrontal function and vigilance for 20–90 minutes post-session, as shown in exercise-cognition RCTs.
+
+- **Reaction Time** · Evidence: B · Effect: Moderate increase
+  Acute high-intensity exercise significantly improves processing speed and reaction time in the post-exercise window via dopamine and noradrenaline release in prefrontal regions.
+

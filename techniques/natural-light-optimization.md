@@ -4,7 +4,7 @@ slug: "natural-light-optimization"
 category: "Environment"
 grade: "C"
 grade_detail: "A 2025 real-world observational study (Didikoglu et al., n=58, 7 days) and a 2022 systematic review both demonstrate consistent, significant relationships between daytime bright light and alertness, sustained attention, and reaction time; the circadian mechanism is well-established, yielding Grade B evidence across multiple cognitive outcomes."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Maintain consistency: same light environment, same time each day, to synchronize circadian rhythm.
   
 mechanism: "Retinal melanopsin-containing intrinsically photosensitive retinal ganglion cells (ipRGCs) project via the retinohypothalamic tract to the suprachiasmatic nucleus (SCN), the master circadian pacemaker. Morning bright light acutely suppresses melatonin and amplifies the circadian amplitude, sustaining elevated orexin and cortisol arousal signals throughout the day. These neurochemical changes directly support locus coeruleus norepinephrine release, which is the primary driver of sustained attentional alertness."
+session_time: "Ongoing (ambient condition)"
 ---
 
 ## Natural Light Optimization
@@ -60,3 +61,15 @@ Apple Park's work campus is designed around natural light optimization in every 
    - Effect: Moderate increase
    - Review found that both short-wavelength dominant light and higher intensity white light exposure during the day consistently induced alertness and shorter reaction times, with beneficial effects on complex cognitive tasks more pronounced in the afternoon, suggesting circadian and direct photostimulatory mechanisms.
    - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC8766646/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Didikoglu et al. 2025 found that higher recent and habitual daytime light exposure was significantly associated with improved visual search performance and sustained attention in daily life over 7 days.
+
+- **Reaction Time** · Evidence: B · Effect: Moderate increase
+  Both psychomotor vigilance and working memory reaction times were 7–10% faster under recent bright light exposure, with effects independent of time of day and time awake.
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  A 2022 systematic review found that both short-wavelength dominant and high-intensity white light consistently induced alertness and improved mood across multiple studies, with morning bright light showing the largest and most sustained effects.
+

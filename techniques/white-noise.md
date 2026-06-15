@@ -4,7 +4,7 @@ slug: "white-noise"
 category: "Environment"
 grade: "B"
 grade_detail: "Cheng et al. 2022 directly tested white noise at 45 dB in an office context and found significant improvements in sustained attention and creativity versus ambient noise (d~0.5); however effects are highly dose-dependent (65 dB impairs some functions), individual differences are large, and replications are limited \u2014 consistent with Grade C."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Experiment over 1–2 weeks to determine if it improves your personal focus.
   
 mechanism: "White noise masks the unpredictable transient sounds that trigger involuntary attentional capture via the superior colliculus and orienting response circuitry. The moderate, constant broadband signal is proposed to operate via stochastic resonance \u2014 adding a background noise level that brings weak neural signals over detection threshold, slightly elevating dopaminergic tone in prefrontal cortex, which optimizes sustained attentional engagement."
+session_time: "Ongoing (background during work)"
 ---
 
 ## White Noise
@@ -69,3 +70,15 @@ Open-plan offices at companies like Basecamp use ambient sound masking systems b
    - Effect: Mixed
    - White noise impaired working memory accuracy when presented during the maintenance interval but benefited attentional orienting, demonstrating task-specific and timing-specific effects with no general cognitive benefit.
    - [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC4630540/)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  45 dB white noise produced 2.11 percentage points higher accuracy on the continuous performance test versus ambient noise (p=0.02, d=0.51), with no benefit at 65 dB.
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  65 dB (but not 45 dB) white noise significantly improved working memory 2-back accuracy, suggesting an inverted-U dose-response; optimal level differs by task type.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  45 dB white noise was associated with significantly lower physiological stress markers and subjective stress compared to ambient noise and 65 dB noise conditions.
+

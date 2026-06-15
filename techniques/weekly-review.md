@@ -4,7 +4,7 @@ slug: "weekly-review"
 category: "Time Management"
 grade: "B"
 grade_detail: "Weekly Review as a standalone practice has no direct RCT evidence; the Masicampo & Baumeister (2011) RCT provides strong mechanistic support for the core cognitive offloading principle, but the full GTD review ritual has only been studied through surveys and self-report."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -33,6 +33,7 @@ how_to_do_it: |
   6. Write down your top three priorities for the coming week before closing.
   
 mechanism: "Open commitments generate persistent subgoal representations in the prefrontal cortex that intrude on current task performance (Zeigarnik effect); the Weekly Review systematically resolves or plans each open loop, allowing the working memory buffer to clear and full cognitive resources to be directed to the following week's priorities."
+session_time: "60\u201390 min/week"
 ---
 
 ## Weekly Review
@@ -61,3 +62,12 @@ A product manager conducts a 90-minute review every Friday afternoon, clearing t
    - Effect: Small increase
    - Theoretical and empirical review found the Weekly Review component of GTD is supported by cognitive science: regularly externalizing and reviewing all open commitments reduces the persistent working memory load of unresolved intentions.
    - [Link](https://doi.org/10.1016/j.lrp.2007.12.011)
+
+## Outcomes
+
+- **Working Memory** · Evidence: C · Effect: Small increase
+  Masicampo & Baumeister (2011, n=171) found that making concrete plans for unfinished tasks completely eliminated their intrusion into consciousness, directly validating the cognitive mechanism the Weekly Review exploits.
+
+- **Stress Reduction** · Evidence: D · Effect: Small increase
+  Self-report surveys of GTD practitioners consistently report reduced anxiety about commitments, but these lack control groups and use no validated stress measures, capping evidence at grade D.
+

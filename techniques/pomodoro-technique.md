@@ -4,7 +4,7 @@ slug: "pomodoro-technique"
 category: "Time Management"
 grade: "B"
 grade_detail: "A 2025 scoping review identified only 3 RCTs directly testing Pomodoro (n=87 total), all showing ~20% reduction in fatigue and small improvements in focus; results are consistent but studies are small and rely on self-report measures with limited objective cognitive outcomes."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Review what you completed and plan the next pomodoro session.
   
 mechanism: "Structured work\u2013rest cycles exploit ultradian rhythms and prevent the accumulation of attentional fatigue by allowing the prefrontal cortex periodic recovery; the finite time box also activates mild urgency, engaging the brain's dopaminergic task-initiation circuitry."
+session_time: "30 min per cycle"
 ---
 
 ## Pomodoro Technique
@@ -72,3 +73,15 @@ A software developer uses Pomodoro to tackle coding sprints; each 25-minute bloc
    - Effect: Small increase
    - Micro-breaks (≤10 min) significantly improved vigor (d=0.36) and reduced fatigue (d=0.35) across 19 studies, supporting the core recuperative premise of the Pomodoro Technique; performance effects were non-significant overall (d=0.16).
    - [Link](https://doi.org/10.1371/journal.pone.0272460)
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: C · Effect: Small increase
+  Three RCTs in the Ogut 2025 scoping review found structured Pomodoro intervals improved self-rated focus by 15–25% versus self-paced schedules, but effect sizes are modest and rely primarily on self-report.
+
+- **Stress Reduction** · Evidence: C · Effect: Small increase
+  Pomodoro-structured breaks reduced fatigue scores by approximately 20% versus self-regulated conditions across quasi-experimental studies, supported by the micro-breaks meta-analysis showing vigor improvements (d=0.36).
+
+- **Task Completion** · Evidence: D · Effect: Mixed
+  The Que et al. 2023 RCT (n=75) found no statistically significant effect on memory retention, and productivity gains in existing studies are mostly self-reported without objective task-completion metrics.
+

@@ -4,7 +4,7 @@ slug: "aerobic-exercise"
 category: "Physical"
 grade: "B"
 grade_detail: "Multiple large meta-analyses of RCTs consistently show aerobic exercise significantly improves executive function, working memory, and inhibitory control with small-to-moderate effect sizes (g=0.12\u20130.52) across healthy adults, older adults, and clinical populations; effects are among the most robustly replicated in behavioral neuroscience."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 5
 new_papers_this_run: 1
 difficulty: "beginner"
@@ -34,6 +34,7 @@ how_to_do_it: |
   6. Track consistency over 6 weeks to observe cumulative focus improvements.
   
 mechanism: "Aerobic exercise triggers the release of brain-derived neurotrophic factor (BDNF), which promotes hippocampal neurogenesis and synaptic plasticity, directly enhancing learning and memory consolidation. Acutely, exercise elevates dopamine, norepinephrine, and serotonin in the prefrontal cortex, improving signal-to-noise ratio for attentional focus and executive control for 20\u2013120 minutes post-exercise."
+session_time: "30\u201345 min"
 ---
 
 ## Aerobic Exercise
@@ -86,4 +87,21 @@ Neuroscientist John Ratey documents in 'Spark' how Naperville, Illinois schools 
    - DOI: 10.1152/jn.00572.2025
    - [PubMed](https://pubmed.ncbi.nlm.nih.gov/42102395/)
    - Population: general_adults; Facets: deep_work_flow, energy_recovery
+
+## Outcomes
+
+- **Sustained Attention** · Evidence: A · Effect: Moderate increase
+  Meta-analytic reviews of RCTs show aerobic exercise consistently improves attention and processing speed with reliable effect sizes; aerobic exercise had the greatest impact on attention among physical exercise types (SMD=0.56) in a 2025 meta-analysis.
+
+- **Working Memory** · Evidence: A · Effect: Moderate increase
+  A meta-analysis of 42 RCTs (n=2,881) in healthy middle-aged and older adults found aerobic exercise significantly improved working memory (Hedge's g=0.392, p<0.001).
+
+- **Cognitive Flexibility** · Evidence: A · Effect: Moderate increase
+  Aerobic exercise interventions significantly improved cognitive flexibility (Hedge's g=0.343, p<0.001) in a 42-RCT meta-analysis, with optimal effects from 13–24 weeks of progressive-intensity exercise.
+
+- **Mood / Affect** · Evidence: A · Effect: Large increase
+  Exercise is one of the most evidence-based interventions for mood improvement, with large meta-analytic effects on depression, anxiety, and positive affect.
+
+- **Reaction Time** · Evidence: B · Effect: Moderate increase
+  Acute aerobic exercise reliably improves processing speed and reaction time in the 20–30 minutes post-exercise window, with small-to-moderate effect sizes (Cohen's d = 0.38–0.49).
 

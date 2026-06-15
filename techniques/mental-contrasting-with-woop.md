@@ -4,7 +4,7 @@ slug: "mental-contrasting-with-woop"
 category: "Cognitive"
 grade: "B"
 grade_detail: "Multiple Oettingen-lab RCTs across academic, health, and workplace domains show consistent moderate effects for MCII/WOOP on goal-directed behavior and self-regulation. The 2021 meta-analysis (21 studies) confirms the evidence base qualifies for Grade B, with effect sizes slightly below the A threshold and some domain specificity in results."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 3
 new_papers_this_run: 0
 difficulty: "intermediate"
@@ -35,6 +35,7 @@ how_to_do_it: |
   6. Review: at session's end, note whether the plan worked and revise the obstacle or plan if needed.
   
 mechanism: "Mental contrasting activates a contrast representation in working memory \u2014 juxtaposing the desired future with the present obstacle \u2014 which triggers expectancy-dependent commitment: high-expectancy individuals energize toward the goal, while low-expectancy individuals disengage adaptively. Adding implementation intentions then channels this energized state into automatic obstacle-response associations, preventing goal abandonment at friction points."
+session_time: "5\u201310 min (per session)"
 ---
 
 ## Mental Contrasting with WOOP
@@ -70,3 +71,15 @@ University of Pennsylvania researchers led by Angela Duckworth implemented WOOP 
    - Effect: Moderate increase
    - In three studies, students and working mothers who used MCII scheduled significantly more focused work time, improved time management ratings, and showed better class attendance than content-matched or format-matched controls.
    - [Link](https://doi.org/10.1002/ejsp.2090)
+
+## Outcomes
+
+- **Task Completion** · Evidence: B · Effect: Moderate increase
+  Multiple RCTs by Oettingen and colleagues show 20–40% improvement in goal follow-through when WOOP is used versus positive fantasy or goal-setting alone.
+
+- **Sustained Attention** · Evidence: B · Effect: Moderate increase
+  Time management RCTs using MCII show participants scheduled and used more focused study time compared to control conditions.
+
+- **Mood / Affect** · Evidence: C · Effect: Small increase
+  Mental contrasting that surfaces realistic obstacles calibrates motivation appropriately — preventing both overconfident under-preparation and defeatist disengagement.
+

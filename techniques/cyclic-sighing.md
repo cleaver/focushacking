@@ -4,7 +4,7 @@ slug: "cyclic-sighing"
 category: "Breathing"
 grade: "B"
 grade_detail: "A rigorous, pre-registered remote RCT (Balban et al. 2023, n=111, 30 days) directly compared cyclic sighing to three active controls including mindfulness meditation, finding significantly greater mood improvement and the only significant respiratory rate reduction \u2014 meeting Grade B criteria for mood/affect with a clear mechanism."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -31,6 +31,7 @@ how_to_do_it: |
   6. Practice for 5 continuous minutes daily — effects accumulate over 30 days.
   
 mechanism: "The double inhale fully recruits collapsed alveoli (preventing atelectasis) to maximize lung surface area for CO\u2082 offloading; the subsequent long, complete exhale maximally stimulates vagal afferents and the baroreceptor reflex, producing a large parasympathetic surge that lowers heart rate, reduces circulating catecholamines, and shifts limbic arousal toward the calm-alert state conducive to focused work."
+session_time: "5 min"
 ---
 
 ## Cyclic Sighing
@@ -59,3 +60,15 @@ Stanford neurobiologist Andrew Huberman teaches cyclic sighing as the fastest re
    - Effect: Moderate increase
    - Extended exhalation relative to inhalation is the key driver of parasympathetic activation across slow breathing techniques, providing mechanistic context for why cyclic sighing's long exhale is uniquely effective.
    - [Link](https://pubmed.ncbi.nlm.nih.gov/30245619/)
+
+## Outcomes
+
+- **Mood / Affect** · Evidence: B · Effect: Moderate increase
+  Balban et al. 2023 found cyclic sighing produced the largest daily improvement in positive affect (+1.91 PANAS points) among all four conditions, significantly surpassing mindfulness meditation (p<0.05) over 30 days.
+
+- **Stress Reduction** · Evidence: B · Effect: Moderate increase
+  All three controlled breathing groups outperformed mindfulness meditation on anxiety and negative mood; cyclic sighing also uniquely reduced resting respiratory rate, a biomarker of chronic arousal baseline.
+
+- **Sustained Attention** · Evidence: NI · Effect: Insufficient data
+  The Balban et al. 2023 trial did not measure cognitive attention outcomes directly; benefits to attention are inferred from reduced physiological arousal and improved affect.
+

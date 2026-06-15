@@ -4,7 +4,7 @@ slug: "timeboxing"
 category: "Time Management"
 grade: "C"
 grade_detail: "Timeboxing lacks direct RCT evidence as a named technique; the underlying Parkinson's Law principle is supported by studies showing mild time pressure can improve efficiency, but these experiments do not isolate self-imposed timeboxing and show highly mixed results depending on task complexity."
-last_searched: "2026-06-06"
+last_searched: "2026-06-15"
 total_papers: 2
 new_papers_this_run: 0
 difficulty: "beginner"
@@ -32,6 +32,7 @@ how_to_do_it: |
   6. Schedule another timebox if needed, rather than extending the current one.
   
 mechanism: "A hard deadline shifts the brain from open-ended exploratory processing (default mode network activity) into focused goal-directed execution (frontoparietal task-positive network); temporal constraint reduces perfectionism by shifting the cognitive criterion for 'done' from optimal to sufficient output."
+session_time: "30\u201390 min per box"
 ---
 
 ## Timeboxing
@@ -60,3 +61,15 @@ A UX designer uses 45-minute timeboxes for wireframe sketches, preventing perfec
    - Effect: Small increase
    - Temporal constraints reduce working memory load by forcing prioritization and preventing the accumulation of unnecessary cognitive loops, the theoretical foundation for why timeboxes improve efficiency.
    - [Link](https://doi.org/10.1016/0364-0213(88)90023-7)
+
+## Outcomes
+
+- **Task Completion** · Evidence: D · Effect: Small increase
+  Time pressure experiments show that when deadlines are moderate (not extreme), task completion speed improves, consistent with Parkinson's Law, but the optimal pressure level varies widely by individual and task type.
+
+- **Cognitive Flexibility** · Evidence: D · Effect: Mixed
+  Research on time pressure and decision-making shows mixed results: mild pressure can trigger efficient heuristics, but high pressure impairs inhibitory control (Eriksen flanker task, Sussman & Sekuler 2022), suggesting timeboxes must be calibrated carefully.
+
+- **Mood / Affect** · Evidence: D · Effect: Small increase
+  Completing a defined task within its timebox produces a measurable sense of accomplishment, but no RCT has measured this directly in the context of timeboxing as a productivity strategy.
+
