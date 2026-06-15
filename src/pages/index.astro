@@ -279,7 +279,7 @@ const jsonData = JSON.stringify(
         <button
           id="clear-filters"
           type="button"
-          class="text-xs font-medium text-accent bg-transparent border-none cursor-pointer p-0 hover:underline"
+          class="clear-filters-btn"
           aria-label="Clear all filters"
         >
           Clear all filters
@@ -768,5 +768,29 @@ const jsonData = JSON.stringify(
   .dark .grade-filter-btn.active .grade-mini {
     background: #0f0f1a;
     color: white;
+  }
+
+  /* ── Clear filters button ───────────────────────── */
+  .clear-filters-btn {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--color-accent);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .clear-filters-btn {
+      transition: all 0.15s;
+    }
+  }
+
+  .clear-filters-btn:hover {
+    background: var(--color-accent-light);
+    border-color: var(--color-accent);
   }
 </style>

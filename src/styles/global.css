@@ -53,7 +53,7 @@
   --color-surface: #ffffff;
   --color-surface-2: #f1f1f7;
   --color-text: #1c1917;
-  --color-text-muted: #57534e;
+  --color-text-muted: #44403c;
   --color-border: #e7e5e4;
   --color-accent: #0c4a6e;
   --color-accent-light: #e0f2fe;
@@ -61,24 +61,24 @@
   --color-grade-a-hi: #dcfce7;
   --color-grade-b: #2563eb;
   --color-grade-b-hi: #e0f2fe;
-  --color-grade-c: #987006;
+  --color-grade-c: #854d0e;
   --color-grade-c-hi: #fef9c3;
   --color-grade-d: #dc2626;
   --color-grade-d-hi: #fee2e2;
-  --color-grade-na: #78716c;
+  --color-grade-na: #57534e;
   --color-grade-na-hi: #f3f4f6;
   /* Header */
   --color-header-bg: #1a1a2e;
   --color-header-text: #ffffff;
   --color-header-text-muted: #a5b4fc;
   /* Category pill colors (light mode) */
-  --color-cat-time: #3b82f6;
-  --color-cat-mindfulness: #22c55e;
-  --color-cat-breathing: #14b8a6;
-  --color-cat-physical: #f97316;
-  --color-cat-environment: #eab308;
-  --color-cat-cognitive: #8b5cf6;
-  --color-cat-technology: #64748b;
+  --color-cat-time: #1d4ed8;
+  --color-cat-mindfulness: #15803d;
+  --color-cat-breathing: #0f766e;
+  --color-cat-physical: #9a3412;
+  --color-cat-environment: #854d0e;
+  --color-cat-cognitive: #6d28d9;
+  --color-cat-technology: #475569;
   /* Stat cards */
   --color-stat-bg: #ffffff;
   --color-stat-border: #e7e5e4;
@@ -100,7 +100,7 @@
   --diff-beginner-hi: #dcfce7;
   --diff-beginner: #16a34a;
   --diff-intermediate-hi: #fef3c7;
-  --diff-intermediate: #d97706;
+  --diff-intermediate: #b45309;
   --diff-advanced-hi: #fee2e2;
   --diff-advanced: #dc2626;
 
@@ -119,7 +119,7 @@
   --color-surface: #16162a;
   --color-surface-2: #1c1c30;
   --color-text: #e2e2f0;
-  --color-text-muted: #8080a8;
+  --color-text-muted: #a5a5cc;
   --color-border: #2e2e4e;
   --color-accent: #818cf8;
   --color-accent-light: #1e1b4b;
@@ -138,13 +138,13 @@
   --color-header-text: #ffffff;
   --color-header-text-muted: #818cf8;
   /* Category pill colors (dark mode) */
-  --color-cat-time: #60a5fa;
-  --color-cat-mindfulness: #4ade80;
-  --color-cat-breathing: #2dd4bf;
-  --color-cat-physical: #fb923c;
-  --color-cat-environment: #facc15;
-  --color-cat-cognitive: #a78bfa;
-  --color-cat-technology: #94a3b8;
+  --color-cat-time: #93c5fd;
+  --color-cat-mindfulness: #86efac;
+  --color-cat-breathing: #5eead4;
+  --color-cat-physical: #fdba74;
+  --color-cat-environment: #fde047;
+  --color-cat-cognitive: #c4b5fd;
+  --color-cat-technology: #afbaca;
   /* Stat cards */
   --color-stat-bg: #16162a;
   --color-stat-border: #2e2e4e;
