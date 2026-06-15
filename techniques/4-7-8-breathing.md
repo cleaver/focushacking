@@ -41,15 +41,3 @@ Developed by Dr. Andrew Weil, this technique involves inhaling for 4 counts, hol
 ### Example
 
 Dr. Andrew Weil recommends 4-7-8 breathing before high-pressure presentations or exam situations. Anesthesiologists and emergency physicians use modified versions to quickly reset after stressful cases before returning to cognitive tasks.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: C · Effect: Moderate increase
-  A 2023 RCT found 4-7-8 breathing significantly reduced state anxiety versus control after bariatric surgery, with a small-to-moderate effect size.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  Slow breathing systematic reviews consistently link extended-exhale patterns to improved positive affect, though specific 4-7-8 RCTs are lacking.
-
-- **Sustained Attention** · Evidence: NI · Effect: Insufficient data
-  No RCTs have directly measured sustained attention as an outcome of 4-7-8 breathing specifically; evidence is mechanistically inferred from parasympathetic activation studies.
-

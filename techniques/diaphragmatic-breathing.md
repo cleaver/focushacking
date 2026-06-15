@@ -42,15 +42,3 @@ Breathing that uses the diaphragm — allowing the belly to expand on inhale rat
 ### Example
 
 Voice actors, broadcasters, and singers use diaphragmatic breathing as their primary professional focus tool. Yoga instructors teach it as the foundation of pranayama practice for cognitive enhancement.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Ma et al. 2017 RCT found a significant group × time interaction on Number Cancellation Test scores (ηp²=0.21) after 8 weeks of training compared to controls.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  The same RCT showed a significant group × time interaction for salivary cortisol, with the breathing intervention group showing significantly lower post-training cortisol levels.
-
-- **Mood / Affect** · Evidence: B · Effect: Small increase
-  Negative Affect Schedule (PANAS) scores decreased significantly after intervention, while positive affect was unchanged, indicating specific anxiolytic benefit.
-

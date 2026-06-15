@@ -42,15 +42,3 @@ Maintaining workspace temperature in the 70–77°F (21–25°C) range — the e
 ### Example
 
 MIT Media Lab's environmental design research found that workers in temperature-controlled offices (22°C) outperformed those in warmer environments by measurable margins on sustained cognitive tasks. High-performance trading floors maintain strict temperature control for this reason.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Large increase
-  Hancock & Vasmatzidis 2003 established that vigilance tasks — the most attentionally demanding — are the most sensitive to heat stress, with impairment beginning at the lowest dynamic body temperature rises (0.055°C/hr) compared to simpler cognitive tasks.
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  Passive hyperthermia (50°C chamber) significantly impaired spatial span and visual memory (p<0.05) in a controlled counterbalanced study, with no effects on simpler attention tasks, confirming task-complexity dependence.
-
-- **Reaction Time** · Evidence: C · Effect: Mixed
-  Effects on simple reaction time are inconsistent — brief heat exposure may improve simple RT via increased neural conduction speed, but sustained heat impairs complex choice reaction time, with large individual variation.
-

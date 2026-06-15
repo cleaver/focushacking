@@ -42,15 +42,3 @@ A meditation practice in which attention is kept wide and receptive — noting w
 ### Example
 
 Experienced Zen practitioners and researchers like John Dunne (UW-Madison) use open monitoring as a diagnostic tool: the quality of open awareness reveals habitual mental patterns that interfere with deep work.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Ainsworth et al. (2013, n=57, RCT) found both FA and OM meditation improved executive attention network performance, with OM producing a non-reactive monitoring style that reduces distraction-driven attention failures.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  Lippelt, Hommel & Colzato (2014) review found OM meditation selectively improved divergent thinking and reduced cognitive rigidity compared to focused attention practices, reflecting enhanced flexible attentional monitoring.
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Zainal & Newman (2023) meta-analysis found significant working memory accuracy improvements from MBIs overall (which include OM training); OM-specific effects on working memory have not been isolated in a large enough sample to confirm independently.
-

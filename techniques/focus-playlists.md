@@ -42,15 +42,3 @@ Pre-curated playlists of instrumental music — specifically classical, lo-fi, a
 ### Example
 
 Spotify and YouTube offer dedicated 'Deep Focus' and 'Lo-Fi Beats' playlists with hundreds of millions of streams. Game composers like Austin Wintory and Jeremy Soule produce soundtracks specifically designed to support sustained mental engagement.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Controlled studies show music without lyrics has neutral-to-positive effects on concentration versus music with lyrics (which impairs attention), with instrumental music being preferable for language-dependent tasks.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  Work-flow music condition in a 2025 PLOS ONE RCT produced significantly faster reaction times over time versus deep focus and silence conditions, with participants in the work-flow condition showing the steepest improvement slope.
-
-- **Task Completion** · Evidence: C · Effect: Mixed
-  Effects vary substantially by task type: creativity tasks benefit from moderate-level background sound; focused analytical tasks may be impaired by music with complex melodies or fast tempos.
-

@@ -41,15 +41,3 @@ Setting your smartphone display to black-and-white (grayscale) mode to remove th
 ### Example
 
 Former Google design ethicist Tristan Harris was among the first public advocates of the grayscale trick. The American Psychological Association cites grayscale among evidence-informed digital wellness strategies for reducing problematic smartphone use.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: D · Effect: Small increase
-  Reduced screen time from grayscale may indirectly increase available focus time, but no study has directly measured attention quality improvements.
-
-- **Mood / Affect** · Evidence: D · Effect: Mixed
-  Dekker & Baumgartner (2023) found reduced stress and perceived overuse, but no significant productivity or sleep quality improvements.
-
-- **Task Completion** · Evidence: NI · Effect: Insufficient data
-  No published study has measured the effect of grayscale mode specifically on task completion or focused work output.
-

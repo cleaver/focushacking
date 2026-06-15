@@ -44,15 +44,3 @@ Work in focused 25-minute intervals (pomodoros) separated by 5-minute breaks, wi
 ### Example
 
 A software developer uses Pomodoro to tackle coding sprints; each 25-minute block is dedicated to one feature, preventing context-switching and ensuring frequent mental recovery breaks.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Three RCTs in the Ogut 2025 scoping review found structured Pomodoro intervals improved self-rated focus by 15–25% versus self-paced schedules, but effect sizes are modest and rely primarily on self-report.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Pomodoro-structured breaks reduced fatigue scores by approximately 20% versus self-regulated conditions across quasi-experimental studies, supported by the micro-breaks meta-analysis showing vigor improvements (d=0.36).
-
-- **Task Completion** · Evidence: D · Effect: Mixed
-  The Que et al. 2023 RCT (n=75) found no statistically significant effect on memory retention, and productivity gains in existing studies are mostly self-reported without objective task-completion metrics.
-

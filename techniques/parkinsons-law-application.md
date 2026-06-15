@@ -41,12 +41,3 @@ Deliberately impose artificial deadlines shorter than you think you need, exploi
 ### Example
 
 An author sets a rule: any article under 2,000 words must be drafted in 90 minutes. What previously took an unfocused afternoon is now completed before lunch, freeing the afternoon for other work.
-
-## Outcomes
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  Amabile et al. (2002) found a non-linear relationship between time pressure and creative output in diary studies of 177 employees; moderate pressure was associated with higher focus, but this was observational and self-reported.
-
-- **Sustained Attention** · Evidence: D · Effect: Mixed
-  Research on time pressure shows it narrows attentional focus (tunneling), which can improve single-task efficiency but impairs broader creative or multi-step problem solving depending on task type.
-

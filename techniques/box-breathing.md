@@ -41,21 +41,3 @@ A four-phase breathing technique where each phase — inhale, hold, exhale, hold
 ### Example
 
 US Navy SEAL combat diver training includes mandatory box breathing instruction. Mark Divine, founder of SEALFIT, teaches it as a performance tool for high-stakes decision-making, and it is standard protocol for pilots and surgeons before critical procedures.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Slow-paced breathing (≈6 breaths/minute, which box breathing approximates) consistently reduces perceived stress, salivary cortisol, and sympathetic arousal markers in RCT-quality studies.
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  A Stanford RCT found box breathing improved mood and reduced physiological arousal vs. mindfulness meditation over 1 month; direct sustained attention task improvements are inferred but not yet directly measured in powered RCTs.
-
-- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
-  Slow-paced breathing improved inhibitory control and decision-making under stress in controlled studies, but effects are small (d<0.3) and population-specific.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  A Stanford RCT (n=114) found 5 minutes daily of breathwork (including box breathing) significantly improved mood and reduced negative affect vs. mindfulness meditation over one month.
-
-- **Reaction Time** · Evidence: C · Effect: Small increase
-  Slow-paced breathing before cognitive tasks showed small improvements in reaction time and processing speed in some controlled studies, mediated by increased HRV and reduced sympathetic arousal.
-

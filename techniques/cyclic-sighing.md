@@ -41,15 +41,3 @@ A Stanford-validated technique consisting of two inhales through the nose (a ful
 ### Example
 
 Stanford neurobiologist Andrew Huberman teaches cyclic sighing as the fastest real-time tool for restoring calm focus. First responders and combat controllers use the technique between high-intensity events to rapidly reset cognitive clarity.
-
-## Outcomes
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Balban et al. 2023 found cyclic sighing produced the largest daily improvement in positive affect (+1.91 PANAS points) among all four conditions, significantly surpassing mindfulness meditation (p<0.05) over 30 days.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  All three controlled breathing groups outperformed mindfulness meditation on anxiety and negative mood; cyclic sighing also uniquely reduced resting respiratory rate, a biomarker of chronic arousal baseline.
-
-- **Sustained Attention** · Evidence: NI · Effect: Insufficient data
-  The Balban et al. 2023 trial did not measure cognitive attention outcomes directly; benefits to attention are inferred from reduced physiological arousal and improved affect.
-

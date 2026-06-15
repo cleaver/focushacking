@@ -42,15 +42,3 @@ Structuring your work position to maximize daytime natural light exposure (near 
 ### Example
 
 Apple Park's work campus is designed around natural light optimization in every workspace. Cornell research on workplace daylight found employees near windows slept 46 more minutes per night and had 84% fewer headaches, both major focus performance factors.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Didikoglu et al. 2025 found that higher recent and habitual daytime light exposure was significantly associated with improved visual search performance and sustained attention in daily life over 7 days.
-
-- **Reaction Time** · Evidence: B · Effect: Moderate increase
-  Both psychomotor vigilance and working memory reaction times were 7–10% faster under recent bright light exposure, with effects independent of time of day and time awake.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  A 2022 systematic review found that both short-wavelength dominant and high-intensity white light consistently induced alertness and improved mood across multiple studies, with morning bright light showing the largest and most sustained effects.
-

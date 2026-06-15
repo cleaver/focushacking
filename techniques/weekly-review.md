@@ -43,12 +43,3 @@ A structured weekly ritual — drawn from David Allen's GTD — to process all o
 ### Example
 
 A product manager conducts a 90-minute review every Friday afternoon, clearing the week's open loops, so Monday begins with zero cognitive debt and a clear weekly plan.
-
-## Outcomes
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Masicampo & Baumeister (2011, n=171) found that making concrete plans for unfinished tasks completely eliminated their intrusion into consciousness, directly validating the cognitive mechanism the Weekly Review exploits.
-
-- **Stress Reduction** · Evidence: D · Effect: Small increase
-  Self-report surveys of GTD practitioners consistently report reduced anxiety about commitments, but these lack control groups and use no validated stress measures, capping evidence at grade D.
-

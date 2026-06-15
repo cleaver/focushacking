@@ -45,15 +45,3 @@ Gabriele Oettingen's WOOP framework (Wish, Outcome, Obstacle, Plan) combines men
 ### Example
 
 University of Pennsylvania researchers led by Angela Duckworth implemented WOOP with disadvantaged students, producing significant improvements in school attendance, grades, and conduct. Coaches in sports and business use WOOP as a pre-performance cognitive activation tool.
-
-## Outcomes
-
-- **Task Completion** · Evidence: B · Effect: Moderate increase
-  Multiple RCTs by Oettingen and colleagues show 20–40% improvement in goal follow-through when WOOP is used versus positive fantasy or goal-setting alone.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Time management RCTs using MCII show participants scheduled and used more focused study time compared to control conditions.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  Mental contrasting that surfaces realistic obstacles calibrates motivation appropriately — preventing both overconfident under-preparation and defeatist disengagement.
-

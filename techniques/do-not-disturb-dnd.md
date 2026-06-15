@@ -42,15 +42,3 @@ Enabling full Do Not Disturb on smartphones and computers to silence all notific
 ### Example
 
 Deep Work author Cal Newport enables DND across all devices permanently, checking email only twice daily. Many CEOs, including Amazon's Andy Jassy, maintain DND profiles during morning strategic thinking sessions.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Silencing all notifications eliminates the automatic orienting response and the 23-minute average recovery cost associated with each interruption.
-
-- **Task Completion** · Evidence: B · Effect: Moderate increase
-  Reducing interruption frequency directly lengthens uninterrupted work periods, correlating with higher per-session output across knowledge work studies.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Eliminating notification-driven vigilance arousal reduces background stress and cognitive load during work sessions, though controlled studies use notification batching proxies rather than DND directly.
-

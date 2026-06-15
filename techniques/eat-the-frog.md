@@ -43,15 +43,3 @@ Begin each workday by completing your single most important or dreaded task befo
 ### Example
 
 A PhD student struggling to write dissertation chapters schedules 7–9 AM for writing before any email or meetings, completing a chapter draft in two weeks instead of two months.
-
-## Outcomes
-
-- **Task Completion** · Evidence: C · Effect: Moderate increase
-  Implementation intention meta-analyses (Gollwitzer & Sheeran, 2006; n>8,000) show that pre-specifying the first task of the day is the strongest predictor of follow-through, directly supporting the core mechanism of Eat the Frog.
-
-- **Stress Reduction** · Evidence: D · Effect: Small increase
-  Completing the most aversive task first theoretically reduces anticipatory anxiety throughout the day, supported by research on the psychological benefits of task completion, but no RCT has measured cortisol or validated stress instruments before vs after adopting this practice.
-
-- **Sustained Attention** · Evidence: D · Effect: Small increase
-  Morning prioritization aligns high-demand tasks with peak circadian cortisol and alertness, but the 'morning is best for cognition' claim varies considerably by chronotype and lacks large-scale validation.
-

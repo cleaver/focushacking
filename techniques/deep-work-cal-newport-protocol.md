@@ -42,15 +42,3 @@ Cal Newport's structured practice of scheduling regular, multi-hour blocks of di
 ### Example
 
 Cal Newport himself writes books and conducts research using deep work blocks before 9 AM. Mathematician Andrew Wiles worked in isolation for 7 years to prove Fermat's Last Theorem — the ultimate deep work example.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Moderate increase
-  Interruption research consistently shows that uninterrupted work blocks improve task depth and reduce resumption lag, supporting the mechanism but not the protocol directly.
-
-- **Task Completion** · Evidence: C · Effect: Moderate increase
-  Field studies of knowledge workers show that extended distraction-free blocks correlate with higher-quality output, though effect sizes are not RCT-confirmed for the Deep Work protocol specifically.
-
-- **Mood / Affect** · Evidence: C · Effect: Moderate increase
-  Flow-state research links deep concentration on skill-matched tasks with elevated positive affect and intrinsic motivation.
-

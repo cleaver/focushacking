@@ -44,21 +44,3 @@ A breath-anchored attention practice where you observe thoughts, sensations, and
 ### Example
 
 A surgeon meditates for 15 minutes before complex procedures, reporting enhanced intraoperative focus and reduced anxiety. Emergency medicine physicians use brief sessions between cases to reset attention.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: A · Effect: Moderate increase
-  Zainal & Newman (2023) meta-analysis of 111 RCTs found significant MBI effects on sustained attention accuracy (g=0.26–0.43 vs active controls), with consistent results across healthy and clinical populations.
-
-- **Working Memory** · Evidence: A · Effect: Moderate increase
-  The same 111-RCT meta-analysis found significant improvements in working memory accuracy (g≈0.26–0.43 vs active controls), with face-to-face interventions showing stronger effects than self-guided programs.
-
-- **Stress Reduction** · Evidence: A · Effect: Large increase
-  A meta-analysis of 44 meta-analyses (Goldberg et al., 2021) confirmed MBIs produce robust, consistent reductions in anxiety, depression, and perceived stress vs active controls across diverse clinical and healthy populations.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  Zainal & Newman (2023) found significant improvements in shifting accuracy (cognitive flexibility) in mindfulness practitioners, with moderate effects maintained versus active control conditions.
-
-- **Mood / Affect** · Evidence: A · Effect: Large increase
-  Brief mindfulness RCTs meta-analysis (Lindsay et al., 2019, 65 RCTs, n=5,489) confirmed reliable reductions in negative affectivity (depression, anxiety, rumination) with small-to-moderate effect sizes.
-

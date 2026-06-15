@@ -41,15 +41,3 @@ Breathing at a rate of approximately 5–6 breaths per minute (5 seconds in, 5 s
 ### Example
 
 Elite athletes and military personnel use coherent breathing as part of HRV biofeedback training. HeartMath Institute uses it as the core intervention in their cognitive performance programs adopted by corporations including Cisco and Stanford Health.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Bharati et al. 2022 found significant improvement in Trail Making Test Part A (visual attention/processing speed) after 4 weeks of resonance breathing in the intervention group versus controls.
-
-- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
-  Trail Making Test Part B (executive function/cognitive flexibility) also improved significantly in the RB group, indicating benefits for set-shifting ability.
-
-- **Stress Reduction** · Evidence: C · Effect: Moderate increase
-  Perceived Stress Scale scores decreased significantly in the resonance breathing group after 4 weeks compared to both baseline and controls.
-

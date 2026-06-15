@@ -42,15 +42,3 @@ Group similar low-cognitive tasks (emails, scheduling, administrative work) and 
 ### Example
 
 A journalist checks email only at 8 AM and 4 PM, batching all correspondence into two focused 30-minute windows, freeing the rest of the day for uninterrupted writing and research.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Moderate increase
-  Mark et al. (2008, CHI) found workers averaged only 3 minutes per task before interruption, and interrupted workers worked faster but with more errors and stress; batching eliminates these micro-interruptions during deep work blocks.
-
-- **Stress Reduction** · Evidence: D · Effect: Small increase
-  The Mark et al. study found interruptions significantly increased reported stress and frustration; eliminating these through batching should reduce stress, but no RCT has directly tested stress outcomes of email batching specifically.
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  Self-report studies of email batching (2x daily vs continuous) show productivity improvements, but lack random assignment and validated objective productivity metrics.
-

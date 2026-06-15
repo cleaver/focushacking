@@ -43,15 +43,3 @@ A systematic practice of moving attention deliberately through each region of th
 ### Example
 
 Athletes on the US Olympic team use body scan before competition to identify and release tension patterns in specific muscle groups, improving biomechanical efficiency and mental presence.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Gan et al. (2022) meta-analysis of 14 body-scan-only RCTs found small effects on mindfulness but not consistently on stress; MBSR packages including body scan show moderate stress reduction (SMD≈0.3–0.74 in larger reviews).
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Goldin & Gross (2010) fMRI RCT (n=16) demonstrated that 8-week MBSR including body scan increased prefrontal attention-regulation activity and reduced amygdala reactivity, suggesting neural changes supportive of sustained attention.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  Body scan alone shows small positive effects on mood in clinical samples; effects are stronger when embedded in full MBSR, suggesting synergistic rather than isolated benefits.
-

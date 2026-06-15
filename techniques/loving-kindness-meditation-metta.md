@@ -42,15 +42,3 @@ A structured meditation practice that trains sustained positive attention by sil
 ### Example
 
 Teachers and therapists practice LKM before sessions involving difficult clients or students, reporting improved patience and attentional presence that allows them to listen and respond more skillfully.
-
-## Outcomes
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Zeng et al. (2015) meta-analysis of 10 waitlist-controlled RCTs found medium effect sizes for LKM on high-arousal positive emotions (g=0.40) and low-arousal positive emotions (g=0.39), with consistent results.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Fredrickson et al. (2008, n=139, RCT) found LKM reduced illness symptoms and built psychological resilience resources; meta-analytic evidence confirms LKM reduces self-reported stress and increases well-being moderately.
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Unlike focused-attention meditation, LKM does not primarily train sustained attention; Lee et al. (2012) fMRI study found LKM expertise did not improve attention task performance, though it enhanced emotional regulation relevant to attentional presence.
-

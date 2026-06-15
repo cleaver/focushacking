@@ -44,21 +44,3 @@ A structured practice combining physical postures (asanas), controlled breathing
 ### Example
 
 Google's 'Search Inside Yourself' program includes yoga as a component. Surgeons at several hospitals report that regular yoga practice reduces hand tremor and improves intraoperative focus compared to non-practitioners.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  An RCT of 96 pregnant women found integrated yoga significantly improved sustained, focused, and divided attention vs. standard exercise control (p<0.001).
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  An RCT of older adults found 8 weeks of Hatha yoga significantly improved working memory capacity and efficiency of mental set shifting vs. a stretching-toning control group.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  The 8-week Hatha yoga RCT found significantly improved performance on cognitive flexibility measures (Trail Making Test B, mental set shifting) compared to the stretching control.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Yoga consistently reduces perceived stress, cortisol levels, and anxiety symptoms across multiple RCTs, mediated by enhanced HRV and improved stress regulation.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Yoga interventions reliably improve mood and reduce depression symptoms in RCTs across diverse populations, with moderate effect sizes.
-

@@ -7,6 +7,11 @@ import {
   effectLabel,
   effectCssClass,
 } from "../../utils/papers";
+import {
+  getOutcomesBySlug,
+  outcomeGradeClass,
+  outcomeEffectClass,
+} from "../../utils/outcomes";
 
 export async function getStaticPaths() {
   const techniques = await getCollection("techniques");
@@ -21,6 +26,8 @@ const t = entry.data;
 const { Content } = await render(entry);
 const papersByYear = getPapersBySlug(t.slug);
 const hasPapers = Object.keys(papersByYear).length > 0;
+const outcomes = getOutcomesBySlug(t.slug);
+const hasOutcomes = outcomes.length > 0;
 
 const GRADES = {
   A: {
@@ -344,6 +351,53 @@ const FACET_LABELS = {
         <div class="modal-rendered-content">
           <Content />
         </div>
+
+        <!-- Outcomes (from outcomes_index.json) -->
+        {
+          hasOutcomes && (
+            <div class="modal-section">
+              <h3 class="modal-section-title">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <>
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                  </>
+                </svg>
+                Outcomes
+              </h3>
+              <div class="outcomes-list">
+                {outcomes.map((o: any) => (
+                  <div class="outcome-row">
+                    <div class="outcome-info">
+                      <div class="outcome-name">{o.outcome}</div>
+                      {o.note && <div class="outcome-note">{o.note}</div>}
+                    </div>
+                    <div class="outcome-meta">
+                      <span
+                        class={`outcome-grade-pip ${outcomeGradeClass(o.grade)}`}
+                      >
+                        {o.grade}
+                      </span>
+                      <span
+                        class={`outcome-effect-chip ${outcomeEffectClass(o.effect)}`}
+                      >
+                        {o.effect}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )
+        }
 
         <!-- Papers (from papers_index.json) -->
         {
@@ -859,29 +913,93 @@ const FACET_LABELS = {
     margin-top: 0.375rem;
   }
 
-  /* ── Outcomes list (rendered from markdown) ───────── */
-  :global(.modal-rendered-content > ul) {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-  }
-
-  :global(.modal-rendered-content > ul > li) {
+  /* ── Outcomes list (from outcomes_index.json) ────── */
+  .outcome-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.875rem 1rem;
     background: var(--color-surface-2);
     border: 1px solid var(--color-border);
     border-radius: 0.75rem;
-    padding: 0.875rem 1rem;
     margin-bottom: 0.5rem;
-    font-size: var(--text-sm);
-    line-height: 1.6;
   }
 
-  :global(.modal-rendered-content > ul > li > strong) {
-    display: block;
+  .outcome-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .outcome-name {
     font-weight: 700;
     font-size: var(--text-sm);
     color: var(--color-text);
     margin-bottom: 0.125rem;
+  }
+
+  .outcome-note {
+    font-size: 0.8125rem;
+    line-height: 1.55;
+    color: var(--color-text-muted);
+  }
+
+  .outcome-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .outcome-grade-pip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.6875rem;
+    font-weight: 800;
+    font-family: var(--font-display);
+  }
+
+  .outcome-grade-A {
+    background: var(--color-grade-a-hi);
+    color: var(--color-grade-a);
+  }
+
+  .outcome-grade-B {
+    background: var(--color-grade-b-hi);
+    color: var(--color-grade-b);
+  }
+
+  .outcome-grade-C {
+    background: var(--color-grade-c-hi);
+    color: var(--color-grade-c);
+  }
+
+  .outcome-grade-D {
+    background: var(--color-grade-d-hi);
+    color: var(--color-grade-d);
+  }
+
+  .outcome-grade-NI {
+    background: var(--color-grade-na-hi);
+    color: var(--color-grade-na);
+  }
+
+  .outcome-grade-\? {
+    background: var(--color-grade-na-hi);
+    color: var(--color-grade-na);
+  }
+
+  .outcome-effect-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    white-space: nowrap;
   }
 
   :global(.modal-rendered-content h3) {

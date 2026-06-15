@@ -44,18 +44,3 @@ During meditation, silently label each arising experience with a single word (e.
 ### Example
 
 Insight meditation (Vipassana) teachers and therapists trained in ACT teach clients the noting technique as a practical off-the-cushion tool: when a distracting thought arises during deep work, noting 'planning' and returning to task takes under a second.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Broad meta-analytic evidence from mindfulness RCTs supports improvements in sustained attention; noting is a core component of open-monitoring meditation, which has specific evidence for reduced mind wandering and improved attention task performance.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Affect labeling (the cognitive mechanism of noting) is shown in RCT-grade neuroimaging studies to reduce amygdala hyperactivation, directly lowering physiological stress response.
-
-- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
-  Open monitoring meditation — which noting exemplifies — has emerging evidence for improving cognitive flexibility via training attentional set-shifting, though specific noting-only RCTs are scarce.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Affect labeling consistently reduces emotional arousal and negative affect intensity, as demonstrated in multiple fMRI and behavioral RCTs studying the naming/labeling of emotional states.
-

@@ -44,15 +44,3 @@ Richard Feynman's learning method leverages the alternation between focused anal
 ### Example
 
 Richard Feynman used this method to master every physics topic from first principles. Physics educator Sal Khan (Khan Academy) reports using similar explain-as-you-go methods that reveal and fill gaps in his own understanding of material before teaching it.
-
-## Outcomes
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  Active generation and retrieval strengthen memory traces more than passive re-reading, as demonstrated by the testing effect literature.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  The cyclic focused/diffuse structure prevents sustained attention fatigue by interspersing rest periods that support memory consolidation and creative insight.
-
-- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
-  Explaining material in simplified terms forces analogical reasoning and cross-domain connections, modestly improving cognitive flexibility for the studied domain.
-

@@ -43,15 +43,3 @@ Active noise-cancelling (ANC) headphones that electronically neutralize ambient 
 ### Example
 
 Programmers at Silicon Valley companies (including many at Apple and Google) routinely use ANC headphones as their primary focus management tool, signaling focused work to colleagues while blocking open-office ambient noise.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Cheng et al. 2022 found 45 dB white noise (achievable via ANC headphones) significantly improved continuous performance test scores versus ambient noise (95.23% vs 93.12%, p=0.02, d=0.51).
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  The same study found lower physiological stress markers under 45 dB white noise versus ambient office noise and versus louder 65 dB noise conditions.
-
-- **Task Completion** · Evidence: C · Effect: Small increase
-  Participants made significantly fewer errors on accuracy tasks under 45 dB white noise than under 65 dB or ambient noise conditions, with improved speed-accuracy tradeoff.
-

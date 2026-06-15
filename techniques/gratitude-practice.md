@@ -42,18 +42,3 @@ Daily recording of three to five specific things you are grateful for, activatin
 ### Example
 
 Arianna Huffington writes in her gratitude journal each morning as part of a structured morning routine; she credits it with reducing anxiety and improving the quality of attention she brings to strategic decisions.
-
-## Outcomes
-
-- **Mood / Affect** · Evidence: A · Effect: Moderate increase
-  A systematic review and meta-analysis of gratitude interventions found consistent improvements in positive affect, subjective well-being, and reductions in negative affect and depression across clinical trials.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Gratitude interventions significantly reduce anxiety and repetitive negative thinking, which are known to impair prefrontal attentional function, in multiple RCTs.
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Self-report measures show gratitude practitioners report greater focused attention and cognitive clarity, but objective attention task data are limited to a small number of studies.
-
-- **Cognitive Flexibility** · Evidence: D · Effect: Insufficient data
-  No RCTs have directly measured the effect of gratitude journaling on cognitive flexibility or task-switching performance.
-

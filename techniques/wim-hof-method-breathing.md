@@ -43,15 +43,3 @@ A structured breathing protocol developed by Dutch extreme athlete Wim Hof invol
 ### Example
 
 Athletes, executives, and special operations soldiers use Wim Hof breathing as a pre-performance activation tool. Dutch extreme athlete Wim Hof has set multiple world records in cold endurance using this method.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: C · Effect: Moderate increase
-  A 2025 semi-randomized controlled trial found WHM practice produced significantly greater improvements in momentary mental clarity and ability to handle stress compared to a meditation control.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  A Claremont thesis RCT reported reduced negative affect and increased positive affect after a single WHM breathing session compared to controls.
-
-- **Sustained Attention** · Evidence: NI · Effect: Insufficient data
-  No RCT has directly tested sustained attention as a primary outcome of WHM breathing; the acute epinephrine surge may transiently enhance alertness but cognitive data are lacking.
-

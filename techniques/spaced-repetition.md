@@ -42,15 +42,3 @@ A learning system where information is reviewed at progressively expanding inter
 ### Example
 
 Medical and law students using Anki flashcards report 15–25% higher board exam scores than non-users. A 2020 University of Leicester study found spaced repetition users scored 70% on exams versus 61% for non-users and 64% for massed learners.
-
-## Outcomes
-
-- **Working Memory** · Evidence: A · Effect: Large increase
-  Meta-analytic evidence across 317 studies consistently shows spaced practice produces dramatically superior long-term retention compared to massed practice.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Short daily review sessions (15–30 min) exploit attention availability when it is fresh, and automatized knowledge reduces the cognitive load needed for focused performance.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  Spaced repetition over diverse material builds robust, context-independent knowledge representations that are more flexibly applied in novel problem contexts.
-

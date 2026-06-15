@@ -42,15 +42,3 @@ Assign a fixed, non-negotiable maximum time limit to a task, then stop when the 
 ### Example
 
 A UX designer uses 45-minute timeboxes for wireframe sketches, preventing perfectionist paralysis and generating five testable prototypes per day instead of laboring over one.
-
-## Outcomes
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  Time pressure experiments show that when deadlines are moderate (not extreme), task completion speed improves, consistent with Parkinson's Law, but the optimal pressure level varies widely by individual and task type.
-
-- **Cognitive Flexibility** · Evidence: D · Effect: Mixed
-  Research on time pressure and decision-making shows mixed results: mild pressure can trigger efficient heuristics, but high pressure impairs inhibitory control (Eriksen flanker task, Sussman & Sekuler 2022), suggesting timeboxes must be calibrated carefully.
-
-- **Mood / Affect** · Evidence: D · Effect: Small increase
-  Completing a defined task within its timebox produces a measurable sense of accomplishment, but no RCT has measured this directly in the context of timeboxing as a productivity strategy.
-

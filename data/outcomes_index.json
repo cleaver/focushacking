@@ -1,0 +1,1264 @@
+{
+  "pomodoro-technique": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Three RCTs in the Ogut 2025 scoping review found structured Pomodoro intervals improved self-rated focus by 15\u201325% versus self-paced schedules, but effect sizes are modest and rely primarily on self-report."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Pomodoro-structured breaks reduced fatigue scores by approximately 20% versus self-regulated conditions across quasi-experimental studies, supported by the micro-breaks meta-analysis showing vigor improvements (d=0.36)."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "The Que et al. 2023 RCT (n=75) found no statistically significant effect on memory retention, and productivity gains in existing studies are mostly self-reported without objective task-completion metrics."
+    }
+  ],
+  "time-blocking": [
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Gollwitzer & Sheeran's meta-analysis (94 studies, n>8,000, d=0.65) shows that specifying when and where to act \u2014 the core mechanism of time blocking \u2014 produces medium-to-large goal achievement gains."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Leroy (2009) demonstrated that tasks with undefined endpoints create attention residue that reduces focus on subsequent work; time blocking's defined endpoints theoretically reduce this, but no direct RCT has tested this specific mechanism."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "NI",
+      "effect": "Insufficient data",
+      "note": "No direct RCT evidence exists for time blocking reducing subjective stress; correlational surveys suggest structured scheduling reduces anxiety, but evidence is observational."
+    }
+  ],
+  "eat-the-frog": [
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Implementation intention meta-analyses (Gollwitzer & Sheeran, 2006; n>8,000) show that pre-specifying the first task of the day is the strongest predictor of follow-through, directly supporting the core mechanism of Eat the Frog."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Completing the most aversive task first theoretically reduces anticipatory anxiety throughout the day, supported by research on the psychological benefits of task completion, but no RCT has measured cortisol or validated stress instruments before vs after adopting this practice."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Morning prioritization aligns high-demand tasks with peak circadian cortisol and alertness, but the 'morning is best for cognition' claim varies considerably by chronotype and lacks large-scale validation."
+    }
+  ],
+  "timeboxing": [
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Time pressure experiments show that when deadlines are moderate (not extreme), task completion speed improves, consistent with Parkinson's Law, but the optimal pressure level varies widely by individual and task type."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "Research on time pressure and decision-making shows mixed results: mild pressure can trigger efficient heuristics, but high pressure impairs inhibitory control (Eriksen flanker task, Sussman & Sekuler 2022), suggesting timeboxes must be calibrated carefully."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Completing a defined task within its timebox produces a measurable sense of accomplishment, but no RCT has measured this directly in the context of timeboxing as a productivity strategy."
+    }
+  ],
+  "mit-most-important-tasks": [
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Goal-setting research (Locke & Latham meta-analysis, 500+ studies) consistently shows that specific, challenging goals increase task completion rates by 16\u201320% compared to do-your-best conditions; MIT operationalizes this daily."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "By pre-committing to three priorities, MIT reduces goal-conflict interference and may reduce mind-wandering, but this mechanism has not been tested with objective attention measures in the context of the MIT technique specifically."
+    }
+  ],
+  "2-minute-rule": [
+    {
+      "outcome": "Working Memory",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "The Zeigarnik effect demonstrates that incomplete tasks persistently intrude into working memory; immediately completing sub-2-minute tasks theoretically reduces this attentional burden, but no RCT measures this specific intervention."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "GTD system surveys report reduced open-loop anxiety and improved closure rates, but these are self-report cross-sectional studies without control conditions or validated measures of task completion."
+    }
+  ],
+  "weekly-review": [
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Masicampo & Baumeister (2011, n=171) found that making concrete plans for unfinished tasks completely eliminated their intrusion into consciousness, directly validating the cognitive mechanism the Weekly Review exploits."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Self-report surveys of GTD practitioners consistently report reduced anxiety about commitments, but these lack control groups and use no validated stress measures, capping evidence at grade D."
+    }
+  ],
+  "task-batching": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Mark et al. (2008, CHI) found workers averaged only 3 minutes per task before interruption, and interrupted workers worked faster but with more errors and stress; batching eliminates these micro-interruptions during deep work blocks."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "The Mark et al. study found interruptions significantly increased reported stress and frustration; eliminating these through batching should reduce stress, but no RCT has directly tested stress outcomes of email batching specifically."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Self-report studies of email batching (2x daily vs continuous) show productivity improvements, but lack random assignment and validated objective productivity metrics."
+    }
+  ],
+  "ivy-lee-method": [
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Pre-committing to task order the night before is an implementation intention; the Gollwitzer & Sheeran meta-analysis (d=0.65) supports its efficacy for follow-through, but the Ivy Lee Method specifically has not been studied."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "By providing a pre-defined task sequence, the method eliminates moment-to-moment deliberation about what to work on next, conserving working memory and executive function for task execution rather than planning."
+    }
+  ],
+  "parkinsons-law-application": [
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Amabile et al. (2002) found a non-linear relationship between time pressure and creative output in diary studies of 177 employees; moderate pressure was associated with higher focus, but this was observational and self-reported."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "Research on time pressure shows it narrows attentional focus (tunneling), which can improve single-task efficiency but impairs broader creative or multi-step problem solving depending on task type."
+    }
+  ],
+  "mindfulness-meditation": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "Zainal & Newman (2023) meta-analysis of 111 RCTs found significant MBI effects on sustained attention accuracy (g=0.26\u20130.43 vs active controls), with consistent results across healthy and clinical populations."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "The same 111-RCT meta-analysis found significant improvements in working memory accuracy (g\u22480.26\u20130.43 vs active controls), with face-to-face interventions showing stronger effects than self-guided programs."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "A meta-analysis of 44 meta-analyses (Goldberg et al., 2021) confirmed MBIs produce robust, consistent reductions in anxiety, depression, and perceived stress vs active controls across diverse clinical and healthy populations."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Zainal & Newman (2023) found significant improvements in shifting accuracy (cognitive flexibility) in mindfulness practitioners, with moderate effects maintained versus active control conditions."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "Brief mindfulness RCTs meta-analysis (Lindsay et al., 2019, 65 RCTs, n=5,489) confirmed reliable reductions in negative affectivity (depression, anxiety, rumination) with small-to-moderate effect sizes."
+    }
+  ],
+  "body-scan-meditation": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Gan et al. (2022) meta-analysis of 14 body-scan-only RCTs found small effects on mindfulness but not consistently on stress; MBSR packages including body scan show moderate stress reduction (SMD\u22480.3\u20130.74 in larger reviews)."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Goldin & Gross (2010) fMRI RCT (n=16) demonstrated that 8-week MBSR including body scan increased prefrontal attention-regulation activity and reduced amygdala reactivity, suggesting neural changes supportive of sustained attention."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Body scan alone shows small positive effects on mood in clinical samples; effects are stronger when embedded in full MBSR, suggesting synergistic rather than isolated benefits."
+    }
+  ],
+  "mindful-walking": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Berman et al. (2008, n=38, RCT) found nature walks improved backward digit span and Attention Network Test performance significantly vs urban walks; two Finnish field experiments (n=128, n=121) also found sustained attention improved after nature walks."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Ma et al. (2022, n=66, RCT of mindful nature walking) found significantly improved mood and reduced mood disturbance vs control; nature walk studies consistently show positive affect improvements across multiple designs."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Mindful nature walking RCT (Ma et al., 2022) found improved sleep quality and reduced stress; Pasanen et al. (2018) studies found greater restoration in more-stressed participants, indicating stress-buffering effects."
+    }
+  ],
+  "loving-kindness-meditation-metta": [
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Zeng et al. (2015) meta-analysis of 10 waitlist-controlled RCTs found medium effect sizes for LKM on high-arousal positive emotions (g=0.40) and low-arousal positive emotions (g=0.39), with consistent results."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Fredrickson et al. (2008, n=139, RCT) found LKM reduced illness symptoms and built psychological resilience resources; meta-analytic evidence confirms LKM reduces self-reported stress and increases well-being moderately."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Unlike focused-attention meditation, LKM does not primarily train sustained attention; Lee et al. (2012) fMRI study found LKM expertise did not improve attention task performance, though it enhanced emotional regulation relevant to attentional presence."
+    }
+  ],
+  "open-monitoring-meditation": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Ainsworth et al. (2013, n=57, RCT) found both FA and OM meditation improved executive attention network performance, with OM producing a non-reactive monitoring style that reduces distraction-driven attention failures."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Lippelt, Hommel & Colzato (2014) review found OM meditation selectively improved divergent thinking and reduced cognitive rigidity compared to focused attention practices, reflecting enhanced flexible attentional monitoring."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Zainal & Newman (2023) meta-analysis found significant working memory accuracy improvements from MBIs overall (which include OM training); OM-specific effects on working memory have not been isolated in a large enough sample to confirm independently."
+    }
+  ],
+  "mbsr-mindfulness-based-stress-reduction": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "Multiple large RCTs and meta-analyses show MBSR consistently reduces perceived stress, cortisol, and anxiety with large effect sizes (Cohen's d > 0.5) vs. active controls."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Meta-analysis of 111 RCTs found small-to-moderate improvements in sustained attention (g\u22480.26\u20130.45); one large RCT with active control found no significant difference, suggesting some specificity questions remain."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Meta-analytic evidence shows significant improvements in working memory accuracy (g\u22480.26) from mindfulness-based programs vs. waitlist or active control groups."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "An RCT of 54 participants found MBSR significantly improved cognitive flexibility vs. waitlist control, mediated by increases in non-reactivity."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "MBSR consistently reduces negative affect and depression symptoms across populations in well-powered RCTs."
+    }
+  ],
+  "mindful-journaling": [
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Two small experiments (n=28 and n=38) found expressive writing about stressful events increased working memory capacity in university students but not in younger adolescents, suggesting small and population-specific effects."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Pennebaker's expressive writing paradigm has well-replicated evidence across RCTs for reducing perceived stress, intrusive thoughts, and physiological stress markers in diverse populations."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Expressive writing about emotional experiences consistently reduces negative affect and improves psychological well-being across multiple controlled trials."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Insufficient data",
+      "note": "No direct RCTs have measured the effect of mindful journaling on sustained attention or vigilance task performance; effects on attention are inferred indirectly via working memory and stress reduction."
+    }
+  ],
+  "gratitude-practice": [
+    {
+      "outcome": "Mood / Affect",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "A systematic review and meta-analysis of gratitude interventions found consistent improvements in positive affect, subjective well-being, and reductions in negative affect and depression across clinical trials."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Gratitude interventions significantly reduce anxiety and repetitive negative thinking, which are known to impair prefrontal attentional function, in multiple RCTs."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Self-report measures show gratitude practitioners report greater focused attention and cognitive clarity, but objective attention task data are limited to a small number of studies."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "D",
+      "effect": "Insufficient data",
+      "note": "No RCTs have directly measured the effect of gratitude journaling on cognitive flexibility or task-switching performance."
+    }
+  ],
+  "visualization-mental-rehearsal": [
+    {
+      "outcome": "Task Completion",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "A meta-analysis of 86 studies (n=3,593 athletes) found imagery practice significantly enhanced performance with moderate effect sizes across sport-specific tasks including accuracy, strength, and technical performance."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Visualization primes attentional focus on task-relevant cues, but direct RCT evidence for improvements in objective sustained attention task performance in non-sport contexts is limited."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Mental rehearsal of successful performance reduces pre-task anxiety and improves confidence, with self-report benefits shown across multiple studies including RCTs."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "D",
+      "effect": "Insufficient data",
+      "note": "No RCTs have directly measured cognitive flexibility outcomes from visualization practice in cognitive (non-sport) task contexts."
+    }
+  ],
+  "noting-technique": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Broad meta-analytic evidence from mindfulness RCTs supports improvements in sustained attention; noting is a core component of open-monitoring meditation, which has specific evidence for reduced mind wandering and improved attention task performance."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Affect labeling (the cognitive mechanism of noting) is shown in RCT-grade neuroimaging studies to reduce amygdala hyperactivation, directly lowering physiological stress response."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Open monitoring meditation \u2014 which noting exemplifies \u2014 has emerging evidence for improving cognitive flexibility via training attentional set-shifting, though specific noting-only RCTs are scarce."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Affect labeling consistently reduces emotional arousal and negative affect intensity, as demonstrated in multiple fMRI and behavioral RCTs studying the naming/labeling of emotional states."
+    }
+  ],
+  "aerobic-exercise": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "Meta-analytic reviews of RCTs show aerobic exercise consistently improves attention and processing speed with reliable effect sizes; aerobic exercise had the greatest impact on attention among physical exercise types (SMD=0.56) in a 2025 meta-analysis."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "A meta-analysis of 42 RCTs (n=2,881) in healthy middle-aged and older adults found aerobic exercise significantly improved working memory (Hedge's g=0.392, p<0.001)."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "A",
+      "effect": "Moderate increase",
+      "note": "Aerobic exercise interventions significantly improved cognitive flexibility (Hedge's g=0.343, p<0.001) in a 42-RCT meta-analysis, with optimal effects from 13\u201324 weeks of progressive-intensity exercise."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "Exercise is one of the most evidence-based interventions for mood improvement, with large meta-analytic effects on depression, anxiety, and positive affect."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Acute aerobic exercise reliably improves processing speed and reaction time in the 20\u201330 minutes post-exercise window, with small-to-moderate effect sizes (Cohen's d = 0.38\u20130.49)."
+    }
+  ],
+  "yoga": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "An RCT of 96 pregnant women found integrated yoga significantly improved sustained, focused, and divided attention vs. standard exercise control (p<0.001)."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "An RCT of older adults found 8 weeks of Hatha yoga significantly improved working memory capacity and efficiency of mental set shifting vs. a stretching-toning control group."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "The 8-week Hatha yoga RCT found significantly improved performance on cognitive flexibility measures (Trail Making Test B, mental set shifting) compared to the stretching control."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Yoga consistently reduces perceived stress, cortisol levels, and anxiety symptoms across multiple RCTs, mediated by enhanced HRV and improved stress regulation."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Yoga interventions reliably improve mood and reduce depression symptoms in RCTs across diverse populations, with moderate effect sizes."
+    }
+  ],
+  "progressive-muscle-relaxation-pmr": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "A systematic review of 46 publications found PMR significantly reduces stress, anxiety, and depression across diverse populations and settings, with large effect sizes in multiple RCTs (Cohen's d up to 1.5)."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "By reducing sympathetic arousal (electrodermal activity, heart rate), PMR creates the physiological preconditions for sustained attention, but direct RCT measurements of attention task performance post-PMR are limited."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "PMR consistently reduces negative affect, anxiety, and depression symptoms across populations from healthy adults to clinical patients in multiple RCTs."
+    },
+    {
+      "outcome": "Sleep Quality",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "PMR has well-documented RCT evidence for improving sleep quality, which in turn enhances cognitive focus and working memory the following day."
+    }
+  ],
+  "cold-shower": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Mixed",
+      "note": "A systematic review found most experimental settings showed impairment of cognitive performance during cold exposure (15 of 18 studies); brief post-cold alertness effects exist but are short-lived and not yet well-studied for focused cognitive work."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Cold-water immersion significantly improves positive affect (feeling active, alert, attentive, inspired) and reduces negative affect, with fMRI evidence showing increased coupling between attention control and emotion regulation brain networks."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Meta-analysis found significant stress reduction 12 hours post-CWI (SMD=\u22121.00) but no significant effect immediately post-exposure; suggesting delayed rather than immediate stress benefits."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "Cold hand immersion improved selective attention in one controlled study, but prolonged cold exposure generally impairs psychomotor performance and cognitive function during exposure."
+    }
+  ],
+  "power-nap": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Short midday naps (10\u201340 min) consistently improve sustained attention (psychomotor vigilance) over subsequent hours vs. no-nap controls in laboratory-based RCT-design studies."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Meta-analysis and individual studies found naps improved working memory, especially when combined with adequate slow-wave sleep; 30-min naps showed the clearest benefits for memory encoding."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Meta-analysis (effect size=0.18\u20130.29) showed significant overall cognitive performance improvement post-nap, with alertness showing the largest effect and benefits peaking within 120 minutes of waking."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Naps of 10\u201360 minutes consistently improve positive mood and subjective alertness, with clear benefits across multiple within-subjects studies."
+    }
+  ],
+  "walking-in-nature": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "A 30-minute nature walk produced a faster and more stable pattern of responding on the Attention Network Task in children vs. urban walk; a 40-minute nature walk enhanced neural indices of executive control (error-related negativity) in adults."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Berman et al. (2008) found nature walks significantly improved backward digit span (a working memory measure) compared to urban walks in two separate experiments."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Nature exposure appears to improve attention shifting and cognitive flexibility, but direct RCT data on executive function flexibility tasks are limited to a small number of controlled studies."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Walking in nature consistently improves mood, reduces negative affect, and lowers rumination vs. urban walking, with effects replicated across multiple controlled studies including in depressed populations."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Nature walks reduce perceived stress and physiological markers of stress (cortisol, heart rate, skin conductance) compared to urban walks in multiple controlled studies."
+    }
+  ],
+  "desk-stretching-routine": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Ariga & Lleras (2011) in Cognition demonstrated that brief task disengagement (including physical breaks) prevents the habitual neural adaptation that degrades sustained attention during prolonged work."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Small increase",
+      "note": "Micro-movement breaks reduce physical discomfort and fatigue from prolonged sitting, which are known contributors to negative affect and reduced motivation for cognitive work."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Physical stretching activates the parasympathetic system and reduces muscle tension-related sympathetic arousal, but RCT data for this specific pathway on cognitive stress measures are limited."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Physical movement breaks increase cerebral blood flow, which may improve processing speed, but direct RCT measurements of reaction time post-desk-stretching are scarce."
+    }
+  ],
+  "kettlebell-training": [
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "High-intensity exercise produces significantly greater BDNF elevation and working memory improvements than moderate intensity in controlled studies, with effects measurable 20\u201330 minutes post-exercise."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "High-intensity interval exercise consistently improves cognitive flexibility (Trail Making Test, task switching) compared to moderate-intensity exercise and no-exercise controls across multiple RCTs."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "The acute post-exercise catecholamine surge from high-intensity training improves prefrontal function and vigilance for 20\u201390 minutes post-session, as shown in exercise-cognition RCTs."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Acute high-intensity exercise significantly improves processing speed and reaction time in the post-exercise window via dopamine and noradrenaline release in prefrontal regions."
+    }
+  ],
+  "box-breathing": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Slow-paced breathing (\u22486 breaths/minute, which box breathing approximates) consistently reduces perceived stress, salivary cortisol, and sympathetic arousal markers in RCT-quality studies."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "A Stanford RCT found box breathing improved mood and reduced physiological arousal vs. mindfulness meditation over 1 month; direct sustained attention task improvements are inferred but not yet directly measured in powered RCTs."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Slow-paced breathing improved inhibitory control and decision-making under stress in controlled studies, but effects are small (d<0.3) and population-specific."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "A Stanford RCT (n=114) found 5 minutes daily of breathwork (including box breathing) significantly improved mood and reduced negative affect vs. mindfulness meditation over one month."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Slow-paced breathing before cognitive tasks showed small improvements in reaction time and processing speed in some controlled studies, mediated by increased HRV and reduced sympathetic arousal."
+    }
+  ],
+  "4-7-8-breathing": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "A 2023 RCT found 4-7-8 breathing significantly reduced state anxiety versus control after bariatric surgery, with a small-to-moderate effect size."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Slow breathing systematic reviews consistently link extended-exhale patterns to improved positive affect, though specific 4-7-8 RCTs are lacking."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "NI",
+      "effect": "Insufficient data",
+      "note": "No RCTs have directly measured sustained attention as an outcome of 4-7-8 breathing specifically; evidence is mechanistically inferred from parasympathetic activation studies."
+    }
+  ],
+  "diaphragmatic-breathing": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Ma et al. 2017 RCT found a significant group \u00d7 time interaction on Number Cancellation Test scores (\u03b7p\u00b2=0.21) after 8 weeks of training compared to controls."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "The same RCT showed a significant group \u00d7 time interaction for salivary cortisol, with the breathing intervention group showing significantly lower post-training cortisol levels."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Small increase",
+      "note": "Negative Affect Schedule (PANAS) scores decreased significantly after intervention, while positive affect was unchanged, indicating specific anxiolytic benefit."
+    }
+  ],
+  "wim-hof-method-breathing": [
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "A 2025 semi-randomized controlled trial found WHM practice produced significantly greater improvements in momentary mental clarity and ability to handle stress compared to a meditation control."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "A Claremont thesis RCT reported reduced negative affect and increased positive affect after a single WHM breathing session compared to controls."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "NI",
+      "effect": "Insufficient data",
+      "note": "No RCT has directly tested sustained attention as a primary outcome of WHM breathing; the acute epinephrine surge may transiently enhance alertness but cognitive data are lacking."
+    }
+  ],
+  "alternate-nostril-breathing-nadi-shodhana-pranayama": [
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Telles et al. 2022 found an 8% reduction in 2-back reaction time after a single session of alternate nostril breathing at 6 breaths/min (n=40)."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Telles et al. 2013 found significant increases in P300 amplitude at frontal, vertex, and parietal sites after ANB practice, indicating enhanced attentional resource allocation."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Telles et al. 2017 found significantly reduced systolic blood pressure and faster digit vigilance test completion after 15 minutes of alternate nostril breathing compared to control conditions."
+    }
+  ],
+  "coherent-breathing-resonance-breathing": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Bharati et al. 2022 found significant improvement in Trail Making Test Part A (visual attention/processing speed) after 4 weeks of resonance breathing in the intervention group versus controls."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Trail Making Test Part B (executive function/cognitive flexibility) also improved significantly in the RB group, indicating benefits for set-shifting ability."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Perceived Stress Scale scores decreased significantly in the resonance breathing group after 4 weeks compared to both baseline and controls."
+    }
+  ],
+  "cyclic-sighing": [
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Balban et al. 2023 found cyclic sighing produced the largest daily improvement in positive affect (+1.91 PANAS points) among all four conditions, significantly surpassing mindfulness meditation (p<0.05) over 30 days."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "All three controlled breathing groups outperformed mindfulness meditation on anxiety and negative mood; cyclic sighing also uniquely reduced resting respiratory rate, a biomarker of chronic arousal baseline."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "NI",
+      "effect": "Insufficient data",
+      "note": "The Balban et al. 2023 trial did not measure cognitive attention outcomes directly; benefits to attention are inferred from reduced physiological arousal and improved affect."
+    }
+  ],
+  "clean-desk-declutter": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "McMains & Kastner 2011 fMRI showed that competing visual stimuli mutually suppress neural processing in visual cortex, with each additional object reducing signal strength for focused targets \u2014 directly impairing sustained attention."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Saxbe & Repetti 2010 found women describing their homes as cluttered had elevated cortisol across the day versus those describing them as restorative, suggesting clutter creates chronic low-level stress."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Observational and indirect evidence suggests visual clutter consumes working memory resources needed to suppress irrelevant information, but no direct RCT has measured this effect in an office context."
+    }
+  ],
+  "noise-cancelling-headphones": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Cheng et al. 2022 found 45 dB white noise (achievable via ANC headphones) significantly improved continuous performance test scores versus ambient noise (95.23% vs 93.12%, p=0.02, d=0.51)."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "The same study found lower physiological stress markers under 45 dB white noise versus ambient office noise and versus louder 65 dB noise conditions."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Participants made significantly fewer errors on accuracy tasks under 45 dB white noise than under 65 dB or ambient noise conditions, with improved speed-accuracy tradeoff."
+    }
+  ],
+  "binaural-beats": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Colzato et al. 2017 found gamma binaural beats significantly reduced the global precedence effect (36 ms vs 57 ms in control), indicating enhanced focused attentional processing (\u03b7p\u00b2=0.11)."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Beauchene et al. 2017 showed beta-range binaural beats improved n-back working memory accuracy; Engelbregt et al. 2021 replicated attention improvements with 40 Hz beats using EEG without confirmed neural entrainment."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Studies show faster reaction times to local targets in global-local tasks under gamma binaural beats, suggesting enhanced selective attention speed, though effect sizes are small (d~0.3)."
+    }
+  ],
+  "white-noise": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "45 dB white noise produced 2.11 percentage points higher accuracy on the continuous performance test versus ambient noise (p=0.02, d=0.51), with no benefit at 65 dB."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "65 dB (but not 45 dB) white noise significantly improved working memory 2-back accuracy, suggesting an inverted-U dose-response; optimal level differs by task type."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "45 dB white noise was associated with significantly lower physiological stress markers and subjective stress compared to ambient noise and 65 dB noise conditions."
+    }
+  ],
+  "optimal-temperature": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Large increase",
+      "note": "Hancock & Vasmatzidis 2003 established that vigilance tasks \u2014 the most attentionally demanding \u2014 are the most sensitive to heat stress, with impairment beginning at the lowest dynamic body temperature rises (0.055\u00b0C/hr) compared to simpler cognitive tasks."
+    },
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Passive hyperthermia (50\u00b0C chamber) significantly impaired spatial span and visual memory (p<0.05) in a controlled counterbalanced study, with no effects on simpler attention tasks, confirming task-complexity dependence."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "C",
+      "effect": "Mixed",
+      "note": "Effects on simple reaction time are inconsistent \u2014 brief heat exposure may improve simple RT via increased neural conduction speed, but sustained heat impairs complex choice reaction time, with large individual variation."
+    }
+  ],
+  "natural-light-optimization": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Didikoglu et al. 2025 found that higher recent and habitual daytime light exposure was significantly associated with improved visual search performance and sustained attention in daily life over 7 days."
+    },
+    {
+      "outcome": "Reaction Time",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Both psychomotor vigilance and working memory reaction times were 7\u201310% faster under recent bright light exposure, with effects independent of time of day and time awake."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "A 2022 systematic review found that both short-wavelength dominant and high-intensity white light consistently induced alertness and improved mood across multiple studies, with morning bright light showing the largest and most sustained effects."
+    }
+  ],
+  "focus-playlists": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Controlled studies show music without lyrics has neutral-to-positive effects on concentration versus music with lyrics (which impairs attention), with instrumental music being preferable for language-dependent tasks."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Work-flow music condition in a 2025 PLOS ONE RCT produced significantly faster reaction times over time versus deep focus and silence conditions, with participants in the work-flow condition showing the steepest improvement slope."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Mixed",
+      "note": "Effects vary substantially by task type: creativity tasks benefit from moderate-level background sound; focused analytical tasks may be impaired by music with complex melodies or fast tempos."
+    }
+  ],
+  "phone-free-zone": [
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Ward et al. 2017 Experiment 1 showed phone-in-another-room participants scored significantly higher on working memory capacity tests than phone-on-desk participants (even when face-down and off)."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "No effect",
+      "note": "Experiment 2 found no significant effect on a behavioral measure of sustained attention (Sustained Attention to Response Task), suggesting the drain is primarily on working memory/fluid intelligence rather than raw attentional vigilance."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Fluid intelligence (Gf) \u2014 which supports flexible problem-solving \u2014 was significantly reduced by phone presence, consistent with the attentional resource depletion mechanism, but this was only measured once with no replication."
+    }
+  ],
+  "single-tasking-monotasking": [
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Ophir et al. 2009 found heavy multitaskers made significantly more false alarms in 2-back and 3-back tasks (d=0.84) and were less effective at filtering irrelevant memory representations, directly establishing working memory costs of habitual multitasking."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Heavy multitaskers showed significantly greater susceptibility to irrelevant environmental distractors in change-detection and AX-CPT tasks (d=1.19 for AX-CPT), demonstrating impaired ability to sustain focused attention."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Task-switching cost was significantly larger in heavy multitaskers (d=0.96 for switch cost), with slower response times on both switch and non-switch trials, indicating reduced cognitive flexibility from habitual multitasking."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Large increase",
+      "note": "While not directly measured in Ophir et al., the extensive multitasking-costs literature and productivity research consistently shows single-tasking improves output quality and quantity, though direct RCTs on task completion rates are limited."
+    }
+  ],
+  "deep-work-cal-newport-protocol": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Interruption research consistently shows that uninterrupted work blocks improve task depth and reduce resumption lag, supporting the mechanism but not the protocol directly."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Field studies of knowledge workers show that extended distraction-free blocks correlate with higher-quality output, though effect sizes are not RCT-confirmed for the Deep Work protocol specifically."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Flow-state research links deep concentration on skill-matched tasks with elevated positive affect and intrinsic motivation."
+    }
+  ],
+  "implementation-intentions-if-then-planning": [
+    {
+      "outcome": "Task Completion",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "94-study meta-analysis found a medium-to-large effect (d = 0.65) on goal attainment across health, academic, and professional domains."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "If-then plans for managing distractions (e.g., 'If I feel the urge to check social media, then I will close the tab') show consistent improvement in task-focus maintenance across RCTs."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Contingency implementation intentions help individuals navigate obstacle situations and redirect attention back to goal-relevant behavior, reducing cognitive perseveration on distractions."
+    }
+  ],
+  "cognitive-offloading-gtd-system": [
+    {
+      "outcome": "Working Memory",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Experimental studies confirm that externalizing to-do items frees working memory resources for current tasks, consistent with the GTD rationale."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Cognitive offloading research shows reduced intrusive thoughts about unfinished tasks when captured in an external system, allowing longer periods of uninterrupted focus."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Self-report studies of GTD practitioners show reduced cognitive load and stress, but controlled RCT evidence for GTD specifically is lacking."
+    }
+  ],
+  "mental-contrasting-with-woop": [
+    {
+      "outcome": "Task Completion",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Multiple RCTs by Oettingen and colleagues show 20\u201340% improvement in goal follow-through when WOOP is used versus positive fantasy or goal-setting alone."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Time management RCTs using MCII show participants scheduled and used more focused study time compared to control conditions."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Mental contrasting that surfaces realistic obstacles calibrates motivation appropriately \u2014 preventing both overconfident under-preparation and defeatist disengagement."
+    }
+  ],
+  "diffuse-vs-focused-thinking-feynman-technique": [
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Active generation and retrieval strengthen memory traces more than passive re-reading, as demonstrated by the testing effect literature."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "The cyclic focused/diffuse structure prevents sustained attention fatigue by interspersing rest periods that support memory consolidation and creative insight."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Explaining material in simplified terms forces analogical reasoning and cross-domain connections, modestly improving cognitive flexibility for the studied domain."
+    }
+  ],
+  "interleaving-practice": [
+    {
+      "outcome": "Working Memory",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Interleaving requires continuous category discrimination, strengthening discrimination ability and feature-based memory representations."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "RCTs show interleaved learners outperform blocked learners on novel problems requiring appropriate selection of problem-solving strategies."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "The novelty-driven switching in interleaving maintains arousal and attention during study sessions, though this benefit is secondary to retention effects."
+    }
+  ],
+  "spaced-repetition": [
+    {
+      "outcome": "Working Memory",
+      "grade": "A",
+      "effect": "Large increase",
+      "note": "Meta-analytic evidence across 317 studies consistently shows spaced practice produces dramatically superior long-term retention compared to massed practice."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Short daily review sessions (15\u201330 min) exploit attention availability when it is fresh, and automatized knowledge reduces the cognitive load needed for focused performance."
+    },
+    {
+      "outcome": "Cognitive Flexibility",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Spaced repetition over diverse material builds robust, context-independent knowledge representations that are more flexibly applied in novel problem contexts."
+    }
+  ],
+  "website-blockers": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Field study showed significant increases in self-reported immersion and focus depth when blocking software was active, with gains largest for habitually distracted workers."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Reduced switching frequency allows longer uninterrupted work blocks, directly improving per-session task output."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Eliminating intermittent social media reward cycles reduces dopaminergic disruption during focused work, with modest positive effects on work satisfaction."
+    }
+  ],
+  "app-timers": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "App timers create friction around compulsive checking, but highly motivated users can override them, limiting effectiveness in real-world focus protection."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "Some users report reduced anxiety from awareness of use patterns; others experience frustration from arbitrary limits, with highly variable individual outcomes."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Observational data suggests awareness of daily app limits modestly reduces social media checking during work hours for users who do not override limits."
+    }
+  ],
+  "focus-mode-phone": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Eliminating notification alerts \u2014 even unread ones \u2014 removes a significant attentional disruption demonstrated to cause task errors equivalent to active phone use."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "By preventing the 23-minute recovery cost of notification-triggered attention shifts, Focus Mode structurally preserves work session depth and output."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Scheduled notification elimination reduces the low-level vigilance arousal associated with anticipating interruptions, modestly lowering perceived cognitive load and stress."
+    }
+  ],
+  "do-not-disturb-dnd": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Silencing all notifications eliminates the automatic orienting response and the 23-minute average recovery cost associated with each interruption."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Reducing interruption frequency directly lengthens uninterrupted work periods, correlating with higher per-session output across knowledge work studies."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Small increase",
+      "note": "Eliminating notification-driven vigilance arousal reduces background stress and cognitive load during work sessions, though controlled studies use notification batching proxies rather than DND directly."
+    }
+  ],
+  "grayscale-phone-trick": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "D",
+      "effect": "Small increase",
+      "note": "Reduced screen time from grayscale may indirectly increase available focus time, but no study has directly measured attention quality improvements."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "D",
+      "effect": "Mixed",
+      "note": "Dekker & Baumgartner (2023) found reduced stress and perceived overuse, but no significant productivity or sleep quality improvements."
+    },
+    {
+      "outcome": "Task Completion",
+      "grade": "NI",
+      "effect": "Insufficient data",
+      "note": "No published study has measured the effect of grayscale mode specifically on task completion or focused work output."
+    }
+  ],
+  "notification-batching": [
+    {
+      "outcome": "Sustained Attention",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "RCT participants in the batched condition reported significantly greater attentiveness during the two-week study period compared to real-time notification recipients."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Batched notification participants reported significantly lower stress levels, consistent with elimination of unpredictable variable-reward notification loops."
+    },
+    {
+      "outcome": "Mood / Affect",
+      "grade": "B",
+      "effect": "Moderate increase",
+      "note": "Fitz et al. found batching participants reported being in a better mood and feeling more in control of their phone, with improved productivity self-ratings."
+    }
+  ],
+  "digital-minimalism": [
+    {
+      "outcome": "Mood / Affect",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "RCT evidence shows limiting social media use to ~30 min/day significantly reduces depression and loneliness scores, which is the core mechanism of digital minimalism for wellbeing."
+    },
+    {
+      "outcome": "Sustained Attention",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Observational data and theory suggest digital minimalism increases available daily attention by eliminating habitual app-checking routines, though direct RCT evidence on attention quality is lacking."
+    },
+    {
+      "outcome": "Stress Reduction",
+      "grade": "C",
+      "effect": "Moderate increase",
+      "note": "Social media restriction trials show reduced anxiety and FOMO symptoms, with effects strongest for those with baseline high depression or problematic use."
+    }
+  ]
+}

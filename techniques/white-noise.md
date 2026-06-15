@@ -42,15 +42,3 @@ Broadband noise containing all frequencies in equal measure, played at moderate 
 ### Example
 
 Open-plan offices at companies like Basecamp use ambient sound masking systems based on white noise principles. Remote workers globally use apps like myNoise, Brain.fm, and Noisli to maintain consistent acoustic environments during deep work.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  45 dB white noise produced 2.11 percentage points higher accuracy on the continuous performance test versus ambient noise (p=0.02, d=0.51), with no benefit at 65 dB.
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  65 dB (but not 45 dB) white noise significantly improved working memory 2-back accuracy, suggesting an inverted-U dose-response; optimal level differs by task type.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  45 dB white noise was associated with significantly lower physiological stress markers and subjective stress compared to ambient noise and 65 dB noise conditions.
-

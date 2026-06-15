@@ -44,15 +44,3 @@ A goal-pursuit strategy where you pre-specify the exact situational cue ('if') t
 ### Example
 
 Personal trainer and writer James Clear uses implementation intentions in his habit-formation framework: 'I will [behavior] at [time] in [location]' — a formula used by millions via his book Atomic Habits.
-
-## Outcomes
-
-- **Task Completion** · Evidence: A · Effect: Large increase
-  94-study meta-analysis found a medium-to-large effect (d = 0.65) on goal attainment across health, academic, and professional domains.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  If-then plans for managing distractions (e.g., 'If I feel the urge to check social media, then I will close the tab') show consistent improvement in task-focus maintenance across RCTs.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  Contingency implementation intentions help individuals navigate obstacle situations and redirect attention back to goal-relevant behavior, reducing cognitive perseveration on distractions.
-

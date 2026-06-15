@@ -40,12 +40,3 @@ Each morning, identify your three Most Important Tasks — those that will creat
 ### Example
 
 A startup founder uses MIT each morning to select the three most business-critical items, ensuring product development and investor communication advance daily even amid operational fires.
-
-## Outcomes
-
-- **Task Completion** · Evidence: C · Effect: Moderate increase
-  Goal-setting research (Locke & Latham meta-analysis, 500+ studies) consistently shows that specific, challenging goals increase task completion rates by 16–20% compared to do-your-best conditions; MIT operationalizes this daily.
-
-- **Sustained Attention** · Evidence: D · Effect: Small increase
-  By pre-committing to three priorities, MIT reduces goal-conflict interference and may reduce mind-wandering, but this mechanism has not been tested with objective attention measures in the context of the MIT technique specifically.
-

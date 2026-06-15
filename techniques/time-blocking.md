@@ -42,15 +42,3 @@ Assign every hour of the workday to a specific task or category on a calendar, s
 ### Example
 
 Cal Newport, Georgetown computer science professor, uses daily time-block plans where every hour is assigned, allowing him to write multiple books while maintaining a full academic workload.
-
-## Outcomes
-
-- **Task Completion** · Evidence: C · Effect: Moderate increase
-  Gollwitzer & Sheeran's meta-analysis (94 studies, n>8,000, d=0.65) shows that specifying when and where to act — the core mechanism of time blocking — produces medium-to-large goal achievement gains.
-
-- **Sustained Attention** · Evidence: D · Effect: Small increase
-  Leroy (2009) demonstrated that tasks with undefined endpoints create attention residue that reduces focus on subsequent work; time blocking's defined endpoints theoretically reduce this, but no direct RCT has tested this specific mechanism.
-
-- **Stress Reduction** · Evidence: NI · Effect: Insufficient data
-  No direct RCT evidence exists for time blocking reducing subjective stress; correlational surveys suggest structured scheduling reduces anxiety, but evidence is observational.
-

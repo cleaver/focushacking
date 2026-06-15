@@ -42,12 +42,3 @@ Each evening, write down the six most important tasks for tomorrow, prioritize t
 ### Example
 
 A business consultant adopted the Ivy Lee Method and reports completing more high-value client work than before, because pre-committing to a task sequence eliminates the daily 'what should I work on?' drain.
-
-## Outcomes
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  Pre-committing to task order the night before is an implementation intention; the Gollwitzer & Sheeran meta-analysis (d=0.65) supports its efficacy for follow-through, but the Ivy Lee Method specifically has not been studied.
-
-- **Working Memory** · Evidence: D · Effect: Small increase
-  By providing a pre-defined task sequence, the method eliminates moment-to-moment deliberation about what to work on next, conserving working memory and executive function for task execution rather than planning.
-

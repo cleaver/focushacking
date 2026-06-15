@@ -43,18 +43,3 @@ Edmund Jacobson's technique of systematically tensing and releasing each major m
 ### Example
 
 Olympic athletes, test pilots, and surgeons use PMR before high-stakes performances. Some elite chess players (including world champions) use abbreviated versions before tournament games to clear physical tension that interferes with analytical thinking.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: A · Effect: Large increase
-  A systematic review of 46 publications found PMR significantly reduces stress, anxiety, and depression across diverse populations and settings, with large effect sizes in multiple RCTs (Cohen's d up to 1.5).
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  By reducing sympathetic arousal (electrodermal activity, heart rate), PMR creates the physiological preconditions for sustained attention, but direct RCT measurements of attention task performance post-PMR are limited.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  PMR consistently reduces negative affect, anxiety, and depression symptoms across populations from healthy adults to clinical patients in multiple RCTs.
-
-- **Sleep Quality** · Evidence: B · Effect: Moderate increase
-  PMR has well-documented RCT evidence for improving sleep quality, which in turn enhances cognitive focus and working memory the following day.
-

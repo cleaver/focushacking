@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 """
-Import base (editorial) data from POC JSON into technique markdown files.
+Import base (editorial) data from POC JSON into technique markdown files
+and outcomes index.
 
 Usage: python3 scripts/import_base_data.py
 
-Reads the POC techniques_v2.json and injects long-term editorial data
-into each technique's .md file:
+Reads the POC techniques_v2.json and injects long-term editorial data:
 
-  Frontmatter:
-    - session_time          (e.g. "30 min per cycle")
+  data/outcomes_index.json:
+    - outcomes[] per slug   per-outcome grade, effect, note
 
-  Body (new ## Outcomes section):
-    - outcomes[]             per-outcome grade, effect, note
+  techniques/*.md frontmatter:
+    - session_time           (e.g. "30 min per cycle")
 
-These fields are separate from the pipeline-managed fields (grade,
-grade_detail, last_searched, total_papers, new_papers_this_run, and
-the ## Papers body section). The pipeline never touches ## Outcomes.
+Outcomes live in data/outcomes_index.json as the single source of truth
+for the Astro site. Session time stays in markdown frontmatter.
 
 Idempotent — safe to re-run. Won't overwrite existing data unless
 --force is passed.
@@ -112,32 +111,7 @@ def write_md(path, frontmatter, body):
         f.write(content)
 
 
-def build_outcomes_section(outcomes):
-    """Build a ## Outcomes markdown section from POC outcomes data."""
-    if not outcomes:
-        return ""
-
-    lines = ["", "## Outcomes", ""]
-    for o in outcomes:
-        name = o.get("outcome", "Unknown")
-        grade = o.get("grade", "?")
-        effect = o.get("effect", "")
-        note = o.get("note", "")
-
-        lines.append(f"- **{name}** · Evidence: {grade} · Effect: {effect}")
-        if note:
-            lines.append(f"  {note}")
-        lines.append("")
-
-    return "\n".join(lines)
-
-
-def has_outcomes_section(body):
-    """Check if body already has a ## Outcomes section."""
-    return bool(re.search(r"^## Outcomes\s*$", body, re.MULTILINE))
-
-
-def import_technique(poc_data, force=False):
+def import_technique(poc_data, outcomes_index, force=False):
     """Import base data for one technique. Returns (status, message)."""
     name = poc_data["name"]
     slug = slugify(name)
@@ -154,25 +128,31 @@ def import_technique(poc_data, force=False):
         frontmatter["session_time"] = session_time
         changes.append(f"session_time = {session_time!r}")
 
-    # ── outcomes ──────────────────────────────────────────
+    # ── outcomes → outcomes_index.json ────────────────────
     outcomes = poc_data.get("outcomes", [])
-    if outcomes and (force or not has_outcomes_section(body)):
-        outcomes_section = build_outcomes_section(outcomes)
-        if outcomes_section:
-            body = body.rstrip() + "\n" + outcomes_section + "\n"
-            changes.append(f"outcomes ({len(outcomes)} items)")
+    if outcomes and (force or slug not in outcomes_index):
+        outcomes_index[slug] = outcomes
+        changes.append(f"outcomes ({len(outcomes)} items) → index")
 
     if not changes:
         return "skip", f"{name}: already up to date"
 
-    # Write
-    write_md(path, frontmatter, body)
+    # Write markdown if frontmatter changed
+    if any(c.startswith("session_time") for c in changes):
+        write_md(path, frontmatter, body)
+
     return "updated", f"{name}: +{', '.join(changes)}"
 
 
 def main():
+    DATA_DIR = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "data"
+    )
+    OUTCOMES_PATH = os.path.join(DATA_DIR, "outcomes_index.json")
+
     parser = argparse.ArgumentParser(
-        description="Import base editorial data from POC JSON into technique .md files"
+        description="Import base editorial data from POC JSON into technique .md files and outcomes index"
     )
     parser.add_argument(
         "--poc", default=POC_DEFAULT,
@@ -195,7 +175,14 @@ def main():
     with open(args.poc) as f:
         poc_techniques = json.load(f)
 
+    # Load existing outcomes index (if any)
+    outcomes_index = {}
+    if os.path.exists(OUTCOMES_PATH):
+        with open(OUTCOMES_PATH) as f:
+            outcomes_index = json.load(f)
+
     log(f"Loaded {len(poc_techniques)} techniques from POC")
+    log(f"Existing outcomes index: {len(outcomes_index)} slugs")
     log(f"Force mode: {args.force}")
     log(f"Dry run: {args.dry_run}")
 
@@ -204,7 +191,7 @@ def main():
     errors = 0
 
     for poc in poc_techniques:
-        status, msg = import_technique(poc, force=args.force)
+        status, msg = import_technique(poc, outcomes_index, force=args.force)
         if status == "updated":
             updated += 1
             log(f"  UPDATE {msg}")
@@ -213,6 +200,13 @@ def main():
         else:
             errors += 1
             log(f"  ERROR  {msg}")
+
+    # Save outcomes index
+    if not args.dry_run and updated > 0:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        with open(OUTCOMES_PATH, "w") as f:
+            json.dump(outcomes_index, f, indent=2)
+        log(f"Saved outcomes_index.json ({len(outcomes_index)} slugs)")
 
     log(f"\nDone. {updated} updated, {skipped} skipped, {errors} errors")
 

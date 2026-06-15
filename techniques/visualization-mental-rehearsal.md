@@ -43,18 +43,3 @@ The systematic mental rehearsal of the successful completion of a task or perfor
 ### Example
 
 Surgeon Tony Yuen visualizes the full surgical procedure the morning before complex operations, mentally rehearsing critical decision points. Olympic swimmer Michael Phelps visualized races in precise detail before competing.
-
-## Outcomes
-
-- **Task Completion** · Evidence: B · Effect: Moderate increase
-  A meta-analysis of 86 studies (n=3,593 athletes) found imagery practice significantly enhanced performance with moderate effect sizes across sport-specific tasks including accuracy, strength, and technical performance.
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Visualization primes attentional focus on task-relevant cues, but direct RCT evidence for improvements in objective sustained attention task performance in non-sport contexts is limited.
-
-- **Mood / Affect** · Evidence: C · Effect: Small increase
-  Mental rehearsal of successful performance reduces pre-task anxiety and improves confidence, with self-report benefits shown across multiple studies including RCTs.
-
-- **Cognitive Flexibility** · Evidence: D · Effect: Insufficient data
-  No RCTs have directly measured cognitive flexibility outcomes from visualization practice in cognitive (non-sport) task contexts.
-

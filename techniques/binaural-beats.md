@@ -43,15 +43,3 @@ Auditory illusions created when slightly different frequencies are played in eac
 ### Example
 
 Students and knowledge workers use Spotify playlists or Brain.fm's binaural programs during study sessions, reporting improved ability to sustain attention on single tasks for longer periods compared to silence or lyric-based music.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Colzato et al. 2017 found gamma binaural beats significantly reduced the global precedence effect (36 ms vs 57 ms in control), indicating enhanced focused attentional processing (ηp²=0.11).
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Beauchene et al. 2017 showed beta-range binaural beats improved n-back working memory accuracy; Engelbregt et al. 2021 replicated attention improvements with 40 Hz beats using EEG without confirmed neural entrainment.
-
-- **Reaction Time** · Evidence: C · Effect: Small increase
-  Studies show faster reaction times to local targets in global-local tasks under gamma binaural beats, suggesting enhanced selective attention speed, though effect sizes are small (d~0.3).
-

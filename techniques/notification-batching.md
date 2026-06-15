@@ -41,15 +41,3 @@ Configuring or manually restricting smartphone notifications to be delivered onl
 ### Example
 
 Writer and investor Kevin Kelly checks email three times per day on a schedule he publicly shares with correspondents. HBR research on 'email batching' found executives who checked email 3x/day reported 26% lower stress than those checking continuously.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  RCT participants in the batched condition reported significantly greater attentiveness during the two-week study period compared to real-time notification recipients.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Batched notification participants reported significantly lower stress levels, consistent with elimination of unpredictable variable-reward notification loops.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Fitz et al. found batching participants reported being in a better mood and feeling more in control of their phone, with improved productivity self-ratings.
-

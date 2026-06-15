@@ -41,15 +41,3 @@ Built-in smartphone modes (iOS Focus, Android Focus Mode) that allow user-define
 ### Example
 
 Apple's own product team and many journalists use scheduled Focus Modes to eliminate notification streams during writing sprints. Productivity coach David Allen uses a form of communication batching that mirrors the Focus Mode concept across all devices.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Eliminating notification alerts — even unread ones — removes a significant attentional disruption demonstrated to cause task errors equivalent to active phone use.
-
-- **Task Completion** · Evidence: B · Effect: Moderate increase
-  By preventing the 23-minute recovery cost of notification-triggered attention shifts, Focus Mode structurally preserves work session depth and output.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Scheduled notification elimination reduces the low-level vigilance arousal associated with anticipating interruptions, modestly lowering perceived cognitive load and stress.
-

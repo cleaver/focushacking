@@ -41,18 +41,3 @@ Ending a shower with 1–3 minutes of cold water exposure to trigger a noradrena
 ### Example
 
 Entrepreneurs including Tony Robbins and Tim Ferriss use daily cold showers as a 'activation ritual' before high-stakes work. Distance swimmer Lewis Pugh uses Wim Hof–style cold exposure to prepare for mentally demanding open-water swims.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: C · Effect: Mixed
-  A systematic review found most experimental settings showed impairment of cognitive performance during cold exposure (15 of 18 studies); brief post-cold alertness effects exist but are short-lived and not yet well-studied for focused cognitive work.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Cold-water immersion significantly improves positive affect (feeling active, alert, attentive, inspired) and reduces negative affect, with fMRI evidence showing increased coupling between attention control and emotion regulation brain networks.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Meta-analysis found significant stress reduction 12 hours post-CWI (SMD=−1.00) but no significant effect immediately post-exposure; suggesting delayed rather than immediate stress benefits.
-
-- **Reaction Time** · Evidence: D · Effect: Mixed
-  Cold hand immersion improved selective attention in one controlled study, but prolonged cold exposure generally impairs psychomotor performance and cognitive function during exposure.
-

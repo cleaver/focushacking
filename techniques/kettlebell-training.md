@@ -43,18 +43,3 @@ Full-body ballistic exercise using a cast-iron weight (kettlebell) that requires
 ### Example
 
 CrossFit founder Greg Glassman and coaches at organizations like the US military use kettlebell circuits as cognitive-physical integration tools. Special operations personnel train with kettlebells to improve both physical capacity and decision-making under stress.
-
-## Outcomes
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  High-intensity exercise produces significantly greater BDNF elevation and working memory improvements than moderate intensity in controlled studies, with effects measurable 20–30 minutes post-exercise.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  High-intensity interval exercise consistently improves cognitive flexibility (Trail Making Test, task switching) compared to moderate-intensity exercise and no-exercise controls across multiple RCTs.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  The acute post-exercise catecholamine surge from high-intensity training improves prefrontal function and vigilance for 20–90 minutes post-session, as shown in exercise-cognition RCTs.
-
-- **Reaction Time** · Evidence: B · Effect: Moderate increase
-  Acute high-intensity exercise significantly improves processing speed and reaction time in the post-exercise window via dopamine and noradrenaline release in prefrontal regions.
-

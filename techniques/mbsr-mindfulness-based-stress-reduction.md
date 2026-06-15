@@ -44,21 +44,3 @@ Jon Kabat-Zinn's structured 8-week program combining formal meditation, body sca
 ### Example
 
 Google, General Mills, and Aetna have implemented MBSR-based programs for employees. Aetna estimated the program saved approximately $2,000 per employee in healthcare costs and added $3,000 in productivity annually.
-
-## Outcomes
-
-- **Stress Reduction** · Evidence: A · Effect: Large increase
-  Multiple large RCTs and meta-analyses show MBSR consistently reduces perceived stress, cortisol, and anxiety with large effect sizes (Cohen's d > 0.5) vs. active controls.
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Meta-analysis of 111 RCTs found small-to-moderate improvements in sustained attention (g≈0.26–0.45); one large RCT with active control found no significant difference, suggesting some specificity questions remain.
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  Meta-analytic evidence shows significant improvements in working memory accuracy (g≈0.26) from mindfulness-based programs vs. waitlist or active control groups.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  An RCT of 54 participants found MBSR significantly improved cognitive flexibility vs. waitlist control, mediated by increases in non-reactivity.
-
-- **Mood / Affect** · Evidence: A · Effect: Moderate increase
-  MBSR consistently reduces negative affect and depression symptoms across populations in well-powered RCTs.
-

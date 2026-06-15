@@ -43,15 +43,3 @@ Deliberately mixing different (but related) topics or skills within a single stu
 ### Example
 
 Medical students at Johns Hopkins use interleaved spaced repetition cards mixing pharmacology, anatomy, and pathology — a direct application shown to improve USMLE board exam scores. Language learners using Duolingo experience interleaving by design.
-
-## Outcomes
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  Interleaving requires continuous category discrimination, strengthening discrimination ability and feature-based memory representations.
-
-- **Cognitive Flexibility** · Evidence: B · Effect: Moderate increase
-  RCTs show interleaved learners outperform blocked learners on novel problems requiring appropriate selection of problem-solving strategies.
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  The novelty-driven switching in interleaving maintains arousal and attention during study sessions, though this benefit is secondary to retention effects.
-

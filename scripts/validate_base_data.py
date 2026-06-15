@@ -35,6 +35,10 @@ HERMES_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     ".hermes"
 )
+DATA_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "data"
+)
 
 
 def log(msg):
@@ -97,6 +101,13 @@ def validate(poc_techniques):
             md_slugs.add(fname[:-3])
     stats["total_md"] = len(md_slugs)
 
+    # Load outcomes index
+    outcomes_path = os.path.join(DATA_DIR, "outcomes_index.json")
+    outcomes_index = {}
+    if os.path.exists(outcomes_path):
+        with open(outcomes_path) as f:
+            outcomes_index = json.load(f)
+
     for poc in poc_techniques:
         name = poc.get("name", "Unknown")
         slug = slugify(name)
@@ -114,16 +125,15 @@ def validate(poc_techniques):
             stats["missing_md"] += 1
             continue
 
-        # ── Check 2: ## Outcomes section ──────────────────
-        has_outcomes = bool(re.search(r"^## Outcomes\s*$", body, re.MULTILINE))
-        if has_outcomes:
+        # ── Check 2: outcomes in outcomes_index.json ─────
+        if slug in outcomes_index and outcomes_index[slug]:
             stats["with_outcomes"] += 1
         else:
             issues.append({
                 "technique": name,
                 "slug": slug,
                 "check": "has_outcomes",
-                "detail": "Missing ## Outcomes section in body"
+                "detail": "Missing outcomes in outcomes_index.json"
             })
 
         # ── Check 3: session_time ────────────────────────

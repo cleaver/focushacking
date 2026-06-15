@@ -43,15 +43,3 @@ Built-in OS features (iOS Screen Time, Android Digital Wellbeing) or third-party
 ### Example
 
 Athletes in the Performance Program at the US Olympic Training Center use app timers to protect sleep and recovery time from social media. Many knowledge workers set 15-minute social media limits, finding this constraint alone recovers 60–90 minutes of daily focus time.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: D · Effect: Small increase
-  App timers create friction around compulsive checking, but highly motivated users can override them, limiting effectiveness in real-world focus protection.
-
-- **Mood / Affect** · Evidence: D · Effect: Mixed
-  Some users report reduced anxiety from awareness of use patterns; others experience frustration from arbitrary limits, with highly variable individual outcomes.
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  Observational data suggests awareness of daily app limits modestly reduces social media checking during work hours for users who do not override limits.
-

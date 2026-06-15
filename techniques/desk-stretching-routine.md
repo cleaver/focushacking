@@ -42,18 +42,3 @@ A structured sequence of 5–10 minutes of targeted stretches performed every 60
 ### Example
 
 Software teams at Amazon and Spotify incorporate 'movement breaks' every 60 minutes into their engineering sprint culture, reporting fewer afternoon productivity crashes and lower rates of repetitive strain injury.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  Ariga & Lleras (2011) in Cognition demonstrated that brief task disengagement (including physical breaks) prevents the habitual neural adaptation that degrades sustained attention during prolonged work.
-
-- **Mood / Affect** · Evidence: B · Effect: Small increase
-  Micro-movement breaks reduce physical discomfort and fatigue from prolonged sitting, which are known contributors to negative affect and reduced motivation for cognitive work.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Physical stretching activates the parasympathetic system and reduces muscle tension-related sympathetic arousal, but RCT data for this specific pathway on cognitive stress measures are limited.
-
-- **Reaction Time** · Evidence: C · Effect: Small increase
-  Physical movement breaks increase cerebral blood flow, which may improve processing speed, but direct RCT measurements of reaction time post-desk-stretching are scarce.
-

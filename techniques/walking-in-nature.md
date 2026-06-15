@@ -45,21 +45,3 @@ Taking a 20–40 minute walk in a natural environment (park, forest, riverside) 
 ### Example
 
 Charles Darwin walked the 'Thinking Path' (a sandwalk) around his garden daily to restore attentional clarity between long writing sessions. Steve Jobs was well known for walking meetings in nature to promote creative thinking.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: B · Effect: Moderate increase
-  A 30-minute nature walk produced a faster and more stable pattern of responding on the Attention Network Task in children vs. urban walk; a 40-minute nature walk enhanced neural indices of executive control (error-related negativity) in adults.
-
-- **Working Memory** · Evidence: B · Effect: Moderate increase
-  Berman et al. (2008) found nature walks significantly improved backward digit span (a working memory measure) compared to urban walks in two separate experiments.
-
-- **Cognitive Flexibility** · Evidence: C · Effect: Small increase
-  Nature exposure appears to improve attention shifting and cognitive flexibility, but direct RCT data on executive function flexibility tasks are limited to a small number of controlled studies.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Walking in nature consistently improves mood, reduces negative affect, and lowers rumination vs. urban walking, with effects replicated across multiple controlled studies including in depressed populations.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Nature walks reduce perceived stress and physiological markers of stress (cortisol, heart rate, skin conductance) compared to urban walks in multiple controlled studies.
-

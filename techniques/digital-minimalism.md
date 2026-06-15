@@ -42,15 +42,3 @@ Cal Newport's philosophy of drastically reducing optional digital tools in your 
 ### Example
 
 Cal Newport deleted all social media accounts in 2016 and has written three books and produced multiple courses since. Entrepreneur Paul Graham similarly avoids most social platforms, attributing his ability to write long-form essays to the absence of constant feed-checking.
-
-## Outcomes
-
-- **Mood / Affect** · Evidence: C · Effect: Moderate increase
-  RCT evidence shows limiting social media use to ~30 min/day significantly reduces depression and loneliness scores, which is the core mechanism of digital minimalism for wellbeing.
-
-- **Sustained Attention** · Evidence: C · Effect: Moderate increase
-  Observational data and theory suggest digital minimalism increases available daily attention by eliminating habitual app-checking routines, though direct RCT evidence on attention quality is lacking.
-
-- **Stress Reduction** · Evidence: C · Effect: Moderate increase
-  Social media restriction trials show reduced anxiety and FOMO symptoms, with effects strongest for those with baseline high depression or problematic use.
-

@@ -46,18 +46,3 @@ Writing freely about present thoughts, feelings, and experiences with deliberate
 ### Example
 
 Morning pages — three pages of longhand stream-of-consciousness writing popularized by Julia Cameron — are used by writers like Tim Ferriss and creatives worldwide as a pre-work mental clearing ritual.
-
-## Outcomes
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Two small experiments (n=28 and n=38) found expressive writing about stressful events increased working memory capacity in university students but not in younger adolescents, suggesting small and population-specific effects.
-
-- **Stress Reduction** · Evidence: B · Effect: Moderate increase
-  Pennebaker's expressive writing paradigm has well-replicated evidence across RCTs for reducing perceived stress, intrusive thoughts, and physiological stress markers in diverse populations.
-
-- **Mood / Affect** · Evidence: B · Effect: Moderate increase
-  Expressive writing about emotional experiences consistently reduces negative affect and improves psychological well-being across multiple controlled trials.
-
-- **Sustained Attention** · Evidence: D · Effect: Insufficient data
-  No direct RCTs have measured the effect of mindful journaling on sustained attention or vigilance task performance; effects on attention are inferred indirectly via working memory and stress reduction.
-

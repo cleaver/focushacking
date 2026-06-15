@@ -44,15 +44,3 @@ David Allen's Getting Things Done (GTD) framework treats the human mind as a pro
 ### Example
 
 David Allen himself, engineers at IBM, and government officials in Europe have implemented GTD. Software developer Kent Beck describes GTD as responsible for recovering 2+ hours of daily focus by eliminating the mental overhead of tracking open commitments.
-
-## Outcomes
-
-- **Working Memory** · Evidence: C · Effect: Moderate increase
-  Experimental studies confirm that externalizing to-do items frees working memory resources for current tasks, consistent with the GTD rationale.
-
-- **Sustained Attention** · Evidence: C · Effect: Moderate increase
-  Cognitive offloading research shows reduced intrusive thoughts about unfinished tasks when captured in an external system, allowing longer periods of uninterrupted focus.
-
-- **Stress Reduction** · Evidence: C · Effect: Small increase
-  Self-report studies of GTD practitioners show reduced cognitive load and stress, but controlled RCT evidence for GTD specifically is lacking.
-

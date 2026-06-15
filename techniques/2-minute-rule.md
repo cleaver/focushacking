@@ -42,12 +42,3 @@ From David Allen's Getting Things Done system: if a task will take less than two
 ### Example
 
 An executive applies the 2-minute rule to email: replies that need a single sentence are answered immediately, while complex responses are scheduled. Inbox management drops from 45 minutes to 12 minutes daily.
-
-## Outcomes
-
-- **Working Memory** · Evidence: D · Effect: Small increase
-  The Zeigarnik effect demonstrates that incomplete tasks persistently intrude into working memory; immediately completing sub-2-minute tasks theoretically reduces this attentional burden, but no RCT measures this specific intervention.
-
-- **Task Completion** · Evidence: D · Effect: Small increase
-  GTD system surveys report reduced open-loop anxiety and improved closure rates, but these are self-report cross-sectional studies without control conditions or validated measures of task completion.
-

@@ -43,15 +43,3 @@ A yogic breathing technique involving alternating airflow between left and right
 ### Example
 
 Students at Indian medical colleges practicing Nadi Shodhana pranayama for 15 minutes before examinations reported significantly lower perceived stress and improved exam performance. Many meditation teachers assign it before demanding intellectual work.
-
-## Outcomes
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Telles et al. 2022 found an 8% reduction in 2-back reaction time after a single session of alternate nostril breathing at 6 breaths/min (n=40).
-
-- **Sustained Attention** · Evidence: C · Effect: Small increase
-  Telles et al. 2013 found significant increases in P300 amplitude at frontal, vertex, and parietal sites after ANB practice, indicating enhanced attentional resource allocation.
-
-- **Stress Reduction** · Evidence: C · Effect: Moderate increase
-  Telles et al. 2017 found significantly reduced systolic blood pressure and faster digit vigilance test completion after 15 minutes of alternate nostril breathing compared to control conditions.
-

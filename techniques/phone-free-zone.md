@@ -42,15 +42,3 @@ Physically removing the smartphone from the immediate work environment — placi
 ### Example
 
 Cal Newport does not own a smartphone. Tristan Harris (former Google design ethicist) keeps his phone in a separate room during work. Many knowledge workers use a 'phone basket' by the door — phone goes in, focus comes out.
-
-## Outcomes
-
-- **Working Memory** · Evidence: C · Effect: Small increase
-  Ward et al. 2017 Experiment 1 showed phone-in-another-room participants scored significantly higher on working memory capacity tests than phone-on-desk participants (even when face-down and off).
-
-- **Sustained Attention** · Evidence: C · Effect: No effect
-  Experiment 2 found no significant effect on a behavioral measure of sustained attention (Sustained Attention to Response Task), suggesting the drain is primarily on working memory/fluid intelligence rather than raw attentional vigilance.
-
-- **Cognitive Flexibility** · Evidence: D · Effect: Small increase
-  Fluid intelligence (Gf) — which supports flexible problem-solving — was significantly reduced by phone presence, consistent with the attentional resource depletion mechanism, but this was only measured once with no replication.
-

@@ -44,21 +44,3 @@ Regular moderate-to-vigorous cardiovascular exercise (running, cycling, swimming
 ### Example
 
 Neuroscientist John Ratey documents in 'Spark' how Naperville, Illinois schools implemented mandatory morning PE; standardized test scores in science improved to rank #1 globally, demonstrating exercise's direct impact on cognitive performance.
-
-## Outcomes
-
-- **Sustained Attention** · Evidence: A · Effect: Moderate increase
-  Meta-analytic reviews of RCTs show aerobic exercise consistently improves attention and processing speed with reliable effect sizes; aerobic exercise had the greatest impact on attention among physical exercise types (SMD=0.56) in a 2025 meta-analysis.
-
-- **Working Memory** · Evidence: A · Effect: Moderate increase
-  A meta-analysis of 42 RCTs (n=2,881) in healthy middle-aged and older adults found aerobic exercise significantly improved working memory (Hedge's g=0.392, p<0.001).
-
-- **Cognitive Flexibility** · Evidence: A · Effect: Moderate increase
-  Aerobic exercise interventions significantly improved cognitive flexibility (Hedge's g=0.343, p<0.001) in a 42-RCT meta-analysis, with optimal effects from 13–24 weeks of progressive-intensity exercise.
-
-- **Mood / Affect** · Evidence: A · Effect: Large increase
-  Exercise is one of the most evidence-based interventions for mood improvement, with large meta-analytic effects on depression, anxiety, and positive affect.
-
-- **Reaction Time** · Evidence: B · Effect: Moderate increase
-  Acute aerobic exercise reliably improves processing speed and reaction time in the 20–30 minutes post-exercise window, with small-to-moderate effect sizes (Cohen's d = 0.38–0.49).
-
